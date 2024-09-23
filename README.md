@@ -1,2 +1,2 @@
 # pypci
-pypci, a pciutils-like library for fetching system PCI/PCI-E information but written mostly in python.
+pypci, a pciutils-like library for fetching system PCI/PCI-E devices but written mostly in python.
