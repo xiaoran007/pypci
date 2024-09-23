@@ -1,2 +1,2 @@
 # pypci
-A pciutils-like package, but in Python
+pypci, a pciutils-like library for fetching system PCI/PCI-E information but written mostly in python.
