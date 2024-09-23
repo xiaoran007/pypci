@@ -1,0 +1,632 @@
+{
+    "00": {
+        "name": "Unclassified device",
+        "00": {
+            "name": "Non-VGA unclassified device"
+        },
+        "01": {
+            "name": "VGA compatible unclassified device"
+        },
+        "05": {
+            "name": "Image coprocessor"
+        }
+    },
+    "01": {
+        "name": "Mass storage controller",
+        "00": {
+            "name": "SCSI storage controller"
+        },
+        "01": {
+            "name": "IDE interface",
+            "00": {
+                "name": "ISA Compatibility mode-only controller"
+            },
+            "05": {
+                "name": "PCI native mode-only controller"
+            },
+            "0a": {
+                "name": "ISA Compatibility mode controller, supports both channels switched to PCI native mode"
+            },
+            "0f": {
+                "name": "PCI native mode controller, supports both channels switched to ISA compatibility mode"
+            },
+            "80": {
+                "name": "ISA Compatibility mode-only controller, supports bus mastering"
+            },
+            "85": {
+                "name": "PCI native mode-only controller, supports bus mastering"
+            },
+            "8a": {
+                "name": "ISA Compatibility mode controller, supports both channels switched to PCI native mode, supports bus mastering"
+            },
+            "8f": {
+                "name": "PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering"
+            }
+        },
+        "02": {
+            "name": "Floppy disk controller"
+        },
+        "03": {
+            "name": "IPI bus controller"
+        },
+        "04": {
+            "name": "RAID bus controller"
+        },
+        "05": {
+            "name": "ATA controller",
+            "20": {
+                "name": "ADMA single stepping"
+            },
+            "30": {
+                "name": "ADMA continuous operation"
+            }
+        },
+        "06": {
+            "name": "SATA controller",
+            "00": {
+                "name": "Vendor specific"
+            },
+            "01": {
+                "name": "AHCI 1.0"
+            },
+            "02": {
+                "name": "Serial Storage Bus"
+            }
+        },
+        "07": {
+            "name": "Serial Attached SCSI controller",
+            "01": {
+                "name": "Serial Storage Bus"
+            }
+        },
+        "08": {
+            "name": "Non-Volatile memory controller",
+            "01": {
+                "name": "NVMHCI"
+            },
+            "02": {
+                "name": "NVM Express"
+            }
+        },
+        "09": {
+            "name": "Universal Flash Storage controller",
+            "00": {
+                "name": "Vendor specific"
+            },
+            "01": {
+                "name": "UFSHCI"
+            }
+        },
+        "80": {
+            "name": "Mass storage controller"
+        }
+    },
+    "02": {
+        "name": "Network controller",
+        "00": {
+            "name": "Ethernet controller"
+        },
+        "01": {
+            "name": "Token ring network controller"
+        },
+        "02": {
+            "name": "FDDI network controller"
+        },
+        "03": {
+            "name": "ATM network controller"
+        },
+        "04": {
+            "name": "ISDN controller"
+        },
+        "05": {
+            "name": "WorldFip controller"
+        },
+        "06": {
+            "name": "PICMG controller"
+        },
+        "07": {
+            "name": "Infiniband controller"
+        },
+        "08": {
+            "name": "Fabric controller"
+        },
+        "80": {
+            "name": "Network controller"
+        }
+    },
+    "03": {
+        "name": "Display controller",
+        "00": {
+            "name": "VGA compatible controller",
+            "00": {
+                "name": "VGA controller"
+            },
+            "01": {
+                "name": "8514 controller"
+            }
+        },
+        "01": {
+            "name": "XGA compatible controller"
+        },
+        "02": {
+            "name": "3D controller"
+        },
+        "80": {
+            "name": "Display controller"
+        }
+    },
+    "04": {
+        "name": "Multimedia controller",
+        "00": {
+            "name": "Multimedia video controller"
+        },
+        "01": {
+            "name": "Multimedia audio controller"
+        },
+        "02": {
+            "name": "Computer telephony device"
+        },
+        "03": {
+            "name": "Audio device"
+        },
+        "80": {
+            "name": "Multimedia controller"
+        }
+    },
+    "05": {
+        "name": "Memory controller",
+        "00": {
+            "name": "RAM memory"
+        },
+        "01": {
+            "name": "FLASH memory"
+        },
+        "02": {
+            "name": "CXL",
+            "00": {
+                "name": "CXL Memory Device - vendor specific"
+            },
+            "10": {
+                "name": "CXL Memory Device (CXL 2.x)"
+            }
+        },
+        "80": {
+            "name": "Memory controller"
+        }
+    },
+    "06": {
+        "name": "Bridge",
+        "00": {
+            "name": "Host bridge"
+        },
+        "01": {
+            "name": "ISA bridge"
+        },
+        "02": {
+            "name": "EISA bridge"
+        },
+        "03": {
+            "name": "MicroChannel bridge"
+        },
+        "04": {
+            "name": "PCI bridge",
+            "00": {
+                "name": "Normal decode"
+            },
+            "01": {
+                "name": "Subtractive decode"
+            }
+        },
+        "05": {
+            "name": "PCMCIA bridge"
+        },
+        "06": {
+            "name": "NuBus bridge"
+        },
+        "07": {
+            "name": "CardBus bridge"
+        },
+        "08": {
+            "name": "RACEway bridge",
+            "00": {
+                "name": "Transparent mode"
+            },
+            "01": {
+                "name": "Endpoint mode"
+            }
+        },
+        "09": {
+            "name": "Semi-transparent PCI-to-PCI bridge",
+            "40": {
+                "name": "Primary bus towards host CPU"
+            },
+            "80": {
+                "name": "Secondary bus towards host CPU"
+            }
+        },
+        "0a": {
+            "name": "InfiniBand to PCI host bridge"
+        },
+        "80": {
+            "name": "Bridge"
+        }
+    },
+    "07": {
+        "name": "Communication controller",
+        "00": {
+            "name": "Serial controller",
+            "00": {
+                "name": "8250"
+            },
+            "01": {
+                "name": "16450"
+            },
+            "02": {
+                "name": "16550"
+            },
+            "03": {
+                "name": "16650"
+            },
+            "04": {
+                "name": "16750"
+            },
+            "05": {
+                "name": "16850"
+            },
+            "06": {
+                "name": "16950"
+            }
+        },
+        "01": {
+            "name": "Parallel controller",
+            "00": {
+                "name": "SPP"
+            },
+            "01": {
+                "name": "BiDir"
+            },
+            "02": {
+                "name": "ECP"
+            },
+            "03": {
+                "name": "IEEE1284"
+            },
+            "fe": {
+                "name": "IEEE1284 Target"
+            }
+        },
+        "02": {
+            "name": "Multiport serial controller"
+        },
+        "03": {
+            "name": "Modem",
+            "00": {
+                "name": "Generic"
+            },
+            "01": {
+                "name": "Hayes/16450"
+            },
+            "02": {
+                "name": "Hayes/16550"
+            },
+            "03": {
+                "name": "Hayes/16650"
+            },
+            "04": {
+                "name": "Hayes/16750"
+            }
+        },
+        "04": {
+            "name": "GPIB controller"
+        },
+        "05": {
+            "name": "Smard Card controller"
+        },
+        "80": {
+            "name": "Communication controller"
+        }
+    },
+    "08": {
+        "name": "Generic system peripheral",
+        "00": {
+            "name": "PIC",
+            "00": {
+                "name": "8259"
+            },
+            "01": {
+                "name": "ISA PIC"
+            },
+            "02": {
+                "name": "EISA PIC"
+            },
+            "10": {
+                "name": "IO-APIC"
+            },
+            "20": {
+                "name": "IO(X)-APIC"
+            }
+        },
+        "01": {
+            "name": "DMA controller",
+            "00": {
+                "name": "8237"
+            },
+            "01": {
+                "name": "ISA DMA"
+            },
+            "02": {
+                "name": "EISA DMA"
+            }
+        },
+        "02": {
+            "name": "Timer",
+            "00": {
+                "name": "8254"
+            },
+            "01": {
+                "name": "ISA Timer"
+            },
+            "02": {
+                "name": "EISA Timers"
+            },
+            "03": {
+                "name": "HPET"
+            }
+        },
+        "03": {
+            "name": "RTC",
+            "00": {
+                "name": "Generic"
+            },
+            "01": {
+                "name": "ISA RTC"
+            }
+        },
+        "04": {
+            "name": "PCI Hot-plug controller"
+        },
+        "05": {
+            "name": "SD Host controller"
+        },
+        "06": {
+            "name": "IOMMU"
+        },
+        "80": {
+            "name": "System peripheral"
+        },
+        "99": {
+            "name": "Timing Card",
+            "01": {
+                "name": "TAP Timing Card"
+            }
+        }
+    },
+    "09": {
+        "name": "Input device controller",
+        "00": {
+            "name": "Keyboard controller"
+        },
+        "01": {
+            "name": "Digitizer Pen"
+        },
+        "02": {
+            "name": "Mouse controller"
+        },
+        "03": {
+            "name": "Scanner controller"
+        },
+        "04": {
+            "name": "Gameport controller",
+            "00": {
+                "name": "Generic"
+            },
+            "10": {
+                "name": "Extended"
+            }
+        },
+        "80": {
+            "name": "Input device controller"
+        }
+    },
+    "0a": {
+        "name": "Docking station",
+        "00": {
+            "name": "Generic Docking Station"
+        },
+        "80": {
+            "name": "Docking Station"
+        }
+    },
+    "0b": {
+        "name": "Processor",
+        "00": {
+            "name": "386"
+        },
+        "01": {
+            "name": "486"
+        },
+        "02": {
+            "name": "Pentium"
+        },
+        "10": {
+            "name": "Alpha"
+        },
+        "20": {
+            "name": "Power PC"
+        },
+        "30": {
+            "name": "MIPS"
+        },
+        "40": {
+            "name": "Co-processor"
+        }
+    },
+    "0c": {
+        "name": "Serial bus controller",
+        "00": {
+            "name": "FireWire (IEEE 1394)",
+            "00": {
+                "name": "Generic"
+            },
+            "10": {
+                "name": "OHCI"
+            }
+        },
+        "01": {
+            "name": "ACCESS Bus"
+        },
+        "02": {
+            "name": "SSA"
+        },
+        "03": {
+            "name": "USB controller",
+            "00": {
+                "name": "UHCI"
+            },
+            "10": {
+                "name": "OHCI"
+            },
+            "20": {
+                "name": "EHCI"
+            },
+            "30": {
+                "name": "XHCI"
+            },
+            "40": {
+                "name": "USB4 Host Interface"
+            },
+            "80": {
+                "name": "Unspecified"
+            },
+            "fe": {
+                "name": "USB Device"
+            }
+        },
+        "04": {
+            "name": "Fibre Channel"
+        },
+        "05": {
+            "name": "SMBus"
+        },
+        "06": {
+            "name": "InfiniBand"
+        },
+        "07": {
+            "name": "IPMI Interface",
+            "00": {
+                "name": "SMIC"
+            },
+            "01": {
+                "name": "KCS"
+            },
+            "02": {
+                "name": "BT (Block Transfer)"
+            }
+        },
+        "08": {
+            "name": "SERCOS interface"
+        },
+        "09": {
+            "name": "CANBUS"
+        },
+        "80": {
+            "name": "Serial bus controller"
+        }
+    },
+    "0d": {
+        "name": "Wireless controller",
+        "00": {
+            "name": "IRDA controller"
+        },
+        "01": {
+            "name": "Consumer IR controller"
+        },
+        "10": {
+            "name": "RF controller"
+        },
+        "11": {
+            "name": "Bluetooth"
+        },
+        "12": {
+            "name": "Broadband"
+        },
+        "20": {
+            "name": "802.1a controller"
+        },
+        "21": {
+            "name": "802.1b controller"
+        },
+        "80": {
+            "name": "Wireless controller"
+        }
+    },
+    "0e": {
+        "name": "Intelligent controller",
+        "00": {
+            "name": "I2O"
+        }
+    },
+    "0f": {
+        "name": "Satellite communications controller",
+        "01": {
+            "name": "Satellite TV controller"
+        },
+        "02": {
+            "name": "Satellite audio communication controller"
+        },
+        "03": {
+            "name": "Satellite voice communication controller"
+        },
+        "04": {
+            "name": "Satellite data communication controller"
+        }
+    },
+    "10": {
+        "name": "Encryption controller",
+        "00": {
+            "name": "Network and computing encryption device"
+        },
+        "10": {
+            "name": "Entertainment encryption device"
+        },
+        "80": {
+            "name": "Encryption controller"
+        }
+    },
+    "11": {
+        "name": "Signal processing controller",
+        "00": {
+            "name": "DPIO module"
+        },
+        "01": {
+            "name": "Performance counters"
+        },
+        "10": {
+            "name": "Communication synchronizer"
+        },
+        "20": {
+            "name": "Signal processing management"
+        },
+        "80": {
+            "name": "Signal processing controller"
+        }
+    },
+    "12": {
+        "name": "Processing accelerators",
+        "00": {
+            "name": "Processing accelerators"
+        },
+        "01": {
+            "name": "SNIA Smart Data Accelerator Interface (SDXI) controller"
+        }
+    },
+    "13": {
+        "name": "Non-Essential Instrumentation"
+    },
+    "40": {
+        "name": "Coprocessor"
+    },
+    "ff": {
+        "name": "Unassigned class"
+    }
+}
