@@ -10,15 +10,17 @@ class PCI:
 
 @dataclass
 class Device:
-    def __init__(self, vendor_id, device_id, subsystem_vendor_id, subsystem_device_id):
+    def __init__(self, vendor_id, device_id, subsystem_vendor_id, subsystem_device_id, class_id):
         self.vendor_id = vendor_id
         self.device_id = device_id
         self.subsystem_vendor_id = subsystem_vendor_id
         self.subsystem_device_id = subsystem_device_id
+        self.class_id = class_id
         self.vendor_name = ""
         self.device_name = ""
         self.subsystem_vendor_name = ""
         self.subsystem_device_name = ""
+        self.class_name = ""
         self.processed = False
 
 
@@ -38,6 +40,7 @@ class Helper:
         device_path = f"{path}/device"
         subsystem_vendor_path = f"{path}/subsystem_vendor"
         subsystem_device_path = f"{path}/subsystem_device"
+        class_path = f"{path}/class"
         try:
             with open(vendor_path, "r") as file:
                 vendor_id = file.read().strip()[2:]
@@ -47,8 +50,8 @@ class Helper:
                 subsystem_vendor_id = file.read().strip()[2:]
             with open(subsystem_device_path, "r") as file:
                 subsystem_device_id = file.read().strip()[2:]
-            return Device(vendor_id, device_id, subsystem_vendor_id, subsystem_device_id)
+            with open(class_path, "r") as file:
+                class_id = file.read().strip()[2:]
+            return Device(vendor_id, device_id, subsystem_vendor_id, subsystem_device_id, class_id)
         except Exception:
             raise BackendException
-
-
