@@ -8,7 +8,7 @@ pypci-ng, a pciutils-like library for fetching system PCI/PCI-E devices but writ
 ![demo1](https://files.catbox.moe/scnd3j.png)
 
 ## Install
-There are already a lot of similar tools so you can choose any of them; they're all essentially no different. If you want to try this tool, just install it directly by pip.
+Just install it directly by pip.
 ```shell
 pip install pypci-ng
 ```
@@ -16,11 +16,24 @@ To upgrade pypci:
 ```shell
 pip install pypci-ng --upgrade
 ```
-You can then use this tool directly from the command line with the following command, just like neofetch.
+
+## Usage
+### Use as a command line tool
+You can use this tool directly from the command line with the following command, just like lspci.
 ```shell
 pypci
 ```
 Please note that the command line entry for __pypci__ is created by pip, and depending on the user, this entry may not in the __system PATH__. If you encounter this problem, pip will give you a prompt, follow the prompts to add entry to the __system PATH__.
+
+### Use as a Python Package
+You can also use this package in Python, here is the demo:
+```python
+import pypci
+pci = pypci.PCI()
+vga_devices = pci.FindAllVGA()
+nic_devices = pci.FindAllNIC()
+```
+More functionalities are under development.
 
 ## Supported (Tested) OS
 * Linux
