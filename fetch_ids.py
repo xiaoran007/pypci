@@ -5,6 +5,8 @@ from re import split
 file_path = "./src/pypci/data/pci.ids"
 device_id_path = "./src/pypci/data/pci.data"
 class_id_path = "./src/pypci/data/pci.class"
+device_id_json_path = "./src/pypci/data/pci.data.json"
+class_id_json_path = "./src/pypci/data/pci.class.json"
 
 
 
@@ -101,7 +103,12 @@ def parse_pci_classes():
 
 
 def json_creator():
-    pass
+    device_dict = parse_pci_ids()
+    class_dict = parse_pci_classes()
+    with open(device_id_json_path, 'w') as f:
+        json.dump(device_dict, f, indent=4)
+    with open(class_id_json_path, 'w') as f:
+        json.dump(class_dict, f, indent=4)
 
 
 if __name__ == "__main__":
@@ -109,3 +116,4 @@ if __name__ == "__main__":
     print(parse_pci_ids()["10de"]["2203"])
     print(parse_pci_classes()["01"]["01"]["05"])
     # split_pci_ids()
+    json_creator()
