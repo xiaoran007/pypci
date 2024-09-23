@@ -1,14 +1,19 @@
 from dataclasses import dataclass
 from .pypciException import BackendException
+from pathlib import Path
+
 
 class PCI:
-    pass
+    def __init__(self):
+        self.devices = Helper().ScanDevices()
+
+    def GetDeviceInfo(self):
+        pass
 
 
 
 
 
-@dataclass
 class Device:
     def __init__(self, vendor_id, device_id, subsystem_vendor_id, subsystem_device_id, class_id):
         self.vendor_id = vendor_id
@@ -23,16 +28,25 @@ class Device:
         self.class_name = ""
         self.processed = False
 
+    def GetDeviceID(self):
+        return f"{self.vendor_id} {self.device_id} {self.subsystem_vendor_id} {self.subsystem_device_id} {self.class_id}"
+
 
 class Helper:
     DEVICE_PATH = "/sys/bus/pci/devices"
 
     def __init__(self):
-        pass
+        self.devices_path = []
 
-    @staticmethod
-    def ScanDevices():
-        pass
+    def ScanDevices(self) -> list[Device]:
+        devices = []
+        for folder in Path(self.DEVICE_PATH).rglob('*'):
+            if folder.is_dir():
+                self.devices_path.append(folder)
+        for device_path in self.devices_path:
+            device = self.__LoadDeviceID(device_path)
+            devices.append(device)
+        return devices
 
     @staticmethod
     def __LoadDeviceID(path) -> Device:
