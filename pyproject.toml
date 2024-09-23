@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypci"
+version = "0.0.1b"
+description = "pypci, a pciutils-like library for fetching system PCI/PCI-E information but written mostly in python."
+keywords = ["pci", "system information", "pciutils", "python", "lspci", "hardware information", "fetching", "pcie"]
+authors = [
+    { name = "Xiao Ran", email = "xiaoran.007@icloud.com" }
+]
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent"
+]
+urls = {homepage = "https://github.com/xiaoran007/pypci"}
+
+[tool.setuptools]
+packages = {find = {where = ["src"]}}
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.package-data]
+"pypci" = ["data/pci.ids"]
+
+[project.scripts]
+pypci = "pypci.__main__:main"
