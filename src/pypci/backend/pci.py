@@ -1,4 +1,3 @@
-from dataclasses import dataclass
 from ..pypciException import BackendException
 from pathlib import Path
 import os
@@ -35,6 +34,7 @@ class Helper:
         for folder in Path(self.DEVICE_PATH).rglob('*'):
             if folder.is_dir():
                 self.devices_path.append(folder)
+        self.devices_path.sort()
         for device_path in self.devices_path:
             device = self.__LoadDeviceID(device_path)
             devices.append(device)
@@ -47,7 +47,7 @@ class Helper:
         subsystem_vendor_path = f"{path}/subsystem_vendor"
         subsystem_device_path = f"{path}/subsystem_device"
         class_path = f"{path}/class"
-        bus = path.stem.split("/")[-1]
+        bus = str(path).split("/")[-1][5:]
         try:
             with open(vendor_path, "r") as file:
                 vendor_id = file.read().strip()[2:]
@@ -120,9 +120,7 @@ class PCI:
     @staticmethod
     def Printer(device: Device):
         if device.subsystem_device_name != "":
-            print(f"{device.bus} {device.class_name}: {device.vendor_name} {device.subsystem_device_name}")
+            print(f"{device.bus} {device.class_name}: {device.vendor_name} {device.device_name} ({device.subsystem_device_name})")
         else:
             print(f"{device.bus} {device.class_name}: {device.vendor_name} {device.device_name}")
-
-
 
