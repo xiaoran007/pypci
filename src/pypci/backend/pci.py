@@ -71,6 +71,7 @@ class PCI:
         self.pci_class = {}
         self.__LoadPciData()
         self.__LoadPciClass()
+        self.__FetchAll()
 
     def __LoadPciData(self):
         file_path = os.path.join(Path(__file__).parent.parent, f"data/pci.data.json")
@@ -82,7 +83,43 @@ class PCI:
         with open(file_path, "r") as f:
             self.pci_class = json.load(f)
 
+    def __FetchAll(self):
+        for device in self.devices:
+            self.GetDeviceInfo(device)
+
+    def FindAllVGA(self) -> list[Device]:
+        """
+        Find all Display controller in the system.
+        :return: list of Device.
+        """
+        vga_devices = []
+        for device in self.devices:
+            if device.class_id[0:2] == "03" or device.class_id[0:4] == "0001" or device.class_id[0:4] == "0005":
+                vga_devices.append(device)
+        return vga_devices
+
+    def FindAllNIC(self) -> list[Device]:
+        """
+        Find all Network controller in the system.
+        :return: list of Device.
+        """
+        nic_devices = []
+        for device in self.devices:
+            if device.class_id[0:2] == "02" or device.class_id[0:2] == "0d":
+                nic_devices.append(device)
+        return nic_devices
+
+    def FindAllDevice(self) -> list[Device]:
+        """
+        Find all PCI/PCI-E devices in the system.
+        :return: list of Device.
+        """
+        return self.devices
+
     def ListAll(self):
+        """
+        Print all PCI/PCI-E devices in the system. Similar to lspci
+        """
         for device in self.devices:
             self.GetDeviceInfo(device)
             self.Printer(device)
