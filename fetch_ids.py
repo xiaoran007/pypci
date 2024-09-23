@@ -112,8 +112,6 @@ def json_creator():
 
 
 if __name__ == "__main__":
-    # fetch_pci_ids()
-    print(parse_pci_ids()["10de"]["2203"])
-    print(parse_pci_classes()["01"]["01"]["05"])
-    # split_pci_ids()
+    fetch_pci_ids()
+    split_pci_ids()
     json_creator()
