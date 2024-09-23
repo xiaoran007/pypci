@@ -27,7 +27,7 @@ package-dir = {"" = "src"}
 include-package-data = true
 
 [tool.setuptools.package-data]
-"pypci" = ["data/pci.ids"]
+"pypci" = ["data/pci.ids", "data/*.json", "data/pci.data", "data/pci.class"]
 
 [project.scripts]
 pypci = "pypci.__main__:main"
