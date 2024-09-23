@@ -1,5 +1,5 @@
-# pypci
-pypci, a pciutils-like library for fetching system PCI/PCI-E devices but written mostly in python.
+# pypci-ng
+pypci-ng, a pciutils-like library for fetching system PCI/PCI-E devices but written mostly in python.
 
 
 ![demo0](https://files.catbox.moe/mku1dg.png)
@@ -10,11 +10,11 @@ pypci, a pciutils-like library for fetching system PCI/PCI-E devices but written
 ## Install
 There are already a lot of similar tools so you can choose any of them; they're all essentially no different. If you want to try this tool, just install it directly by pip.
 ```shell
-pip install pypci
+pip install pypci-ng
 ```
 To upgrade pypci:
 ```shell
-pip install pypci --upgrade
+pip install pypci-ng --upgrade
 ```
 You can then use this tool directly from the command line with the following command, just like neofetch.
 ```shell

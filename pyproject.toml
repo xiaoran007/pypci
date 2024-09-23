@@ -3,7 +3,7 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pypci"
+name = "pypci-ng"
 version = "0.0.1b"
 description = "pypci, a pciutils-like library for fetching system PCI/PCI-E information but written mostly in python."
 keywords = ["pci", "system information", "pciutils", "python", "lspci", "hardware information", "fetching", "pcie"]
