@@ -1,4 +1,10 @@
 # pypci-ng
+[![Downloads](https://static.pepy.tech/badge/pypci-ng)](https://pepy.tech/project/pypci-ng)
+![PyPI - Version](https://img.shields.io/pypi/v/pypci-ng?label=version)
+
+![Static Badge](https://img.shields.io/badge/Linux-blue)
+
+
 pypci-ng, a pciutils-like library for fetching system PCI/PCI-E devices but written mostly in python.
 
 
