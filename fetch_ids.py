@@ -55,7 +55,7 @@ def parse_pci_ids():
                 device_id = line[1:5]
                 device_name = line[5:].strip()
                 pci_data[current_vendor][device_id] = {'name': device_name}
-                print("    Processing device: ", device_id, " - ", device_name, "  ...")
+                # print("    Processing device: ", device_id, " - ", device_name, "  ...")
             elif line[0] == '\t' and line[1] == '\t':
                 # subsystem line
                 subsystem_vendor = line[2:6]
@@ -90,13 +90,13 @@ def parse_pci_classes():
                 subclass_id = line[1:3]
                 subclass_name = line[3:].strip()
                 pci_class_data[current_class][subclass_id] = {'name': subclass_name}
-                print("    Processing subclass: ", subclass_id, " - ", subclass_name, "  ...")
+                # print("    Processing subclass: ", subclass_id, " - ", subclass_name, "  ...")
             elif line[0] == '\t' and line[1] == '\t':
                 # prog-if line
                 prog_if_id = line[2:4]
                 prog_if_name = line[4:].strip()
                 pci_class_data[current_class][subclass_id][prog_if_id] = {'name': prog_if_name}
-                print("        Processing prog-if: ", prog_if_id, " - ", prog_if_name, "  ...")
+                # print("        Processing prog-if: ", prog_if_id, " - ", prog_if_name, "  ...")
 
 
     return pci_class_data
