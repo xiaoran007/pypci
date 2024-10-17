@@ -109,6 +109,17 @@ class PCI:
                 nic_devices.append(device)
         return nic_devices
 
+    def FindAllNPU(self) -> list[Device]:
+        """
+        Find all Neural Processing Unit (NPU) in the system.
+        :return: list of Device.
+        """
+        npu_devices = []
+        for device in self.devices:
+            if device.class_id[0:4] == "1200":
+                npu_devices.append(device)
+        return npu_devices
+
     def FindAllDevice(self) -> list[Device]:
         """
         Find all PCI/PCI-E devices in the system.
