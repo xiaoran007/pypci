@@ -1,26 +1,10 @@
 from ..pypciException import BackendException
+from .device import Device
+from .driver import Driver
+from .util import Printer
 from pathlib import Path
 import os
 import json
-
-
-class Device:
-    def __init__(self, vendor_id, device_id, subsystem_vendor_id, subsystem_device_id, class_id, bus):
-        self.vendor_id = vendor_id
-        self.device_id = device_id
-        self.subsystem_vendor_id = subsystem_vendor_id
-        self.subsystem_device_id = subsystem_device_id
-        self.class_id = class_id
-        self.bus = bus
-        self.vendor_name = ""
-        self.device_name = ""
-        self.subsystem_vendor_name = ""
-        self.subsystem_device_name = ""
-        self.class_name = ""
-        self.processed = False
-
-    def GetDeviceID(self):
-        return f"{self.bus} {self.vendor_id} {self.device_id} {self.subsystem_vendor_id} {self.subsystem_device_id} {self.class_id}"
 
 
 class Helper:
@@ -59,7 +43,7 @@ class Helper:
                 subsystem_device_id = file.read().strip()[2:]
             with open(class_path, "r") as file:
                 class_id = file.read().strip()[2:]
-            return Device(vendor_id, device_id, subsystem_vendor_id, subsystem_device_id, class_id, bus)
+            return Device(path, vendor_id, device_id, subsystem_vendor_id, subsystem_device_id, class_id, bus)
         except Exception:
             raise BackendException
 
@@ -129,11 +113,20 @@ class PCI:
 
     def ListAll(self):
         """
-        Print all PCI/PCI-E devices in the system. Similar to lspci
+        Print all PCI/PCI-E devices in the system. Similar to lspci.
         """
         for device in self.devices:
             self.GetDeviceInfo(device)
-            self.Printer(device)
+            Printer.DefaultPrint(device)
+
+    def ListAllDrivers(self):
+        """
+        Print all loaded drivers for PCI/PCIE devices in the system.
+        """
+        for device in self.devices:
+            self.GetDeviceInfo(device)
+            Driver.Detect(device)
+            Printer.DriverPrint(device)
 
     def GetDeviceInfo(self, device: Device) -> Device:
         if device.processed:
@@ -164,11 +157,4 @@ class PCI:
 
         device.processed = True
         return device
-
-    @staticmethod
-    def Printer(device: Device):
-        if device.subsystem_device_name != "":
-            print(f"{device.bus} {device.class_name}: {device.vendor_name} {device.device_name} ({device.subsystem_device_name})")
-        else:
-            print(f"{device.bus} {device.class_name}: {device.vendor_name} {device.device_name}")
 
