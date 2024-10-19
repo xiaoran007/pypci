@@ -29,6 +29,14 @@ You can use this tool directly from the command line with the following command,
 ```shell
 pypci
 ```
+Or use -d flag to print driver information.
+```shell
+pypci -d
+```
+For more command line flags, see:
+```shell
+pypci -h
+```
 Please note that the command line entry for __pypci__ is created by pip, and depending on the user, this entry may not in the __system PATH__. If you encounter this problem, pip will give you a prompt, follow the prompts to add entry to the __system PATH__.
 
 ### Use as a Python Package
