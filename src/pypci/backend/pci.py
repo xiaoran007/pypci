@@ -147,7 +147,8 @@ class PCI:
             if pci_subclass is not None:
                 pci_interface = pci_subclass.get(pci_interface_id)
                 if pci_interface is not None:
-                    device.class_name = pci_interface.get("name")
+                    # device.class_name = pci_interface.get("name")
+                    device.class_name = f"{pci_subclass.get('name')} ({pci_interface.get('name')})"
                 else:
                     device.class_name = pci_subclass.get("name")
             else:
