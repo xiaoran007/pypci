@@ -5,8 +5,8 @@ import sys
 
 
 def main():
-    if getOS() != "linux":
-        print(f"Only Linux is supported for now. Current OS: {getOS()}")
+    if getOS() != "linux" and getOS() != "windows":
+        print(f"Only Linux and Windows are supported for now. Current OS: {getOS()}")
         return
     if len(sys.argv) == 2:
         if sys.argv[1] == "-d" or sys.argv[1] == "--list-drivers":
