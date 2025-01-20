@@ -52,15 +52,21 @@ class Helper:
             # example device_ser = PCI\\VEN_8086&DEV_2F28&SUBSYS_00000000&REV_02
             pattern_device = r"VEN_([0-9A-Za-z]{4})&DEV_([0-9A-Za-z]{4})&SUBSYS_([0-9A-Za-z]{4})([0-9A-Za-z]{4})"
             match_device = re.search(pattern_device, device_ser)
-            vendor_id = match_device.group(1).lower()
-            device_id = match_device.group(2).lower()
-            subsystem_vendor_id = match_device.group(4).lower()
-            subsystem_device_id = match_device.group(3).lower()
+            try:
+                vendor_id = match_device.group(1).lower()
+                device_id = match_device.group(2).lower()
+                subsystem_vendor_id = match_device.group(4).lower()
+                subsystem_device_id = match_device.group(3).lower()
+            except:
+                continue
 
             # example class_ser = PCI\\VEN_8086&DEV_9D03&CC_010601
             pattern_class = r"CC_([0-9A-Za-z]{6})"
             match_class = re.search(pattern_class, class_ser)
-            class_id = match_class.group(1).lower()
+            try:
+                class_id = match_class.group(1).lower()
+            except:
+                continue
             if count < 10:
                 bus = f"PCI 0{count}"
             else:
