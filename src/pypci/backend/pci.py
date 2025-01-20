@@ -1,10 +1,13 @@
 from ..pypciException import BackendException
+from ..pypciUtil import getOS
 from .device import Device
 from .driver import Driver
 from .util import Printer
 from pathlib import Path
 import os
 import json
+import subprocess
+import re
 
 
 class Helper:
@@ -12,8 +15,15 @@ class Helper:
 
     def __init__(self):
         self.devices_path = []
+        self.__os = getOS()
 
     def ScanDevices(self) -> list[Device]:
+        if getOS() == "linux":
+            return self.__ScanDevicesLinux()
+        elif getOS() == "windows":
+            return self.__ScanDevicesWindows()
+
+    def __ScanDevicesLinux(self) -> list[Device]:
         devices = []
         for folder in Path(self.DEVICE_PATH).rglob('*'):
             if folder.is_dir():
@@ -23,6 +33,44 @@ class Helper:
             device = self.__LoadDeviceID(device_path)
             devices.append(device)
         return devices
+
+    def __ScanDevicesWindows(self) -> list[Device]:
+        devices = []
+        COMMAND = 'Get-CimInstance -ClassName Win32_PnPEntity | Where-Object { $_.DeviceID -like "PCI*" } | Select-Object HardwareID | ConvertTo-JSON'
+        try:
+            result = subprocess.run(["powershell", "-Command", COMMAND], capture_output=True, text=True)
+        except subprocess.SubprocessError:
+            raise BackendException
+
+        hardware_ids = json.loads(result.stdout)
+
+        count = 0
+
+        for hardware_id in hardware_ids:
+            device_ser = hardware_id["HardwareID"][0]
+            class_ser = hardware_id["HardwareID"][-2]
+            # example device_ser = PCI\\VEN_8086&DEV_2F28&SUBSYS_00000000&REV_02
+            pattern_device = r"VEN_([0-9A-Za-z]{4})&DEV_([0-9A-Za-z]{4})&SUBSYS_([0-9A-Za-z]{4})([0-9A-Za-z]{4})"
+            match_device = re.search(pattern_device, device_ser)
+            vendor_id = match_device.group(1).lower()
+            device_id = match_device.group(2).lower()
+            subsystem_vendor_id = match_device.group(4).lower()
+            subsystem_device_id = match_device.group(3).lower()
+
+            # example class_ser = PCI\\VEN_8086&DEV_9D03&CC_010601
+            pattern_class = r"CC_([0-9A-Za-z]{6})"
+            match_class = re.search(pattern_class, class_ser)
+            class_id = match_class.group(1).lower()
+            if count < 10:
+                bus = f"PCI 0{count}"
+            else:
+                bus = f"PCI {count}"
+            devices.append(Device("", vendor_id, device_id, subsystem_vendor_id, subsystem_device_id, class_id, bus))
+            count += 1
+
+        return devices
+
+
 
     @staticmethod
     def __LoadDeviceID(path) -> Device:
