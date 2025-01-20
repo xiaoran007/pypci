@@ -3,6 +3,7 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/pypci-ng?label=version)
 
 ![Static Badge](https://img.shields.io/badge/Linux-blue)
+![Static Badge](https://img.shields.io/badge/Windows-yellow)
 
 
 pypci-ng, a pciutils-like library for fetching system PCI/PCI-E devices but written mostly in python.
@@ -51,6 +52,7 @@ More functionalities are under development.
 
 ## Supported (Tested) OS
 * Linux
+* Windows 10 and above
 
 
 ## Build from source
