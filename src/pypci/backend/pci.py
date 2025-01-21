@@ -38,7 +38,7 @@ class Helper:
         devices = []
         COMMAND = 'Get-CimInstance -ClassName Win32_PnPEntity | Where-Object { $_.DeviceID -like "PCI*" } | Select-Object HardwareID | ConvertTo-JSON'
         try:
-            result = subprocess.run(["powershell", "-Command", COMMAND], capture_output=True, text=True)
+            result = subprocess.run(["powershell", "-NoProfile", "-Command", COMMAND], capture_output=True, text=True)
         except subprocess.SubprocessError:
             raise BackendException
 
