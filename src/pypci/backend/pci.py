@@ -103,7 +103,13 @@ class Helper:
 
 
 class PCI:
+    """
+    Class to get information about PCI/PCI-E devices in the system.
+    """
     def __init__(self):
+        """
+        Initialize the class.
+        """
         self.devices = Helper().ScanDevices()
         self.pci_data = {}
         self.pci_class = {}
@@ -183,6 +189,11 @@ class PCI:
             Printer.DriverPrint(device)
 
     def GetDeviceInfo(self, device: Device) -> Device:
+        """
+        Get information about a PCI/PCI-E device.
+        :param device: unprocessed Device object.
+        :return: processed Device object.
+        """
         if device.processed:
             return device
         if device.vendor_id in self.pci_data.keys():
