@@ -6682,7 +6682,7 @@
                 "5120": "Radeon RX 5600 XT"
             },
             "1da2": {
-                "e411": "Radeon RX 5600 XT"
+                "e411": "Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]"
             }
         },
         "7340": {
@@ -11112,6 +11112,9 @@
         },
         "43f7": {
             "name": "600 Series Chipset USB 3.2 Controller"
+        },
+        "43fd": {
+            "name": "800 Series Chipset USB 3.x XHCI Controller"
         },
         "57a3": {
             "name": "Matisse PCIe GPP Bridge"
@@ -28823,6 +28826,9 @@
             "name": "LPe37000/LPe38000 Series 32Gb/64Gb Fibre Channel Adapter",
             "1014": {
                 "06c2": "PCIe4 2-Port 64Gb Fibre Channel Adapter for POWER (FC EN1N/EN1P; CCIN 2CFD)"
+            },
+            "1590": {
+                "0454": "Synergy 5331C 32Gb Fibre Channel Host Bus Adapter"
             }
         },
         "f600": {
@@ -29280,6 +29286,9 @@
             "4c52": {
                 "2022": "LRES2022PT Single-port 2.5Gb Ethernet Network Adapter"
             }
+        },
+        "8126": {
+            "name": "RTL8126 5GbE Controller"
         },
         "8129": {
             "name": "RTL-8129",
@@ -54667,6 +54676,12 @@
                 "802d": "XtremeScale X2562 OCP 3.0 Dual Port SFP28"
             }
         },
+        "0c03": {
+            "name": "NS9480 1/10/25/40/50/100Gb Ethernet Controller PLUS",
+            "1924": {
+                "8032": "X4542 Express and Enterprise Ethernet Adapter"
+            }
+        },
         "1803": {
             "name": "SFC9020 10G Ethernet Controller (Virtual Function)"
         },
@@ -54684,6 +54699,18 @@
         },
         "1b03": {
             "name": "XtremeScale SFC9250 10/25/40/50/100G Ethernet Controller (Virtual Function)"
+        },
+        "1c03": {
+            "name": "NS9480 1/10/25/40/50/100Gb Ethernet Controller PLUS (Virtual Function)"
+        },
+        "2c03": {
+            "name": "NS9480 1/10/25/40/50/100Gb Ethernet Controller",
+            "1924": {
+                "8032": "X4542 Enterprise Ethernet Adapter"
+            }
+        },
+        "3c03": {
+            "name": "NS9480 1/10/25/40/50/100Gb Ethernet Controller (Virtual Function)"
         },
         "6703": {
             "name": "SFC4000 rev A iSCSI/Onload [Solarstorm]",
@@ -57244,6 +57271,9 @@
         "2722": {
             "name": "Ultrastar DC SN655 NVMe SSD"
         },
+        "2751": {
+            "name": "Ultrastar DC SN861 NVMe SSD"
+        },
         "3001": {
             "name": "RapidFlex C2000 NVMe Initiator"
         },
@@ -58794,7 +58824,10 @@
         }
     },
     "1d2a": {
-        "name": "KAYA Instruments"
+        "name": "KAYA Instruments",
+        "1000": {
+            "name": "Frame grabber"
+        }
     },
     "1d37": {
         "name": "NovaSparks",
@@ -58924,7 +58957,7 @@
         "94c0": {
             "name": "AQtion AQC113CS NBase-T/IEEE 802.3an Ethernet Controller [Antigua 10G]",
             "1043": {
-                "87f5": "ProArt X570-CREATOR WIFI"
+                "8812": "ASUS XG-C100C 10G PCI-E Network Adapter"
             }
         },
         "d107": {
@@ -59623,13 +59656,13 @@
         "1005": {
             "name": "DSC NVMe Controller",
             "1dd8": {
-                "500f": "DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T"
+                "5200": "DSC3-2Q400 100/200/400G 2-port DDR5 128G eMMC G3 Services Card"
             }
         },
         "1006": {
             "name": "DSC NVMe Controller VF",
             "1dd8": {
-                "500f": "DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T"
+                "5200": "DSC3-2Q400 100/200/400G 2-port DDR5 128G eMMC G3 Services Card"
             }
         },
         "1007": {
@@ -59659,13 +59692,13 @@
         "100c": {
             "name": "DSC PDS Core Management",
             "1dd8": {
-                "500f": "DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T"
+                "5201": "POLLARA-1Q400 100/200/400G 1-port Card"
             }
         },
         "100d": {
             "name": "DSC Virtio Network Device VF",
             "1dd8": {
-                "500f": "DSC2-200 50/100/200G 2-port 32G RAM 64G eMMC G2 DPU R4-T"
+                "5200": "DSC3-2Q400 100/200/400G 2-port DDR5 128G eMMC G3 Services Card"
             }
         }
     },
@@ -60060,6 +60093,9 @@
         "name": "Sophgo",
         "1684": {
             "name": "BM1684 [Sophon Series Deep Learning Accelerator]"
+        },
+        "2042": {
+            "name": "SG2042 Root Complex"
         }
     },
     "1e36": {
@@ -61851,6 +61887,9 @@
         "name": "LDA Technologies Ltd.",
         "1008": {
             "name": "NEOTAPX FPGA Accelerator Card"
+        },
+        "1104": {
+            "name": "NEOTAPX FPGA Timing Synchronization Card"
         }
     },
     "20f4": {
@@ -62469,6 +62508,9 @@
             "434e": {
                 "0004": "CN5000 HFI Adapter, Single Port, QSFP, x16 PCIe Gen 5, Conduction-Cooled"
             }
+        },
+        "0002": {
+            "name": "CN6000 HFI Silicon, Dual Port, BGA [discrete]"
         },
         "8001": {
             "name": "CN5000 Switch Silicon, 48 Port, BGA"
@@ -79285,6 +79327,12 @@
         "4619": {
             "name": "Core i9/i7/i5/i3 Host Bridge/DRAM Registers"
         },
+        "461b": {
+            "name": "Alder Lake-N Processor Host Bridge/DRAM Registers"
+        },
+        "461c": {
+            "name": "Alder Lake-N Processor Host Bridge/DRAM Registers"
+        },
         "461d": {
             "name": "Alder Lake Innovation Platform Framework Processor Participant",
             "1028": {
@@ -79374,6 +79422,9 @@
         },
         "467d": {
             "name": "Platform Monitoring Technology"
+        },
+        "467e": {
+            "name": "GNA Scoring Accelerator"
         },
         "467f": {
             "name": "Volume Management Device NVMe RAID Controller"
@@ -80043,6 +80094,9 @@
         },
         "54ba": {
             "name": "Alder Lake-N PCI Express Root Port #3"
+        },
+        "54bb": {
+            "name": "Alder Lake-N PCI Express Root Port #4"
         },
         "54be": {
             "name": "Alder Lake-N PCI Express Root Port #7"
@@ -84970,7 +85024,16 @@
         "e20d": {
             "name": "Battlemage G21 [Intel Graphics]"
         },
+        "e210": {
+            "name": "Battlemage G21 [Intel Graphics]"
+        },
         "e212": {
+            "name": "Battlemage G21 [Intel Graphics]"
+        },
+        "e215": {
+            "name": "Battlemage G21 [Intel Graphics]"
+        },
+        "e216": {
             "name": "Battlemage G21 [Intel Graphics]"
         },
         "f1a5": {
@@ -87300,6 +87363,15 @@
         },
         "eb27": {
             "name": "IoX3"
+        },
+        "eb28": {
+            "name": "Kona XM"
+        },
+        "eb29": {
+            "name": "Kona X"
+        },
+        "eb30": {
+            "name": "Kona IP 25G"
         },
         "efac": {
             "name": "Xena SD-MM/SD-22-MM"
