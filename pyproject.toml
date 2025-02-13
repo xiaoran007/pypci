@@ -4,11 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pypci-ng"
-version = "0.1.4"
+version = "0.1.5"
 description = "pypci, a pciutils-like library for fetching system PCI/PCI-E information but written mostly in python."
 keywords = ["pci", "system information", "pciutils", "python", "lspci", "hardware information", "fetching", "pcie"]
 authors = [
-    { name = "Xiao Ran", email = "xiaoran.007@icloud.com" }
+    {name = "Xiao Ran"}
+]
+maintainers = [
+    {name = "Xiao Ran", email="xiaoran.007@icloud.com"},
 ]
 readme = "README.md"
 license = {text = "BSD-3-Clause"}
