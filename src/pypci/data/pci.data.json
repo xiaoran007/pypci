@@ -9097,6 +9097,12 @@
         "0611": {
             "name": "4769 Cryptographic Adapter"
         },
+        "06a7": {
+            "name": "Spyre Accelerator"
+        },
+        "06a8": {
+            "name": "Spyre Accelerator Virtual Function"
+        },
         "3022": {
             "name": "QLA3022 Network Adapter"
         },
@@ -14642,7 +14648,10 @@
             "name": "LAN7430"
         },
         "7431": {
-            "name": "LAN7431"
+            "name": "LAN7431",
+            "1059": {
+                "01a0": "RD10055 M.2 Dual 1GbE-T1 40m"
+            }
         },
         "9130": {
             "name": "SLC90E66 [Victory66] IDE"
@@ -28603,6 +28612,9 @@
         "2901": {
             "name": "GB100 [B200]"
         },
+        "2920": {
+            "name": "GB100 [TS4]"
+        },
         "2940": {
             "name": "GB100 [Reserved Dev ID B]"
         },
@@ -28610,10 +28622,13 @@
             "name": "GB100 [GB200 SKU]"
         },
         "2980": {
-            "name": "GB102"
+            "name": "GB102 [Reserved Dev ID A]"
+        },
+        "29bc": {
+            "name": "GB102 [B100]"
         },
         "29c0": {
-            "name": "GB102"
+            "name": "GB102 [Reserved Dev ID B]"
         },
         "2b85": {
             "name": "GB202 [GeForce RTX 5090]"
@@ -46758,6 +46773,9 @@
         },
         "16d6": {
             "name": "BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller",
+            "1059": {
+                "01b0": "RD10057 10GbE interface"
+            },
             "117c": {
                 "00cd": "FastFrame N4S2 Dual-port 10Gb Ethernet Adapter"
             },
@@ -58949,7 +58967,10 @@
             "name": "AQtion AQC100S NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]"
         },
         "87b1": {
-            "name": "AQtion AQC107S NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]"
+            "name": "AQtion AQC107S NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]",
+            "1c7a": {
+                "de2b": "Thunderbolt 10G Ethernet Adapter"
+            }
         },
         "93c0": {
             "name": "AQtion AQC114CS NBase-T/IEEE 802.3bz Ethernet Controller [Antigua 5G]"
@@ -59786,7 +59807,10 @@
             }
         },
         "5161": {
-            "name": "BIWIN NVMe SSD SP506/SP516"
+            "name": "BIWIN NVMe SSD SP506/SP516",
+            "1dee": {
+                "6108": "NVMe SSD SP506 12.8TB U.2"
+            }
         },
         "5216": {
             "name": "KingSpec NX series NVMe SSD (DRAM-less)"
@@ -61882,6 +61906,9 @@
         "1000": {
             "name": "TCU Family - TCU-1"
         }
+    },
+    "209f": {
+        "name": "Mobilint, Inc."
     },
     "20a9": {
         "name": "LDA Technologies Ltd.",
@@ -67910,7 +67937,10 @@
             }
         },
         "1538": {
-            "name": "I210 Gigabit Network Connection"
+            "name": "I210 Gigabit Network Connection",
+            "1059": {
+                "0190": "RD20057 M.2 Dual 1GbE-T1 15m"
+            }
         },
         "1539": {
             "name": "I211 Gigabit Network Connection"
@@ -79679,7 +79709,10 @@
             "name": "Jasper Lake Shared SRAM"
         },
         "4df0": {
-            "name": "Wireless-AC 9560 160MHz"
+            "name": "Jasper Lake PCH CNVi WiFi",
+            "8086": {
+                "4030": "Wireless-AC 9560 160MHz"
+            }
         },
         "4df8": {
             "name": "Jasper Lake SD Controller"
@@ -80124,6 +80157,12 @@
         },
         "5502": {
             "name": "Ethernet Controller (2) I225-LMvP",
+            "103c": {
+                "87b9": "Thunderbolt Dock G4 PCIe NIC"
+            },
+            "17aa": {
+                "2303": "ThinkPad Universal Thunderbolt 4 Dock PCIe NIC"
+            },
             "1ab6": {
                 "0225": "TS4 On-Board 2.5GbE Ethernet Adaptor"
             }
