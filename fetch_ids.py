@@ -9,7 +9,6 @@ device_id_json_path = "./src/pypci/data/pci.data.json"
 class_id_json_path = "./src/pypci/data/pci.class.json"
 
 
-
 def fetch_pci_ids():
     # use subprocess to call bash - wget to get new pci.ids file
     print("Fetching new PCI IDs...")
@@ -97,7 +96,6 @@ def parse_pci_classes():
                 prog_if_name = line[4:].strip()
                 pci_class_data[current_class][subclass_id][prog_if_id] = {'name': prog_if_name}
                 # print("        Processing prog-if: ", prog_if_id, " - ", prog_if_name, "  ...")
-
 
     return pci_class_data
 
