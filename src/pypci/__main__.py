@@ -5,8 +5,8 @@ import sys
 
 
 def main():
-    if getOS() != "linux" and getOS() != "windows":
-        print(f"Only Linux and Windows are supported for now. Current OS: {getOS()}")
+    if getOS() not in ["linux", "windows", "freebsd"]:
+        print(f"Only Linux, Windows, and FreeBSD are supported for now. Current OS: {getOS()}")
         return
     if len(sys.argv) == 2:
         if sys.argv[1] == "-d" or sys.argv[1] == "--list-drivers":
@@ -32,7 +32,7 @@ def print_help():
     print("Usage: pypci [options]")
     print("Options:")
     print("  [Empty]             List all PCI/PCI-E devices in the system.")
-    print("  -d, --list-drivers  List all loaded drivers for PCI/PCI-E devices (Not available on Windows).")
+    print("  -d, --list-drivers  List all loaded drivers for PCI/PCI-E devices (Not available on Windows and FreeBSD).")
     print("  -v, --version       Print the version of pypci.")
     print("  -h, --help          Print this help message.")
 
