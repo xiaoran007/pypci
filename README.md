@@ -4,6 +4,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Linux-blue)
 ![Static Badge](https://img.shields.io/badge/Windows-yellow)
+![Static Badge](https://img.shields.io/badge/FreeBSD-red)
 
 
 pypci-ng, a pciutils-like library for fetching system PCI/PCI-E devices but written mostly in python.
