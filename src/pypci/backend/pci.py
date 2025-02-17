@@ -18,10 +18,12 @@ class Helper:
         self.__os = getOS()
 
     def ScanDevices(self) -> list[Device]:
-        if getOS() == "linux":
+        if self.__os == "linux":
             return self.__ScanDevicesLinux()
-        elif getOS() == "windows":
+        elif self.__os == "windows":
             return self.__ScanDevicesWindows()
+        elif self.__os == "freebsd":
+            return self.__ScanDevicesFreeBSD()
 
     def __ScanDevicesLinux(self) -> list[Device]:
         devices = []
@@ -75,6 +77,37 @@ class Helper:
             count += 1
 
         return devices
+    
+    def __ScanDevicesFreeBSD(self) -> list[Device]:
+        devices = []
+        count = 0
+        try:
+            output = subprocess.check_output(['pciconf', '-l'], text=True)
+            for line in output.splitlines():
+                device = self.__ParsePciconfOutput(line, count)
+                if device:
+                    devices.append(device)
+                    count += 1
+        except subprocess.CalledProcessError as e:
+            raise BackendException(f"Error scanning devices: {e}")
+
+        return devices
+    
+    def __ParsePciconfOutput(self, line: str, count: int) -> Device:
+        pattern = r"class=0x([0-9A-Za-z]+) .* vendor=0x([0-9A-Za-z]+) device=0x([0-9A-Za-z]+) subvendor=0x([0-9A-Za-z]+) subdevice=0x([0-9A-Za-z]+)"
+        match = re.search(pattern, line)
+        if match:
+            class_id = match.group(1).lower()
+            vendor_id = match.group(2).lower()
+            device_id = match.group(3).lower()
+            subvendor_id = match.group(4).lower()
+            subdevice_id = match.group(5).lower()
+            if count < 10:
+                bus = f"PCI 0{count}"
+            else:
+                bus = f"PCI {count}"
+            return Device("", vendor_id, device_id, subvendor_id, subdevice_id, class_id, bus)
+        return None
 
 
 
