@@ -7,7 +7,7 @@
 ![Static Badge](https://img.shields.io/badge/FreeBSD-red)
 
 
-pypci-ng, a pciutils-like library for fetching system PCI/PCI-E devices but written mostly in python.
+pypci-ng, a pciutils-like library for fetching system PCI/PCI-E devices but written mostly in python. Currently, this package **ONLY** implements the same functionality as **lspci**, i.e. scanning and listing all PCI/PCI-E devices. More functionalities are under development.
 
 
 ![demo0](https://files.catbox.moe/mku1dg.png)
