@@ -1858,6 +1858,9 @@
     },
     "1002": {
         "name": "Advanced Micro Devices, Inc. [AMD/ATI]",
+        "1114": {
+            "name": "Krackan [Radeon 840M / 860M Graphics]"
+        },
         "1304": {
             "name": "Kaveri"
         },
@@ -6958,6 +6961,9 @@
         "74bd": {
             "name": "Aqua Vanjaram [Instinct MI300X HF]"
         },
+        "7550": {
+            "name": "Navi 48 [RX 9070/9070 XT]"
+        },
         "7833": {
             "name": "RS350 Host Bridge"
         },
@@ -10195,6 +10201,9 @@
         "1557": {
             "name": "Turin USB 3.1 xHCI"
         },
+        "1559": {
+            "name": "Turin Secondary PCIe Dummy Function"
+        },
         "155b": {
             "name": "Anubis Root Complex"
         },
@@ -10341,6 +10350,9 @@
         },
         "15b7": {
             "name": "Raphael/Granite Ridge USB 3.1 xHCI"
+        },
+        "15b8": {
+            "name": "Raphael/Granite Ridge USB 2.0 xHCI"
         },
         "15bc": {
             "name": "Stoney PCIe [GFX,GPP] Bridge [4:0]"
@@ -28066,6 +28078,9 @@
         "2302": {
             "name": "GH100"
         },
+        "230e": {
+            "name": "GH100 [H20 NVL16]"
+        },
         "2313": {
             "name": "GH100 [H100 CNX]"
         },
@@ -28603,6 +28618,9 @@
         "28e1": {
             "name": "AD107M [GeForce RTX 4050 Max-Q / Mobile]"
         },
+        "28e3": {
+            "name": "AD107M [GeForce RTX 3050 A Laptop GPU]"
+        },
         "28f8": {
             "name": "AD107GLM [RTX 2000 Ada Generation Embedded GPU]"
         },
@@ -28619,7 +28637,7 @@
             "name": "GB100 [Reserved Dev ID B]"
         },
         "2941": {
-            "name": "GB100 [GB200 SKU]"
+            "name": "GB100 [HGX GB200]"
         },
         "2980": {
             "name": "GB102 [Reserved Dev ID A]"
@@ -28638,6 +28656,9 @@
         },
         "2c02": {
             "name": "GB203 [GeForce RTX 5080]"
+        },
+        "2c05": {
+            "name": "GB203 [GeForce RTX 5070 Ti]"
         },
         "2c18": {
             "name": "GB203M / GN22 [GeForce RTX 5090 Max-Q / Mobile]"
@@ -28675,11 +28696,20 @@
         "2dd8": {
             "name": "AD108M [GeForce RTX 5050 Max-Q / Mobile]"
         },
+        "2f04": {
+            "name": "GN22 [GeForce RTX 5070]"
+        },
         "2f18": {
             "name": "AD108M [GeForce RTX 5070 Ti Max-Q / Mobile]"
         },
         "2f58": {
             "name": "AD108M [GeForce RTX 5070 Ti Max-Q / Mobile]"
+        },
+        "31c0": {
+            "name": "GB110"
+        },
+        "3340": {
+            "name": "GB120"
         }
     },
     "10df": {
@@ -34315,19 +34345,25 @@
         "0094": {
             "name": "Celerity FC 16/32Gb/s Gen 6 Fibre Channel HBA",
             "117c": {
-                "00ac": "Celerity FC-324E"
+                "40a7": "ThunderLink TLFC-3322"
+            }
+        },
+        "00a5": {
+            "name": "ExpressSAS 24Gb/s SAS/SATA HBA",
+            "117c": {
+                "00d2": "ExpressSAS H240N"
             }
         },
         "00bb": {
             "name": "Celerity FC 32/64Gb/s Gen 7 Fibre Channel HBA",
             "117c": {
-                "00ca": "Celerity FC-642E"
+                "00d4": "Celerity FC-644E"
             }
         },
         "00c5": {
             "name": "ExpressNVM PCIe Gen4 Switch",
             "117c": {
-                "00c7": "ExpressNVM S468 PCIe Gen4"
+                "00cb": "ExpressNVM S4FF PCIe Gen4"
             }
         },
         "00e6": {
@@ -34348,7 +34384,7 @@
         "8070": {
             "name": "ExpressSAS 12Gb/s SAS/SATA HBA",
             "117c": {
-                "0080": "ExpressSAS H1244"
+                "40ae": "ThunderLink TLSH-3128"
             }
         },
         "8072": {
@@ -40000,6 +40036,15 @@
         "5416": {
             "name": "2550 NVMe SSD (DRAM-less)"
         },
+        "5425": {
+            "name": "2500 NVMe SSD (DRAM-less)"
+        },
+        "5427": {
+            "name": "2650 NVMe SSD (DRAM-less)"
+        },
+        "5429": {
+            "name": "2600 NVMe SSD (DRAM-less)"
+        },
         "6001": {
             "name": "2100AI NVMe SSD [Nitro]"
         }
@@ -45055,6 +45100,9 @@
         "a80d": {
             "name": "NVMe SSD Controller PM9C1a (DRAM-less)"
         },
+        "a80e": {
+            "name": "NVMe SSD Controller PM9D3a"
+        },
         "a80f": {
             "name": "BM9C1 QLC NVME SSD (DRAM-less)"
         },
@@ -46939,7 +46987,7 @@
         "1750": {
             "name": "BCM57508 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb/200Gb Ethernet",
             "117c": {
-                "00cf": "FastFrame N412 Dual-port 100Gb Ethernet Adapter"
+                "40d6": "ThunderLink TLNS-5102 Dual-port 100Gb Ethernet Adapter"
             },
             "14e4": {
                 "df24": "NetXtreme-E NGM2100D BCM57508 2x100G KR Mezz Ethernet"
@@ -46949,6 +46997,9 @@
             "name": "BCM57504 NetXtreme-E 10Gb/25Gb/40Gb/50Gb/100Gb Ethernet",
             "1028": {
                 "0b1b": "PowerEdge XR5610 LOM"
+            },
+            "117c": {
+                "00da": "FastFrame N424 Quad-port 25Gb Ethernet Adapter"
             },
             "14e4": {
                 "d142": "NetXtreme-E P425D BCM57504 4x25G SFP28 PCIE"
@@ -46970,7 +47021,10 @@
             "name": "BCM57502 NetXtreme-E Ethernet Partition"
         },
         "1801": {
-            "name": "BCM57504 NetXtreme-E Ethernet Partition"
+            "name": "BCM57504 NetXtreme-E Ethernet Partition",
+            "1590": {
+                "0420": "Ethernet NPAR 6310C Adapter"
+            }
         },
         "1802": {
             "name": "BCM57508 NetXtreme-E Ethernet Partition",
@@ -46982,7 +47036,10 @@
             "name": "BCM57502 NetXtreme-E RDMA Partition"
         },
         "1804": {
-            "name": "BCM57504 NetXtreme-E RDMA Partition"
+            "name": "BCM57504 NetXtreme-E RDMA Partition",
+            "1590": {
+                "0420": "Ethernet NPAR RoCE 6310C Adapter"
+            }
         },
         "1805": {
             "name": "BCM57508 NetXtreme-E RDMA Partition",
@@ -46994,12 +47051,18 @@
             "name": "BCM5750X NetXtreme-E Ethernet Virtual Function",
             "14e4": {
                 "df24": "BCM57508 NetXtreme-E NGM2100D 2x100G KR Mezz Ethernet Virtual Function"
+            },
+            "1590": {
+                "0420": "Ethernet SRIOV 6310C Adapter"
             }
         },
         "1807": {
             "name": "BCM5750X NetXtreme-E RDMA Virtual Function",
             "14e4": {
                 "df24": "BCM57508 NetXtreme-E NGM2100D 2x100G KR Mezz RDMA Virtual Function"
+            },
+            "1590": {
+                "0420": "Ethernet SRIOV RoCE 6310C Adapter"
             }
         },
         "1808": {
@@ -47500,6 +47563,9 @@
         "4719": {
             "name": "BCM47xx/53xx RoboSwitch Core"
         },
+        "471a": {
+            "name": "BCM47xx EHCI Host Controller"
+        },
         "4720": {
             "name": "BCM4712 MIPS CPU"
         },
@@ -47508,6 +47574,9 @@
             "1028": {
                 "0010": "Inspiron M5010 / XPS 8300"
             }
+        },
+        "472a": {
+            "name": "BCM47xx xHCI Host Controller"
         },
         "5365": {
             "name": "BCM5365P Sentry5 Host Bridge"
@@ -47586,6 +47655,9 @@
         },
         "5fa0": {
             "name": "BRCM4377 Bluetooth Controller"
+        },
+        "8411": {
+            "name": "BCM47xx PCIe Bridge"
         },
         "8602": {
             "name": "BCM7400/BCM7405 Serial ATA Controller"
@@ -49531,6 +49603,12 @@
         "027a": {
             "name": "Eros Chiplet"
         },
+        "027c": {
+            "name": "Quantum-5 in Flash Recovery Mode"
+        },
+        "027d": {
+            "name": "Quantum-5 RMA"
+        },
         "0281": {
             "name": "NPS-600 Flash Recovery"
         },
@@ -49560,6 +49638,18 @@
         },
         "0290": {
             "name": "SagittaZ"
+        },
+        "02a0": {
+            "name": "Quantum-6 in Flash Recovery Mode"
+        },
+        "02a1": {
+            "name": "Quantum-6 RMA"
+        },
+        "02a2": {
+            "name": "Spectrum-7 in Flash Recovery Mode"
+        },
+        "02a3": {
+            "name": "Spectrum-7 RMA"
         },
         "1002": {
             "name": "MT25400 Family [ConnectX-2 Virtual Function]"
@@ -49669,7 +49759,7 @@
         "1017": {
             "name": "MT27800 Family [ConnectX-5]",
             "117c": {
-                "00b2": "FastFrame N311 Dual-port 10Gb Ethernet Adapter"
+                "00b2": "FastFrame N312 Dual-port 10Gb Ethernet Adapter"
             },
             "15b3": {
                 "0068": "ConnectX-5 EN network interface card for OCP2.0, Type 1, with host management, 25GbE dual-port SFP28, PCIe3.0 x8, no bracket Halogen free ; MCX542B-ACAN"
@@ -50023,6 +50113,9 @@
         "cf84": {
             "name": "Spectrum-6"
         },
+        "cf86": {
+            "name": "Spectrum-7"
+        },
         "d2f0": {
             "name": "Quantum HDR (200Gbps) switch"
         },
@@ -50037,6 +50130,12 @@
         },
         "d2f8": {
             "name": "Quantum-4"
+        },
+        "d2fa": {
+            "name": "Quantum-5"
+        },
+        "d2fc": {
+            "name": "Quantum-6"
         }
     },
     "15b4": {
@@ -56746,6 +56845,18 @@
                 "7a72": "H270 PC MATE"
             }
         },
+        "2421": {
+            "name": "ASM4242 PCIe Switch Upstream Port"
+        },
+        "2423": {
+            "name": "ASM4242 PCIe Switch Downstream Port"
+        },
+        "2425": {
+            "name": "ASM4242 USB 4 / Thunderbolt 3 Host Router"
+        },
+        "2426": {
+            "name": "ASM4242 USB 3.2 xHCI Controller"
+        },
         "2806": {
             "name": "ASM2806 4-Port PCIe x2 Gen3 Packet Switch"
         },
@@ -57339,6 +57450,9 @@
             "1bb1": {
                 "01a1": "Nytro XP7102"
             }
+        },
+        "0155": {
+            "name": "Nytro 5x50 NVMe SSD"
         },
         "5012": {
             "name": "FireCuda/IronWolf 510 SSD"
@@ -59421,6 +59535,12 @@
         },
         "1060": {
             "name": "Gaudi3 AI Training Accelerator"
+        },
+        "1063": {
+            "name": "Gaudi3 AI Training Accelerator Add-In Family",
+            "1da3": {
+                "1063": "HL-338 Gaudi3 AI Accelerator PCIe Add-In Card"
+            }
         }
     },
     "1da8": {
@@ -59807,10 +59927,7 @@
             }
         },
         "5161": {
-            "name": "BIWIN NVMe SSD SP506/SP516",
-            "1dee": {
-                "6108": "NVMe SSD SP506 12.8TB U.2"
-            }
+            "name": "BIWIN NVMe SSD SP506/SP516"
         },
         "5216": {
             "name": "KingSpec NX series NVMe SSD (DRAM-less)"
@@ -61394,7 +61511,7 @@
             "name": "metaFusion DPU SoC Network Interface"
         },
         "1111": {
-            "name": "metaScale SmartNIC Physical Function",
+            "name": "YSA-100 RDMA Ethernet Network Controller",
             "1bd4": {
                 "00b2": "O1E2YYSA100"
             },
@@ -61850,6 +61967,12 @@
     "206d": {
         "name": "GigaIO Networks, Inc."
     },
+    "207d": {
+        "name": "HRDT",
+        "0612": {
+            "name": "SATA BootRAID Controller"
+        }
+    },
     "208a": {
         "name": "MICIUS Laboratory"
     },
@@ -61909,6 +62032,9 @@
     },
     "209f": {
         "name": "Mobilint, Inc."
+    },
+    "20a7": {
+        "name": "EEVengers Inc."
     },
     "20a9": {
         "name": "LDA Technologies Ltd.",
@@ -61976,7 +62102,7 @@
             "name": "A2000 NVMe SSD [SM2263EN]"
         },
         "5008": {
-            "name": "A1000/U-SNS8154P3 x2 NVMe SSD"
+            "name": "A1000/U-SNS8154P3 x2 NVMe SSD [E8]"
         },
         "500a": {
             "name": "DC1000B NVMe SSD [E12DC]"
@@ -62061,6 +62187,9 @@
         },
         "5028": {
             "name": "NV3 NVMe SSD [SM2268XT2] (DRAM-less)"
+        },
+        "502c": {
+            "name": "DC3000ME NVMe SSD [SC5]"
         }
     },
     "270b": {
@@ -82699,11 +82828,20 @@
         "9a01": {
             "name": "11th Gen Core Processor PCIe Controller #1"
         },
+        "9a02": {
+            "name": "Tiger Lake-UP4 2 cores Host Bridge/DRAM Registers"
+        },
         "9a03": {
             "name": "TigerLake-LP Dynamic Tuning Processor Participant"
         },
-        "9a07": {
+        "9a04": {
+            "name": "Tiger Lake-UP3 2 cores Host Bridge/DRAM Registers"
+        },
+        "9a05": {
             "name": "11th Gen Core Processor PCIe Controller #2"
+        },
+        "9a07": {
+            "name": "11th Gen Core Processor PCIe Controller #3"
         },
         "9a09": {
             "name": "11th Gen Core Processor PCIe Controller"
@@ -82720,14 +82858,23 @@
         "9a11": {
             "name": "GNA Scoring Accelerator module"
         },
+        "9a12": {
+            "name": "Tiger Lake-UP4 4 cores Host Bridge/DRAM Registers"
+        },
         "9a13": {
             "name": "Tiger Lake-LP Thunderbolt 4 USB Controller"
         },
         "9a14": {
-            "name": "11th Gen Core Processor Host Bridge/DRAM Registers"
+            "name": "Tiger Lake-UP3/H35 4 cores Host Bridge/DRAM Registers"
+        },
+        "9a15": {
+            "name": "Tiger Lake xDCI Controller"
         },
         "9a17": {
             "name": "Tiger Lake-H Thunderbolt 4 USB Controller"
+        },
+        "9a19": {
+            "name": "Tiger Lake IPU6"
         },
         "9a1b": {
             "name": "Tiger Lake-LP Thunderbolt 4 NHI #0"
@@ -82748,7 +82895,7 @@
             "name": "Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #1"
         },
         "9a26": {
-            "name": "11th Gen Core Processor Host Bridge/DRAM Registers"
+            "name": "Tiger Lake-H 6 cores Host Bridge/DRAM Registers"
         },
         "9a27": {
             "name": "Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #2"
@@ -82772,7 +82919,10 @@
             "name": "Tiger Lake Trace Hub"
         },
         "9a36": {
-            "name": "11th Gen Core Processor Host Bridge/DRAM Registers"
+            "name": "Tiger Lake-H 8 cores Host Bridge/DRAM Registers"
+        },
+        "9a39": {
+            "name": "Tiger Lake H IPU6-Slim"
         },
         "9a40": {
             "name": "Tiger Lake-UP4 GT2 [Iris Xe Graphics]"
@@ -85899,6 +86049,9 @@
             "1f3f": {
                 "0610": "3S610-8i, SAS/SATA 12Gb HBA"
             },
+            "207d": {
+                "4240": "TrustRAID D3154s-8i"
+            },
             "9005": {
                 "14c4": "HBA 1200-8e"
             }
@@ -86797,6 +86950,9 @@
                 "ea21": "N6S Series 2-port 100GbE Network Adapter"
             }
         }
+    },
+    "d405": {
+        "name": "LeapIO"
     },
     "d4d4": {
         "name": "Dy4 Systems Inc",
