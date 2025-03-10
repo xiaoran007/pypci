@@ -3,4 +3,4 @@ from .backend.device import Device
 
 
 __all__ = ["PCI", "Device"]
-__version__ = "0.2.1"
+__version__ = "0.2.2"

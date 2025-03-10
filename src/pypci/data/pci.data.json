@@ -10139,7 +10139,10 @@
             "name": "Turin PCIe Dummy Host Bridge"
         },
         "153e": {
-            "name": "Turin GPP Bridge"
+            "name": "Turin GPP Bridge",
+            "01de": {
+                "fff8": "Cosmo Baseboard"
+            }
         },
         "1540": {
             "name": "Kryptos/Cato/Garfield/Garfield+/Arlene/Pooky HT Configuration"
@@ -49639,6 +49642,12 @@
         "0290": {
             "name": "SagittaZ"
         },
+        "0292": {
+            "name": "Arcus3 Flash Recovery"
+        },
+        "0293": {
+            "name": "Arcus3 RMA"
+        },
         "02a0": {
             "name": "Quantum-6 in Flash Recovery Mode"
         },
@@ -50058,6 +50067,9 @@
         },
         "b202": {
             "name": "Arcus2"
+        },
+        "b203": {
+            "name": "Arcus3"
         },
         "c2d1": {
             "name": "BlueField DPU Family Auxiliary Communication Channel [BlueField Family]"
@@ -57654,6 +57666,9 @@
         },
         "100e": {
             "name": "NS8500G2Uxxxx, NS8600G2Uxxxx NVME SSD"
+        },
+        "100f": {
+            "name": "NS6500G2UXXXX,NS6600G2UXXXX NVME SSD"
         }
     },
     "1bee": {
@@ -59653,6 +59668,9 @@
         "5220": {
             "name": "NVMe SSD Controller IG5220 [RainierQX] (DRAM-less)"
         },
+        "5222": {
+            "name": "NVMe SSD Controller IG5222 [RainierX] (DRAM-less)"
+        },
         "5236": {
             "name": "NVMe SSD Controller IG5236 [RainierPC]",
             "1dbe": {
@@ -59677,7 +59695,7 @@
         "5668": {
             "name": "NVMe PCIe 5.0 DC SSD",
             "1dbe": {
-                "5010": "Dongting-N3 DC SSD U.2 30720GB"
+                "6116": "Dongting-Z3Q DC ZNS SSD U.2 7680GB"
             }
         },
         "5669": {
@@ -61956,6 +61974,24 @@
         },
         "4100": {
             "name": "E4100 controller"
+        },
+        "4200": {
+            "name": "E4200 NVMe Controller",
+            "2061": {
+                "2026": "E4200 NVMe SSD 7.68TB PCIe 4.0 U.2"
+            }
+        },
+        "5100": {
+            "name": "E5100 NVMe Controller",
+            "2061": {
+                "2053": "E510Q NVMe SSD 122.88TB PCIe 5.0 U.2"
+            }
+        },
+        "5200": {
+            "name": "E5200 NVMe Controller",
+            "2061": {
+                "2063": "E520Q NVMe SSD 122.88TB PCIe 5.0 U.2"
+            }
         }
     },
     "2063": {
@@ -62187,6 +62223,9 @@
         },
         "5028": {
             "name": "NV3 NVMe SSD [SM2268XT2] (DRAM-less)"
+        },
+        "502a": {
+            "name": "FURY Renegade G5 NVMe SSD [SM2508]"
         },
         "502c": {
             "name": "DC3000ME NVMe SSD [SC5]"
