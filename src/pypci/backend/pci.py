@@ -109,8 +109,6 @@ class Helper:
             return Device("", vendor_id, device_id, subvendor_id, subdevice_id, class_id, bus)
         return None
 
-
-
     @staticmethod
     def __LoadDeviceID(path) -> Device:
         vendor_path = f"{path}/vendor"

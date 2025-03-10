@@ -20,5 +20,9 @@ class Device:
         self.driver_set = False
 
     def GetDeviceID(self):
+        """
+        Get the device ID.
+        :return: str, device ID
+        """
         return f"{self.bus} {self.vendor_id} {self.device_id} {self.subsystem_vendor_id} {self.subsystem_device_id} {self.class_id}"
 
