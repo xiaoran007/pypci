@@ -27134,7 +27134,7 @@
             "name": "GA100 [A100 NVSwitch]"
         },
         "1b00": {
-            "name": "GP102 [TITAN X]"
+            "name": "GP102 [TITAN X Pascal]"
         },
         "1b01": {
             "name": "GP102 [GeForce GTX 1080 Ti 10GB]"
@@ -55576,6 +55576,9 @@
         "5019": {
             "name": "PS5019-E19 PCIe4 NVMe Controller (DRAM-less)"
         },
+        "5020": {
+            "name": "PS5020-E20 (X1) PCIe4 NVMe Controller"
+        },
         "5021": {
             "name": "PS5021-E21 PCIe4 NVMe Controller (DRAM-less)"
         },
@@ -55587,6 +55590,9 @@
         },
         "5031": {
             "name": "PS5031-E31T PCIe5 NVMe Controller"
+        },
+        "5302": {
+            "name": "PS5302-X2 PCIe5 NVMe Controller"
         }
     },
     "1989": {
