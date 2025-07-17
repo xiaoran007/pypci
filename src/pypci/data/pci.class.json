@@ -391,6 +391,9 @@
         "06": {
             "name": "IOMMU"
         },
+        "07": {
+            "name": "Root Complex Event Collector"
+        },
         "80": {
             "name": "System peripheral"
         },

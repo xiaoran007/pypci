@@ -136,6 +136,7 @@ C 08  Generic system peripheral
 	04  PCI Hot-plug controller
 	05  SD Host controller
 	06  IOMMU
+	07  Root Complex Event Collector
 	80  System peripheral
 	99  Timing Card
 # PTP Grandmaster Source Clock
