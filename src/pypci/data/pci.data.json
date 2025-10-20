@@ -61600,6 +61600,12 @@
         "100c": {
             "name": "CL6 Series NVMe SSD M.2 (DRAM-less)"
         },
+        "100d": {
+            "name": "PJ1 Series NVMe SSD",
+            "1e95": {
+                "100d": "M.2 2280 480 GB"
+            }
+        },
         "1010": {
             "name": "CX3 Series NVMe SSD",
             "1e95": {
