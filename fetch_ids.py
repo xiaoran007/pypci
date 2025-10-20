@@ -1,12 +1,24 @@
 import subprocess
 import json
-from re import split
+import os
+import hashlib
 
 file_path = "./src/pypci/data/pci.ids"
 device_id_path = "./src/pypci/data/pci.data"
 class_id_path = "./src/pypci/data/pci.class"
 device_id_json_path = "./src/pypci/data/pci.data.json"
 class_id_json_path = "./src/pypci/data/pci.class.json"
+
+
+def get_file_sha256(filepath):
+    sha256_hash = hashlib.sha256()
+    try:
+        with open(filepath, "rb") as f:
+            for byte_block in iter(lambda: f.read(4096), b""):
+                sha256_hash.update(byte_block)
+        return sha256_hash.hexdigest()
+    except FileNotFoundError:
+        return None
 
 
 def fetch_pci_ids():
