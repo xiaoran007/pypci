@@ -24,6 +24,8 @@ class Helper:
             return self.__ScanDevicesWindows()
         elif self.__os == "freebsd":
             return self.__ScanDevicesFreeBSD()
+        elif self.__os == "macos":
+            return self.__ScanDevicesMacOS()
 
     def __ScanDevicesLinux(self) -> list[Device]:
         devices = []
@@ -91,6 +93,120 @@ class Helper:
         except subprocess.CalledProcessError as e:
             raise BackendException(f"Error scanning devices: {e}")
 
+        return devices
+    
+    def __ScanDevicesMacOS(self) -> list[Device]:
+        """
+        Scan PCI devices on macOS using ioreg.
+        
+        Uses IORegistry to query IOPCIDevice class objects, which includes
+        built-in PCI devices that system_profiler might miss.
+        """
+        devices = []
+        count = 0
+        
+        try:
+            result = subprocess.run(
+                ["ioreg", "-r", "-c", "IOPCIDevice", "-d", "1"],
+                capture_output=True,
+                text=True,
+                check=True
+            )
+
+            current_device = {}
+            in_device = False
+            
+            for line in result.stdout.splitlines():
+                if line.strip().startswith("+-o") and "IOPCIDevice" in line:
+                    if current_device and all(k in current_device for k in ['vendor_id', 'device_id', 'class_id']):
+                        if count < 10:
+                            bus = f"PCI 0{count}"
+                        else:
+                            bus = f"PCI {count}"
+                        
+                        device = Device(
+                            "",
+                            current_device['vendor_id'],
+                            current_device['device_id'],
+                            current_device.get('subsystem_vendor_id', '0000'),
+                            current_device.get('subsystem_id', '0000'),
+                            current_device['class_id'],
+                            bus
+                        )
+                        devices.append(device)
+                        count += 1
+
+                    current_device = {}
+                    in_device = True
+                    continue
+
+                if line.strip().startswith("}"):
+                    in_device = False
+                    continue
+                
+                if not in_device:
+                    continue
+                
+                line = line.strip()
+
+                if '"vendor-id"' in line and '<' in line:
+                    match = re.search(r'<([0-9a-fA-F]+)>', line)
+                    if match:
+                        hex_val = match.group(1)
+                        # Convert from little-endian: take first 2 bytes (4 hex chars) and reverse byte pairs
+                        vendor_id = ''.join([hex_val[i:i+2] for i in range(0, 4, 2)][::-1])
+                        current_device['vendor_id'] = vendor_id.lower()
+
+                elif '"device-id"' in line and '<' in line:
+                    match = re.search(r'<([0-9a-fA-F]+)>', line)
+                    if match:
+                        hex_val = match.group(1)
+                        device_id = ''.join([hex_val[i:i+2] for i in range(0, 4, 2)][::-1])
+                        current_device['device_id'] = device_id.lower()
+
+                elif '"subsystem-vendor-id"' in line and '<' in line:
+                    match = re.search(r'<([0-9a-fA-F]+)>', line)
+                    if match:
+                        hex_val = match.group(1)
+                        subsystem_vendor_id = ''.join([hex_val[i:i+2] for i in range(0, 4, 2)][::-1])
+                        current_device['subsystem_vendor_id'] = subsystem_vendor_id.lower()
+
+                elif '"subsystem-id"' in line and '<' in line:
+                    match = re.search(r'<([0-9a-fA-F]+)>', line)
+                    if match:
+                        hex_val = match.group(1)
+                        subsystem_id = ''.join([hex_val[i:i+2] for i in range(0, 4, 2)][::-1])
+                        current_device['subsystem_id'] = subsystem_id.lower()
+
+                elif '"class-code"' in line and '<' in line:
+                    match = re.search(r'<([0-9a-fA-F]+)>', line)
+                    if match:
+                        hex_val = match.group(1)
+                        class_id = ''.join([hex_val[i:i+2] for i in range(0, 6, 2)][::-1])
+                        current_device['class_id'] = class_id.lower()
+
+            if current_device and all(k in current_device for k in ['vendor_id', 'device_id', 'class_id']):
+                if count < 10:
+                    bus = f"PCI 0{count}"
+                else:
+                    bus = f"PCI {count}"
+                
+                device = Device(
+                    "",
+                    current_device['vendor_id'],
+                    current_device['device_id'],
+                    current_device.get('subsystem_vendor_id', '0000'),
+                    current_device.get('subsystem_id', '0000'),
+                    current_device['class_id'],
+                    bus
+                )
+                devices.append(device)
+            
+        except subprocess.CalledProcessError as e:
+            raise BackendException(f"Error scanning devices on macOS: {e}")
+        except Exception as e:
+            raise BackendException(f"Unexpected error scanning devices on macOS: {e}")
+        
         return devices
     
     def __ParsePciconfOutput(self, line: str, count: int) -> Device:
