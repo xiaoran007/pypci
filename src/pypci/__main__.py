@@ -5,8 +5,8 @@ import sys
 
 
 def main():
-    if getOS() not in ["linux", "windows", "freebsd"]:
-        print(f"Only Linux, Windows, and FreeBSD are supported for now. Current OS: {getOS()}")
+    if getOS() not in ["linux", "windows", "freebsd", "macos"]:
+        print(f"Only Linux, Windows, FreeBSD, and macOS are supported for now. Current OS: {getOS()}")
         return
     if len(sys.argv) == 2:
         if sys.argv[1] == "-d" or sys.argv[1] == "--list-drivers":
