@@ -14,7 +14,22 @@
     "01": {
         "name": "Mass storage controller",
         "00": {
-            "name": "SCSI storage controller"
+            "name": "SCSI storage controller",
+            "00": {
+                "name": "Vendor specific"
+            },
+            "11": {
+                "name": "SCSI storage device (SOP target port using PQI)"
+            },
+            "12": {
+                "name": "SCSI controller (SOP target port using PQI)"
+            },
+            "13": {
+                "name": "SCSI storage device & controller (SOP target port using PQI)"
+            },
+            "21": {
+                "name": "SCSI storage device (SOP target port using NVMe)"
+            }
         },
         "01": {
             "name": "IDE interface",
@@ -50,7 +65,10 @@
             "name": "IPI bus controller"
         },
         "04": {
-            "name": "RAID bus controller"
+            "name": "RAID bus controller",
+            "00": {
+                "name": "Vendor specific"
+            }
         },
         "05": {
             "name": "ATA controller",
@@ -86,6 +104,9 @@
             },
             "02": {
                 "name": "NVM Express"
+            },
+            "03": {
+                "name": "NVM Express administrative controller"
             }
         },
         "09": {
@@ -104,7 +125,10 @@
     "02": {
         "name": "Network controller",
         "00": {
-            "name": "Ethernet controller"
+            "name": "Ethernet controller",
+            "01": {
+                "name": "Ethernet Controller with IDPF Compliant Interface"
+            }
         },
         "01": {
             "name": "Token ring network controller"
@@ -167,7 +191,13 @@
             "name": "Computer telephony device"
         },
         "03": {
-            "name": "Audio device"
+            "name": "Audio device",
+            "00": {
+                "name": "HDA compatible"
+            },
+            "80": {
+                "name": "HDA compatible with vendor specific extensions"
+            }
         },
         "80": {
             "name": "Multimedia controller"
@@ -187,7 +217,7 @@
                 "name": "CXL Memory Device - vendor specific"
             },
             "10": {
-                "name": "CXL Memory Device (CXL 2.x)"
+                "name": "CXL Memory Device (CXL 2.0 or later)"
             }
         },
         "80": {
@@ -532,6 +562,9 @@
         "09": {
             "name": "CANBUS"
         },
+        "0a": {
+            "name": "MIPI I3C"
+        },
         "80": {
             "name": "Serial bus controller"
         }
@@ -554,10 +587,16 @@
             "name": "Broadband"
         },
         "20": {
-            "name": "802.1a controller"
+            "name": "802.11a 5 GHz controller"
         },
         "21": {
-            "name": "802.1b controller"
+            "name": "802.11b 2.4 GHz controller"
+        },
+        "40": {
+            "name": "Cellular controller/modem"
+        },
+        "41": {
+            "name": "Cellular controller/modem plus Ethernet (802.11)"
         },
         "80": {
             "name": "Wireless controller"

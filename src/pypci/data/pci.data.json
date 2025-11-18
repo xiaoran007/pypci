@@ -11,91 +11,148 @@
     "0014": {
         "name": "Loongson Technology LLC",
         "7a00": {
-            "name": "Hyper Transport Bridge Controller"
+            "name": "7A1000 Chipset Hyper Transport Bridge Controller"
         },
         "7a02": {
-            "name": "APB (Advanced Peripheral Bus) Controller"
+            "name": "2K1000 / 7A1000 Chipset Advanced Peripheral Bus Controller"
         },
         "7a03": {
-            "name": "Gigabit Ethernet Controller"
+            "name": "2K1000/2000 / 7A1000 Chipset Gigabit Ethernet Controller"
         },
         "7a04": {
-            "name": "OTG USB Controller"
+            "name": "2K1000 / 7A1000 Chipset OTG USB Controller"
         },
         "7a05": {
-            "name": "Vivante GPU (Graphics Processing Unit)"
+            "name": "2K1000 Vivante GC1000 GPU"
         },
         "7a06": {
-            "name": "DC (Display Controller)"
+            "name": "2K1000 / 7A1000 Chipset Display Controller"
         },
         "7a07": {
-            "name": "HDA (High Definition Audio) Controller"
+            "name": "2K1000/2000 / 7A1000/2000 Chipset HD Audio Controller"
         },
         "7a08": {
-            "name": "SATA AHCI Controller"
+            "name": "2K1000 / 7A1000 Chipset 3Gb/s SATA AHCI Controller"
         },
         "7a09": {
-            "name": "PCI-to-PCI Bridge"
+            "name": "2K1000 / 7A1000 Chipset PCIe x1 Bridge"
         },
         "7a0b": {
-            "name": "SPI Controller"
+            "name": "7A1000 Chipset SPI Controller"
         },
         "7a0c": {
-            "name": "LPC Controller"
+            "name": "2K2000 / 7A1000/2000 Chipset LPC Controller"
+        },
+        "7a0e": {
+            "name": "2K2000 AES Controller"
         },
         "7a0f": {
-            "name": "DMA (Direct Memory Access) Controller"
+            "name": "2K1000 / 7A1000 Chipset DMA Controller"
         },
         "7a10": {
-            "name": "Hyper Transport Bridge Controller"
+            "name": "7A2000 Chipset Hyper Transport Bridge Controller"
         },
         "7a13": {
-            "name": "7A2000 PCH Gigabit Ethernet Controller"
+            "name": "2K2000 / 7A2000 Chipset Gigabit Ethernet Controller"
         },
         "7a14": {
-            "name": "EHCI USB Controller"
+            "name": "2K1000 / 7A1000/2000 Chipset USB EHCI Controller"
         },
         "7a15": {
-            "name": "Vivante GPU (Graphics Processing Unit)"
+            "name": "7A1000 Chipset Vivante GC1000 GPU"
+        },
+        "7a16": {
+            "name": "2K1000/2000 VPU Decoder"
+        },
+        "7a17": {
+            "name": "7A1000 Chipset AC97 Audio Controller"
         },
         "7a18": {
-            "name": "SATA 3 AHCI Controller"
+            "name": "2K2000 / 7A2000 Chipset 6Gb/s SATA AHCI Controller"
         },
         "7a19": {
             "name": "PCI-to-PCI Bridge"
         },
+        "7a1a": {
+            "name": "2K2000 Configuration Bus"
+        },
         "7a1b": {
-            "name": "SPI Controller"
+            "name": "2K2000 / 7A2000 Chipset SPI Controller"
+        },
+        "7a1d": {
+            "name": "2K2000 RapidIO Interface"
+        },
+        "7a1e": {
+            "name": "2K2000 DES Controller"
+        },
+        "7a22": {
+            "name": "2K2000 Advanced Peripheral Bus Controller"
         },
         "7a24": {
-            "name": "OHCI USB Controller"
+            "name": "2K1000 / 7A1000/2000 Chipset USB OHCI Controller"
         },
         "7a25": {
-            "name": "LG100 GPU"
+            "name": "2K2000 / 7A2000 Chipset LG100 GPU"
+        },
+        "7a26": {
+            "name": "2K1000 Camera Controller"
         },
         "7a27": {
-            "name": "7A2000 PCH I2S Controller"
+            "name": "2K2000 / 7A2000 Chipset I2S Controller"
         },
         "7a29": {
-            "name": "PCI-to-PCI Bridge"
+            "name": "7A1000 Chipset PCIe x8 Bridge"
+        },
+        "7a2e": {
+            "name": "2K2000 RSA Controller"
+        },
+        "7a2f": {
+            "name": "2K2000 DMA Controller"
         },
         "7a34": {
-            "name": "xHCI USB Controller"
+            "name": "2K2000 / 7A2000 Chipset USB 3.0 xHCI Controller"
         },
         "7a36": {
-            "name": "Display Controller"
+            "name": "2K2000 / 7A2000 Chipset Display Controller"
+        },
+        "7a37": {
+            "name": "2K2000 HDMI Audio Controller"
         },
         "7a39": {
-            "name": "PCIe x1 Root Port"
+            "name": "2K2000 / 7A2000 Chipset PCIe x1 Root Port"
+        },
+        "7a3e": {
+            "name": "2K2000 RNG Controller"
+        },
+        "7a44": {
+            "name": "2K2000 USB 2.0 xHCI Controller"
+        },
+        "7a48": {
+            "name": "2K2000 SDIO Controller"
         },
         "7a49": {
-            "name": "PCIe x4 Root Port"
+            "name": "2K2000 / 7A2000 Chipset PCIe x4 Root Port"
+        },
+        "7a54": {
+            "name": "2K2000 OTG USB Controller"
         },
         "7a59": {
-            "name": "PCIe x8 Root Port"
+            "name": "7A2000 Chipset PCIe x8 Root Port"
         },
         "7a69": {
-            "name": "PCIe x16 Root Port"
+            "name": "7A2000 Chipset PCIe x16 Root Port"
+        },
+        "7a79": {
+            "name": "2K2000 PCIe Root Complex"
+        },
+        "7a88": {
+            "name": "2K2000 eMMC Controller"
+        },
+        "7a8e": {
+            "name": "2K2000 SE Controller"
+        },
+        "7af9": {
+            "name": "2K2000 PCIe Endpoint"
         }
     },
     "0018": {
@@ -120,10 +177,7 @@
         "name": "Tiger Jet Network Inc. (Wrong ID)"
     },
     "0070": {
-        "name": "Hauppauge computer works Inc.",
-        "7801": {
-            "name": "WinTV HVR-1800 MCE"
-        }
+        "name": "Hauppauge computer works Inc."
     },
     "0071": {
         "name": "Nebula Electronics Ltd."
@@ -310,7 +364,7 @@
         "920a": {
             "name": "JH920",
             "0731": {
-                "920c": "JH920-M"
+                "920d": "JH920-II"
             }
         },
         "920b": {
@@ -346,7 +400,7 @@
         "930a": {
             "name": "JH930-I",
             "0731": {
-                "930c": "JH930"
+                "930d": "JH930-II"
             }
         },
         "930b": {
@@ -469,12 +523,6 @@
                 "409d": "Smart Array 6400 EM"
             }
         },
-        "0049": {
-            "name": "NC7132 Gigabit Upgrade Module"
-        },
-        "004a": {
-            "name": "NC6136 Gigabit Server Adapter"
-        },
         "005a": {
             "name": "Remote Insight II board - Lights-Out"
         },
@@ -496,14 +544,8 @@
         "00ca": {
             "name": "NC7771"
         },
-        "00cb": {
-            "name": "NC7781"
-        },
         "00cf": {
             "name": "NC7772"
-        },
-        "00d0": {
-            "name": "NC7782"
         },
         "00d1": {
             "name": "NC7783"
@@ -538,15 +580,6 @@
         "4048": {
             "name": "Compaq Raid LC2"
         },
-        "4050": {
-            "name": "Smart Array 4200"
-        },
-        "4051": {
-            "name": "Smart Array 4250ES"
-        },
-        "4058": {
-            "name": "Smart Array 431"
-        },
         "4070": {
             "name": "Smart Array 5300"
         },
@@ -558,21 +591,6 @@
         },
         "4083": {
             "name": "Smart Array 5312"
-        },
-        "4091": {
-            "name": "Smart Array 6i"
-        },
-        "409a": {
-            "name": "Smart Array 641"
-        },
-        "409b": {
-            "name": "Smart Array 642"
-        },
-        "409c": {
-            "name": "Smart Array 6400"
-        },
-        "409d": {
-            "name": "Smart Array 6400 EM"
         },
         "6010": {
             "name": "HotPlug PCI Bridge 6010"
@@ -655,74 +673,20 @@
         "b012": {
             "name": "Netelligent 10 T/2 PCI UTP/Coax"
         },
-        "b01e": {
-            "name": "NC3120 Fast Ethernet NIC"
-        },
-        "b01f": {
-            "name": "NC3122 Fast Ethernet NIC"
-        },
-        "b02f": {
-            "name": "NC1120 Ethernet NIC"
-        },
         "b030": {
             "name": "Netelligent 10/100 TX UTP"
-        },
-        "b04a": {
-            "name": "10/100 TX PCI Intel WOL UTP Controller"
         },
         "b060": {
             "name": "Smart Array 5300 Controller"
         },
-        "b0c6": {
-            "name": "NC3161 Fast Ethernet NIC"
-        },
-        "b0c7": {
-            "name": "NC3160 Fast Ethernet NIC"
-        },
-        "b0d7": {
-            "name": "NC3121 Fast Ethernet NIC"
-        },
-        "b0dd": {
-            "name": "NC3131 Fast Ethernet NIC"
-        },
-        "b0de": {
-            "name": "NC3132 Fast Ethernet Module"
-        },
-        "b0df": {
-            "name": "NC6132 Gigabit Module"
-        },
-        "b0e0": {
-            "name": "NC6133 Gigabit Module"
-        },
         "b0e1": {
             "name": "NC3133 Fast Ethernet Module"
-        },
-        "b123": {
-            "name": "NC6134 Gigabit NIC"
-        },
-        "b134": {
-            "name": "NC3163 Fast Ethernet NIC"
-        },
-        "b13c": {
-            "name": "NC3162 Fast Ethernet NIC"
-        },
-        "b144": {
-            "name": "NC3123 Fast Ethernet NIC"
-        },
-        "b163": {
-            "name": "NC3134 Fast Ethernet NIC"
-        },
-        "b164": {
-            "name": "NC3165 Fast Ethernet Upgrade Module"
         },
         "b178": {
             "name": "Smart Array 5i/532",
             "0e11": {
                 "4083": "Smart Array 5312"
             }
-        },
-        "b1a4": {
-            "name": "NC7131 Gigabit Server Adapter"
         },
         "b200": {
             "name": "Memory Hot-Plug Controller"
@@ -1087,7 +1051,7 @@
                 "1f38": "PERC H710 Mini (for monolithics)"
             },
             "15d9": {
-                "0690": "LSI MegaRAID ROMB"
+                "0690": "AOC-S2208L-H8iR"
             },
             "8086": {
                 "9288": "RS25SB008 RAID Controller"
@@ -1204,7 +1168,7 @@
         "0072": {
             "name": "SAS2008 PCI-Express Fusion-MPT SAS-2 [Falcon]",
             "1000": {
-                "30b0": "9200-8e [LSI SAS 6Gb/s SAS/SATA PCIe x8 External HBA]"
+                "30e0": "9202-16e"
             },
             "1014": {
                 "03ca": "IBM 6Gb SAS HBA [9212-4i4e]"
@@ -1327,7 +1291,7 @@
         "0087": {
             "name": "SAS2308 PCI-Express Fusion-MPT SAS-2",
             "1000": {
-                "3060": "SAS9217-4i4e"
+                "3070": "SAS9206-16e"
             },
             "1014": {
                 "047a": "N2115 Internal Host Bus Adapter"
@@ -1434,6 +1398,9 @@
         },
         "00b2": {
             "name": "PCIe Switch management endpoint",
+            "15d9": {
+                "1d24": "AOM-PCIE5-418P"
+            },
             "1d49": {
                 "0003": "ThinkSystem 1611-8P PCIe Gen4 NVMe Switch Adapter"
             }
@@ -1450,13 +1417,22 @@
                 "020b": "ThinkSystem 460-16e SAS/SATA PCIe Gen5 24Gb HBA"
             }
         },
+        "00b4": {
+            "name": "Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx"
+        },
         "00b5": {
             "name": "Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx",
             "1000": {
                 "5030": "eHBA 9700-16e 24G SAS/PCIe Storage Adapter"
             },
             "1028": {
-                "2446": "PERC H976i Front - Virtual"
+                "23cd": "PERC H975i Adapter - Virtual"
+            }
+        },
+        "00b6": {
+            "name": "Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx",
+            "1000": {
+                "5030": "eHBA 9700-16e 24G SAS/PCIe Storage Adapter"
             }
         },
         "00b8": {
@@ -1483,7 +1459,7 @@
         "00c4": {
             "name": "SAS3224 PCI-Express Fusion-MPT SAS-3",
             "1000": {
-                "31a0": "SAS9305-24i"
+                "31b0": "SAS9306-24i"
             },
             "1170": {
                 "0002": "SAS3224 PCI Express to 12Gb HBA MEZZ CARD"
@@ -1789,7 +1765,7 @@
                 "1c6e": "AOC-SLG4-2H8M2 Storage Adapter"
             },
             "1d49": {
-                "0704": "ThinkSystem M.2 RAID B545i-2i SATA/NVMe Enablement Kit"
+                "0707": "ThinkSystem M.2 RAID B550i-2i SATA/NVMe Enablement Kit"
             }
         },
         "10e7": {
@@ -1838,6 +1814,9 @@
             "name": "PEX890xx PCIe Gen 5 Switch",
             "1000": {
                 "2005": "PEX89000 Virtual PCIe gDMA Endpoint"
+            },
+            "15d9": {
+                "1d24": "AOM-PCIE5-418P"
             }
         },
         "c034": {
@@ -1988,7 +1967,10 @@
             "name": "Navi 10 XL Downstream Port of PCI Express Switch"
         },
         "1506": {
-            "name": "Mendocino"
+            "name": "Mendocino [Radeon 610M]",
+            "17aa": {
+                "380e": "IdeaPad 1 15AMN7"
+            }
         },
         "150e": {
             "name": "Strix [Radeon 880M / 890M]"
@@ -2013,6 +1995,9 @@
         },
         "1586": {
             "name": "Strix Halo [Radeon Graphics / Radeon 8050S Graphics / Radeon 8060S Graphics]"
+        },
+        "15b3": {
+            "name": "Stoney HDMI/DP Audio Controller"
         },
         "15bf": {
             "name": "Phoenix1"
@@ -2102,7 +2087,7 @@
             "name": "VanGogh [AMD Custom GPU 0405]"
         },
         "1640": {
-            "name": "Radeon High Definition Audio Controller [Rembrandt/Strix]"
+            "name": "Radeon High Definition Audio Controller"
         },
         "164c": {
             "name": "Lucienne"
@@ -6249,6 +6234,9 @@
             "1028": {
                 "1720": "Radeon RX 550X"
             },
+            "1458": {
+                "22f3": "Radeon RX 550 2GB"
+            },
             "148c": {
                 "2380": "Lexa XL [Radeon RX 550]"
             },
@@ -6810,6 +6798,9 @@
         },
         "73df": {
             "name": "Navi 22 [Radeon RX 6700/6700 XT/6750 XT / 6800M/6850M XT]",
+            "1002": {
+                "0e36": "Radeon RX 6700 XT 12G"
+            },
             "1043": {
                 "16c2": "Radeon RX 6800M"
             },
@@ -6909,6 +6900,9 @@
         },
         "744a": {
             "name": "Navi 31 [Radeon Pro W7900 Dual Slot]"
+        },
+        "744b": {
+            "name": "Navi 31 [Radeon Pro W7900D]"
         },
         "744c": {
             "name": "Navi 31 [Radeon RX 7900 XT/7900 XTX/7900 GRE/7900M]",
@@ -7014,6 +7008,12 @@
         },
         "7590": {
             "name": "Navi 44 [Radeon RX 9060 XT]"
+        },
+        "75a0": {
+            "name": "Aqua Vanjaram [Instinct MI350X]"
+        },
+        "75a3": {
+            "name": "Aqua Vanjaram [Instinct MI355X]"
         },
         "7833": {
             "name": "RS350 Host Bridge"
@@ -10568,7 +10568,7 @@
             }
         },
         "15e3": {
-            "name": "Family 17h/19h/1ah HD Audio Controller",
+            "name": "Ryzen HD Audio Controller",
             "103c": {
                 "8b17": "ProBook 445 G9/455 G9"
             },
@@ -12311,7 +12311,10 @@
             }
         },
         "0536": {
-            "name": "Integrated Matrox G200eW3 Graphics Controller"
+            "name": "Integrated Matrox G200eW3 Graphics Controller",
+            "1028": {
+                "0a6b": "PowerEdge R760"
+            }
         },
         "0538": {
             "name": "MGA G200eH3",
@@ -12561,6 +12564,9 @@
         },
         "01b6": {
             "name": "SCC USB 1.1 OHCI controller"
+        },
+        "01ba": {
+            "name": "SpursEngine SE1000 accelerator"
         }
     },
     "1030": {
@@ -12645,6 +12651,9 @@
             "103c": {
                 "1294": "USB 2.0 add-in card"
             },
+            "1154": {
+                "0207": "Buffalo IFC-USB2P4"
+            },
             "1179": {
                 "0001": "USB"
             },
@@ -12723,6 +12732,9 @@
         },
         "00e0": {
             "name": "uPD72010x USB 2.0 Controller",
+            "1154": {
+                "0208": "Buffalo IFC-USB2P4"
+            },
             "1186": {
                 "f100": "DUB-C2 USB 2.0 2-port 32-bit cardbus controller"
             },
@@ -12759,6 +12771,9 @@
         },
         "013a": {
             "name": "Dual Tuner/MPEG Encoder"
+        },
+        "0165": {
+            "name": "uPD61253F1 MPEG Video Broadcast Decoder"
         },
         "0194": {
             "name": "uPD720200 USB 3.0 Host Controller",
@@ -14467,6 +14482,9 @@
         "b001": {
             "name": "TMS320C6424"
         },
+        "b012": {
+            "name": "TDA4VH PCIE Root Complex"
+        },
         "fe00": {
             "name": "FireWire Host Controller"
         },
@@ -14861,7 +14879,7 @@
             "name": "CPX8216"
         },
         "480b": {
-            "name": "MPC7410"
+            "name": "Harrier PCI Host Bridge"
         },
         "4d68": {
             "name": "20268"
@@ -15806,6 +15824,21 @@
             },
             "1590": {
                 "0245": "10/20/25GbE 2P 4820c CNA SRIOV"
+            }
+        },
+        "16a1": {
+            "name": "BCM57840 NetXtreme II 10 Gigabit Ethernet",
+            "1590": {
+                "00ec": "FlexFabric 10Gb 4-port 536FLR-T Adapter"
+            }
+        },
+        "16ab": {
+            "name": "NetXtreme II BCM57840 10/20 Gigabit Ethernet Multi Function"
+        },
+        "16ad": {
+            "name": "NetXtreme II BCM57840 10/20 Gigabit Ethernet Virtual Function",
+            "1590": {
+                "00ec": "FlexFabric 10Gb 4-port 536FLR-T Adapter"
             }
         },
         "2020": {
@@ -19464,6 +19497,9 @@
         },
         "9733": {
             "name": "PEX 9733 33-lane, 9-port PCI Express Gen 3 (8.0 GT/s) Switch",
+            "1028": {
+                "1fc8": "UCEA-200 0CDC7W NVMe PCIe Extender Adapter with Half-Height Bracket"
+            },
             "1d49": {
                 "0002": "ThinkSystem 810-4P NVMe Switch Adapter"
             }
@@ -27169,6 +27205,9 @@
         "15ff": {
             "name": "GP100GL [GP100 SKU 15ff]"
         },
+        "1613": {
+            "name": "GM204GL [GRID M60 Service Provider]"
+        },
         "1617": {
             "name": "GM204M [GeForce GTX 980M]"
         },
@@ -27183,6 +27222,9 @@
         },
         "1667": {
             "name": "GM204M [GeForce GTX 965M]"
+        },
+        "1676": {
+            "name": "GM204GLM [Quadro M2200 Mobile]"
         },
         "1725": {
             "name": "GP100"
@@ -28090,6 +28132,9 @@
         "2184": {
             "name": "TU116 [GeForce GTX 1660]"
         },
+        "2186": {
+            "name": "TU116 [PG160 SKU18]"
+        },
         "2187": {
             "name": "TU116 [GeForce GTX 1650 SUPER]"
         },
@@ -28131,8 +28176,11 @@
         },
         "2204": {
             "name": "GA102 [GeForce RTX 3090]",
-            "147d": {
-                "10de": "NVIDIA Geforce RTX 3090 Founders Edition"
+            "10de": {
+                "147d": "GeForce RTX 3090 Founders Edition"
+            },
+            "3842": {
+                "3973": "GeForce RTX 3090 XC3"
             }
         },
         "2205": {
@@ -28222,6 +28270,9 @@
         "22ba": {
             "name": "AD102 High Definition Audio Controller"
         },
+        "22bb": {
+            "name": "AD103 High Definition Audio Controller"
+        },
         "22bc": {
             "name": "AD104 High Definition Audio Controller"
         },
@@ -28231,14 +28282,38 @@
         "22be": {
             "name": "AD107 High Definition Audio Controller"
         },
+        "22ce": {
+            "name": "GB10 GEN5 X4 PCIe host"
+        },
+        "22d0": {
+            "name": "GB10 GEN4 X1 PCIe host"
+        },
+        "22d1": {
+            "name": "GB20B PCI bridge"
+        },
         "22d8": {
             "name": "THOR Processor PCI Express Root Port"
         },
         "22e6": {
             "name": "THOR Processor PCI Express x16 Controller"
         },
+        "22e8": {
+            "name": "GB202 High Definition Audio Controller"
+        },
+        "22e9": {
+            "name": "GB203 High Definition Audio Controller"
+        },
+        "22eb": {
+            "name": "GB206 High Definition Audio Controller"
+        },
+        "22ec": {
+            "name": "GB207 High Definition Audio Controller"
+        },
         "2302": {
             "name": "GH100"
+        },
+        "230c": {
+            "name": "GH100 [H20 NVL16]"
         },
         "230e": {
             "name": "GH100 [H20 NVL16]"
@@ -28305,6 +28380,9 @@
         },
         "2348": {
             "name": "GH100 [GH200 144G HBM3e]"
+        },
+        "237e": {
+            "name": "GH100 [H100 GH3]"
         },
         "237f": {
             "name": "GH100 [Skinny Joe]"
@@ -28816,6 +28894,9 @@
         "2980": {
             "name": "GB102 [Reserved Dev ID A]"
         },
+        "29bb": {
+            "name": "GB102 [DRIVE P2021]"
+        },
         "29bc": {
             "name": "GB102 [B100]"
         },
@@ -28826,7 +28907,7 @@
             "name": "GB102"
         },
         "2b00": {
-            "name": "TA1090SA [THOR]"
+            "name": "GB10B [Jetson AGX Thor]"
         },
         "2b85": {
             "name": "GB202 [GeForce RTX 5090]"
@@ -28834,8 +28915,14 @@
         "2b87": {
             "name": "GB202 [GeForce RTX 5090 D]"
         },
+        "2b8c": {
+            "name": "GB202 [GeForce RTX 5090 D V2]"
+        },
         "2bb1": {
             "name": "GB202GL [RTX PRO 6000 Blackwell Workstation Edition]"
+        },
+        "2bb2": {
+            "name": "GB202GL [RTX PRO 6000D Blackwell Workstation Edition]"
         },
         "2bb3": {
             "name": "GB202GL [RTX PRO 5000 Blackwell]"
@@ -28845,6 +28932,12 @@
         },
         "2bb5": {
             "name": "GB202GL [RTX PRO 6000 Blackwell Server Edition]"
+        },
+        "2bb9": {
+            "name": "GB202GL [RTX 6000D]"
+        },
+        "2bbc": {
+            "name": "GB202GL [RTX PRO 6000D Blackwell Max-Q Workstation Edition]"
         },
         "2c02": {
             "name": "GB203 [GeForce RTX 5080]"
@@ -28864,6 +28957,9 @@
         "2c31": {
             "name": "GB203GL [RTX PRO 4500 Blackwell]"
         },
+        "2c33": {
+            "name": "GB203GL [RTX PRO 4000 Blackwell SFF Edition]"
+        },
         "2c34": {
             "name": "GB203GL [RTX PRO 4000 Blackwell]"
         },
@@ -28878,6 +28974,12 @@
         },
         "2c59": {
             "name": "GB203M / GN22-X9 [GeForce RTX 5080 Max-Q / Mobile]"
+        },
+        "2c77": {
+            "name": "GB203GLM [RTX PRO 5000 Blackwell Embedded GPU]"
+        },
+        "2c79": {
+            "name": "GB203GLM [RTX PRO 4000 Blackwell Embedded GPU]"
         },
         "2d04": {
             "name": "GB206 [GeForce RTX 5060 Ti]"
@@ -28894,6 +28996,9 @@
         "2d2c": {
             "name": "GB6-128 (N22Y-ES-A1)"
         },
+        "2d30": {
+            "name": "GB206GL [RTX PRO 2000 Blackwell]"
+        },
         "2d39": {
             "name": "GB206GLM [RTX PRO 2000 Blackwell Generation Laptop GPU]"
         },
@@ -28902,6 +29007,9 @@
         },
         "2d59": {
             "name": "GB206M [GeForce RTX 5060 Max-Q / Mobile]"
+        },
+        "2d79": {
+            "name": "GB206GLM [RTX PRO 2000 Blackwell Embedded GPU]"
         },
         "2d83": {
             "name": "GB207 [GeForce RTX 5050]"
@@ -28918,8 +29026,14 @@
         "2dd8": {
             "name": "GB207M [GeForce RTX 5050 Max-Q / Mobile]"
         },
+        "2df9": {
+            "name": "GB207GLM [RTX PRO 500 Blackwell Embedded GPU]"
+        },
+        "2e12": {
+            "name": "GB20B [GB10]"
+        },
         "2e2a": {
-            "name": "GB20B"
+            "name": "GB20B [JMJWOA-Generic-GPU]"
         },
         "2f04": {
             "name": "GB205 [GeForce RTX 5070]"
@@ -28933,8 +29047,35 @@
         "2f58": {
             "name": "GB205M [GeForce RTX 5070 Ti Mobile]"
         },
+        "2f80": {
+            "name": "GB205 High Definition Audio Controller"
+        },
+        "3180": {
+            "name": "GB110 [Reserved Dev ID A]"
+        },
+        "3182": {
+            "name": "GB110 [B300 SXM6 AC]"
+        },
+        "31a1": {
+            "name": "GB110 [GB300 MaxQ]"
+        },
         "31c0": {
+            "name": "GB110 [Reserved Dev ID B]"
+        },
+        "31c2": {
+            "name": "GB110 [GB300]"
+        },
+        "31fe": {
             "name": "GB110"
+        },
+        "3200": {
+            "name": "GB112"
+        },
+        "3224": {
+            "name": "GB112"
+        },
+        "323e": {
+            "name": "GB112"
         },
         "3340": {
             "name": "GB120"
@@ -28974,6 +29115,9 @@
         },
         "1ae5": {
             "name": "LP6000 Fibre Channel Host Adapter"
+        },
+        "d300": {
+            "name": "LPE41100/LPE42100 Series 64G/128G Fibre Channel Adapter"
         },
         "e100": {
             "name": "Proteus-X: LightPulse IOV Fibre Channel Host Adapter"
@@ -29440,6 +29584,9 @@
         "4321": {
             "name": "RTL8852BE 802.11ax PCIe Wireless Network Adapter"
         },
+        "5000": {
+            "name": "Killer E5000 5GbE Controller"
+        },
         "5208": {
             "name": "RTS5208 PCI Express Card Reader"
         },
@@ -29574,6 +29721,9 @@
         },
         "8126": {
             "name": "RTL8126 5GbE Controller"
+        },
+        "8127": {
+            "name": "RTL8127 10GbE Controller"
         },
         "8129": {
             "name": "RTL-8129",
@@ -29846,7 +29996,7 @@
             }
         },
         "816e": {
-            "name": "Realtek RealManage BMC"
+            "name": "RealManage BMC"
         },
         "8171": {
             "name": "RTL8191SEvA Wireless LAN Controller"
@@ -34898,7 +35048,7 @@
             "name": "R5U2xx (R5U230 / R5U231 / R5U241) [Memory Stick Host Controller]"
         },
         "e476": {
-            "name": "CardBus bridge",
+            "name": "R5U242 PCIe to CardBus Bridge",
             "1028": {
                 "040b": "Latitude E6510"
             }
@@ -35769,6 +35919,9 @@
         },
         "6281": {
             "name": "88F6281 [Kirkwood] ARM SoC"
+        },
+        "6282": {
+            "name": "88F6282 [Armada 300] ARM SoC"
         },
         "6381": {
             "name": "MV78xx0 [Discovery Innovation] ARM SoC"
@@ -37307,7 +37460,7 @@
             "name": "OZ711MP3/MS3 4-in-1 MemoryCardBus Controller"
         },
         "8120": {
-            "name": "Integrated MMC/SD Controller"
+            "name": "OZ888 SD/MMC Card Reader Controller"
         },
         "8130": {
             "name": "Integrated MS/MSPRO/xD Controller"
@@ -37337,12 +37490,18 @@
             "name": "O2 Flash Memory Card"
         },
         "8520": {
-            "name": "SD/MMC Card Reader Controller"
+            "name": "OZ777 SD/MMC Card Reader Controller"
+        },
+        "8620": {
+            "name": "OZ620 SD/MMC Card Reader Controller"
         },
         "8621": {
-            "name": "SD/MMC Card Reader Controller",
+            "name": "OZ711 SD/MMC Card Reader Controller",
             "17aa": {
                 "5068": "Thinkpad E480/E580"
+            },
+            "1e44": {
+                "1776": "Steam Deck"
             }
         },
         "8760": {
@@ -37884,6 +38043,9 @@
             "ea50": {
                 "1c10": "RXi2-BP"
             }
+        },
+        "9105": {
+            "name": "AX99100 PCIe to I/O Bridge"
         }
     },
     "125c": {
@@ -38229,6 +38391,9 @@
         },
         "2269": {
             "name": "SM2269XT (DRAM-less) NVMe SSD Controller"
+        },
+        "2508": {
+            "name": "SM2508 NVMe 2.0 SSD Controller"
         },
         "8366": {
             "name": "SM8366 NVMe SSD Controller [MonTitan]"
@@ -40356,6 +40521,12 @@
         },
         "6001": {
             "name": "2100AI NVMe SSD [Nitro]"
+        },
+        "6003": {
+            "name": "4150AT NVMe SSD"
+        },
+        "6004": {
+            "name": "4100AT NVMe SSD (DRAM-less)"
         }
     },
     "1345": {
@@ -45219,7 +45390,13 @@
         }
     },
     "1433": {
-        "name": "Eltec Elektronik GmbH"
+        "name": "Eltec Elektronik GmbH",
+        "0002": {
+            "name": "XRD_FG (PCGR-200) [95510214H]"
+        },
+        "0006": {
+            "name": "XRD_FGx Opto (PCGR-300) [95510215H]"
+        }
     },
     "1435": {
         "name": "RTD Embedded Technologies, Inc.",
@@ -45367,9 +45544,6 @@
         "1600": {
             "name": "S4LN053X01 AHCI SSD Controller(Apple slot)"
         },
-        "9602": {
-            "name": "RS780/RS880 PCI to PCI bridge (int gfx)"
-        },
         "a544": {
             "name": "Exynos 8890 PCIe Root Complex"
         },
@@ -45398,7 +45572,7 @@
             }
         },
         "a806": {
-            "name": "NVMe SSD SM0032L"
+            "name": "PM971 BGA PCIe x2 NVMe SSD"
         },
         "a808": {
             "name": "NVMe SSD Controller SM981/PM981/PM983",
@@ -45414,9 +45588,6 @@
         },
         "a80a": {
             "name": "NVMe SSD Controller PM9A1/PM9A3/980PRO",
-            "0128": {
-                "2169": "DC NVMe PM9A3 RI 80M.2 960GB"
-            },
             "1028": {
                 "512d": "DC NVMe PM9A3 RI U.2 7.68TB"
             },
@@ -45428,7 +45599,10 @@
             "name": "NVMe SSD Controller PM9B1 (DRAM-less)"
         },
         "a80c": {
-            "name": "NVMe SSD Controller S4LV008[Pascal]"
+            "name": "NVMe SSD Controller S4LV008[Pascal]",
+            "144d": {
+                "a801": "SSD 990 PRO"
+            }
         },
         "a80d": {
             "name": "NVMe SSD Controller PM9C1a (DRAM-less)"
@@ -46105,6 +46279,9 @@
         "7663": {
             "name": "MT7663 802.11ac PCI Express Wireless Network Adapter"
         },
+        "7902": {
+            "name": "MT7902 802.11ax PCIe Wireless Network Adapter [Filogic 310]"
+        },
         "7915": {
             "name": "MT7915E 802.11ax PCI Express Wireless Network Adapter"
         },
@@ -46117,8 +46294,14 @@
                 "5300": "ASUS PCE-AXE59BT"
             }
         },
+        "7925": {
+            "name": "MT7925 802.11be 160MHz 2x2 PCIe Wireless Network Adapter [Filogic 360]"
+        },
+        "7927": {
+            "name": "MT7927 802.11be 320MHz 2x2 PCIe Wireless Network Adapter [Filogic 380]"
+        },
         "7961": {
-            "name": "MT7921 802.11ax PCI Express Wireless Network Adapter"
+            "name": "MT7921 802.11ax PCIe Wireless Network Adapter [Filogic 330]"
         },
         "7988": {
             "name": "MT7988 PCI Express Host Bridge [Filogic 880]"
@@ -47836,6 +48019,9 @@
         "4433": {
             "name": "BCM4387 802.11ax Dual Band Wireless LAN Controller"
         },
+        "4434": {
+            "name": "BCM4388 802.11ax Dual Band Wireless LAN Controller"
+        },
         "4464": {
             "name": "BCM4364 802.11ac Wireless Network Adapter"
         },
@@ -47997,6 +48183,9 @@
         },
         "5f71": {
             "name": "BRCM4387 Bluetooth Controller"
+        },
+        "5f72": {
+            "name": "BCM4388 Bluetooth Controller"
         },
         "5fa0": {
             "name": "BRCM4377 Bluetooth Controller"
@@ -49146,16 +49335,7 @@
         "name": "ONO SOKKI"
     },
     "153b": {
-        "name": "TERRATEC Electronic GmbH",
-        "1144": {
-            "name": "Aureon 5.1"
-        },
-        "1147": {
-            "name": "Aureon 5.1 Sky"
-        },
-        "1158": {
-            "name": "Philips Semiconductors SAA7134 (rev 01) [Terratec Cinergy 600 TV]"
-        }
+        "name": "TERRATEC Electronic GmbH"
     },
     "153c": {
         "name": "ANTAL Electronic"
@@ -49952,10 +50132,10 @@
             "name": "Eros Chiplet"
         },
         "027c": {
-            "name": "Quantum-5 in Flash Recovery Mode"
+            "name": "Nvlink-7 Switch in Flash Recovery Mode"
         },
         "027d": {
-            "name": "Quantum-5 RMA"
+            "name": "Nvlink-7 Switch RMA"
         },
         "0281": {
             "name": "NPS-600 Flash Recovery"
@@ -50009,10 +50189,10 @@
             "name": "OPHY3.5"
         },
         "02a0": {
-            "name": "Quantum-6 in Flash Recovery Mode"
+            "name": "Nvlink-8 Switch in Flash Recovery Mode"
         },
         "02a1": {
-            "name": "Quantum-6 RMA"
+            "name": "Nvlink-8 RMA"
         },
         "02a2": {
             "name": "Spectrum-7 in Flash Recovery Mode"
@@ -50510,10 +50690,10 @@
             "name": "Quantum-4"
         },
         "d2fa": {
-            "name": "Quantum-5"
+            "name": "Nvlink-7 Switch"
         },
         "d2fc": {
-            "name": "Quantum-6"
+            "name": "Nvlink-8 Switch"
         }
     },
     "15b4": {
@@ -50597,7 +50777,7 @@
             "name": "SanDisk Extreme Pro / WD Black SN750 / PC SN730 / Red SN700 NVMe SSD"
         },
         "5007": {
-            "name": "IX SN530 NVMe SSD (DRAM-less)"
+            "name": "IX SN530 NVMe SSD / microSD Express Card (DRAM-less)"
         },
         "5008": {
             "name": "PC SN530 NVMe SSD (DRAM-less)"
@@ -50674,11 +50854,14 @@
         "5042": {
             "name": "WD Black SN770M NVMe SSD (DRAM-less)"
         },
+        "5043": {
+            "name": "WD PC SN7100S M.2 2230 NVMe SSD (DRAM-less)"
+        },
         "5044": {
-            "name": "WD PC SN7100S NVMe SSD (DRAM-less)"
+            "name": "WD PC SN7100S M.2 2242 NVMe SSD (DRAM-less)"
         },
         "5045": {
-            "name": "WD_BLACK SN7100 NVMe SSD (DRAM-less)"
+            "name": "WD_BLACK SN7100/WD PC SN7100S M.2 2280 NVMe SSD (DRAM-less)"
         },
         "5046": {
             "name": "SanDisk Extreme NVMe SSD (DRAM-less)"
@@ -50691,6 +50874,9 @@
         },
         "5050": {
             "name": "WD PC SN8050S / WD_BLACK SN8100 NVMe SSD"
+        },
+        "5063": {
+            "name": "WD Blue SN5100 NVMe SSD (DRAM-less)"
         }
     },
     "15b8": {
@@ -50877,16 +51063,7 @@
         "name": "Cybernetics Technology Co Ltd"
     },
     "15d9": {
-        "name": "Super Micro Computer Inc",
-        "1b64": {
-            "name": "SCC-B8SB80-B1"
-        },
-        "1b9d": {
-            "name": "Supermicro AOC-S3816L-L16IR"
-        },
-        "1c6e": {
-            "name": "Supermicro AOC-SLG4-2H8M2"
-        }
+        "name": "Super Micro Computer Inc"
     },
     "15da": {
         "name": "Cyberfirm Inc"
@@ -52792,6 +52969,9 @@
     },
     "1734": {
         "name": "Fujitsu Technology Solutions",
+        "1228": {
+            "name": "iRMC-S5 HTI Device"
+        },
         "9602": {
             "name": "RS780/RS880 PCI to PCI bridge (int gfx)"
         }
@@ -53504,7 +53684,7 @@
             "name": "GL9755 SD Host Controller"
         },
         "9767": {
-            "name": "GL9767 SD Host Controller"
+            "name": "GL9767 PCIe SD UHS-II & SD Express Card Reader Controller"
         },
         "e763": {
             "name": "GL9763E eMMC Controller"
@@ -53641,6 +53821,9 @@
         "0306": {
             "name": "SDX55 [Snapdragon X55 5G]"
         },
+        "0308": {
+            "name": "SDX62 [Snapdragon X62 5G]"
+        },
         "0400": {
             "name": "Datacenter Technologies QDF2432 PCI Express Root Port"
         },
@@ -53685,7 +53868,25 @@
         }
     },
     "17cd": {
-        "name": "Cadence Design Systems, Inc."
+        "name": "Cadence Design Systems, Inc.",
+        "0100": {
+            "name": "CIX PCIe Root Port"
+        },
+        "dc01": {
+            "name": "Phytium PCIe 3.0 x1 Root Complex"
+        },
+        "dc08": {
+            "name": "Phytium PCIe 3.0 x8 Root Complex"
+        },
+        "dc16": {
+            "name": "Phytium PCIe 3.0 x8 Root Complex"
+        },
+        "fc01": {
+            "name": "Phytium PCIe 3.0 x1 Root Complex"
+        },
+        "fc16": {
+            "name": "Phytium PCIe 3.0 x8/x16 Root Complex"
+        }
     },
     "17cf": {
         "name": "Z-Com, Inc."
@@ -55081,6 +55282,9 @@
         "0002": {
             "name": "SH7780 PCI Controller (PCIC)"
         },
+        "0004": {
+            "name": "SH7763 PCI Controller (PCIC)"
+        },
         "0011": {
             "name": "SH7757 PCIe End-Point [PBI]"
         },
@@ -55107,6 +55311,9 @@
         },
         "001d": {
             "name": "SH7758 PCIe Switch [PS]"
+        },
+        "0033": {
+            "name": "RZ/G3S PCIe 2.0 Controller"
         }
     },
     "1919": {
@@ -55999,6 +56206,9 @@
         "5027": {
             "name": "PS5027-E27T PCIe4 NVMe Controller (DRAM-less)"
         },
+        "5029": {
+            "name": "PS5029-E29T PCIe4 NVMe Controller (DRAM-less)"
+        },
         "5031": {
             "name": "PS5031-E31T PCIe5 NVMe Controller"
         },
@@ -56022,7 +56232,13 @@
         "name": "Innominate Security Technologies AG"
     },
     "1998": {
-        "name": "Toyou Feiji Electronics Co., Ltd."
+        "name": "Toyou Feiji Electronics Co., Ltd.",
+        "0001": {
+            "name": "TOBOLT1 51987 NVMe SSD",
+            "1998": {
+                "2012": "TOBOLT1 51987 3840G 2.5\" U.2 NVMe SSD"
+            }
+        }
     },
     "1999": {
         "name": "A-Logics",
@@ -56423,18 +56639,30 @@
     "19f1": {
         "name": "BFG Tech"
     },
+    "19fe": {
+        "name": "ESI Audiotechnik GmbH",
+        "7000": {
+            "name": "MAYA44 family PCI Audio Controller"
+        }
+    },
     "19ff": {
         "name": "Eclipse Electronic Systems, Inc."
     },
     "1a03": {
         "name": "ASPEED Technology, Inc.",
         "1150": {
-            "name": "AST1150 PCI-to-PCI Bridge"
+            "name": "AST1150 PCI-to-PCI Bridge",
+            "15d9": {
+                "1d50": "X14DBG-AP"
+            }
         },
         "2000": {
             "name": "ASPEED Graphics Family",
             "15d9": {
-                "1b95": "H12SSL-i"
+                "1d50": "X14DBG-AP (AST2600 BMC)"
+            },
+            "1849": {
+                "2000": "ROME2D32LM3 (AST2500 BMC)"
             }
         }
     },
@@ -56980,8 +57208,14 @@
         "0a5a": {
             "name": "microEnable 5 AD8-CL"
         },
+        "0a62": {
+            "name": "imaFlex CXP-12 Quad"
+        },
         "0a64": {
             "name": "imaWorx CXP-12 Quad"
+        },
+        "0a69": {
+            "name": "imaFlex CXP-12 Penta"
         },
         "0b52": {
             "name": "mE5 Abacus 4G Base"
@@ -57375,7 +57609,7 @@
         }
     },
     "1b08": {
-        "name": "MSC Technologies GmbH"
+        "name": "Tria Technologies GmbH"
     },
     "1b0a": {
         "name": "Pegatron",
@@ -57504,6 +57738,9 @@
         },
         "2426": {
             "name": "ASM4242 USB 3.2 xHCI Controller"
+        },
+        "2463": {
+            "name": "ASM2464PD USB4 Device Controller 40G"
         },
         "2806": {
             "name": "ASM2806 4-Port PCIe x2 Gen3 Packet Switch"
@@ -57730,10 +57967,22 @@
         "0640": {
             "name": "88SE9128 SATA III 6Gb/s RAID Controller"
         },
+        "1092": {
+            "name": "88SS1092 NVMe SSD Controller"
+        },
+        "1160": {
+            "name": "88NV1160 PCIe x2 NVMe SSD Controller (DRAM-less)"
+        },
+        "1321": {
+            "name": "88SS1321 NVMe SSD Controller"
+        },
         "2241": {
             "name": "88NR2241 Non-Volatile memory controller",
             "1028": {
                 "23b0": "eBOSS-N1 DC-MHS"
+            },
+            "1590": {
+                "02f6": "NS204i-p Gen10+ Boot Controller"
             },
             "1b4b": {
                 "2241": "Santa Cruz NVMe Host Adapter"
@@ -57745,7 +57994,7 @@
                 "0307": "ThinkSystem 7mm NVMe 2-Bay Rear RAID Enablement Kit"
             },
             "207d": {
-                "0801": "TrustRAID B260s"
+                "0800": "TrustRAID B310n"
             },
             "4c52": {
                 "9541": "LRNV9541 2-port M.2 NVMe Raid Adapter"
@@ -57762,6 +58011,12 @@
         },
         "2b45": {
             "name": "NXP 88W9098 Bluetooth 5.3"
+        },
+        "624e": {
+            "name": "DAWICONTROL DC-624e RAID",
+            "dc93": {
+                "624e": "DC-624e RAID"
+            }
         },
         "9120": {
             "name": "88SE9120 SATA 6Gb/s Controller"
@@ -57851,6 +58106,9 @@
             },
             "4c52": {
                 "9630": "LRST9630 4-port SATA3(6Gb/s) Raid Adapter"
+            },
+            "dc93": {
+                "624e": "DC-624e RAID"
             }
         },
         "9235": {
@@ -58490,6 +58748,15 @@
             "name": "25G-PCIE3-8B-2S Security Intelligent Adapter"
         }
     },
+    "1c19": {
+        "name": "LaCie",
+        "0003": {
+            "name": "6big and 12big Thunderbolt 3",
+            "1c19": {
+                "0004": "12big Thunderbolt 3"
+            }
+        }
+    },
     "1c1c": {
         "name": "Symphony",
         "0001": {
@@ -58701,6 +58968,12 @@
         },
         "8000": {
             "name": "8000 Storage IO Controller"
+        }
+    },
+    "1c4e": {
+        "name": "TECHWAY",
+        "7024": {
+            "name": "Default PCIe Endpoint ID"
         }
     },
     "1c58": {
@@ -58960,6 +59233,9 @@
         "2263": {
             "name": "XPG SX6000 Lite NVMe SSD (DRAM-less)"
         },
+        "2708": {
+            "name": "Premier Extreme microSDXC SD7.1 Express Card (DRAM-less)"
+        },
         "32a8": {
             "name": "SM2P32A8 NVMe SSD (DRAM-less)"
         },
@@ -58977,6 +59253,9 @@
         },
         "41c8": {
             "name": "SM2P41C8 NVMe SSD (DRAM-less)"
+        },
+        "41d3": {
+            "name": "SM2P41D3 NVMe SSD (DRAM-less)"
         },
         "5236": {
             "name": "XPG GAMMIX S70 BLADE NVMe SSD"
@@ -59041,8 +59320,23 @@
         "642a": {
             "name": "XPG GAMMIX S50 CORE NVMe SSD (DRAM-less)"
         },
+        "646a": {
+            "name": "XPG MARS 980 BLADE NVMe SSD"
+        },
+        "648a": {
+            "name": "LEGEND 860 NVMe SSD (DRAM-less)"
+        },
+        "64ba": {
+            "name": "LEGEND 900 PRO NVMe SSD"
+        },
         "8201": {
             "name": "XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive"
+        },
+        "a010": {
+            "name": "TRUSTA T7P5 NVMe SSD"
+        },
+        "a120": {
+            "name": "TRUSTA T5P4B NVMe SSD"
         }
     },
     "1cc4": {
@@ -59071,8 +59365,14 @@
         "5012": {
             "name": "AH530 PCIe 3.0 NVMe SSD 512GB"
         },
+        "5201": {
+            "name": "AM520 PCIe 3.0 NVMe SSD 128GB"
+        },
         "5212": {
             "name": "AM521 PCIe 3.0 NVMe SSD 256GB"
+        },
+        "5414": {
+            "name": "AM541 PCIe 4.0 NVMe SSD 1024GB"
         },
         "6201": {
             "name": "AM620 PCIe 3.0 NVMe SSD 128GB"
@@ -59100,6 +59400,9 @@
         },
         "635a": {
             "name": "GAMMIX S60 NVMe SSD (DRAM-less)"
+        },
+        "660b": {
+            "name": "AH660 PCIe 4.0 NVMe SSD 512GB"
         },
         "660c": {
             "name": "AH660 PCIe 4.0 NVMe SSD"
@@ -59131,13 +59434,19 @@
         "6b14": {
             "name": "RPJYJ1T24MLR1HWY PCIe 4.0 NVMe SSD 1024GB (DRAM-less)"
         },
+        "6c13": {
+            "name": "AM6C1 PCIe 4.0 NVMe SSD"
+        },
+        "6d03": {
+            "name": "AM6DX PCIe 5.0 NVMe SSD"
+        },
         "8030": {
             "name": "NVMe SSD Controller UH8X2X/UH7X2X series",
             "1cc4": {
-                "3125": "NVMe SSD UH712a U.2 15.36TB"
+                "6225": "NVMe SSD UH812c E3.S 15.36TB"
             },
             "1ea0": {
-                "4225": "NVMe SSD TP3511 E3.S 15.36TB"
+                "6225": "NVMe SSD TP3510 E3.S 15.36TB"
             }
         }
     },
@@ -59303,7 +59612,7 @@
             "name": "NEO X510 OVS PF Ethernet Controller"
         },
         "8049": {
-            "name": "NX E312 SRIOV RDMA PF Ethernet Controller"
+            "name": "NX E312-02R00 Ethernet Controller [RDMA]"
         },
         "804a": {
             "name": "NEO X512 NOF PF Ethernet Controller"
@@ -59324,13 +59633,13 @@
             "name": "NX I512 UPF VF Ethernet Controller Virtual Function"
         },
         "8060": {
-            "name": "NX E312 SRIOV RDMA VF Ethernet Controller Virtual Function"
+            "name": "NX E312-02R00 Ethernet Controller Virtual Function [RDMA]"
         },
         "8061": {
-            "name": "NX E310 SRIOV PF Ethernet Controller"
+            "name": "NX E310-01N00 Ethernet Controller"
         },
         "8062": {
-            "name": "NX E310 SRIOV VF Ethernet Controller Virtual Function"
+            "name": "NX E310-01N00 Ethernet Controller Virtual Function"
         },
         "8063": {
             "name": "NX I510 BOND PF Ethernet Controller"
@@ -59366,19 +59675,19 @@
             "name": "NX I512 UPF BOND PF Ethernet Controller"
         },
         "807d": {
-            "name": "NX E312S SRIOV PF Ethernet Controller"
+            "name": "NX E312S-01R00 Ethernet Controller"
         },
         "807e": {
-            "name": "NX E316 SRIOV PF Ethernet Controller"
+            "name": "NX E316-01R00 Ethernet Controller"
         },
         "807f": {
-            "name": "NX E316 SRIOV VF Ethernet Controller Virtual Function"
+            "name": "NX E316-01R00 Ethernet Controller Virtual Function"
         },
         "8080": {
-            "name": "NX E311 SRIOV PF Ethernet Controller"
+            "name": "NX E311-01N00 Ethernet Controller"
         },
         "8081": {
-            "name": "NX E311 SRIOV VF Ethernet Controller Virtual Function"
+            "name": "NX E311-01N00 Ethernet Controller Virtual Function"
         },
         "8082": {
             "name": "NX I511 SRIOV PF Ethernet Controller"
@@ -59387,10 +59696,10 @@
             "name": "NX I511 SRIOV VF Ethernet Controller Virtual Function"
         },
         "8084": {
-            "name": "NX E310 RDMA PF Ethernet Controller"
+            "name": "NX E310-02R00 Ethernet Controller [RDMA]"
         },
         "8085": {
-            "name": "NX E310 RDMA VF Ethernet Controller Virtual Function"
+            "name": "NX E310-02R00 Ethernet Controller Virtual Function [RDMA]"
         },
         "8086": {
             "name": "NX I510 SRIOV SEC PF Ethernet Controller"
@@ -59399,7 +59708,7 @@
             "name": "NX I510 SRIOV SEC VF Ethernet Controller Virtual Function"
         },
         "8088": {
-            "name": "NX E312S SRIOV VF Ethernet Controller Virtual Function"
+            "name": "NX E312S-01R00 Ethernet Controller Virtual Function"
         },
         "8089": {
             "name": "NEO X512 SRIOV PF Ethernet Controller"
@@ -59408,19 +59717,31 @@
             "name": "NEO X512 SRIOV PF Ethernet Controller"
         },
         "80a0": {
-            "name": "NX E312 PF Ethernet Controller"
+            "name": "NX E312-01N00 Ethernet Controller"
         },
         "80a1": {
-            "name": "NX E312 VF Ethernet Controller Virtual Function"
+            "name": "NX E312-01N00 Ethernet Controller Virtual Function"
         },
         "80a2": {
-            "name": "NX E312S_D SRIOV PF Ethernet Controller"
+            "name": "NX E312SD-01R00 Ethernet Controller"
         },
         "80a3": {
-            "name": "NX E312S_D SRIOV VF Ethernet Controller Virtual Function"
+            "name": "NX E312SD-01R00 Ethernet Controller Virtual Function"
         },
         "80a4": {
             "name": "NX I512 OFFLOAD PF Ethernet Controller"
+        },
+        "80ab": {
+            "name": "NX E318-01R00 Ethernet Controller"
+        },
+        "80ac": {
+            "name": "NX E318-01R00 Ethernet Controller Virtual Function"
+        },
+        "80b6": {
+            "name": "NX E310S-01N00 Ethernet Controller"
+        },
+        "80b7": {
+            "name": "NX E310S-01N00 Ethernet Controller Virtual Function"
         }
     },
     "1cf7": {
@@ -59846,6 +60167,12 @@
             "name": "PM4edge User Device"
         }
     },
+    "1d39": {
+        "name": "Baikal Electronics",
+        "8060": {
+            "name": "Baikal-M PCIe Controller"
+        }
+    },
     "1d40": {
         "name": "Techman Electronics (Changshu) Co., Ltd.",
         "5501": {
@@ -59878,6 +60205,12 @@
     },
     "1d62": {
         "name": "Nebbiolo Technologies"
+    },
+    "1d63": {
+        "name": "StorArt Technology Co., Ltd",
+        "3801": {
+            "name": "SA3801 PCIe 3.0 x2 NVMe controller"
+        }
     },
     "1d65": {
         "name": "Imagine Communications Corp.",
@@ -59952,6 +60285,9 @@
         },
         "87b1": {
             "name": "AQtion AQC107S NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]",
+            "16b8": {
+                "72e1": "Solo 10G Thunderbolt 3 PCIe 10Gb Ethernet Adapter"
+            },
             "1c7a": {
                 "de2b": "Thunderbolt 10G Ethernet Adapter"
             }
@@ -60115,6 +60451,15 @@
         "102c": {
             "name": "AR-TK242-V80 [Gen5 PCAP Processor]"
         },
+        "102d": {
+            "name": "AR-TK242-FX2 [8x10GbE Gen5 Packet Capture-Replay Device]"
+        },
+        "102e": {
+            "name": "AR-TK242-FX2 [8x25GbE Gen5 Packet Capture-Replay Device]"
+        },
+        "102f": {
+            "name": "AR-TK242-FX2 [1x400GbE Gen5 Packet Capture-Replay Device]"
+        },
         "4200": {
             "name": "A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]"
         }
@@ -60199,6 +60544,9 @@
         "1808": {
             "name": "RK1808 Neural Network Processor Card"
         },
+        "182a": {
+            "name": "RK182x Edge AI Computing Coprocessor"
+        },
         "3528": {
             "name": "RK3528 PCI Express Root Port"
         },
@@ -60208,6 +60556,9 @@
         "3566": {
             "name": "RK3568 Remote Signal Processor"
         },
+        "3576": {
+            "name": "RK3576"
+        },
         "3588": {
             "name": "RK3588"
         }
@@ -60216,6 +60567,9 @@
         "name": "YEESTOR Microelectronics Co., Ltd",
         "0280": {
             "name": "PCIe NVMe SSD"
+        },
+        "ef25": {
+            "name": "GDRAMARS GMT1000 NVMe SSD (DRAM-less)"
         }
     },
     "1d8f": {
@@ -60328,6 +60682,9 @@
     },
     "1d97": {
         "name": "Shenzhen Longsys Electronics Co., Ltd.",
+        "0304": {
+            "name": "HIKSEMI FUTURE Lite NVMe SSD"
+        },
         "1062": {
             "name": "Lexar NM710 NVME SSD"
         },
@@ -60341,7 +60698,10 @@
             "name": "ORCA 4836 Series eSSD"
         },
         "1602": {
-            "name": "Lexar NM790 NVME SSD (DRAM-less)"
+            "name": "Lexar NM790 / Patriot Viper VP4300 Lite NVMe SSD (DRAM-less)"
+        },
+        "1806": {
+            "name": "Lexar NM990 NVMe SSD (DRAM-less)"
         },
         "1d97": {
             "name": "Lexar NM620 NVME SSD (DRAM-less)"
@@ -60351,6 +60711,9 @@
         },
         "2269": {
             "name": "FORESEE XP2000, Lexar NM760 NVME SSD (DRAM-less)"
+        },
+        "2508": {
+            "name": "Lexar NM1090 PRO NVMe SSD"
         },
         "5216": {
             "name": "FORESEE XP1000 / Lexar Professional CFexpress Type B Gold series, NM620 PCIe NVME SSD (DRAM-less)"
@@ -60438,7 +60801,10 @@
         }
     },
     "1db2": {
-        "name": "ATP ELECTRONICS INC"
+        "name": "ATP Electronics, Inc."
+    },
+    "1db3": {
+        "name": "Unisoc (Shanghai) Technologies Co., Ltd."
     },
     "1db7": {
         "name": "Phytium Technology Co., Ltd.",
@@ -60519,7 +60885,10 @@
         }
     },
     "1dbb": {
-        "name": "NGD Systems, Inc."
+        "name": "NGD Systems, Inc.",
+        "1021": {
+            "name": "ICS-8100 NVMe SSD"
+        }
     },
     "1dbe": {
         "name": "INNOGRIT Corporation",
@@ -60579,6 +60948,9 @@
         "name": "FADU Inc.",
         "4081": {
             "name": "FC4121 PCIe 4.0 NVMe controller [DELTA]"
+        },
+        "5161": {
+            "name": "FC5161 PCIe 5.0 NVMe controller [ECHO]"
         },
         "6150": {
             "name": "FC3081 PCIe 3.0 NVMe controller [BRAVO]"
@@ -60841,6 +61213,9 @@
         "5216": {
             "name": "KingSpec NX series NVMe SSD (DRAM-less)"
         },
+        "5236": {
+            "name": "Acer Predator GM7000 NVMe SSD"
+        },
         "7700": {
             "name": "BIWIN NVMe SSD SP50Y/SP51Y"
         }
@@ -61006,6 +61381,12 @@
                 "3100": "M.2 NVMe Gen3*4 SSD"
             }
         },
+        "4000": {
+            "name": "M.2 NVMe SSD",
+            "1df8": {
+                "4002": "M.2 NVMe Gen4*4 SSD"
+            }
+        },
         "c000": {
             "name": "DC NVMe SSD",
             "1df8": {
@@ -61070,7 +61451,7 @@
             }
         },
         "0013": {
-            "name": "VMe SSD Controller CM7",
+            "name": "NVMe SSD Controller CM7",
             "1028": {
                 "228c": "Ent NVMe CM7 U.2 MU 6.4TB"
             }
@@ -61131,6 +61512,12 @@
         },
         "0033": {
             "name": "Exceria Plus G4 NVMe SSD (DRAM-less)"
+        },
+        "0034": {
+            "name": "CM9-based E3.S NVMe SSD"
+        },
+        "0035": {
+            "name": "CM9-based U3 NVMe SSD"
         }
     },
     "1e17": {
@@ -61252,13 +61639,13 @@
         "0600": {
             "name": "NVMe SSD Controller DP600",
             "1e3b": {
-                "00f6": "Enterprise NVMe SSD U.2 0.80TB (X2900P)"
+                "00fc": "Enterprise NVMe SSD U.2 7.68TB (J5000D)"
             }
         },
         "0800": {
             "name": "NVMe SSD Controller DP800",
             "1e3b": {
-                "001d": "Enterprise NVMe SSD U.2 3.84TB (R6101)"
+                "3006": "Enterprise NVMe SSD E3.S 12.8TB (R6300)"
             }
         },
         "1098": {
@@ -61291,7 +61678,7 @@
         "300c": {
             "name": "Ethernet RAID Combo Controller DN200C for 1GbE",
             "1e3b": {
-                "300c": "Ethernet RAID Combo Adapter DN200C-G2V for 1GbE 4-port"
+                "300c": "Ethernet RAID Combo Adapter DN200C-G2 for 1GbE 4-port"
             }
         },
         "300d": {
@@ -61363,6 +61750,9 @@
         "0081": {
             "name": "ZHITAI Ti600 NVMe SSD"
         },
+        "0090": {
+            "name": "ZHITAI TiPro9000 NVMe SSD"
+        },
         "1001": {
             "name": "PC005 NVMe SSD"
         },
@@ -61384,8 +61774,35 @@
         "1073": {
             "name": "PC411 M.2 2242 NVMe SSD (DRAM-less)"
         },
+        "1078": {
+            "name": "PE321 U.2 NVMe SSD"
+        },
         "1081": {
             "name": "PC41Q M.2 2280 NVMe SSD (DRAM-less)"
+        },
+        "1083": {
+            "name": "PC41Q M.2 2242 NVMe SSD (DRAM-less)"
+        },
+        "1101": {
+            "name": "PC450 M.2 2280 NVMe SSD (DRAM-less)"
+        },
+        "1103": {
+            "name": "PC450 M.2 2242 NVMe SSD (DRAM-less)"
+        },
+        "1111": {
+            "name": "PC42Q M.2 2280 NVMe SSD (DRAM-less)"
+        },
+        "1113": {
+            "name": "PC42Q M.2 2242 NVMe SSD (DRAM-less)"
+        },
+        "1121": {
+            "name": "PC550 M.2 2280 NVMe SSD"
+        },
+        "1123": {
+            "name": "PC550 M.2 2242 NVMe SSD"
+        },
+        "1a28": {
+            "name": "PE511 U.2 NVMe SSD"
         }
     },
     "1e4b": {
@@ -61439,7 +61856,10 @@
             }
         },
         "b140": {
-            "name": "Blackhole"
+            "name": "Blackhole",
+            "1e52": {
+                "0043": "p100a"
+            }
         },
         "faca": {
             "name": "Grayskull",
@@ -61545,13 +61965,16 @@
         },
         "6206": {
             "name": "AM620 NVMe SSD"
+        },
+        "6a02": {
+            "name": "AM6A0 NVMe SSD (DRAM-less)"
         }
     },
     "1e83": {
         "name": "Huaqin Technology Co.Ltd"
     },
     "1e85": {
-        "name": "Heitec AG"
+        "name": "HEITEC AG"
     },
     "1e89": {
         "name": "ID Quantique SA",
@@ -61597,13 +62020,16 @@
         "1008": {
             "name": "CL5-8D512 NVMe SSD M.2 (DRAM-less)"
         },
+        "100b": {
+            "name": "XB2-311024 NVMe SSD M.2 (DRAM-less)"
+        },
         "100c": {
             "name": "CL6 Series NVMe SSD M.2 (DRAM-less)"
         },
         "100d": {
             "name": "PJ1 Series NVMe SSD",
             "1e95": {
-                "100d": "M.2 2280 480 GB"
+                "0002": "M.2 2280 1920 GB"
             }
         },
         "1010": {
@@ -61978,6 +62404,9 @@
         "10a4": {
             "name": "XDX E1100"
         },
+        "1100": {
+            "name": "XDX110"
+        },
         "1140": {
             "name": "XDX120"
         },
@@ -62070,6 +62499,9 @@
         },
         "1830": {
             "name": "XDX TJ03 Audio"
+        },
+        "2100": {
+            "name": "XDX290"
         }
     },
     "1ef6": {
@@ -62118,6 +62550,24 @@
         },
         "1251": {
             "name": "RBLN-CA25 (VF)"
+        },
+        "2030": {
+            "name": "RBLN-CR03 (PF)"
+        },
+        "2031": {
+            "name": "RBLN-CR03 (VF)"
+        },
+        "2130": {
+            "name": "RBLN-CR13 (PF)"
+        },
+        "2131": {
+            "name": "RBLN-CR13 (VF)"
+        },
+        "2230": {
+            "name": "RBLN-CR23 (PF)"
+        },
+        "2231": {
+            "name": "RBLN-CR23 (VF)"
         }
     },
     "1f02": {
@@ -62132,7 +62582,10 @@
             "name": "SM2262EN-based OEM SSD"
         },
         "2263": {
-            "name": "SM2263XT-Base NVMe SSD"
+            "name": "SM2263XT-Based NVMe SSD (DRAM-less)"
+        },
+        "2269": {
+            "name": "SM2269XT-Based NVMe SSD (DRAM-less)"
         },
         "5216": {
             "name": "IG5216-based NVMe SSD (DRAM-less)"
@@ -62188,7 +62641,7 @@
         "1600": {
             "name": "M16104 Family",
             "1f0f": {
-                "0001": "M16104 Family"
+                "0001": "N1045XS, Quad-port 10GbE, PCIe 3.0 x8"
             }
         },
         "1601": {
@@ -62197,16 +62650,40 @@
                 "0001": "M16104 Family Virtual Function"
             }
         },
+        "1610": {
+            "name": "M16140 Family",
+            "1f0f": {
+                "0002": "S1406VQ, Dual-port 200GbE, PCIe5.0 x16"
+            }
+        },
+        "1800": {
+            "name": "M16104 Family",
+            "1f0f": {
+                "0002": "CXP-12, Quad-port, PCIe 3.0 x8, Fan"
+            }
+        },
+        "1801": {
+            "name": "M16105 Family",
+            "1f0f": {
+                "0001": "CXP-31, Dual-port, PCIe 4.0 x8, Fan"
+            }
+        },
         "1a00": {
             "name": "M16104 Family",
             "1f0f": {
-                "0001": "M16104 Family"
+                "0002": "N1045XT, Quad-port 10GbE, PCIe 3.0 x8, Fan"
             }
         },
         "1a01": {
             "name": "M16104 Family Virtual Function",
             "1f0f": {
                 "0001": "M16104 Family Virtual Function"
+            }
+        },
+        "1a02": {
+            "name": "M16102 Family",
+            "1f0f": {
+                "0001": "N1025XT, Dual-port 10GbE, PCIe 3.0 x4, Fan"
             }
         },
         "2022": {
@@ -62270,7 +62747,43 @@
     "1f16": {
         "name": "XConn Technologies",
         "c500": {
-            "name": "XC50256"
+            "name": "XC50256 CXL2.0 Switch"
+        },
+        "c510": {
+            "name": "XC51256 PCIe 5.0 Switch"
+        },
+        "c601": {
+            "name": "C60064 CXL 3.1 Switch"
+        },
+        "c602": {
+            "name": "XC60256 CXL 3.1 Switch"
+        },
+        "c603": {
+            "name": "XC60064 CXL 3.1 Switch"
+        },
+        "c604": {
+            "name": "XC60148 CXL 3.1 Switch"
+        },
+        "c605": {
+            "name": "XC60260 CXL 3.1 Switch"
+        },
+        "c611": {
+            "name": "XC61064 PCIe 6.1 Switch"
+        },
+        "c612": {
+            "name": "XC61256 PCIe 6.1 Switch"
+        },
+        "c613": {
+            "name": "XC61064 PCIe 6.2 Switch"
+        },
+        "c614": {
+            "name": "XC61148 PCIe 6.2 Switch"
+        },
+        "c615": {
+            "name": "XC61260 PCIe 6.2 Switch"
+        },
+        "c640": {
+            "name": "XC61064 PCIe 6.2 Switch"
         }
     },
     "1f17": {
@@ -62330,7 +62843,10 @@
     "1f31": {
         "name": "Nextorage",
         "4512": {
-            "name": "Nextorage NE1N NVMe SSD"
+            "name": "NE1N NVMe SSD"
+        },
+        "451b": {
+            "name": "NN4LE NVMe SSD (DRAM-less)"
         }
     },
     "1f3f": {
@@ -62420,10 +62936,10 @@
             "name": "PCIe 4 NVMe SSD (DRAM-less)"
         },
         "1202": {
-            "name": "PCIe 3 NVMe SSD (DRAM-less)"
+            "name": "NV3000 NVMe SSD (DRAM-less)"
         },
         "1602": {
-            "name": "PCIe 4 NVMe SSD (DRAM-less)"
+            "name": "NV7000-t NVMe SSD (DRAM-less)"
         },
         "1f40": {
             "name": "PCIe 4 NVMe SSD (DRAM-less)"
@@ -62435,7 +62951,7 @@
             "name": "PCIe 3 NVMe SSD (DRAM-less)"
         },
         "5236": {
-            "name": "PCIe 4 INNOGRIT based NVMe SSD"
+            "name": "NV7000 NVMe SSD"
         },
         "5765": {
             "name": "PCIe 3 NVMe SSD (DRAM-less)"
@@ -62447,31 +62963,28 @@
     "1f47": {
         "name": "YUSUR Technology Co., Ltd.",
         "1001": {
-            "name": "FLEXFLOW-2200T Ethernet Controller",
+            "name": "K2-Pro Family [FLEXFLOW-2200T]",
             "1f47": {
                 "000a": "Ethernet 100G 2P FLEXFLOW-2200T"
             }
         },
         "1002": {
-            "name": "FLEXFLOW-2200T Ethernet Controller [Virtual Function]"
+            "name": "K2-Pro Family [FLEXFLOW-2200T Virtual Function]"
         },
         "1003": {
-            "name": "FLEXFLOW-2200T Ethernet Controller [MGMT Function]"
+            "name": "K2-Pro Family [FLEXFLOW-2200T MGMT Function]"
         },
         "1004": {
-            "name": "FLEXFLOW-2200T DATA Offload Engine"
+            "name": "K2-Pro Family [FLEXFLOW-2200T DATA Offload Engine]"
         },
         "1005": {
             "name": "CONFLUX-2200P NVMe Controller"
         },
-        "1011": {
-            "name": "FLEXFLOW-2200T Ethernet Controller",
-            "1f47": {
-                "000a": "Ethernet 100G 2P FLEXFLOW-2200T"
-            }
+        "1105": {
+            "name": "CONFLUX-2200P NVMe Controller [Virtual Function]"
         },
         "1203": {
-            "name": "FLEXFLOW-2200T RoCEv2 Network Controller"
+            "name": "K2-Pro Family [FLEXFLOW-2200T RoCEv2 Network Controller]"
         },
         "2018": {
             "name": "DPU Card"
@@ -62491,29 +63004,23 @@
                 "0008": "Ethernet 100G 2P FLEXFLOW-2200R"
             }
         },
-        "3211": {
-            "name": "FLEXFLOW-2200R Ethernet Controller",
-            "1f47": {
-                "0008": "Ethernet 100G 2P FLEXFLOW-2200R"
-            }
-        },
         "4001": {
-            "name": "CONFLUX-2200E Ethernet Controller",
+            "name": "K2-Pro Family [CONFLUX-2200E]",
             "1f47": {
-                "0008": "Ethernet 100G 2P CONFLUX-2200E"
+                "0008": "CONFLUX-2200E 2*100GE Ethernet Adapter"
             }
         },
         "4002": {
-            "name": "CONFLUX-2200E Ethernet Controller [Virtual Function]"
+            "name": "K2-Pro Family [CONFLUX-2200E Virtual Function]"
         },
         "4003": {
-            "name": "CONFLUX-2200E Ethernet Controller [MGMT Function]"
+            "name": "K2-Pro Family [CONFLUX-2200E MGMT Function]"
         },
         "4004": {
-            "name": "CONFLUX-2200E DATA Offload Engine"
+            "name": "K2-Pro Family [CONFLUX-2200E DATA Offload Engine]"
         },
         "4203": {
-            "name": "CONFLUX-2200E RoCEv2 Network Controller"
+            "name": "K2-Pro Family [CONFLUX-2200E RoCEv2 Network Controller]"
         },
         "5001": {
             "name": "CONFLUX-2200P Ethernet Controller",
@@ -62565,6 +63072,21 @@
             "1f47": {
                 "0002": "CONFLUX-2200P Ethernet Controller [YDMI Function] DPU"
             }
+        },
+        "6001": {
+            "name": "K2-Pro Family [CONFLUX-2200X]",
+            "1f47": {
+                "0005": "CONFLUX-2200X 2*100GE Ethernet Adapter"
+            }
+        },
+        "6002": {
+            "name": "K2-Pro Family [CONFLUX-2200X Virtual Function]"
+        },
+        "6003": {
+            "name": "K2-Pro Family [CONFLUX-2200X MGMT Function]"
+        },
+        "6004": {
+            "name": "K2-Pro Family [CONFLUX-2200X DATA Offload Engine]"
         }
     },
     "1f4b": {
@@ -62669,7 +63191,7 @@
     "1f99": {
         "name": "Shenzhen Techwinsemi Technology Co., Ltd.",
         "1202": {
-            "name": "TWSC TE3420 series"
+            "name": "TE3420 series / Patriot P320 M.2 NVMe SSD (DRAM-less)"
         },
         "1608": {
             "name": "PCIe Gen4 x4 M.2 2280"
@@ -62763,6 +63285,24 @@
             "1fb0": {
                 "5003": "NF5003"
             }
+        }
+    },
+    "1fbd": {
+        "name": "Shenzhen Enrigin Technology Co., Ltd.",
+        "0001": {
+            "name": "D10"
+        },
+        "0002": {
+            "name": "D20 Plus"
+        },
+        "0003": {
+            "name": "D20 Max"
+        },
+        "0004": {
+            "name": "D20 Pro"
+        },
+        "0101": {
+            "name": "D2"
         }
     },
     "1fc0": {
@@ -62897,6 +63437,30 @@
             "name": "TN9710Q 5GBase-T/NBASE-T Ethernet Adapter"
         }
     },
+    "1fcb": {
+        "name": "Varex Imaging Deutschland AG",
+        "0001": {
+            "name": "XRD_FG (PCGR-200) [95510214H]"
+        },
+        "0002": {
+            "name": "XRD_FGx Opto (PCGR-300) [95510215H]"
+        },
+        "0003": {
+            "name": "XRD_FGe Opto (PCGR-400 / PCGR-410) [95510216H / 95510218H]"
+        },
+        "0004": {
+            "name": "XRD_FGe (PCGR-210) [95510217H]"
+        },
+        "0005": {
+            "name": "XRD_FGe Opto V3 (PCGR-415) [95510220H]"
+        },
+        "0006": {
+            "name": "XRD_FGe Opto V4 (PCGR-500) [95510221H]"
+        },
+        "0007": {
+            "name": "XRD_FGe Opto V5 (PCGR-510) [95510222H]"
+        }
+    },
     "1fcc": {
         "name": "StreamLabs",
         "f416": {
@@ -63012,6 +63576,12 @@
         },
         "1000": {
             "name": "DX_H1"
+        },
+        "2000": {
+            "name": "DX_VNPU_M1"
+        },
+        "2001": {
+            "name": "DX_VNPU"
         }
     },
     "1ff8": {
@@ -63025,6 +63595,90 @@
     },
     "1ff9": {
         "name": "Inagile Electronic Technology Co., LTD"
+    },
+    "1fff": {
+        "name": "DENSO Corporation",
+        "8000": {
+            "name": "MCST PCIe controller"
+        },
+        "8008": {
+            "name": "MCST USB 1.1 OHCI controller"
+        },
+        "800a": {
+            "name": "MCST HD Audio Controller"
+        },
+        "800b": {
+            "name": "MCST PATA IDE Host Controller"
+        },
+        "800e": {
+            "name": "MCST System Power Managment Controller"
+        },
+        "8010": {
+            "name": "MCST PCIe 2.0 x4 Root Port"
+        },
+        "8011": {
+            "name": "MCST PCIe 2.0 x16 Root Port"
+        },
+        "8014": {
+            "name": "MCST MPV Controller"
+        },
+        "8017": {
+            "name": "MCST PCIe controller"
+        },
+        "8018": {
+            "name": "MCST I2C/SPI controller"
+        },
+        "8019": {
+            "name": "MCST UART controller"
+        },
+        "801a": {
+            "name": "MCST SATA 3 AHCI controller"
+        },
+        "801e": {
+            "name": "MCST USB 2.0 EHCI controller"
+        },
+        "8025": {
+            "name": "MCST MPV Controller"
+        },
+        "8026": {
+            "name": "MCST 10 Gigabit Ethernet MAC controller"
+        },
+        "8027": {
+            "name": "MCST Gigabit Ethernet MAC controller"
+        },
+        "8028": {
+            "name": "MCST I2C/SPI controller"
+        },
+        "8029": {
+            "name": "MCST USB 3 XHCI controller"
+        },
+        "802a": {
+            "name": "MCST IMG GX6650 3D GPU"
+        },
+        "802b": {
+            "name": "MCST Video encoder E5810"
+        },
+        "802c": {
+            "name": "MCST Video decoder D5520"
+        },
+        "802d": {
+            "name": "MCST VP9 Video encoder"
+        },
+        "802e": {
+            "name": "MCST VP9 Video decoder"
+        },
+        "802f": {
+            "name": "MCST UART controller"
+        },
+        "8031": {
+            "name": "MCST MGA 2.5 GPU"
+        },
+        "8032": {
+            "name": "MCST PCIe 3.0 x16 Root Complex"
+        },
+        "8033": {
+            "name": "MCST PCIe 3.0 x8 Root Complex"
+        }
     },
     "2000": {
         "name": "Smart Link Ltd.",
@@ -63043,6 +63697,12 @@
     },
     "2004": {
         "name": "Smart Link Ltd."
+    },
+    "201f": {
+        "name": "SpacemiT",
+        "0001": {
+            "name": "X60 PCIe 2.0 x2 Root Complex"
+        }
     },
     "202c": {
         "name": "CAEN S.p.A.",
@@ -63092,6 +63752,9 @@
             "name": "EP9430 U.2 6.4TB NVME SSD"
         }
     },
+    "205d": {
+        "name": "Shanghai Zijing Xinjie Intelligent Technology Co., Ltd."
+    },
     "2061": {
         "name": "Unis Flash Memory",
         "4000": {
@@ -63121,15 +63784,60 @@
     },
     "2063": {
         "name": "Hubei Yangtze Mason Semiconductor Technology Co., Ltd.",
+        "0bb8": {
+            "name": "MC3000"
+        },
+        "0bb9": {
+            "name": "RC3000"
+        },
+        "0c1c": {
+            "name": "MC3100"
+        },
+        "0c1d": {
+            "name": "MC3100T"
+        },
+        "0c80": {
+            "name": "RC3200"
+        },
+        "1388": {
+            "name": "MC5000"
+        },
+        "1389": {
+            "name": "RC5000"
+        },
         "1406": {
             "name": "ME7000 NVMe SSD"
+        },
+        "1b58": {
+            "name": "MC7000"
+        },
+        "1b59": {
+            "name": "RC7000"
+        },
+        "1c20": {
+            "name": "LC7200"
+        },
+        "36b0": {
+            "name": "ME14000 NVMe SSD",
+            "2063": {
+                "1019": "NVMe SSD ME14000 U.2 122.88TB"
+            }
         }
     },
     "206d": {
         "name": "GigaIO Networks, Inc."
     },
+    "2077": {
+        "name": "OpenAI"
+    },
     "207d": {
         "name": "HRDT",
+        "0610": {
+            "name": "2-port SATA 6 Gb/s RAID Controller",
+            "207d": {
+                "0801": "TrustRAID B260s 2-port SATA RAID Adapter"
+            }
+        },
         "0612": {
             "name": "SATA BootRAID Controller"
         }
@@ -63143,7 +63851,7 @@
             "name": "WPBSNM8-256GTP"
         },
         "1282": {
-            "name": "WPSBNM8-512GTP"
+            "name": "WPBSNM8-512GTP NVMe SSD (DRAM-less)"
         },
         "1283": {
             "name": "WPBSNM8-1TTP"
@@ -63200,6 +63908,9 @@
     "209f": {
         "name": "Mobilint, Inc."
     },
+    "20a6": {
+        "name": "XCENA, Inc."
+    },
     "20a7": {
         "name": "EEVengers Inc."
     },
@@ -63214,6 +63925,9 @@
         "1104": {
             "name": "NEOTAPX FPGA Timing Synchronization Card"
         }
+    },
+    "20b5": {
+        "name": "Shanghai StarFive Technology Co., Ltd."
     },
     "20ba": {
         "name": "Hangzhou Hikstorage Technology Co., Ltd.",
@@ -63242,6 +63956,15 @@
             "name": "Solid State Storage"
         }
     },
+    "20c0": {
+        "name": "ExpectedIT GmbH"
+    },
+    "20c1": {
+        "name": "Suzhou Yige Technology Co., Ltd.",
+        "1234": {
+            "name": "YG Testchip"
+        }
+    },
     "20d0": {
         "name": "Telin Semiconductor (Wuhan) Co., Ltd.",
         "2001": {
@@ -63253,6 +63976,51 @@
         "0200": {
             "name": "XRaid [Extreme Performance Compression RAID Accelerator]"
         }
+    },
+    "20d8": {
+        "name": "EHTech (Beijing) Co. Ltd.",
+        "0201": {
+            "name": "TUNAN-7 1x200GbE Controller",
+            "20d8": {
+                "0211": "TUNAN-7 1x200GbE Controller"
+            }
+        },
+        "1201": {
+            "name": "TUNAN-7 2x100GbE Controller",
+            "20d8": {
+                "1211": "TUNAN-7 2x100GbE Controller"
+            }
+        },
+        "2201": {
+            "name": "TUNAN-7 2x25GbE Controller",
+            "20d8": {
+                "2201": "TUNAN-7 2x25GbE Controller"
+            }
+        }
+    },
+    "20dc": {
+        "name": "Sharetronic Data Technology Co., Ltd.",
+        "1202": {
+            "name": "M.2 2280 PCIe Gen3 x 4 Series."
+        }
+    },
+    "20e1": {
+        "name": "CECloud Computing Technology Co., Ltd.",
+        "7101": {
+            "name": "LS X710-E"
+        },
+        "7103": {
+            "name": "LS X710-M"
+        },
+        "7104": {
+            "name": "LS X710-P"
+        }
+    },
+    "20e3": {
+        "name": "Elix Systems SA"
+    },
+    "20e7": {
+        "name": "TOPSSD"
     },
     "20f4": {
         "name": "TRENDnet"
@@ -63603,7 +64371,7 @@
         }
     },
     "3842": {
-        "name": "eVga.com. Corp."
+        "name": "EVGA Corporation"
     },
     "38ef": {
         "name": "4Links"
@@ -64396,6 +65164,9 @@
     },
     "4c4d": {
         "name": "Liquid-Markets GmbH",
+        "9997": {
+            "name": "UberNIC"
+        },
         "9998": {
             "name": "TaSR"
         },
@@ -64440,6 +65211,12 @@
             "4c53": {
                 "3002": "PLUSTEST-MM card (PMC)"
             }
+        }
+    },
+    "4c54": {
+        "name": "Lisuan Technology Co., Ltd.",
+        "5000": {
+            "name": "LISUAN 7G100 Series Graphics"
         }
     },
     "4ca1": {
@@ -66070,11 +66847,17 @@
         "0687": {
             "name": "Q470 Chipset LPC/eSPI Controller"
         },
+        "068c": {
+            "name": "QM480 Chipset LPC/eSPI Controller"
+        },
         "068d": {
-            "name": "Comet Lake LPC Controller"
+            "name": "HM470 Chipset LPC/eSPI Controller"
         },
         "068e": {
             "name": "WM490 Chipset LPC/eSPI Controller"
+        },
+        "0697": {
+            "name": "W480 Chipset LPC/eSPI Controller"
         },
         "06a3": {
             "name": "Comet Lake PCH SMBus Controller"
@@ -66472,6 +67255,9 @@
         "093a": {
             "name": "Quark SoC X1000 USB OHCI Host Controller"
         },
+        "093c": {
+            "name": "WiGig(802.11ad) wireless network connection"
+        },
         "0953": {
             "name": "PCIe Data Center SSD",
             "8086": {
@@ -66603,6 +67389,12 @@
         },
         "0b00": {
             "name": "Ice Lake CBDMA [QuickData Technology]"
+        },
+        "0b23": {
+            "name": "Xeon Root Event Collector"
+        },
+        "0b25": {
+            "name": "Data Streaming Accelerator (DSA)"
         },
         "0b26": {
             "name": "Thunderbolt 4 Bridge [Goshen Ridge 2020]"
@@ -66891,6 +67683,9 @@
             "8086": {
                 "0001": "Ethernet Controller X710 Intel(R) FPGA Programmable Acceleration Card N3000 for Networking"
             }
+        },
+        "0cfe": {
+            "name": "In-Memory Analytics Accelerator (IAA)"
         },
         "0d00": {
             "name": "Crystal Well DRAM Controller"
@@ -68308,7 +69103,7 @@
         "10a7": {
             "name": "82575EB Gigabit Network Connection",
             "15d9": {
-                "10a7": "X10DRW-i"
+                "10a7": "AOC-SG-i2"
             },
             "8086": {
                 "10a8": "82575EB Gigabit Riser Card"
@@ -68947,6 +69742,21 @@
         "1240": {
             "name": "82752 (752) AGP Graphics Accelerator"
         },
+        "1248": {
+            "name": "Ethernet Controller E835-CC for backplane"
+        },
+        "1249": {
+            "name": "Ethernet Controller E835-CC for QSFP",
+            "8086": {
+                "0004": "Ethernet Network Adapter E835-CC-Q1 for OCP 3.0"
+            }
+        },
+        "124a": {
+            "name": "Ethernet Controller E835-CC for SFP",
+            "8086": {
+                "0004": "Ethernet Network Adapter E835-XXV-4 for OCP 3.0"
+            }
+        },
         "124b": {
             "name": "82380FB (MPCI2) Mobile Docking Controller"
         },
@@ -68973,6 +69783,30 @@
         },
         "125d": {
             "name": "Ethernet Controller I226-IT"
+        },
+        "1261": {
+            "name": "Ethernet Controller E835-C for backplane"
+        },
+        "1262": {
+            "name": "Ethernet Controller E835-C for QSFP"
+        },
+        "1263": {
+            "name": "Ethernet Controller E835-C for SFP"
+        },
+        "1265": {
+            "name": "Ethernet Controller E835-L for backplane"
+        },
+        "1266": {
+            "name": "Ethernet Controller E835-L for QSFP"
+        },
+        "1267": {
+            "name": "Ethernet Controller E835-L for SFP"
+        },
+        "128c": {
+            "name": "60Cx8980 Series QAT"
+        },
+        "128d": {
+            "name": "60Cx8980 Series QAT \u2013 Virtual Function"
         },
         "12d1": {
             "name": "Ethernet Controller E830-CC for backplane"
@@ -69270,6 +70104,9 @@
             "15d9": {
                 "0734": "AOC-STG-I2T"
             },
+            "16b8": {
+                "7112": "Twin 10G Thunderbolt 3 PCIe 10Gb Ethernet Adapter"
+            },
             "17aa": {
                 "4006": "Ethernet Controller 10-Gigabit X540-AT2"
             },
@@ -69320,6 +70157,9 @@
             },
             "17aa": {
                 "407a": "I210 PCIe 1Gb 1-Port RJ45 LOM"
+            },
+            "1ab6": {
+                "0214": "TS3 Plus Thunderbolt 3 Dock PCIe NIC"
             },
             "4c52": {
                 "3004": "LRES3004PT Quad-port 1Gb Ethernet Network Adapter"
@@ -69715,7 +70555,7 @@
                 "02ea": "E810XXVDA4T 4x25/10 GbE SFP28 PCIe NIC"
             },
             "4c52": {
-                "3027": "LRES3027PF Quad-port 25Gb Ethernet Server Adapter for OCP"
+                "6080": "LRES6080PF TimeSync 25G/10GbE Quad-Port Time Synchronization Ethernet Card"
             },
             "8086": {
                 "401c": "Ethernet Network Adapter E810-XXV-4 for OCP 3.0"
@@ -70019,6 +70859,9 @@
             },
             "1137": {
                 "02da": "Ethernet Network Adapter X710-T4L OCP 3.0"
+            },
+            "15d9": {
+                "1c76": "AOM-PTG-I2T-P"
             },
             "193d": {
                 "1082": "NIC-ETH565T-3S-2P"
@@ -70633,8 +71476,74 @@
                 "a11f": "PRO/10GbE LR Server Adapter"
             }
         },
+        "1b81": {
+            "name": "C740 Series (Emmitsburg) Chipsets eSPI Controller"
+        },
+        "1ba2": {
+            "name": "C740 Series (Emmitsburg) Chipsets SATA0 Controller (AHCI)"
+        },
+        "1ba6": {
+            "name": "C740 Series (Emmitsburg) Chipsets SATA0 Controller (RAID)"
+        },
+        "1bad": {
+            "name": "C740 Series (Emmitsburg) Chipsets UART0"
+        },
+        "1bae": {
+            "name": "C740 Series (Emmitsburg) Chipsets UART1"
+        },
+        "1bb0": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #8"
+        },
+        "1bb1": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #9"
+        },
+        "1bb2": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #10"
+        },
+        "1bb3": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #11"
+        },
+        "1bb4": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #12"
+        },
+        "1bb5": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #13"
+        },
+        "1bb8": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #0"
+        },
+        "1bb9": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #1"
+        },
+        "1bba": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #2"
+        },
+        "1bbb": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #3"
+        },
+        "1bbc": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #4"
+        },
+        "1bbd": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #5"
+        },
+        "1bbe": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #6"
+        },
+        "1bbf": {
+            "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #7"
+        },
+        "1bc7": {
+            "name": "C740 Series (Emmitsburg) Chipsets Power Management Controller"
+        },
+        "1bc8": {
+            "name": "C740 Series (Emmitsburg) Chipsets Audio"
+        },
+        "1bc9": {
+            "name": "C740 Series (Emmitsburg) Chipsets SMBus"
+        },
         "1bcd": {
-            "name": "Emmitsburg (C740 Family) USB 3.2 Gen 1 xHCI Controller",
+            "name": "C740 Series (Emmitsburg) Chipsets USB 3.2 Gen 1 xHCI Controller",
             "1bd4": {
                 "00a5": "RS0800I5H16i"
             }
@@ -70642,8 +71551,14 @@
         "1bd2": {
             "name": "Sapphire Rapids SATA AHCI Controller"
         },
+        "1bd6": {
+            "name": "C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID)"
+        },
         "1bf2": {
             "name": "Sapphire Rapids SATA AHCI Controller"
+        },
+        "1bf6": {
+            "name": "C740 Series (Emmitsburg) Chipsets SATA1 Controller (RAID)"
         },
         "1c00": {
             "name": "6 Series/C200 Series Chipset Family Desktop SATA Controller (IDE mode, ports 0-3)"
@@ -72006,6 +72921,12 @@
         },
         "2241": {
             "name": "Larrabee"
+        },
+        "2249": {
+            "name": "Knights Ferry coprocessor"
+        },
+        "224a": {
+            "name": "Knights Ferry coprocessor"
         },
         "2250": {
             "name": "Xeon Phi coprocessor 5100 series"
@@ -74623,6 +75544,12 @@
                 "3905": "NVMe Datacenter SSD [Optane] 15mm 2.5\" U.2 (P4800X)"
             }
         },
+        "2710": {
+            "name": "Dynamic Load Balancer 2.0 (DLB)"
+        },
+        "2714": {
+            "name": "Dynamic Load Balancer 2.5 (DLB)"
+        },
         "2723": {
             "name": "Wi-Fi 6 AX200",
             "1a56": {
@@ -75597,6 +76524,9 @@
             "e4bf": {
                 "50c1": "PC1-GROOVE"
             }
+        },
+        "282b": {
+            "name": "C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID) Alternate ID"
         },
         "282f": {
             "name": "tSATA Controller [RAID Mode]"
@@ -78445,6 +79375,42 @@
                 "c200": "C2K onboard SATA host bus adapter"
             }
         },
+        "3245": {
+            "name": "Xeon UPI Mesh Stop M2UPI Registers"
+        },
+        "324a": {
+            "name": "Xeon IMC0 Mesh to Mem Registers"
+        },
+        "324c": {
+            "name": "Xeon Unicast Group1 CHA Registers"
+        },
+        "324d": {
+            "name": "Xeon Unicast Group0 CHA Registers"
+        },
+        "3258": {
+            "name": "Power Control Unit (PCU) CR0"
+        },
+        "3259": {
+            "name": "Power Control Unit (PCU) CR1"
+        },
+        "325a": {
+            "name": "Power Control Unit (PCU) CR2"
+        },
+        "325b": {
+            "name": "Power Control Unit (PCU) CR3"
+        },
+        "325c": {
+            "name": "Power Control Unit (PCU) CR4"
+        },
+        "325d": {
+            "name": "Power Control Unit (PCU) CR5"
+        },
+        "325e": {
+            "name": "Power Control Unit (PCU) CR6"
+        },
+        "325f": {
+            "name": "Power Control Unit (PCU) CR7"
+        },
         "3310": {
             "name": "IOP348 I/O Processor",
             "1054": {
@@ -78897,6 +79863,18 @@
         },
         "3519": {
             "name": "6310ESB PCI Express Downstream Port E3"
+        },
+        "352a": {
+            "name": "PCI Express Gen5 Port A"
+        },
+        "352b": {
+            "name": "PCI Express Gen5 Port B"
+        },
+        "352c": {
+            "name": "PCI Express Gen5 Port C"
+        },
+        "352d": {
+            "name": "PCI Express Gen5 Port D"
         },
         "3575": {
             "name": "82830M/MG/MP Host Bridge",
@@ -79376,6 +80354,9 @@
             },
             "1590": {
                 "0247": "Ethernet 1Gb 4-port 369i Adapter"
+            },
+            "15d9": {
+                "37d1": "X11DPi-N"
             },
             "17aa": {
                 "4024": "Ethernet Connection X722 for 1GbE"
@@ -80996,7 +81977,7 @@
             "name": "Volume Management Device NVMe RAID Controller"
         },
         "4680": {
-            "name": "AlderLake-S GT1"
+            "name": "Alder Lake-S GT1 [UHD Graphics 770]"
         },
         "4682": {
             "name": "Alder Lake-S GT1 [UHD Graphics 730]"
@@ -81124,6 +82105,12 @@
         "4947": {
             "name": "420xx Series QAT Virtual Function"
         },
+        "4948": {
+            "name": "6xxx Series QAT"
+        },
+        "4949": {
+            "name": "6xxx Series QAT Virtual Function"
+        },
         "4b00": {
             "name": "Elkhart Lake eSPI Controller"
         },
@@ -81165,6 +82152,12 @@
         },
         "4b7f": {
             "name": "Elkhart Lake PMC SRAM"
+        },
+        "4bc1": {
+            "name": "Elkhart Lake Controller Area Network (CAN) interface #0"
+        },
+        "4bc2": {
+            "name": "Elkhart Lake Controller Area Network (CAN) interface #1"
         },
         "4c3d": {
             "name": "Volume Management Device NVMe RAID Controller"
@@ -81784,6 +82777,30 @@
                 "0225": "TS4 On-Board 2.5GbE Ethernet Adaptor"
             }
         },
+        "550a": {
+            "name": "Ethernet Connection (18) I219-LM"
+        },
+        "550b": {
+            "name": "Ethernet Connection (18) I219-LM"
+        },
+        "550c": {
+            "name": "Ethernet Connection (19) I219-LM"
+        },
+        "550d": {
+            "name": "Ethernet Connection (19) I219-V"
+        },
+        "550e": {
+            "name": "Ethernet Connection (20) I219-LM"
+        },
+        "550f": {
+            "name": "Ethernet Connection (20) I219-V"
+        },
+        "5510": {
+            "name": "Ethernet Connection (21) I219-LM"
+        },
+        "5511": {
+            "name": "Ethernet Connection (21) I219-V"
+        },
         "5690": {
             "name": "DG2 [Arc A770M]"
         },
@@ -81904,8 +82921,14 @@
         "5787": {
             "name": "JHL9480 Thunderbolt 5 80/120G USB Controller [Barlow Ridge Hub 80G 2023]"
         },
+        "5794": {
+            "name": "Granite Rapids SPI Controller"
+        },
         "5795": {
             "name": "Granite Rapids Chipset LPC Controller"
+        },
+        "5796": {
+            "name": "Granite Rapids SMBus Controller"
         },
         "579c": {
             "name": "Ethernet Connection E825-C for backplane"
@@ -81918,6 +82941,12 @@
         },
         "579f": {
             "name": "Ethernet Connection E825-C 10GbE"
+        },
+        "57a0": {
+            "name": "Ethernet Connection (24) I219-LM"
+        },
+        "57a1": {
+            "name": "Ethernet Connection (24) I219-V"
         },
         "57a4": {
             "name": "JHL9440 Thunderbolt 4 Bridge [Barlow Ridge Hub 40G 2023]"
@@ -81948,6 +82977,30 @@
         },
         "57b2": {
             "name": "Ethernet Controller E610 SGMII"
+        },
+        "57b3": {
+            "name": "Ethernet Connection (25) I219-LM"
+        },
+        "57b4": {
+            "name": "Ethernet Connection (25) I219-V"
+        },
+        "57b5": {
+            "name": "Ethernet Connection (26) I219-LM"
+        },
+        "57b6": {
+            "name": "Ethernet Connection (26) I219-V"
+        },
+        "57b7": {
+            "name": "Ethernet Connection (27) I219-LM"
+        },
+        "57b8": {
+            "name": "Ethernet Connection (27) I219-V"
+        },
+        "57b9": {
+            "name": "Ethernet Connection (29) I219-LM"
+        },
+        "57ba": {
+            "name": "Ethernet Connection (29) I219-V"
         },
         "5845": {
             "name": "QEMU NVM Express Controller",
@@ -83014,6 +84067,12 @@
         "7603": {
             "name": "82372FB PIIX5 SMBus"
         },
+        "7722": {
+            "name": "Arrow Lake SMBus Controller"
+        },
+        "7723": {
+            "name": "Arrow Lake SPI Controller"
+        },
         "7725": {
             "name": "Arrow Lake-H [PCH Serial IO UART Host Controller]"
         },
@@ -83023,11 +84082,23 @@
         "7727": {
             "name": "Arrow Lake-H [LPC/eSPI Controller]"
         },
+        "7728": {
+            "name": "Arrow Lake cAVS"
+        },
         "7730": {
             "name": "Arrow Lake-H [LPC/eSPI Controller]"
         },
+        "7740": {
+            "name": "Arrow Lake CNVi WiFi"
+        },
+        "7745": {
+            "name": "Arrow Lake Integrated Sensor Hub"
+        },
         "7746": {
             "name": "Arrow Lake-H [LPC/eSPI Controller]"
+        },
+        "774c": {
+            "name": "Arrow Lake Gaussian & Neural Accelerator"
         },
         "7750": {
             "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
@@ -83037,6 +84108,12 @@
         },
         "7752": {
             "name": "Arrow Lake-H [PCH Serial IO UART Host Controller]"
+        },
+        "7770": {
+            "name": "Arrow Lake HECI Controller #1"
+        },
+        "7773": {
+            "name": "Arrow Lake Keyboard and Text (KT) Redirection"
         },
         "7778": {
             "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
@@ -83049,6 +84126,12 @@
         },
         "777b": {
             "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
+        },
+        "777d": {
+            "name": "Arrow Lake USB 3.2 xHCI Controller"
+        },
+        "777f": {
+            "name": "Arrow Lake Shared SRAM"
         },
         "7800": {
             "name": "82740 (i740) AGP Graphics Accelerator",
@@ -83066,37 +84149,136 @@
             }
         },
         "7a04": {
-            "name": "Raptor Lake LPC/eSPI Controller"
+            "name": "Z790 Chipset LPC/eSPI Controller"
+        },
+        "7a05": {
+            "name": "H770 Chipset LPC/eSPI Controller"
+        },
+        "7a06": {
+            "name": "B760 Chipset LPC/eSPI Controller"
+        },
+        "7a0c": {
+            "name": "HM770 Chipset LPC/eSPI Controller"
+        },
+        "7a0d": {
+            "name": "WM790 Chipset LPC/eSPI Controller"
+        },
+        "7a13": {
+            "name": "C266 Chipset LPC/eSPI Controller"
+        },
+        "7a14": {
+            "name": "C262 Chipset LPC/eSPI Controller"
+        },
+        "7a20": {
+            "name": "700 Series Chipset P2SB"
+        },
+        "7a21": {
+            "name": "700 Series Chipset Power Management Controller"
         },
         "7a23": {
-            "name": "Raptor Lake-S PCH SMBus Controller"
+            "name": "700 Series Chipset SMBus Controller"
         },
         "7a24": {
             "name": "Raptor Lake SPI (flash) Controller"
         },
         "7a27": {
-            "name": "Raptor Lake-S PCH Shared SRAM"
+            "name": "Raptor Lake PCH Shared SRAM"
+        },
+        "7a28": {
+            "name": "700 Series Chipset Serial IO UART Controller #0"
+        },
+        "7a29": {
+            "name": "700 Series Chipset Serial IO UART Controller #1"
+        },
+        "7a2a": {
+            "name": "700 Series Chipset Serial IO GSPI Controller #0"
+        },
+        "7a2b": {
+            "name": "700 Series Chipset Serial IO GSPI Controller #1"
         },
         "7a30": {
             "name": "Raptor Lake PCI Express Root Port #9"
         },
+        "7a31": {
+            "name": "Raptor Lake PCI Express Root Port #10"
+        },
+        "7a32": {
+            "name": "Raptor Lake PCI Express Root Port #11"
+        },
+        "7a33": {
+            "name": "Raptor Lake PCI Express Root Port #12"
+        },
+        "7a34": {
+            "name": "Raptor Lake PCI Express Root Port #13"
+        },
+        "7a35": {
+            "name": "Raptor Lake PCI Express Root Port #14"
+        },
+        "7a36": {
+            "name": "Raptor Lake PCI Express Root Port #15"
+        },
+        "7a37": {
+            "name": "Raptor Lake PCI Express Root Port #16"
+        },
         "7a38": {
             "name": "Raptor Lake PCI Express Root Port #1"
         },
+        "7a39": {
+            "name": "Raptor Lake PCI Express Root Port #2"
+        },
         "7a3a": {
-            "name": "Raptor Point-S PCH - PCI Express Root Port 3"
+            "name": "Raptor Lake PCI Express Root Port #3"
         },
         "7a3b": {
             "name": "Raptor Lake PCI Express Root Port #4"
         },
+        "7a3c": {
+            "name": "Raptor Lake PCI Express Root Port #5"
+        },
+        "7a3d": {
+            "name": "Raptor Lake PCI Express Root Port #6"
+        },
+        "7a3e": {
+            "name": "Raptor Lake PCI Express Root Port #7"
+        },
+        "7a3f": {
+            "name": "Raptor Lake PCI Express Root Port #8"
+        },
         "7a40": {
             "name": "Raptor Lake PCI Express Root Port #17"
+        },
+        "7a41": {
+            "name": "Raptor Lake PCI Express Root Port #18"
+        },
+        "7a42": {
+            "name": "Raptor Lake PCI Express Root Port #19"
+        },
+        "7a43": {
+            "name": "Raptor Lake PCI Express Root Port #20"
         },
         "7a44": {
             "name": "Raptor Lake PCI Express Root Port #21"
         },
+        "7a45": {
+            "name": "Raptor Lake PCI Express Root Port #22"
+        },
+        "7a46": {
+            "name": "Raptor Lake PCI Express Root Port #23"
+        },
+        "7a47": {
+            "name": "Raptor Lake PCI Express Root Port #24"
+        },
         "7a48": {
             "name": "Raptor Lake PCI Express Root Port #25"
+        },
+        "7a49": {
+            "name": "Raptor Lake PCI Express Root Port #26"
+        },
+        "7a4a": {
+            "name": "Raptor Lake PCI Express Root Port #27"
+        },
+        "7a4b": {
+            "name": "Raptor Lake PCI Express Root Port #28"
         },
         "7a4c": {
             "name": "Raptor Lake Serial IO I2C Host Controller #0"
@@ -83107,11 +84289,20 @@
         "7a4e": {
             "name": "Raptor Lake Serial IO I2C Host Controller #2"
         },
+        "7a4f": {
+            "name": "Raptor Lake Serial IO I2C Host Controller #3"
+        },
         "7a50": {
             "name": "Raptor Lake High Definition Audio Controller"
         },
+        "7a5c": {
+            "name": "700 Series Chipset Serial IO UART Controller #3"
+        },
         "7a60": {
             "name": "Raptor Lake USB 3.2 Gen 2x2 (20 Gb/s) XHCI Host Controller"
+        },
+        "7a61": {
+            "name": "Raptor Lake USB 3.2 Gen 1x1 (5 Gb/s) xDCI Device Controller"
         },
         "7a62": {
             "name": "Raptor Lake SATA AHCI Controller"
@@ -83122,17 +84313,62 @@
         "7a69": {
             "name": "Raptor Lake CSME HECI #2"
         },
+        "7a6a": {
+            "name": "Raptor Lake CSME IDE Redirection"
+        },
+        "7a6b": {
+            "name": "Raptor Lake CSME Keyboard and Text (KT) Redirection"
+        },
+        "7a6c": {
+            "name": "Raptor Lake CSME HECI #3"
+        },
+        "7a6d": {
+            "name": "Raptor Lake CSME HECI #4"
+        },
         "7a70": {
-            "name": "Raptor Lake-S PCH CNVi WiFi",
+            "name": "700 Series Chipset CNVi WiFi",
             "8086": {
                 "0090": "WiFi 6E AX211 160MHz"
             }
+        },
+        "7a79": {
+            "name": "700 Series Chipset Serial IO GSPI Controller #3"
+        },
+        "7a7b": {
+            "name": "700 Series Chipset Serial IO GSPI Controller #2"
+        },
+        "7a7c": {
+            "name": "Raptor Lake Serial IO I2C Host Controller #4"
+        },
+        "7a7d": {
+            "name": "Raptor Lake Serial IO I2C Host Controller #5"
+        },
+        "7a7e": {
+            "name": "700 Series Chipset Serial IO UART Controller #2"
+        },
+        "7a83": {
+            "name": "Q670 Chipset LPC/eSPI Controller"
         },
         "7a84": {
             "name": "Z690 Chipset LPC/eSPI Controller"
         },
         "7a85": {
-            "name": "LPC Controller/eSPI Controller (H670)"
+            "name": "H670 Chipset LPC/eSPI Controller"
+        },
+        "7a86": {
+            "name": "B660 Chipset LPC/eSPI Controller"
+        },
+        "7a87": {
+            "name": "H610 Chipset LPC/eSPI Controller"
+        },
+        "7a88": {
+            "name": "W680 Chipset LPC/eSPI Controller"
+        },
+        "7a8c": {
+            "name": "HM670 Chipset LPC/eSPI Controller"
+        },
+        "7a8d": {
+            "name": "WM690 Chipset LPC/eSPI Controller"
         },
         "7aa3": {
             "name": "Alder Lake-S PCH SMBus Controller"
@@ -83230,6 +84466,9 @@
         "7d03": {
             "name": "Meteor Lake-P Dynamic Tuning Technology"
         },
+        "7d06": {
+            "name": "Arrow Lake-H 6p+8e cores Host Bridge/DRAM Controller"
+        },
         "7d0b": {
             "name": "Volume Management Device NVMe RAID Controller Intel Corporation"
         },
@@ -83238,6 +84477,9 @@
         },
         "7d19": {
             "name": "Meteor Lake IPU"
+        },
+        "7d1c": {
+            "name": "Arrow Lake-HX 8p+16e cores Host Bridge"
         },
         "7d1d": {
             "name": "Meteor Lake NPU"
@@ -83252,7 +84494,7 @@
             "name": "Meteor Lake-P [Intel Graphics]"
         },
         "7d51": {
-            "name": "Arrow Lake-P [Intel Graphics]"
+            "name": "Arrow Lake-P [Arc Pro 140T]"
         },
         "7d55": {
             "name": "Meteor Lake-P [Intel Arc Graphics]"
@@ -83383,11 +84625,89 @@
         "7ecc": {
             "name": "Meteor Lake-H PCIe Root Port #12"
         },
+        "7f03": {
+            "name": "Q870 Chipset LPC/eSPI Controller"
+        },
+        "7f04": {
+            "name": "Z890 Chipset LPC/eSPI Controller"
+        },
+        "7f06": {
+            "name": "B860 Chipset LPC/eSPI Controller"
+        },
+        "7f07": {
+            "name": "H810 Chipset LPC/eSPI Controller"
+        },
+        "7f08": {
+            "name": "W880 Chipset LPC/eSPI Controller"
+        },
+        "7f0c": {
+            "name": "HM870 Chipset LPC/eSPI Controller"
+        },
+        "7f0d": {
+            "name": "WM880 Chipset LPC/eSPI Controller"
+        },
+        "7f20": {
+            "name": "800 Series PCH P2SB"
+        },
+        "7f21": {
+            "name": "800 Series PCH Power Management Controller"
+        },
+        "7f23": {
+            "name": "800 Series PCH SMBus Controller"
+        },
+        "7f24": {
+            "name": "800 Series PCH SPI (flash) Controller"
+        },
+        "7f27": {
+            "name": "800 Series PCH Shared SRAM"
+        },
+        "7f30": {
+            "name": "800 Series PCH PCIe Root Port #9"
+        },
+        "7f34": {
+            "name": "800 Series PCH PCIe Root Port #13"
+        },
+        "7f36": {
+            "name": "800 Series PCH PCIe Root Port #15"
+        },
+        "7f38": {
+            "name": "800 Series PCH PCIe Root Port #1"
+        },
+        "7f3e": {
+            "name": "800 Series PCH PCIe Root Port #7"
+        },
+        "7f40": {
+            "name": "800 Series PCH PCIe Root Port #17"
+        },
+        "7f44": {
+            "name": "800 Series PCH PCIe Root Port #21"
+        },
+        "7f4c": {
+            "name": "800 Series PCH I2C Controller #0"
+        },
+        "7f4f": {
+            "name": "800 Series PCH I2C Controller #3"
+        },
+        "7f50": {
+            "name": "800 Series ACE (Audio Context Engine)"
+        },
+        "7f68": {
+            "name": "800 Series PCH HECI #1"
+        },
+        "7f6e": {
+            "name": "800 Series PCH USB 3.1 xHCI HC"
+        },
         "7f70": {
             "name": "Arrow Lake-S PCH CNVi WiFi",
             "8086": {
                 "0094": "WiFi 6E AX211 160MHz"
             }
+        },
+        "7f7a": {
+            "name": "800 Series PCH I2C Controller #4"
+        },
+        "7f7b": {
+            "name": "800 Series PCH I2C Controller #5"
         },
         "8002": {
             "name": "Trusted Execution Technology Registers"
@@ -84100,7 +85420,7 @@
         "8d02": {
             "name": "C610/X99 series chipset 6-Port SATA Controller [AHCI mode]",
             "15d9": {
-                "0821": "X10DRW-i"
+                "086b": "X10DRS"
             }
         },
         "8d04": {
@@ -84122,6 +85442,9 @@
             "name": "C610/X99 series chipset PCI Express Root Port #1",
             "1028": {
                 "0617": "Precision T5810"
+            },
+            "15d9": {
+                "086b": "X10DRS"
             }
         },
         "8d11": {
@@ -84137,7 +85460,10 @@
             "name": "C610/X99 series chipset PCI Express Root Port #2"
         },
         "8d14": {
-            "name": "C610/X99 series chipset PCI Express Root Port #3"
+            "name": "C610/X99 series chipset PCI Express Root Port #3",
+            "15d9": {
+                "086b": "X10DRS"
+            }
         },
         "8d15": {
             "name": "C610/X99 series chipset PCI Express Root Port #3"
@@ -84187,13 +85513,13 @@
                 "0617": "Precision T5810"
             },
             "15d9": {
-                "0832": "X10SRL-F"
+                "086b": "X10DRS"
             }
         },
         "8d24": {
             "name": "C610/X99 series chipset Thermal Subsystem",
             "15d9": {
-                "0821": "X10DRW-i"
+                "086b": "X10DRS"
             }
         },
         "8d26": {
@@ -84202,7 +85528,7 @@
                 "0617": "Precision T5810"
             },
             "15d9": {
-                "0832": "X10SRL-F"
+                "086b": "X10DRS"
             }
         },
         "8d2d": {
@@ -84211,7 +85537,7 @@
                 "0617": "Precision T5810"
             },
             "15d9": {
-                "0832": "X10SRL-F"
+                "086b": "X10DRS"
             }
         },
         "8d31": {
@@ -84220,7 +85546,7 @@
                 "0617": "Precision T5810"
             },
             "15d9": {
-                "0832": "X10SRL-F"
+                "086b": "X10DRS"
             }
         },
         "8d33": {
@@ -84235,13 +85561,13 @@
                 "0617": "Precision T5810"
             },
             "15d9": {
-                "0832": "X10SRL-F"
+                "086b": "X10DRS"
             }
         },
         "8d3b": {
             "name": "C610/X99 series chipset MEI Controller #2",
             "15d9": {
-                "0832": "X10SRL-F"
+                "086b": "X10DRS"
             }
         },
         "8d3c": {
@@ -84268,7 +85594,7 @@
                 "0617": "Precision T5810"
             },
             "15d9": {
-                "0832": "X10SRL-F"
+                "086b": "X10DRS"
             }
         },
         "8d45": {
@@ -84313,7 +85639,7 @@
                 "0617": "Precision T5810"
             },
             "15d9": {
-                "0821": "X10DRW-i"
+                "086b": "X10DRS"
             }
         },
         "8d64": {
@@ -84334,7 +85660,7 @@
                 "0617": "Precision T5810"
             },
             "15d9": {
-                "0832": "X10SRL-F"
+                "086b": "X10DRS"
             }
         },
         "8d7d": {
@@ -84344,7 +85670,10 @@
             "name": "C610/X99 series chipset MS SMBus 1"
         },
         "8d7f": {
-            "name": "C610/X99 series chipset MS SMBus 2"
+            "name": "C610/X99 series chipset MS SMBus 2",
+            "15d9": {
+                "086b": "X10DRS"
+            }
         },
         "9000": {
             "name": "IXP2000 Family Network Processor"
@@ -85344,6 +86673,12 @@
         },
         "a0b3": {
             "name": "Tiger Lake-LP PCI Express Root Port #12"
+        },
+        "a0b8": {
+            "name": "Tiger Lake-LP PCI Express Root Port #0"
+        },
+        "a0bb": {
+            "name": "Tiger Lake-LP PCI Express Root Port #3"
         },
         "a0bc": {
             "name": "Tiger Lake-LP PCI Express Root Port #5"
@@ -86476,6 +87811,9 @@
         "a620": {
             "name": "6400/6402 Advanced Memory Buffer (AMB)"
         },
+        "a700": {
+            "name": "Raptor Lake-S Host Bridge/DRAM Controller"
+        },
         "a703": {
             "name": "Raptor Lake-S Host Bridge/DRAM Controller"
         },
@@ -86528,7 +87866,7 @@
             "name": "Raptor Lake-S 8+12 - Host Bridge/DRAM Controller"
         },
         "a74d": {
-            "name": "Raptor Lake PCIe 4.0 Graphics Port"
+            "name": "Raptor Lake PCI Express 4.0 Graphics Port"
         },
         "a74f": {
             "name": "GNA Scoring Accelerator module",
@@ -86552,7 +87890,7 @@
             }
         },
         "a77f": {
-            "name": "Volume Management Device NVMe RAID Controller Intel Corporation"
+            "name": "RST Volume Management Device Controller"
         },
         "a780": {
             "name": "Raptor Lake-S GT1 [UHD Graphics 770]"
@@ -86719,14 +88057,32 @@
         "ad0b": {
             "name": "Volume Management Device NVMe RAID Controller Intel Corporation"
         },
+        "ad0d": {
+            "name": "Arrow Lake-HX Crash Log & Telemetry"
+        },
         "ad1d": {
             "name": "Arrow Lake NPU"
+        },
+        "ae10": {
+            "name": "Arrow Lake-HX Direct eSPI Controller"
+        },
+        "ae23": {
+            "name": "Arrow Lake-HX SPI (flash) Controller"
+        },
+        "ae4c": {
+            "name": "Arrow Lake-HX Gauss Newton Algorithm (GNA)"
+        },
+        "ae4d": {
+            "name": "Arrow Lake-HX PCIe Root Port #13"
+        },
+        "ae7f": {
+            "name": "Arrow Lake-HX Shared SRAM (SOC-S)"
         },
         "b03e": {
             "name": "Panther Lake NPU"
         },
         "b080": {
-            "name": "Panther Lake [Intel Graphics]"
+            "name": "Panther Lake [Arc B390]"
         },
         "b081": {
             "name": "Panther Lake [Intel Graphics]"
@@ -86735,7 +88091,7 @@
             "name": "Panther Lake [Intel Graphics]"
         },
         "b083": {
-            "name": "Panther Lake [Intel Graphics]"
+            "name": "Panther Lake [Arc B370]"
         },
         "b084": {
             "name": "Panther Lake [Intel Graphics]"
@@ -86860,6 +88216,24 @@
         "d158": {
             "name": "Core Processor Miscellaneous Registers"
         },
+        "d740": {
+            "name": "NVL-S"
+        },
+        "d741": {
+            "name": "NVL-U"
+        },
+        "d742": {
+            "name": "NVL-H"
+        },
+        "d743": {
+            "name": "NVL-HX"
+        },
+        "d744": {
+            "name": "NVL-UL"
+        },
+        "d745": {
+            "name": "NVL-HX"
+        },
         "e202": {
             "name": "Battlemage G21 [Intel Graphics]"
         },
@@ -86876,10 +88250,10 @@
             "name": "Battlemage G21 [Intel Graphics]"
         },
         "e211": {
-            "name": "Battlemage G21 [Intel Graphics]"
+            "name": "Battlemage G21 [Arc Pro B60]"
         },
         "e212": {
-            "name": "Battlemage G21 [Intel Graphics]"
+            "name": "Battlemage G21 [Arc Pro B50]"
         },
         "e215": {
             "name": "Battlemage G21 [Intel Graphics]"
@@ -87077,14 +88451,26 @@
             "name": "VirtualBox Guest Service"
         }
     },
+    "8164": {
+        "name": "HippStor Technology Co., Ltd",
+        "1600": {
+            "name": "HP600 U.2 NVME SSD"
+        }
+    },
     "8322": {
         "name": "Sodick America Corp."
     },
     "8384": {
         "name": "SigmaTel"
     },
+    "8385": {
+        "name": "Suzhou Yige Technology Co., Ltd."
+    },
     "8401": {
         "name": "TRENDware International Inc."
+    },
+    "8412": {
+        "name": "Sharetronic Data Technology Co., Ltd."
     },
     "8510": {
         "name": "Sietium Semiconductor Co., Ltd.",
@@ -87124,11 +88510,14 @@
                 "3032": "LRES3032PF Dual-port 10Gb Ethernet Server Adapter for OCP"
             },
             "8848": {
-                "8410": "Ethernet Network Adapter N10G-X2-DC for 10GbE SFP+ 2-port"
+                "c410": "Ethernet Network Adapter OCP3.0 N10G-X2-DCP for 10GbE SFP+ 2-port"
             }
         },
         "1001": {
-            "name": "Ethernet Controller N400 Series for 1GbE (Dual-port)"
+            "name": "Ethernet Controller N400 Series for 1GbE (Dual-port)",
+            "8848": {
+                "8000": "Ethernet Network Adapter N400L-X4-DD for 1GbE SFP 2-port"
+            }
         },
         "1003": {
             "name": "Ethernet Controller N400 Series for 10GbE (Single-port)",
@@ -87142,13 +88531,16 @@
                 "3031": "LRES3031PF Quad-port 10Gb Ethernet Server Adapter for OCP"
             },
             "8848": {
-                "8451": "Ethernet Network Adapter N10G-X4-QC for 10GbE SFP+ 4-port"
+                "c451": "Ethernet Network Adapter OCP3.0 N10G-X4-QCP for 10GbE SFP+ 4-port"
             }
         },
         "1021": {
             "name": "Ethernet Controller N400 Series for 1GbE (Quad-port)",
             "4c52": {
                 "1039": "LRES1039PT Quad-port 1Gb Ethernet Network Adapter"
+            },
+            "8848": {
+                "8041": "Ethernet Network Adapter N400L-X4-QD for 1GbE SFP 4-port"
             }
         },
         "1060": {
@@ -88402,8 +89794,17 @@
         "5426": {
             "name": "P310 NVMe PCIe SSD (DRAM-less)"
         },
+        "5427": {
+            "name": "P310 NVMe PCIe SSD (DRAM-less)"
+        },
+        "5428": {
+            "name": "T710 NVMe PCIe SSD"
+        },
         "542b": {
             "name": "T705 NVMe PCIe SSD"
+        },
+        "560a": {
+            "name": "P510 NVMe PCIe SSD (DRAM-less)"
         },
         "560b": {
             "name": "E100 NVMe PCIe SSD (DRAM-less)"
@@ -88432,6 +89833,15 @@
     },
     "ca50": {
         "name": "Varian Australia Pty Ltd"
+    },
+    "cabc": {
+        "name": "Cambricon Technologies Corporation Limited",
+        "0270": {
+            "name": "MLU270-S4"
+        },
+        "0370": {
+            "name": "MLU370-S4"
+        }
     },
     "cace": {
         "name": "CACE Technologies, Inc.",
@@ -88491,6 +89901,12 @@
         "name": "NextSilicon Ltd",
         "0007": {
             "name": "Maverick"
+        },
+        "0009": {
+            "name": "Maverick-2",
+            "cdfa": {
+                "0bff": "Maverick-2 Firmware Update"
+            }
         }
     },
     "ceba": {
