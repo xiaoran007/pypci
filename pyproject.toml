@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pypci-ng"
-version = "0.3.0"
+version = "0.3.1"
 description = "pypci, a pciutils-like library for fetching system PCI/PCI-E information but written mostly in python."
 keywords = ["pci", "system information", "pciutils", "python", "lspci", "hardware information", "fetching", "pcie"]
 authors = [
