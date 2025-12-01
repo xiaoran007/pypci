@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2025.11.18
-#	Date:    2025-11-18 03:15:01
+#	Version: 2025.11.30
+#	Date:    2025-11-30 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -84,6 +84,7 @@
 	0001  PCAN-PCI CAN-Bus controller
 		001c 0004  2 Channel CAN Bus SJC1000
 		001c 0005  2 Channel CAN Bus SJC1000 (Optically Isolated)
+0029  MICROCHIP
 003d  Lockheed Martin-Marietta Corp
 # Real TJN ID is e159, but they got it wrong several times --mj
 0059  Tiger Jet Network Inc. (Wrong ID)
@@ -95,6 +96,7 @@
 00a7  Teles AG (Wrong ID)
 0100  nCipher Security
 0123  General Dynamics
+0127  MIPS
 0128  Dell (wrong ID)
 # 018a is not LevelOne but there is a board misprogrammed
 018a  LevelOne
@@ -152,11 +154,14 @@
 0303  Hewlett-Packard Company (Wrong ID)
 0308  ZyXEL Communications Corporation (Wrong ID)
 0315  SK-Electronics Co., Ltd.
+031e  ANDES
 0357  TTTech Computertechnik AG (Wrong ID)
 	000a  TTP-Monitoring Card V2.0
 0432  SCM Microsystems, Inc.
 	0001  Pluto2 DVB-T Receiver for PCMCIA [EasyWatch MobilSet]
+0489  SIFIVE
 0497  Dell Inc. (wrong ID)
+05b7  THEAD
 060e  Lightelligence
 	0001  Hummingbird ES
 0675  Dynalink
@@ -832,6 +837,7 @@
 		15d9 1d03  AOC-S4116L-H16IR (16DD/96DD) RAID Adapter
 		15d9 1d07  AOC-S4016L-L16IT Storage Adapter
 		15d9 1d08  AOC-S4016L-L16IR Storage Adapter
+		17aa 7855  ThinkSystem RAID 950W-16i 8GB Flash PCIe Gen4 24Gb Adapter
 		1d49 020a  ThinkSystem 450W-16e SAS/SATA PCIe Gen4 24Gb HBA
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 # 8 Internal and 8 External port channel 9400 HBA
@@ -878,6 +884,7 @@
 		1028 23cb  PERC H975i Front
 		1028 23cd  PERC H975i Adapter
 		1028 2446  PERC H976i Front
+		17aa 784c  ThinkSystem RAID 960W PCIe Gen5 Adapter
 		1d49 020b  ThinkSystem 460-16e SAS/SATA PCIe Gen5 24Gb HBA
 	00b4  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
 	00b5  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
@@ -897,6 +904,7 @@
 		1028 22d3  PERC H975i Adapter - Virtual
 		1028 23cb  PERC H975i Front - Virtual
 		1028 23cd  PERC H975i Adapter - Virtual
+		17aa 784c  ThinkSystem RAID 960W PCIe Gen5 Adapter
 	00b6  Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx
 		1000 5000  MegaRAID 9760W-32i 24G SAS/PCIe Storage Adapter
 		1000 5001  MegaRAID 9760W-16i 24G SAS/PCIe Storage Adapter
@@ -18022,6 +18030,11 @@
 		12b9 00d3  USR 56K Internal V92 FAX Modem (Model 5610)
 		12b9 baba  USR 56K Internal Voice Modem 3CP3298-DEL (Model 5601) [Hawk]
 12ba  BittWare, Inc.
+	0069  VectorPath S7t-VG6
+		12ba b5d4  BW_BMC_IF
+	0079  VectorPath VP815
+		12ba b5d4  BW_BMC_IF
+	007a  VectorPath VP708
 12bb  Nippon Unisoft Corporation
 12bc  Array Microsystems
 12bd  Computerm Corp.
@@ -18628,6 +18641,40 @@
 		1028 2293  DC NVMe SED 7450 MU U.2 12.8TB
 		1028 2294  DC NVMe ISE 7450 MU U.2 12.8TB
 		1344 3000  U.3 1600GB [MTFDKCB1T6TFS/MTFDKCC1T6TFS]
+	51c9  7600 PRO NVMe SSD
+		1028 2421  MTFDLBQ1T9THG-1BP1DFCDA
+		1028 2422  MTFDLBQ3T8THG-1BP1DFCDA
+		1028 2423  MTFDLBQ7T6THG-1BP1DFCDA
+		1028 2424  MTFDLBQ15T3THG-1BP1DFCDA
+		1028 2429  MTFDLBQ1T9THG-1BP1JABDA
+		1028 242a  MTFDLBQ3T8THG-1BP1JABDA
+		1028 242b  MTFDLBQ7T6THG-1BP1JABDA
+		1028 242c  MTFDLBQ15T3THG-1BP1JABDA
+		1028 2431  MTFDLAL1T9THG-1BP1DFCDA
+		1028 2432  MTFDLAL3T8THG-1BP1DFCDA
+		1028 2433  MTFDLAL7T6THG-1BP1DFCDA
+		1028 2434  MTFDLAL15T3THG-1BP1DFCDA
+		1028 2439  MTFDLAL1T9THG-1BP1JABDA
+		1028 243a  MTFDLAL3T8THG-1BP1JABDA
+		1028 243b  MTFDLAL7T6THG-1BP1JABDA
+		1028 243c  MTFDLAL15T3THG-1BP1JABDA
+	51ca  7600 MAX NVMe SSD
+		1028 2425  MTFDLBQ1T6THS-1BP1DFCDA
+		1028 2426  MTFDLBQ3T2THS-1BP1DFCDA
+		1028 2427  MTFDLBQ6T4THS-1BP1DFCDA
+		1028 2428  MTFDLBQ12T8THS-1BP1DFCDA
+		1028 242d  MTFDLBQ1T6THS-1BP1JABDA
+		1028 242e  MTFDLBQ3T2THS-1BP1JABDA
+		1028 242f  MTFDLBQ6T4THS-1BP1JABDA
+		1028 2430  MTFDLBQ12T8THS-1BP1JABDA
+		1028 2435  MTFDLAL1T6THS-1BP1DFCDA
+		1028 2436  MTFDLAL3T2THS-1BP1DFCDA
+		1028 2437  MTFDLAL6T4THS-1BP1DFCDA
+		1028 2438  MTFDLAL12T8THS-1BP1DFCDA
+		1028 243d  MTFDLAL1T6THS-1BP1JABDA
+		1028 243e  MTFDLAL3T2THS-1BP1JABDA
+		1028 243f  MTFDLAL6T4THS-1BP1JABDA
+		1028 2440  MTFDLAL12T8THS-1BP1JABDA
 	51cb  6550 ION NVMe SSD
 		1028 2379  MTFDLBQ61T4THL-1BK1JABDA
 		1028 23a6  MTFDLBQ30T7THL-1BK1JABDA
@@ -22850,6 +22897,7 @@
 # Spectrum, 100GbE Switch
 	cb84  MT52100
 	cf08  Switch-IB2
+	cf09  Quantum Aggregation Node
 	cf6c  MT53100 [Spectrum-2]
 	cf70  Spectrum-3
 	cf80  Spectrum-4
@@ -22979,6 +23027,8 @@
 15ce  Genrad Inc
 15cf  Hilscher Gesellschaft für Systemautomation mbH
 	0000  CIFX PCI/PCIe
+	0090  CIFX PCIe
+	0900  CIFX PCIe
 15d1  Infineon Technologies AG
 15d2  FIC (First International Computer Inc)
 15d3  NDS Technologies Israel Ltd
@@ -25367,7 +25417,7 @@
 	0200  TILE-Gx processor
 	0201  TILE-Gx Processor Virtual Function
 	2000  TILE-Gx PCI Express Root Port
-1a4a  SLAC National Accelerator Lab TID-AIR
+1a4a  SLAC National Accelerator Lab TID-ID
 	1000  MCOR Power Supply Controller
 	1010  AMC EVR - Stockholm Timing Board
 	1020  PGPCard - Gen3 Cameralink Interface
@@ -25378,6 +25428,8 @@
 	2011  PCI-Express EVR - TPR Version
 	2020  PGP-GEN3 PCIe - 8 Lane Plus EVR
 	2030  AXI Stream DAQ PCIe card
+		1a4a 0010  Xilinx Varium C1100
+		1a4a 1010  Xilinx Varium C1100 Extended
 	2040  EXO PCIe TEM
 	3000  COB DTM V1
 	3001  COB DTM V2
@@ -25873,6 +25925,20 @@
 # 2xHDMI and 2xHD-SDI inputs
 	e5f4  MPEG2 and H264 Encoder-Transcoder
 	f1c4  Dual ASI-RX/TX-CI card
+1b59  Achronix Semiconductor Corporation
+	0010  VectorPath S7t-VG6
+		1b59 ac10  SDK demonstration design
+		1b59 ac12  Ethernet board link
+		1b59 ac13  DDR4 PCIe Ethernet demonstration design
+		1b59 ac15  Licensing reference design
+		1b59 ac16  Partial reconfiguration reference design
+	0012  VectorPath VP815
+		1b59 ac10  SDK demonstration design
+		1b59 ac12  Ethernet board link
+		1b59 ac13  DDR4 PCIe Ethernet demonstration design
+		1b59 ac15  Licensing reference design
+		1b59 ac16  Partial reconfiguration reference design
+	0013  VectorPath VP708
 1b5e  STAR-Dundee Ltd.
 	0001  SpaceWire PCI Mk2
 	0002  SpaceWire PCIe Mk1
@@ -26646,6 +26712,7 @@
 		1ea0 4225  NVMe SSD TP3511 E3.S 15.36TB
 		1ea0 5125  NVMe SSD TP3310 U.2 15.36TB
 		1ea0 5126  NVMe SSD TP3310 U.2 30.72TB
+		1ea0 5127  NVMe SSD TP3310 U.2 61.44TB
 		1ea0 6124  NVMe SSD TP3510 U.2 7.68TB
 		1ea0 6125  NVMe SSD TP3510 U.2 15.36TB
 		1ea0 6224  NVMe SSD TP3510 E3.S 7.68TB
@@ -27677,6 +27744,8 @@
 		1df8 d201  M.2 NVMe SSD
 		1df8 d600  M.2 NVMe SSD
 1dfa  Astera Labs, Inc.
+	01e2  CXL 2.0 Memory Controller CM5xxxx [Leo]
+	05c0  PCIe 6 Fabric Switch PF6xxx [Scorpio]
 1dfc  JSC NT-COM
 	1181  TDM 8 Port E1/T1/J1 Adapter
 1e0d  SambaNova Systems, Inc
@@ -28950,9 +29019,23 @@
 	1608  PCIe Gen4 x4 M.2 2280
 	1f88  TE3420 PCIe Gen3 x4 M.2 2280
 	3420  PCIe Gen3 x4 M.2 2280
+	6100  TE3420 Series NVMe PCIe Gen3x4 SSD
+	6101  XE3420 Series NVMe PCIe Gen3x4 SSD
+	6102  TE4407 Series NVMe PCIe Gen4x4 SSD
+	6103  XE4407 Series NVMe PCIe Gen4x4 SSD
+	6104  TE4408 Series NVMe PCIe Gen4x4 SSD
+	6105  XE4408 Series NVMe PCIe Gen4x4 SSD
+	6106  TE4402 Series NVMe PCIe Gen4x4 SSD
+	6107  XE4402 Series NVMe PCIe Gen4x4 SSD
+	6108  TE4405 Series NVMe PCIe Gen4x4 SSD
+	6109  XE4405 Series NVMe PCIe Gen4x4 SSD
+	610a  TE4406 Series NVMe PCIe Gen4x4 SSD
+	610b  XE4406 Series NVMe PCIe Gen4x4 SSD
+	610c  TE3410 Series NVMe PCIe Gen3x4 SSD
 1f9d  Axelera AI
 	1100  Metis AIPU (rev 02)
 	11aa  Metis AIPU (rev 01)
+1fa4  Shandong SinoChip Semiconductors Co., Ltd
 1faa  Hexaflake (Shanghai) Information Technology Co., Ltd.
 	0c10  Compass C10 PF
 	0c11  Compass C10 VF
@@ -29307,6 +29390,11 @@
 		20d8 1211  TUNAN-7 2x100GbE Controller
 	2201  TUNAN-7 2x25GbE Controller
 		20d8 2201  TUNAN-7 2x25GbE Controller
+		20d8 2211  TUNAN-7V 2x25GbE Controller
+	3201  TUNAN-7 2x200GbE Controller
+		20d8 3201  TUNAN-7 2x200GbE Controller
+	4201  TUNAN-7 1x400GbE Controller
+		20d8 4201  TUNAN-7V 1x400GbE Controller
 20dc  Sharetronic Data Technology Co., Ltd.
 	1202  M.2 2280 PCIe Gen3 x 4 Series.
 20e1  CECloud Computing Technology Co., Ltd.
@@ -37330,7 +37418,7 @@
 	4641  12th Gen Core Processor Host Bridge/DRAM Registers
 		1028 0b10  Precision 3571
 	464d  12th Gen Core Processor PCI Express x4 Controller #0
-	464e  Alder Lake-N Thunderbolt 4 USB Controller
+	464e  Alder Lake-N Processor USB 3.2 xHCI Controller
 	464f  12th Gen Core Processor Gaussian & Neural Accelerator
 		1028 0b10  Precision 3571
 	4650  12th Gen Core Processor Host Bridge
@@ -38230,7 +38318,7 @@
 	7d40  Meteor Lake-M [Intel Graphics]
 	7d41  Arrow Lake-U [Intel Graphics]
 	7d45  Meteor Lake-P [Intel Graphics]
-	7d51  Arrow Lake-P [Arc Pro 140T]
+	7d51  Arrow Lake-P [Arc Pro 130T/140T]
 	7d55  Meteor Lake-P [Intel Arc Graphics]
 	7d60  Meteor Lake-M [Intel Graphics]
 	7d67  Arrow Lake-S [Intel Graphics]

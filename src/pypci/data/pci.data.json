@@ -170,6 +170,9 @@
             }
         }
     },
+    "0029": {
+        "name": "MICROCHIP"
+    },
     "003d": {
         "name": "Lockheed Martin-Marietta Corp"
     },
@@ -196,6 +199,9 @@
     },
     "0123": {
         "name": "General Dynamics"
+    },
+    "0127": {
+        "name": "MIPS"
     },
     "0128": {
         "name": "Dell (wrong ID)"
@@ -278,6 +284,9 @@
     "0315": {
         "name": "SK-Electronics Co., Ltd."
     },
+    "031e": {
+        "name": "ANDES"
+    },
     "0357": {
         "name": "TTTech Computertechnik AG (Wrong ID)",
         "000a": {
@@ -290,8 +299,14 @@
             "name": "Pluto2 DVB-T Receiver for PCMCIA [EasyWatch MobilSet]"
         }
     },
+    "0489": {
+        "name": "SIFIVE"
+    },
     "0497": {
         "name": "Dell Inc. (wrong ID)"
+    },
+    "05b7": {
+        "name": "THEAD"
     },
     "060e": {
         "name": "Lightelligence",
@@ -1356,6 +1371,9 @@
             "15d9": {
                 "1d08": "AOC-S4016L-L16IR Storage Adapter"
             },
+            "17aa": {
+                "7855": "ThinkSystem RAID 950W-16i 8GB Flash PCIe Gen4 24Gb Adapter"
+            },
             "1d49": {
                 "020a": "ThinkSystem 450W-16e SAS/SATA PCIe Gen4 24Gb HBA"
             }
@@ -1413,6 +1431,9 @@
             "1028": {
                 "2446": "PERC H976i Front"
             },
+            "17aa": {
+                "784c": "ThinkSystem RAID 960W PCIe Gen5 Adapter"
+            },
             "1d49": {
                 "020b": "ThinkSystem 460-16e SAS/SATA PCIe Gen5 24Gb HBA"
             }
@@ -1427,6 +1448,9 @@
             },
             "1028": {
                 "23cd": "PERC H975i Adapter - Virtual"
+            },
+            "17aa": {
+                "784c": "ThinkSystem RAID 960W PCIe Gen5 Adapter"
             }
         },
         "00b6": {
@@ -39111,7 +39135,22 @@
         }
     },
     "12ba": {
-        "name": "BittWare, Inc."
+        "name": "BittWare, Inc.",
+        "0069": {
+            "name": "VectorPath S7t-VG6",
+            "12ba": {
+                "b5d4": "BW_BMC_IF"
+            }
+        },
+        "0079": {
+            "name": "VectorPath VP815",
+            "12ba": {
+                "b5d4": "BW_BMC_IF"
+            }
+        },
+        "007a": {
+            "name": "VectorPath VP708"
+        }
     },
     "12bb": {
         "name": "Nippon Unisoft Corporation"
@@ -40472,6 +40511,18 @@
             },
             "1344": {
                 "3000": "U.3 1600GB [MTFDKCB1T6TFS/MTFDKCC1T6TFS]"
+            }
+        },
+        "51c9": {
+            "name": "7600 PRO NVMe SSD",
+            "1028": {
+                "243c": "MTFDLAL15T3THG-1BP1JABDA"
+            }
+        },
+        "51ca": {
+            "name": "7600 MAX NVMe SSD",
+            "1028": {
+                "2440": "MTFDLAL12T8THS-1BP1JABDA"
             }
         },
         "51cb": {
@@ -50656,6 +50707,9 @@
         "cf08": {
             "name": "Switch-IB2"
         },
+        "cf09": {
+            "name": "Quantum Aggregation Node"
+        },
         "cf6c": {
             "name": "MT53100 [Spectrum-2]"
         },
@@ -51036,6 +51090,12 @@
         "name": "Hilscher Gesellschaft f\u00fcr Systemautomation mbH",
         "0000": {
             "name": "CIFX PCI/PCIe"
+        },
+        "0090": {
+            "name": "CIFX PCIe"
+        },
+        "0900": {
+            "name": "CIFX PCIe"
         }
     },
     "15d1": {
@@ -56838,7 +56898,7 @@
         }
     },
     "1a4a": {
-        "name": "SLAC National Accelerator Lab TID-AIR",
+        "name": "SLAC National Accelerator Lab TID-ID",
         "1000": {
             "name": "MCOR Power Supply Controller"
         },
@@ -56867,7 +56927,10 @@
             "name": "PGP-GEN3 PCIe - 8 Lane Plus EVR"
         },
         "2030": {
-            "name": "AXI Stream DAQ PCIe card"
+            "name": "AXI Stream DAQ PCIe card",
+            "1a4a": {
+                "1010": "Xilinx Varium C1100 Extended"
+            }
         },
         "2040": {
             "name": "EXO PCIe TEM"
@@ -58146,6 +58209,24 @@
         },
         "f1c4": {
             "name": "Dual ASI-RX/TX-CI card"
+        }
+    },
+    "1b59": {
+        "name": "Achronix Semiconductor Corporation",
+        "0010": {
+            "name": "VectorPath S7t-VG6",
+            "1b59": {
+                "ac16": "Partial reconfiguration reference design"
+            }
+        },
+        "0012": {
+            "name": "VectorPath VP815",
+            "1b59": {
+                "ac16": "Partial reconfiguration reference design"
+            }
+        },
+        "0013": {
+            "name": "VectorPath VP708"
         }
     },
     "1b5e": {
@@ -61401,7 +61482,13 @@
         }
     },
     "1dfa": {
-        "name": "Astera Labs, Inc."
+        "name": "Astera Labs, Inc.",
+        "01e2": {
+            "name": "CXL 2.0 Memory Controller CM5xxxx [Leo]"
+        },
+        "05c0": {
+            "name": "PCIe 6 Fabric Switch PF6xxx [Scorpio]"
+        }
     },
     "1dfc": {
         "name": "JSC NT-COM",
@@ -63201,6 +63288,45 @@
         },
         "3420": {
             "name": "PCIe Gen3 x4 M.2 2280"
+        },
+        "6100": {
+            "name": "TE3420 Series NVMe PCIe Gen3x4 SSD"
+        },
+        "6101": {
+            "name": "XE3420 Series NVMe PCIe Gen3x4 SSD"
+        },
+        "6102": {
+            "name": "TE4407 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "6103": {
+            "name": "XE4407 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "6104": {
+            "name": "TE4408 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "6105": {
+            "name": "XE4408 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "6106": {
+            "name": "TE4402 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "6107": {
+            "name": "XE4402 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "6108": {
+            "name": "TE4405 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "6109": {
+            "name": "XE4405 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "610a": {
+            "name": "TE4406 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "610b": {
+            "name": "XE4406 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "610c": {
+            "name": "TE3410 Series NVMe PCIe Gen3x4 SSD"
         }
     },
     "1f9d": {
@@ -63211,6 +63337,9 @@
         "11aa": {
             "name": "Metis AIPU (rev 01)"
         }
+    },
+    "1fa4": {
+        "name": "Shandong SinoChip Semiconductors Co., Ltd"
     },
     "1faa": {
         "name": "Hexaflake (Shanghai) Information Technology Co., Ltd.",
@@ -63994,7 +64123,19 @@
         "2201": {
             "name": "TUNAN-7 2x25GbE Controller",
             "20d8": {
-                "2201": "TUNAN-7 2x25GbE Controller"
+                "2211": "TUNAN-7V 2x25GbE Controller"
+            }
+        },
+        "3201": {
+            "name": "TUNAN-7 2x200GbE Controller",
+            "20d8": {
+                "3201": "TUNAN-7 2x200GbE Controller"
+            }
+        },
+        "4201": {
+            "name": "TUNAN-7 1x400GbE Controller",
+            "20d8": {
+                "4201": "TUNAN-7V 1x400GbE Controller"
             }
         }
     },
@@ -81941,7 +82082,7 @@
             "name": "12th Gen Core Processor PCI Express x4 Controller #0"
         },
         "464e": {
-            "name": "Alder Lake-N Thunderbolt 4 USB Controller"
+            "name": "Alder Lake-N Processor USB 3.2 xHCI Controller"
         },
         "464f": {
             "name": "12th Gen Core Processor Gaussian & Neural Accelerator",
@@ -84494,7 +84635,7 @@
             "name": "Meteor Lake-P [Intel Graphics]"
         },
         "7d51": {
-            "name": "Arrow Lake-P [Arc Pro 140T]"
+            "name": "Arrow Lake-P [Arc Pro 130T/140T]"
         },
         "7d55": {
             "name": "Meteor Lake-P [Intel Arc Graphics]"
