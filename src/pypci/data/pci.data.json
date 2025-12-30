@@ -541,32 +541,8 @@
         "005a": {
             "name": "Remote Insight II board - Lights-Out"
         },
-        "007c": {
-            "name": "NC7770 1000BaseTX"
-        },
-        "007d": {
-            "name": "NC6770 1000BaseTX"
-        },
-        "0085": {
-            "name": "NC7780 1000BaseTX"
-        },
         "00b1": {
             "name": "Remote Insight II board - PCI device"
-        },
-        "00bb": {
-            "name": "NC7760"
-        },
-        "00ca": {
-            "name": "NC7771"
-        },
-        "00cf": {
-            "name": "NC7772"
-        },
-        "00d1": {
-            "name": "NC7783"
-        },
-        "00e3": {
-            "name": "NC7761"
         },
         "0508": {
             "name": "Netelligent 4/16 Token Ring"
@@ -693,9 +669,6 @@
         },
         "b060": {
             "name": "Smart Array 5300 Controller"
-        },
-        "b0e1": {
-            "name": "NC3133 Fast Ethernet Module"
         },
         "b178": {
             "name": "Smart Array 5i/532",
@@ -1457,6 +1430,9 @@
             "name": "Fusion-MPT 24G SAS/PCIe SAS50xx/SAS51xx",
             "1000": {
                 "5030": "eHBA 9700-16e 24G SAS/PCIe Storage Adapter"
+            },
+            "1028": {
+                "2446": "PERC H976i Front - Virtual"
             }
         },
         "00b8": {
@@ -7031,7 +7007,10 @@
             "name": "Navi 48 [Radeon AI PRO R9700]"
         },
         "7590": {
-            "name": "Navi 44 [Radeon RX 9060 XT]"
+            "name": "Navi 44 [Radeon RX 9060 XT]",
+            "1eae": {
+                "8601": "RX-96TS316W7 [SWIFT RX 9060 XT OC White Triple Fan Gaming Edition 16GB]"
+            }
         },
         "75a0": {
             "name": "Aqua Vanjaram [Instinct MI350X]"
@@ -9035,7 +9014,10 @@
             }
         },
         "0156": {
-            "name": "405GP PLB to PCI Bridge"
+            "name": "405GP PLB to PCI Bridge",
+            "1fc3": {
+                "0004": "IC695ETM001 RX3i Ethernet PCI Module"
+            }
         },
         "015e": {
             "name": "622Mbps ATM PCI Adapter"
@@ -21179,7 +21161,7 @@
             }
         },
         "006a": {
-            "name": "nForce2 AC97 Audio Controler (MCP)",
+            "name": "nForce2 AC97 Audio Controller (MCP)",
             "1043": {
                 "8095": "nForce2 AC97 Audio Controller (MCP)"
             },
@@ -28949,7 +28931,7 @@
             "name": "GB202GL [RTX PRO 6000D Blackwell Workstation Edition]"
         },
         "2bb3": {
-            "name": "GB202GL [RTX PRO 5000 Blackwell]"
+            "name": "GB202GL [RTX PRO 5000 Blackwell / RTX PRO 5000 72GB Blackwell]"
         },
         "2bb4": {
             "name": "GB202GL [RTX PRO 6000 Blackwell Max-Q Workstation Edition]"
@@ -28992,6 +28974,9 @@
         },
         "2c39": {
             "name": "GB203GLM [RTX PRO 4000 Blackwell Generation Laptop GPU]"
+        },
+        "2c3a": {
+            "name": "GB203GL [RTX PRO 4500 Blackwell]"
         },
         "2c58": {
             "name": "GB203M / GN22-X11 [GeForce RTX 5090 Max-Q / Mobile]"
@@ -30065,7 +30050,10 @@
             }
         },
         "8185": {
-            "name": "RTL-8185 IEEE 802.11a/b/g Wireless LAN Controller"
+            "name": "RTL-8185 IEEE 802.11a/b/g Wireless LAN Controller",
+            "187e": {
+                "8225": "ZyAIR G-302 v3"
+            }
         },
         "818b": {
             "name": "RTL8192EE PCIe Wireless Network Adapter"
@@ -30872,6 +30860,9 @@
             "name": "VT6415 PATA IDE Host Controller",
             "1043": {
                 "838f": "Motherboard"
+            },
+            "1849": {
+                "0415": "Motherboard"
             }
         },
         "0419": {
@@ -39494,7 +39485,10 @@
             }
         },
         "e111": {
-            "name": "PI7C9X111SL PCIe-to-PCI Reversible Bridge"
+            "name": "PI7C9X111SL PCIe-to-PCI Reversible Bridge",
+            "ea50": {
+                "3bbb": "OCuLink to RX3i backplane bridge"
+            }
         },
         "e112": {
             "name": "PI7C9X112SL PCIe-to-PCI Bridge"
@@ -40530,6 +40524,9 @@
             "1028": {
                 "23a8": "MTFDLAL30T7THL-1BK1JABDA"
             }
+        },
+        "51cd": {
+            "name": "9650 PRO NVMe SSD"
         },
         "5404": {
             "name": "2210 NVMe SSD [Cobain]"
@@ -41834,9 +41831,24 @@
             "name": "XR17V258 Octal UART PCI controller"
         },
         "0352": {
-            "name": "XR17V3521 Dual PCIe UART",
+            "name": "XR17V352 High Performance Dual PCI Express UART",
             "4c52": {
                 "9252": "LRUS9252H 2-Port RS232 Serial Adapter"
+            }
+        },
+        "0354": {
+            "name": "XR17V354 High Performance Quad PCI Express UART"
+        },
+        "0358": {
+            "name": "XR17V358 High Performance Octal PCI Express UART",
+            "ea50": {
+                "8232": "8-Channel RS232 Card"
+            }
+        },
+        "8358": {
+            "name": "Twin XR17V358 High Performance Octal PCI Express UARTs",
+            "ea50": {
+                "8232": "16-Channel RS232 Card"
             }
         }
     },
@@ -50174,10 +50186,10 @@
             "name": "Spectrum-6 Tile"
         },
         "0278": {
-            "name": "Quantum-4 in Flash Recovery Mode"
+            "name": "Nvlink-6 Switch in Flash Recovery Mode"
         },
         "0279": {
-            "name": "Quantum-4 RMA"
+            "name": "Nvlink-6 Switch RMA"
         },
         "027a": {
             "name": "Eros Chiplet"
@@ -50187,6 +50199,9 @@
         },
         "027d": {
             "name": "Nvlink-7 Switch RMA"
+        },
+        "027e": {
+            "name": "Spectrum-7 Tile"
         },
         "0281": {
             "name": "NPS-600 Flash Recovery"
@@ -50342,6 +50357,9 @@
             "name": "MT27710 Family [ConnectX-4 Lx]",
             "117c": {
                 "40b8": "ThunderLink TLN3-3102 Dual-port 10Gb Ethernet Adapter"
+            },
+            "1458": {
+                "0281": "CLN4C44 with NCSI"
             },
             "15b3": {
                 "0025": "ConnectX-4 Lx 25 GbE Dual Port SFP28 rNDC"
@@ -50741,7 +50759,7 @@
             "name": "Quantum-3CPO"
         },
         "d2f8": {
-            "name": "Quantum-4"
+            "name": "Nvlink-6 Switch"
         },
         "d2fa": {
             "name": "Nvlink-7 Switch"
@@ -51822,13 +51840,7 @@
         "name": "Hercules"
     },
     "1682": {
-        "name": "XFX Pine Group Inc.",
-        "5701": {
-            "name": "Radeon 5700 XT Thicc III Ultra"
-        },
-        "c580": {
-            "name": "Radeon RX 580"
-        }
+        "name": "XFX Pine Group Inc."
     },
     "1688": {
         "name": "CastleNet Technology Inc.",
@@ -53229,7 +53241,13 @@
         }
     },
     "1761": {
-        "name": "Pickering Interfaces Ltd"
+        "name": "Pickering Interfaces Ltd",
+        "4411": {
+            "name": "50-297A",
+            "1761": {
+                "3372": "50-297A-122"
+            }
+        }
     },
     "1771": {
         "name": "InnoVISION Multimedia Ltd."
@@ -54885,13 +54903,7 @@
         }
     },
     "187e": {
-        "name": "ZyXEL Communications Corporation",
-        "3403": {
-            "name": "ZyAir G-110 802.11g"
-        },
-        "340e": {
-            "name": "M-302 802.11g XtremeMIMO"
-        }
+        "name": "ZyXEL Communications Corporation"
     },
     "1885": {
         "name": "Avvida Systems Inc."
@@ -56530,11 +56542,17 @@
         "1711": {
             "name": "Hi171x Series [iBMC Intelligent Management system chip w/VGA support]"
         },
+        "1712": {
+            "name": "Intelligent Management system chip Virtual Network Adapter"
+        },
         "1822": {
             "name": "Hi1822 Family (4*25GE)",
             "19e5": {
                 "d146": "Hi1822 SP585 (4*25GE)"
             }
+        },
+        "36f0": {
+            "name": "Intelligent Management system chip SATA AHCI support"
         },
         "3714": {
             "name": "ES3000 V5 NVMe PCIe SSD",
@@ -56544,6 +56562,9 @@
         },
         "371e": {
             "name": "Hi1822 Family Virtual Bridge"
+        },
+        "3730": {
+            "name": "Intelligent Management system chip GE support"
         },
         "3754": {
             "name": "ES3000 V6 NVMe PCIe SSD",
@@ -56563,11 +56584,23 @@
         "375f": {
             "name": "Hi1822 Family Virtual Function"
         },
+        "3770": {
+            "name": "Intelligent Management system chip Virtual Feature USB2.0 HOST support"
+        },
         "379e": {
             "name": "Hi1822 Family Virtual Function"
         },
         "379f": {
             "name": "Hi1822 Family Virtual Function"
+        },
+        "37b0": {
+            "name": "Intelligent Management system chip USB3.0 HOST support"
+        },
+        "37f0": {
+            "name": "Intelligent Management system chip USB2.0 HOST support"
+        },
+        "3830": {
+            "name": "Intelligent Management system chip Memory-Mapped Buffer Interface"
         },
         "3858": {
             "name": "SP186 HBA Controller Card",
@@ -56576,7 +56609,7 @@
             }
         },
         "a120": {
-            "name": "HiSilicon PCIe Root Port with Gen4"
+            "name": "HiSilicon PCIe Root Port"
         },
         "a121": {
             "name": "HiSilicon PCI-PCI Bridge"
@@ -56599,11 +56632,17 @@
         "a12a": {
             "name": "HiSilicon Add-on PCI-PCI Bridge"
         },
+        "a12c": {
+            "name": "HiSilicon Embedded PCIe DFX"
+        },
         "a12d": {
             "name": "HiSilicon Embedded PMU"
         },
         "a12e": {
             "name": "HiSilicon Embedded PCIe PTT"
+        },
+        "a12f": {
+            "name": "HiSilicon DFX Registers"
         },
         "a220": {
             "name": "HNS GE Network Controller"
@@ -56928,8 +56967,20 @@
         },
         "2030": {
             "name": "AXI Stream DAQ PCIe card",
-            "1a4a": {
+            "1022": {
                 "1010": "Xilinx Varium C1100 Extended"
+            },
+            "12ba": {
+                "0013": "XUPVV8 VU9P"
+            },
+            "1a4a": {
+                "0004": "PGP Card GEN4"
+            },
+            "1d92": {
+                "0012": "PC821 KU115"
+            },
+            "4144": {
+                "0001": "ADM-PCIE-KU3"
             }
         },
         "2040": {
@@ -58484,7 +58535,7 @@
             "name": "BarraCuda PCIe SSD (DRAM-less)"
         },
         "5021": {
-            "name": "FireCuda 520 SSD"
+            "name": "PCIe Gen4 SSD"
         },
         "5026": {
             "name": "FireCuda 540 SSD"
@@ -59398,6 +59449,9 @@
         "635a": {
             "name": "XPG GAMMIX S60 NVMe SSD (DRAM-less)"
         },
+        "636a": {
+            "name": "XPG GAMMIX S55 NVMe SSD (DRAM-less)"
+        },
         "642a": {
             "name": "XPG GAMMIX S50 CORE NVMe SSD (DRAM-less)"
         },
@@ -59520,6 +59574,12 @@
         },
         "6d03": {
             "name": "AM6DX PCIe 5.0 NVMe SSD"
+        },
+        "7030": {
+            "name": "NVMe SSD Controller UH7X3X series",
+            "1cc4": {
+                "7125": "NVMe SSD UH713a U.2 15.36TB"
+            }
         },
         "8030": {
             "name": "NVMe SSD Controller UH8X2X/UH7X2X series",
@@ -59865,6 +59925,12 @@
         },
         "7364": {
             "name": "NeuronDevice (Trainium2)"
+        },
+        "7564": {
+            "name": "NeuronDevice (Trainium3)"
+        },
+        "7565": {
+            "name": "NeuronDevice (Trainium3)"
         },
         "8061": {
             "name": "NVMe EBS Controller"
@@ -60796,6 +60862,9 @@
         "2508": {
             "name": "Lexar NM1090 PRO NVMe SSD"
         },
+        "2708": {
+            "name": "Lexar microSD Express card (DRAM-less)"
+        },
         "5216": {
             "name": "FORESEE XP1000 / Lexar Professional CFexpress Type B Gold series, NM620 PCIe NVME SSD (DRAM-less)"
         },
@@ -61499,6 +61568,12 @@
     "1e0d": {
         "name": "SambaNova Systems, Inc"
     },
+    "1e0e": {
+        "name": "Qualcomm / Option SimTech, Incorporated",
+        "9071": {
+            "name": "SIM8230G 5GNR/LTE/GNSS"
+        }
+    },
     "1e0f": {
         "name": "KIOXIA Corporation",
         "0001": {
@@ -61605,6 +61680,12 @@
         },
         "0035": {
             "name": "CM9-based U3 NVMe SSD"
+        },
+        "003e": {
+            "name": "LC9 E3.S NVMe SSD"
+        },
+        "003f": {
+            "name": "LC9 U.2 NVMe SSD"
         }
     },
     "1e17": {
@@ -61818,7 +61899,7 @@
         "name": "Valve Software"
     },
     "1e48": {
-        "name": "Continental"
+        "name": "Aumovio"
     },
     "1e49": {
         "name": "Yangtze Memory Technologies Co.,Ltd",
@@ -61839,6 +61920,9 @@
         },
         "0090": {
             "name": "ZHITAI TiPro9000 NVMe SSD"
+        },
+        "00a1": {
+            "name": "ZHITAI TiPlus7100s NVMe SSD (DRAM-less)"
         },
         "1001": {
             "name": "PC005 NVMe SSD"
@@ -61922,13 +62006,16 @@
     "1e4c": {
         "name": "GSI Technology",
         "0010": {
-            "name": "Associative Processing Unit [Leda]",
+            "name": "Gemini-I",
             "1e4c": {
                 "0120": "SE120"
             }
         },
         "0020": {
-            "name": "Associative Processing Unit [Leda-2]"
+            "name": "Gemini-II",
+            "1e4c": {
+                "0020": "G2-Edge"
+            }
         }
     },
     "1e50": {
@@ -62101,6 +62188,9 @@
         "1005": {
             "name": "PLEXTOR M10P(GN) NVMe SSD M.2"
         },
+        "1006": {
+            "name": "CA8 Series NVMe SSD M.2"
+        },
         "1007": {
             "name": "CL4-8D512 NVMe SSD M.2 (DRAM-less)"
         },
@@ -62116,8 +62206,11 @@
         "100d": {
             "name": "PJ1 Series NVMe SSD",
             "1e95": {
-                "0002": "M.2 2280 1920 GB"
+                "0003": "M.2 22110 3840 GB"
             }
+        },
+        "100f": {
+            "name": "EJ5-2W3840 NVMe SSD U.2"
         },
         "1010": {
             "name": "CX3 Series NVMe SSD",
@@ -62827,6 +62920,24 @@
         "3413": {
             "name": "M18000 Family Virtual Function"
         },
+        "3502": {
+            "name": "M18305 Family",
+            "1f0f": {
+                "0002": "S2025XS, 2x 10GbE, SFP+, PCIe 4.0 x8"
+            }
+        },
+        "3504": {
+            "name": "M18305 Family BASE-T",
+            "1f0f": {
+                "0002": "S2025XT, 2x 10GbE, Base-T, PCIe 4.0 x8"
+            }
+        },
+        "350a": {
+            "name": "M18305 Family Virtual Function",
+            "1f0f": {
+                "0001": "M18305 Family Virtual Function"
+            }
+        },
         "9088": {
             "name": "D1055AS PCI Express Switch Downstream Port"
         }
@@ -62934,6 +63045,9 @@
         },
         "451b": {
             "name": "NN4LE NVMe SSD (DRAM-less)"
+        },
+        "4622": {
+            "name": "NEM-PAC NVMe SSD (DRAM-less)"
         }
     },
     "1f3f": {
@@ -63286,6 +63400,30 @@
         "1f88": {
             "name": "TE3420 PCIe Gen3 x4 M.2 2280"
         },
+        "2269": {
+            "name": "XE4403 Series NVMe PCIe Gen4x4 SSD"
+        },
+        "3101": {
+            "name": "EP1021 Series M.2 2242 NVMe PCIe Gen3x4 SSD"
+        },
+        "3105": {
+            "name": "EP2021 Series M.2 2242 NVMe PCIe Gen4x4 SSD"
+        },
+        "3201": {
+            "name": "EP1021 Series M.2 2280 NVMe PCIe Gen3x4 SSD"
+        },
+        "3202": {
+            "name": "EP1031 Series M.2 2280 NVMe PCIe Gen3x4 SSD"
+        },
+        "3205": {
+            "name": "EP2021 Series M.2 2280 NVMe PCIe Gen4x4 SSD"
+        },
+        "3206": {
+            "name": "EP2031 Series M.2 2280 NVMe PCIe Gen4x4 SSD"
+        },
+        "3261": {
+            "name": "DP1421 Series M.2 2280 NVMe PCIe Gen3x4 SSD"
+        },
         "3420": {
             "name": "PCIe Gen3 x4 M.2 2280"
         },
@@ -63450,6 +63588,144 @@
         },
         "0010": {
             "name": "IBA6120 InfiniBand HCA"
+        }
+    },
+    "1fc3": {
+        "name": "Emerson",
+        "0004": {
+            "name": "IC695ETM001 RX3i Ethernet PCI Module"
+        },
+        "0005": {
+            "name": "IC695ALG600 RX3i Universal Analog Input"
+        },
+        "0006": {
+            "name": "IC695ALG240 RX3i Isolated Analog Input"
+        },
+        "0007": {
+            "name": "IC695ALG331 RX3i Isolated Analog Output"
+        },
+        "0008": {
+            "name": "IC695PBM300 RX3i Profibus Master"
+        },
+        "0009": {
+            "name": "IC695PBS301 RX3i Profibus Slave"
+        },
+        "000a": {
+            "name": "IC695ALG616 RX3i 16 Channel Input Analog Voltage/Current"
+        },
+        "000b": {
+            "name": "IC695ALG708 RX3i 8 Channel Output Analog Voltage/Current"
+        },
+        "000c": {
+            "name": "IC695ALG626 RX3i 16 Channel Input Analog Voltage/Current with HART"
+        },
+        "000d": {
+            "name": "IC695ALG608 RX3i 8 Channel Input Analog Voltage/Current"
+        },
+        "000e": {
+            "name": "IC695ALG628 RX3i 8 Channel Input Analog Voltage/Current with HART"
+        },
+        "000f": {
+            "name": "IC695ALG728 RX3i 8 Channel Output Analog Voltage/Current with HART"
+        },
+        "0010": {
+            "name": "IC695ALG704 RX3i 4 Channel Output Analog Voltage/Current"
+        },
+        "0011": {
+            "name": "IC695HSC304 RX3i High Speed Counter (4 counters)"
+        },
+        "0012": {
+            "name": "IC695HSC308 RX3i High Speed Counter (8 counters)"
+        },
+        "0013": {
+            "name": "IC695PMM335 PACMotion Digital Motion Control Module"
+        },
+        "0014": {
+            "name": "IC695CMM002 RX3i Serial Communications Module (2 ports)"
+        },
+        "0015": {
+            "name": "IC695CMM004 RX3i Serial Communications Module (4 ports)"
+        },
+        "0016": {
+            "name": "IC695PNC001 RX3i Profinet Controller \u2013 XH4 version"
+        },
+        "0017": {
+            "name": "IC695PNC001 RX3i Profinet Controller \u2013 Atom-based version"
+        },
+        "0018": {
+            "name": "IC695CMX128 RX3i 128MB Control Memory Xchange"
+        },
+        "0019": {
+            "name": "IC695RMX128 RX3i 128MB Redundancy Memory Xchange"
+        },
+        "001a": {
+            "name": "IC695ALG106 RX3i 6 Channel Isolated Analog Input"
+        },
+        "001b": {
+            "name": "IC695ALG112 RX3i 12 Channel Isolated Analog Input"
+        },
+        "001c": {
+            "name": "IC695ALG808 RX3i 8 Channel Isolated Analog Output"
+        },
+        "001d": {
+            "name": "IC695ALG306 RX3i Isolated Thermocouple Module (6 Channel)"
+        },
+        "001e": {
+            "name": "IC695ALG312 RX3i Isolated Thermocouple Module (12 Channel)"
+        },
+        "001f": {
+            "name": "IC695ALG508 RX3i Isolated RTD Module (8 Channel)"
+        },
+        "0020": {
+            "name": "IC695ALG412 RX3i Isolated High-Speed Thermocouple Module (12 Channel)"
+        },
+        "0021": {
+            "name": "IC695PRS015 RX3i High-Speed Serial Pressure Transducer Module (1 Port)"
+        },
+        "0022": {
+            "name": "IC695MDL664 RX3i 16 Circuit Smart Input 24 VDC"
+        },
+        "0023": {
+            "name": "IC695MDL764 RX3i 16 Circuit Smart Output 24/125 VDC 2A (8 Positive / 8 Negative)"
+        },
+        "0024": {
+            "name": "IC695MDL765 RX3i 16 Circuit Smart Output 24/125 VDC 2A (16 Positive)"
+        },
+        "0025": {
+            "name": "IC695CNM001 RX3i CANopen Master"
+        },
+        "0026": {
+            "name": "Advanced I/O R&D Device"
+        },
+        "0027": {
+            "name": "IC695ECM850 RX3i Ethernet Communication Module"
+        },
+        "0028": {
+            "name": "IC695RMX228 RX3i 128MB Redundancy Memory Xchange with Single Fiber transceiver"
+        },
+        "0029": {
+            "name": "IC695PMM345 PACMotion Digital Motion Control Module (EtherCAT)"
+        },
+        "002a": {
+            "name": "IC695HSC318 RX3i High Speed Counter (8 counters)"
+        },
+        "8003": {
+            "name": "IC695CPU310/CMU310/NIU001 RX3i Controller 300 MHz Celeron"
+        },
+        "8004": {
+            "name": "IC695CPU315/320/CRU320 RX3i Controller 1.0 GHz Celeron-M"
+        },
+        "8005": {
+            "name": "IC695PNS001/101 RX3i Profinet Scanner"
+        },
+        "8006": {
+            "name": "IC695CPE/CRE330 RX3i Controller 1.0 GHz G-series"
+        },
+        "8007": {
+            "name": "IC695CPE302/305/310/NIU001+ RX3i Controller 1.1 GHz Atom Z510"
+        },
+        "800d": {
+            "name": "IC695CPE302/305/310/NIU001+ RX3i Controller Atom x3930"
         }
     },
     "1fc9": {
@@ -63844,11 +64120,17 @@
         "1618": {
             "name": "NF1618 PCI Express Ethernet Controller",
             "2036": {
-                "0864": "NF1618 Family NX864 (1*200GE)"
+                "0865": "NF1618 Family NX865 (2*200GE)"
             }
         },
         "1619": {
             "name": "NF1618 Family Virtual Function"
+        },
+        "8000": {
+            "name": "NP36xxx PCIe Gen 6 Switch",
+            "2036": {
+                "1006": "NP36000 Virtual PCIe Pktgen 1.x Endpoint"
+            }
         }
     },
     "203b": {
@@ -64005,6 +64287,9 @@
         },
         "1663": {
             "name": "WPBSN4M8-2TMP"
+        },
+        "1664": {
+            "name": "WPBSN4M8-1TGP NVMe SSD (DRAM-less)"
         }
     },
     "2096": {
@@ -64351,6 +64636,9 @@
     },
     "2bd8": {
         "name": "ROPEX Industrie-Elektronik GmbH"
+    },
+    "2ff1": {
+        "name": "Maginfra Co., LTD"
     },
     "3000": {
         "name": "Hansol Electronics Inc."
@@ -71225,7 +71513,7 @@
             "name": "6th-10th Gen Core Processor PCIe Controller (x16)"
         },
         "1902": {
-            "name": "HD Graphics 510"
+            "name": "Skylake-S GT1 [HD Graphics 510]"
         },
         "1903": {
             "name": "Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem",
@@ -71255,7 +71543,7 @@
             "name": "Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x8)"
         },
         "1906": {
-            "name": "HD Graphics 510",
+            "name": "Skylake-U GT1 [HD Graphics 510]",
             "17aa": {
                 "382a": "B51-80 Laptop"
             }
@@ -71300,10 +71588,10 @@
             }
         },
         "1912": {
-            "name": "HD Graphics 530"
+            "name": "Skylake-S GT2 [HD Graphics 530]"
         },
         "1916": {
-            "name": "Skylake GT2 [HD Graphics 520]",
+            "name": "Skylake-U GT2 [HD Graphics 520]",
             "1028": {
                 "06f3": "Latitude 3570"
             },
@@ -71324,7 +71612,7 @@
             }
         },
         "191b": {
-            "name": "HD Graphics 530",
+            "name": "Skylake-H GT2 [HD Graphics 530]",
             "1028": {
                 "06e4": "XPS 15 9550"
             },
@@ -71333,10 +71621,10 @@
             }
         },
         "191d": {
-            "name": "HD Graphics P530"
+            "name": "Skylake-DT/H GT2 [HD Graphics P530]"
         },
         "191e": {
-            "name": "HD Graphics 515",
+            "name": "Skylake-Y GT2 [HD Graphics 515]",
             "1028": {
                 "06e6": "Latitude 11 5175 2-in-1"
             }
@@ -71351,28 +71639,28 @@
             "name": "HD Graphics 535"
         },
         "1926": {
-            "name": "Iris Graphics 540"
+            "name": "Skylake-U GT3 [Iris Graphics 540]"
         },
         "1927": {
-            "name": "Iris Graphics 550"
+            "name": "Skylake-U GT3 [Iris Graphics 550]"
         },
         "192b": {
             "name": "Iris Graphics 555"
         },
         "192d": {
-            "name": "Iris Graphics P555"
+            "name": "Skylake-H GT3 [Iris Graphics P555]"
         },
         "1932": {
             "name": "Iris Pro Graphics 580"
         },
         "193a": {
-            "name": "Iris Pro Graphics P580"
+            "name": "Skylake-H GT4 [Iris Pro Graphics P580]"
         },
         "193b": {
-            "name": "Iris Pro Graphics 580"
+            "name": "Skylake-H GT4 [Iris Pro Graphics 580]"
         },
         "193d": {
-            "name": "Iris Pro Graphics P580"
+            "name": "Skylake-H GT4 [Iris Pro Graphics P580]"
         },
         "1960": {
             "name": "80960RP (i960RP) Microprocessor",
@@ -79366,6 +79654,9 @@
         "3101": {
             "name": "Killer E3100X 2.5 Gigabit Ethernet Controller"
         },
+        "3102": {
+            "name": "Ethernet Controller I226-K"
+        },
         "3140": {
             "name": "Easel/Monette Hill Image Processor [Pixel Visual Core]"
         },
@@ -82918,6 +83209,9 @@
                 "0225": "TS4 On-Board 2.5GbE Ethernet Adaptor"
             }
         },
+        "5503": {
+            "name": "Ethernet Controller I226-LMvP"
+        },
         "550a": {
             "name": "Ethernet Connection (18) I219-LM"
         },
@@ -83156,7 +83450,7 @@
             "name": "Xeon E3-1200 v6/7th Gen Core Processor PCIe Controller (x16)"
         },
         "5902": {
-            "name": "HD Graphics 610"
+            "name": "Kaby Lake-S GT1 [HD Graphics 610]"
         },
         "5904": {
             "name": "Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers",
@@ -83171,7 +83465,7 @@
             "name": "Xeon E3-1200 v6/7th Gen Core Processor PCIe Controller (x8)"
         },
         "5906": {
-            "name": "HD Graphics 610"
+            "name": "Kaby Lake-U GT1 [HD Graphics 610]"
         },
         "5909": {
             "name": "Xeon E3-1200 v6/7th Gen Core Processor PCIe Controller (x4)"
@@ -83198,7 +83492,7 @@
             "name": "Xeon E3-1200 v6/7th Gen Core Processor Gaussian Mixture Model"
         },
         "5912": {
-            "name": "HD Graphics 630",
+            "name": "Kaby Lake-S GT2 [HD Graphics 630]",
             "1043": {
                 "8694": "H110I-PLUS Motherboard"
             },
@@ -83213,7 +83507,7 @@
             }
         },
         "5916": {
-            "name": "HD Graphics 620",
+            "name": "Kaby Lake-U GT2 [HD Graphics 620]",
             "1025": {
                 "1094": "Aspire E5-575G"
             },
@@ -83222,7 +83516,7 @@
             }
         },
         "5917": {
-            "name": "UHD Graphics 620",
+            "name": "Kaby Lake-R GT2 [UHD Graphics 620]",
             "17aa": {
                 "225e": "ThinkPad T480"
             }
@@ -83231,16 +83525,16 @@
             "name": "Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers"
         },
         "591b": {
-            "name": "HD Graphics 630"
+            "name": "Kaby Lake-H GT2 [HD Graphics 630]"
         },
         "591c": {
             "name": "UHD Graphics 615"
         },
         "591d": {
-            "name": "HD Graphics P630"
+            "name": "Kaby Lake-DT GT2 [HD Graphics P630]"
         },
         "591e": {
-            "name": "HD Graphics 615"
+            "name": "Kaby Lake-Y GT2 [HD Graphics 615]"
         },
         "591f": {
             "name": "Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers"
@@ -83252,10 +83546,10 @@
             "name": "HD Graphics 635"
         },
         "5926": {
-            "name": "Iris Plus Graphics 640"
+            "name": "Kaby Lake-U GT3 [Iris Plus Graphics 640]"
         },
         "5927": {
-            "name": "Iris Plus Graphics 650"
+            "name": "Kaby Lake-U GT3 [Iris Plus Graphics 650]"
         },
         "5a84": {
             "name": "Apollo Lake [HD Graphics 505]"
@@ -83442,6 +83736,9 @@
         },
         "65ff": {
             "name": "5100 Chipset DMA Engine"
+        },
+        "674c": {
+            "name": "CRI"
         },
         "6f00": {
             "name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2",
@@ -88226,25 +88523,25 @@
             "name": "Panther Lake [Arc B390]"
         },
         "b081": {
-            "name": "Panther Lake [Intel Graphics]"
+            "name": "Panther Lake [Arc B370]"
         },
         "b082": {
-            "name": "Panther Lake [Intel Graphics]"
+            "name": "Panther Lake [Arc B390]"
         },
         "b083": {
             "name": "Panther Lake [Arc B370]"
         },
         "b084": {
-            "name": "Panther Lake [Intel Graphics]"
+            "name": "Panther Lake [Arc Pro B390]"
         },
         "b085": {
-            "name": "Panther Lake [Intel Graphics]"
+            "name": "Panther Lake [Arc Pro B370]"
         },
         "b086": {
-            "name": "Panther Lake [Intel Graphics]"
+            "name": "Panther Lake [Arc Pro B390]"
         },
         "b087": {
-            "name": "Panther Lake [Intel Graphics]"
+            "name": "Panther Lake [Arc Pro B370]"
         },
         "b08f": {
             "name": "Panther Lake [Intel Graphics]"
@@ -88256,6 +88553,9 @@
             "name": "Panther Lake [Intel Graphics]"
         },
         "b0b0": {
+            "name": "Panther Lake [Intel Graphics]"
+        },
+        "b0ff": {
             "name": "Panther Lake [Intel Graphics]"
         },
         "b152": {
@@ -88712,6 +89012,24 @@
             "name": "Ethernet Controller N500 Series for 1GbE (Dual-port, Copper RJ45)",
             "4c52": {
                 "3043": "LRES3043PT Dual-port 1Gb Ethernet Server Adapter for OCP"
+            }
+        },
+        "8500": {
+            "name": "Ethernet Controller N20 Series for 25GbE",
+            "8848": {
+                "8800": "Ethernet Network Adapter N20 for RDMA 25GbE SFP28 2-port"
+            }
+        },
+        "8501": {
+            "name": "Ethernet Controller N20 Series for 100GbE",
+            "8848": {
+                "8800": "Ethernet Network Adapter N20 for RDMA 100GbE QSFP28 2-port"
+            }
+        },
+        "8502": {
+            "name": "Ethernet Controller N20 Series for 40GbE",
+            "8848": {
+                "8800": "Ethernet Network Adapter N20 for RDMA 40GbE QSFP+ 2-port"
             }
         }
     },
@@ -90048,6 +90366,9 @@
             "cdfa": {
                 "0bff": "Maverick-2 Firmware Update"
             }
+        },
+        "0080": {
+            "name": "Arbel Test Chip"
         }
     },
     "ceba": {
