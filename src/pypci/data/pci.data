@@ -1,8 +1,8 @@
 #
 #	List of PCI IDs
 #
-#	Version: 2026.03.20
-#	Date:    2026-03-20 03:15:02
+#	Version: 2026.03.29
+#	Date:    2026-03-29 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -4031,8 +4031,8 @@
 		1da2 e409  Sapphire Technology Limited Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
 		1da2 e410  Sapphire NITRO+ RX 5700 XT
 		1da2 e411  Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]
-	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5300/5500M]
-		106b 0210  Radeon Pro 5300M
+	7340  Navi 14 [Radeon RX 5500/5500M / Pro 5300/5300M/5500M]
+		106b 0210  MacBookPro16,1 (16", 2019) [Radeon Pro 5300M]
 		106b 0219  iMac (Retina 5K, 27-inch, 2020) [Radeon Pro 5300]
 	7341  Navi 14 [Radeon Pro W5500]
 	7347  Navi 14 [Radeon Pro W5500M]
@@ -13500,6 +13500,7 @@
 	28f8  AD107GLM [RTX 2000 Ada Generation Embedded GPU]
 	2900  GB100 [Reserved Dev ID A]
 	2901  GB100 [B200]
+	2909  GB100 [B200]
 	2920  GB100 [TS4 / B100]
 	2924  GB100
 	2925  GB100
@@ -13568,6 +13569,7 @@
 	31a1  GB110 [GB300 MaxQ]
 	31c0  GB110 [Reserved Dev ID B]
 	31c2  GB110 [GB300]
+	31c3  GB110 [GB300]
 	31fe  GB110
 	3200  GB112
 	3224  GB112
@@ -25600,7 +25602,10 @@
 	0016  SEL-3350 Serial Expansion Board
 	0017  SEL-3350 GPIO Expansion Board
 	0018  SEL-3390E4 Ethernet Adapter
+	0019  SEL-2241-2/SEL-3361 Mainboard
 	001c  SEL-3390E4 Ethernet Adapter
+	001d  SEL-3350 GPIO Expansion Board
+	001e  SEL-3350 Serial Expansion Board
 1aab  Silver Creations AG
 	7750  Sceye 10L
 1aae  Global Velocity, Inc.
@@ -28024,6 +28029,9 @@
 	0033  Exceria Plus G4 NVMe SSD (DRAM-less)
 	0034  CM9-based E3.S NVMe SSD
 	0035  CM9-based U3 NVMe SSD
+	003d  LC9 E3.L NVMe SSD
+		1028 244f  RLC9GZV245T
+		1028 2450  RLC9CZV245T
 	003e  LC9 E3.S NVMe SSD
 	003f  LC9 U.2 NVMe SSD
 1e17  Arnold & Richter Cine Technik GmbH & Co. Betriebs KG
@@ -28463,6 +28471,9 @@
 		1e95 0004  U.2 1920 GB
 		1e95 0005  U.2 3840 GB
 		1e95 0006  U.2 7680 GB
+		1e95 0007  U.2 1600 GB
+		1e95 0008  U.2 3200 GB
+		1e95 0009  U.2 6400 GB
 	100f  EJ5-2W3840 NVMe SSD U.2
 	1010  CX3 Series NVMe SSD
 		1e95 0000  M.2 2280 480 GB
@@ -29728,12 +29739,15 @@
 20f6  Shenzhen Zhishi Network Technology Co., Ltd.
 	0001  MPU H1
 20f9  Shenzhen Silicon Dynamic Networks Co., Ltd.
+2100  Shenzhen Kimviking Semiconductor Co., Ltd.
 2105  Shanghai Timar Integrated Circuit Co., LTD
 2106  ZCHL Technology Co., Ltd
 	0001  HL100 Accelerator Controller
 		2106 0001  HLC100 Accelerator Card
 # HXQ
 2108  HuiLink Technologies (Xiamen) Co., Ltd.
+# HXQ
+	2401  PCIe4.0 to USB3.2 Gen2 Host Controller
 2114  EigenQ, Inc.
 	0007  QMA Board M.2 Gen2
 	000a  QMA Board PCIe Gen2
@@ -37544,6 +37558,7 @@
 	3e98  CoffeeLake-S GT2 [UHD Graphics 630]
 	3e9a  Coffee Lake-S GT2 [UHD Graphics P630]
 	3e9b  CoffeeLake-H GT2 [UHD Graphics 630]
+		106b 019c  MacBookPro16,1 (16", 2019)
 	3e9c  Coffee Lake-S GT1 [UHD Graphics 610]
 	3ea0  WhiskeyLake-U GT2 [UHD Graphics 620]
 		1028 089e  Inspiron 5482
@@ -39499,38 +39514,56 @@
 		1043 83ac  Eee PC 1015PX
 		144d c072  Notebook N150P
 	a013  Atom Processor D4xx/D5xx/N4xx/N5xx CHAPS counter
-	a082  Tiger Lake-LP LPC Controller
-	a0a3  Tiger Lake-LP SMBus Controller
-	a0a4  Tiger Lake-LP SPI Controller
-	a0a6  Tiger Lake-LP Trace Hub
-	a0a8  Tiger Lake-LP Serial IO UART Controller #0
-	a0a9  Tiger Lake-LP Serial IO UART Controller #1
-	a0ab  Tiger Lake-LP Serial IO SPI Controller #1
-	a0b0  Tiger Lake-LP PCI Express Root Port #9
-	a0b1  Tiger Lake-LP PCI Express Root Port #10
-	a0b3  Tiger Lake-LP PCI Express Root Port #12
-	a0b8  Tiger Lake-LP PCI Express Root Port #0
-	a0bb  Tiger Lake-LP PCI Express Root Port #3
-	a0bc  Tiger Lake-LP PCI Express Root Port #5
-	a0bd  Tigerlake PCH-LP PCI Express Root Port #6
-	a0be  Tiger Lake-LP PCI Express Root Port #7
-	a0bf  Tiger Lake-LP PCI Express Root Port #8
-	a0c5  Tiger Lake-LP Serial IO I2C Controller #4
-	a0c6  Tiger Lake-LP Serial IO I2C Controller #5
-	a0c8  Tiger Lake-LP Smart Sound Technology Audio Controller
-# SATA controller on Intel Tiger Lake based mobile platforms in AHCI mode. Could be found on Panasonic Let's Note CF-SV2.
-	a0d3  Tiger Lake-LP SATA Controller
-	a0e0  Tiger Lake-LP Management Engine Interface
-	a0e3  Tiger Lake-LP Active Management Technology - SOL
-	a0e8  Tiger Lake-LP Serial IO I2C Controller #0
-	a0e9  Tiger Lake-LP Serial IO I2C Controller #1
-	a0ea  Tiger Lake-LP Serial IO I2C Controller #2
-	a0eb  Tiger Lake-LP Serial IO I2C Controller #3
-	a0ed  Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller
-	a0ef  Tiger Lake-LP Shared SRAM
+	a082  500 Series Chipset Family On-Package eSPI Controller
+	a0a0  500 Series Chipset Family On-Package Primary-to-Sideband Bridge (P2SB)
+	a0a1  500 Series Chipset Family On-Package Power Management Controller (PMC)
+	a0a3  500 Series Chipset Family On-Package System Management Bus (SMBus)
+	a0a4  500 Series Chipset Family On-Package SPI (flash) Controller
+	a0a6  500 Series Chipset Family On-Package Trace Hub
+	a0a8  500 Series Chipset Family On-Package UART Controller #0
+	a0a9  500 Series Chipset Family On-Package UART Controller #1
+	a0aa  500 Series Chipset Family On-Package Generic SPI (GSPI) #0
+	a0ab  500 Series Chipset Family On-Package Generic SPI (GSPI) #1
+	a0b0  500 Series Chipset Family On-Package PCI Express Root Port #9
+	a0b1  500 Series Chipset Family On-Package PCI Express Root Port #10
+	a0b2  500 Series Chipset Family On-Package PCI Express Root Port #11
+	a0b3  500 Series Chipset Family On-Package PCI Express Root Port #12
+	a0b8  500 Series Chipset Family On-Package PCI Express Root Port #1
+	a0b9  500 Series Chipset Family On-Package PCI Express Root Port #2
+	a0ba  500 Series Chipset Family On-Package PCI Express Root Port #3
+	a0bb  500 Series Chipset Family On-Package PCI Express Root Port #4
+	a0bc  500 Series Chipset Family On-Package PCI Express Root Port #5
+	a0bd  500 Series Chipset Family On-Package PCI Express Root Port #6
+	a0be  500 Series Chipset Family On-Package PCI Express Root Port #7
+	a0bf  500 Series Chipset Family On-Package PCI Express Root Port #8
+	a0c5  500 Series Chipset Family On-Package I2C Controller #4
+	a0c6  500 Series Chipset Family On-Package I2C Controller #5
+	a0c7  500 Series Chipset Family On-Package UART Controller #2
+	a0c8  500 Series Chipset Family On-Package High Definition Audio (HD Audio)
+	a0d0  500 Series Chipset Family On-Package Touch Host Controller #0
+	a0d1  500 Series Chipset Family On-Package Touch Host Controller #1
+	a0d3  500 Series Chipset Family On-Package SATA Controller (AHCI)
+	a0d5  500 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) no premium
+	a0d7  500 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) premium
+	a0da  500 Series Chipset Family On-Package UART Controller #3
+	a0e0  500 Series Chipset Family On-Package CSME HECI #1
+	a0e1  500 Series Chipset Family On-Package CSME HECI #2
+	a0e2  500 Series Chipset Family On-Package CSME IDE Redirection (IDE-R)
+	a0e3  500 Series Chipset Family On-Package CSME Keyboard and Text (KT) Redirection
+	a0e4  500 Series Chipset Family On-Package CSME HECI #3
+	a0e5  500 Series Chipset Family On-Package CSME HECI #4
+	a0e8  500 Series Chipset Family On-Package I2C Controller #0
+	a0e9  500 Series Chipset Family On-Package I2C Controller #1
+	a0ea  500 Series Chipset Family On-Package I2C Controller #2
+	a0eb  500 Series Chipset Family On-Package I2C Controller #3
+	a0ed  500 Series Chipset Family On-Package USB 3.2 Gen 2x1 (10 Gbs) xHCI Host Controller
+	a0ee  500 Series Chipset Family On-Package USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)
+	a0ef  500 Series Chipset Family On-Package Shared SRAM
 	a0f0  Wi-Fi 6 AX201
 		8086 0244  Wi-Fi 6 AX101NGW
-	a0fc  Tiger Lake-LP Integrated Sensor Hub
+	a0fb  500 Series Chipset Family On-Package Generic SPI (GSPI) #2
+	a0fc  500 Series Chipset Family On-Package Integrated Sensor Hub
+	a0fd  500 Series Chipset Family On-Package Generic SPI (GSPI) #3
 	a102  Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]
 		1043 8694  H110I-PLUS Motherboard
 		1462 7994  H110M ECO/GAMING
@@ -39953,7 +39986,7 @@
 	a83b  Lunar Lake-M PCI Express Root Port #4
 	a83c  Lunar Lake-M PCI Express Root Port #5
 	a83d  Lunar Lake-M PCI Express Root Port #6
-	a840  BE201 320MHz
+	a840  BE200 Series Wi-Fi 7
 	a845  Lunar Lake-M Integrated Sensor Hub
 	a847  Lunar Lake-M UFS Controller
 	a848  Lunar Lake-M Touch Host Controller #0 ID1
@@ -40084,8 +40117,8 @@
 	e216  Battlemage G21 [Intel Graphics]
 	e220  Battlemage G31 [Intel Graphics]
 	e221  Battlemage G31 [Intel Graphics]
-	e222  Battlemage G31 [Intel Graphics]
-	e223  Battlemage G31 [Intel Graphics]
+	e222  Battlemage G31 [Arc Pro B65]
+	e223  Battlemage G31 [Arc Pro B70]
 	e302  Panther Lake LPC/eSPI Controller
 	e322  Panther Lake SMBus Controller
 	e323  Panther Lake SPI(flash) Controller
@@ -40132,6 +40165,12 @@
 	e37c  Panther Lake I3C Host Controller #1
 	e37d  Panther Lake USB 3.2 xHCI Controller
 	e37f  Panther Lake Shared SRAM
+	e431  Panther Lake USB 3.2 xHCI Controller
+	e434  Panther Lake Thunderbolt 4 NHI #2
+	e440  Panther Lake PCH CNVi WiFi
+		8086 0114  Wi-Fi 7 BE211 320MHz
+	e476  Panther Lake Bluetooth PCI Enumerator
+	e47d  Panther Lake USB 3.2 xHCI Controller
 	f1a5  SSD 600P Series
 		8086 390a  SSDPEKKW256G7 256GB
 	f1a6  SSD DC P4101/Pro 7600p/760p/E 6100p Series
