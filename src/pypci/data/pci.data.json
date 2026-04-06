@@ -10,6 +10,24 @@
     },
     "0014": {
         "name": "Loongson Technology LLC",
+        "3b0f": {
+            "name": "DMA Adress Translation Unit [Loongson 3 Processor Family]"
+        },
+        "3c09": {
+            "name": "Internal PCI to PCI Bridge [Loongson 3 Processor Family]"
+        },
+        "3c0f": {
+            "name": "DMA Adress Translation Unit [Loongson 3 Processor Family]"
+        },
+        "3c19": {
+            "name": "PCI Express x16 Root Port [Loongson 3 Processor Family]"
+        },
+        "3c29": {
+            "name": "PCI Express x8 Root Port [Loongson 3 Processor Family]"
+        },
+        "3c39": {
+            "name": "PCI Express x4 Root Port [Loongson 3 Processor Family]"
+        },
         "7a00": {
             "name": "7A1000 Chipset Hyper Transport Bridge Controller"
         },
@@ -29,7 +47,7 @@
             "name": "2K1000 / 7A1000 Chipset Display Controller"
         },
         "7a07": {
-            "name": "2K1000/2000 / 7A1000/2000 Chipset HD Audio Controller"
+            "name": "2K1000/2000/3000 / 3B6000M / 7A1000/2000 Chipset HD Audio Controller"
         },
         "7a08": {
             "name": "2K1000 / 7A1000 Chipset 3Gb/s SATA AHCI Controller"
@@ -68,7 +86,7 @@
             "name": "7A1000 Chipset AC97 Audio Controller"
         },
         "7a18": {
-            "name": "2K2000 / 7A2000 Chipset 6Gb/s SATA AHCI Controller"
+            "name": "2K2000/3000 / 3B6000M / 7A2000 Chipset 6Gb/s SATA AHCI Controller"
         },
         "7a19": {
             "name": "PCI-to-PCI Bridge"
@@ -77,16 +95,19 @@
             "name": "2K2000 Configuration Bus"
         },
         "7a1b": {
-            "name": "2K2000 / 7A2000 Chipset SPI Controller"
+            "name": "2K2000/3000 / 3B6000M / 7A2000 Chipset SPI Controller"
         },
         "7a1d": {
-            "name": "2K2000 RapidIO Interface"
+            "name": "2K2000 / 2K3000 / 3B6000M RapidIO Interface"
         },
         "7a1e": {
             "name": "2K2000 DES Controller"
         },
         "7a22": {
             "name": "2K2000 Advanced Peripheral Bus Controller"
+        },
+        "7a23": {
+            "name": "Gigabit Ethernet Controller [Chipset / CPU inside]"
         },
         "7a24": {
             "name": "2K1000 / 7A1000/2000 Chipset USB OHCI Controller"
@@ -98,7 +119,7 @@
             "name": "2K1000 Camera Controller"
         },
         "7a27": {
-            "name": "2K2000 / 7A2000 Chipset I2S Controller"
+            "name": "2K2000/3000 / 3B6000M / 7A2000 Chipset I2S Controller"
         },
         "7a29": {
             "name": "7A1000 Chipset PCIe x8 Bridge"
@@ -110,13 +131,16 @@
             "name": "2K2000 DMA Controller"
         },
         "7a34": {
-            "name": "2K2000 / 7A2000 Chipset USB 3.0 xHCI Controller"
+            "name": "2K2000/3000 / 3B6000M / 7A2000 Chipset USB 3.0 xHCI Controller"
+        },
+        "7a35": {
+            "name": "LG200 GPU"
         },
         "7a36": {
             "name": "2K2000 / 7A2000 Chipset Display Controller"
         },
         "7a37": {
-            "name": "2K2000 HDMI Audio Controller"
+            "name": "2K2000/3000 / 3B6000M HDMI Audio Controller"
         },
         "7a39": {
             "name": "2K2000 / 7A2000 Chipset PCIe x1 Root Port"
@@ -124,11 +148,20 @@
         "7a3e": {
             "name": "2K2000 RNG Controller"
         },
+        "7a42": {
+            "name": "Advanced Peripheral Bus Controller [Chipset / CPU inside]"
+        },
         "7a44": {
-            "name": "2K2000 USB 2.0 xHCI Controller"
+            "name": "2K2000/3000 / 3B6000M USB 2.0 xHCI Controller"
+        },
+        "7a46": {
+            "name": "Video Display Controller [Chipset / CPU inside]"
+        },
+        "7a47": {
+            "name": "Pulse-Code Modulation [Chipset / CPU inside]"
         },
         "7a48": {
-            "name": "2K2000 SDIO Controller"
+            "name": "2K2000/3000 / 3B6000M SDIO Controller"
         },
         "7a49": {
             "name": "2K2000 / 7A2000 Chipset PCIe x4 Root Port"
@@ -136,8 +169,14 @@
         "7a54": {
             "name": "2K2000 OTG USB Controller"
         },
+        "7a56": {
+            "name": "Video Processing Unit Decoder [Chipset / CPU inside]"
+        },
         "7a59": {
             "name": "7A2000 Chipset PCIe x8 Root Port"
+        },
+        "7a66": {
+            "name": "Video Processing Unit Encoder [Chipset / CPU inside]"
         },
         "7a69": {
             "name": "7A2000 Chipset PCIe x16 Root Port"
@@ -146,10 +185,16 @@
             "name": "2K2000 PCIe Root Complex"
         },
         "7a88": {
-            "name": "2K2000 eMMC Controller"
+            "name": "2K2000/3000 / 3B6000M eMMC Controller"
+        },
+        "7a89": {
+            "name": "PCI Express x1 Root Port [Chipset / CPU inside]"
         },
         "7a8e": {
             "name": "2K2000 SE Controller"
+        },
+        "7a99": {
+            "name": "PCI Express x4 Root Port [Chipset / CPU inside]"
         },
         "7af9": {
             "name": "2K2000 PCIe Endpoint"
@@ -430,6 +475,9 @@
         "ff11": {
             "name": "JM1100-YV"
         }
+    },
+    "0771": {
+        "name": "Xi'an Microelectronics Technology Institute"
     },
     "0777": {
         "name": "Ubiquiti Networks, Inc."
@@ -7349,6 +7397,9 @@
             "name": "RV670 [Radeon HD 3870]",
             "174b": {
                 "e620": "Radeon HD 3870"
+            },
+            "1787": {
+                "2244": "Radeon HD 3870"
             }
         },
         "9504": {
@@ -27974,7 +28025,10 @@
             "name": "TU117"
         },
         "1f82": {
-            "name": "TU117 [GeForce GTX 1650]"
+            "name": "TU117 [GeForce GTX 1650]",
+            "19da": {
+                "3595": "GeForce GTX 1650 OC GDDR6"
+            }
         },
         "1f83": {
             "name": "TU117 [GeForce GTX 1630]"
@@ -50294,7 +50348,7 @@
             "name": "LibraE RMA"
         },
         "0288": {
-            "name": "Arcus2"
+            "name": "Arcus2 Flash Recovery"
         },
         "0289": {
             "name": "Arcus2 RMA"
@@ -50309,19 +50363,19 @@
             "name": "Arcus3 RMA"
         },
         "0294": {
-            "name": "Ophy 2.1 (SagittaZ)"
+            "name": "OPHY2.1 [SagittaZ]"
         },
         "0296": {
-            "name": "OPHY2.6"
+            "name": "OPHY2.6 [Sagitta]"
         },
         "0298": {
-            "name": "OPHY3.0"
+            "name": "OPHY3.0 [Sagitta]"
         },
         "029a": {
-            "name": "OPHY3.1"
+            "name": "OPHY3.1 [Sagitta]"
         },
         "029c": {
-            "name": "OPHY3.5"
+            "name": "OPHY3.5 [Sagitta]"
         },
         "02a0": {
             "name": "NVLink-8 Switch in Flash Recovery Mode"
@@ -89523,6 +89577,9 @@
         },
         "e476": {
             "name": "Panther Lake Bluetooth PCI Enumerator"
+        },
+        "e47b": {
+            "name": "Serial IO I2C Host Controller - E47B"
         },
         "e47d": {
             "name": "Panther Lake USB 3.2 xHCI Controller"
