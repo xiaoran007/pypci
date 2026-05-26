@@ -6964,6 +6964,9 @@
         "7448": {
             "name": "Navi 31 [Radeon Pro W7900]"
         },
+        "7449": {
+            "name": "Navi 31 [Radeon Pro W7800 48GB]"
+        },
         "744a": {
             "name": "Navi 31 [Radeon Pro W7900 Dual Slot]"
         },
@@ -20845,12 +20848,6 @@
                 "4f34": "Dynamite"
             }
         },
-        "002a": {
-            "name": "NV5 [Riva TNT2]"
-        },
-        "002b": {
-            "name": "NV5 [Riva TNT2]"
-        },
         "002c": {
             "name": "NV6 [Vanta LT / Vanta / Vanta-16]",
             "1043": {
@@ -29187,6 +29184,9 @@
         },
         "2f04": {
             "name": "GB205 [GeForce RTX 5070]"
+        },
+        "2f06": {
+            "name": "GB205 [GeForce RTX 5060]"
         },
         "2f18": {
             "name": "GB205M [GeForce RTX 5070 Ti Mobile]"
@@ -52586,6 +52586,9 @@
             },
             "1186": {
                 "3a70": "DWA-556 Xtreme N PCI Express Desktop Adapter"
+            },
+            "1799": {
+                "8071": "F5D8071 v1 N1 Wireless ExpressCard"
             }
         },
         "0027": {
@@ -55130,6 +55133,9 @@
             "name": "RT2890 Wireless 802.11n PCIe",
             "1458": {
                 "e939": "GN-WS30N-RH 802.11bgn Mini PCIe Card"
+            },
+            "1799": {
+                "807c": "F5D8071 v3 N1 Wireless ExpressCard"
             }
         },
         "0701": {
@@ -55142,6 +55148,9 @@
             "name": "RT2790 Wireless 802.11n 1T/2R PCIe",
             "11ad": {
                 "7600": "HP WN7600R"
+            },
+            "1799": {
+                "817c": "F5D8073 v3 N Wireless ExpressCard Adapter"
             },
             "1814": {
                 "2790": "RT2790 Wireless 802.11n 1T/2R PCIe"
@@ -59057,7 +59066,7 @@
             "name": "FireCuda 540 SSD"
         },
         "5027": {
-            "name": "LaCie Rugged SSD Pro5"
+            "name": "BarraCuda 530 SSD / LaCie Rugged SSD Pro5"
         },
         "5100": {
             "name": "PCIe Gen3 SSD"
@@ -61168,6 +61177,9 @@
         "102f": {
             "name": "AR-TK242-FX2 [1x400GbE Gen5 Packet Capture-Replay Device]"
         },
+        "1030": {
+            "name": "AR-ARKSTREAM [Arkville Streaming DMA]"
+        },
         "4200": {
             "name": "A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]"
         }
@@ -63139,7 +63151,7 @@
         "1182": {
             "name": "PETA8118 NVMe M2 Series",
             "1ee4": {
-                "1627": "NVMe SSD M.2 6.4TB (P8128Z3)"
+                "1827": "NVMe SSD M.2 6.4TB (P8118H4)"
             }
         }
     },
@@ -64838,6 +64850,51 @@
     "203b": {
         "name": "XTX Markets Technologies Ltd."
     },
+    "2042": {
+        "name": "Xi'an UniIC Semiconductors Co., Ltd",
+        "db00": {
+            "name": "UWSC256DDQYACC-N"
+        },
+        "db01": {
+            "name": "UWSC512DDQLBCC-N"
+        },
+        "db02": {
+            "name": "UWSC512DDQLACC-N"
+        },
+        "db03": {
+            "name": "UWSC1T0DDQLACC-N"
+        },
+        "dc00": {
+            "name": "UWSD512DDQYACA-N"
+        },
+        "dc01": {
+            "name": "UWSD1T0DDQYACA-N"
+        },
+        "dc02": {
+            "name": "UWSD2T0DDQYACA-N"
+        },
+        "dc03": {
+            "name": "UWSD1T0DDTYACA-N"
+        },
+        "dc04": {
+            "name": "UWSD2T0DDTYACA-N"
+        },
+        "dc05": {
+            "name": "UWSD4T0DDTYACA-N"
+        },
+        "dc06": {
+            "name": "UWSD512DDQYACB-N"
+        },
+        "dc07": {
+            "name": "UWSD1T0DDQYACB-N"
+        },
+        "dc08": {
+            "name": "UWSD512DDTMACA-N"
+        },
+        "dc09": {
+            "name": "UWSD1T0DDTMACA-N"
+        }
+    },
     "2044": {
         "name": "Shenzhen Jiahua Zhongli Technology Co., LTD.",
         "8200": {
@@ -65100,6 +65157,9 @@
         },
         "1104": {
             "name": "NEOTAPX FPGA Timing Synchronization Card"
+        },
+        "1200": {
+            "name": "MUX Ultimate FPGA Accelerator Card"
         }
     },
     "20b5": {
@@ -65189,7 +65249,16 @@
     "20dc": {
         "name": "Sharetronic Data Technology Co., Ltd.",
         "1202": {
-            "name": "M.2 2280 PCIe Gen3 x 4 Series."
+            "name": "M.2 2280 PCIe Gen3 x 4 Series.",
+            "1202": {
+                "1256": "M.2 2280 256GB 1202+N38A"
+            }
+        },
+        "5000": {
+            "name": "E5000 U.2 15mm 3.84TB NVMe SSD"
+        },
+        "5101": {
+            "name": "E5000 U.2 15mm 7.68TB NVMe SSD"
         }
     },
     "20e1": {
@@ -67233,7 +67302,7 @@
         }
     },
     "6688": {
-        "name": "Zycoo Co., Ltd",
+        "name": "GUANGZHOU MAXSUN INFORMATION TECHNOLOGY CO., LTD.",
         "1200": {
             "name": "CooVox TDM Analog Module"
         },
@@ -67706,7 +67775,7 @@
             }
         },
         "0156": {
-            "name": "3rd Gen Core processor Graphics Controller",
+            "name": "Ivy Bridge mobile GT1 [HD Graphics]",
             "1043": {
                 "108d": "VivoBook X202EV"
             }
@@ -67748,7 +67817,7 @@
             }
         },
         "0166": {
-            "name": "3rd Gen Core processor Graphics Controller",
+            "name": "Ivy Bridge mobile GT2 [HD Graphics 4000]",
             "1043": {
                 "2103": "N56VZ"
             },
@@ -68726,22 +68795,22 @@
             "name": "Optane NVME SSD H10 with Solid State Storage [Teton Glacier]"
         },
         "0998": {
-            "name": "Ice Lake IEH"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors IEH"
         },
         "09a2": {
-            "name": "Ice Lake Memory Map/VT-d"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors VT-d"
         },
         "09a3": {
-            "name": "Ice Lake RAS"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors RAS"
         },
         "09a4": {
-            "name": "Ice Lake Mesh 2 PCIe"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UFI"
         },
         "09a6": {
-            "name": "Ice Lake MSM"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors MSM"
         },
         "09a7": {
-            "name": "Ice Lake PMON MSM"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PMON MSM"
         },
         "09ab": {
             "name": "RST VMD Managed Controller"
@@ -68822,7 +68891,7 @@
             "name": "Ice Lake CBDMA [QuickData Technology]"
         },
         "0b23": {
-            "name": "Xeon Root Event Collector"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors IEH"
         },
         "0b25": {
             "name": "Data Streaming Accelerator (DSA)"
@@ -69183,6 +69252,33 @@
         },
         "0d9f": {
             "name": "Ethernet Controller I225-IT"
+        },
+        "0db0": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #0"
+        },
+        "0db1": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #1"
+        },
+        "0db2": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #2"
+        },
+        "0db3": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #3"
+        },
+        "0db4": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors NTB"
+        },
+        "0db6": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #4"
+        },
+        "0db7": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #5"
+        },
+        "0db8": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #6"
+        },
+        "0db9": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #7"
         },
         "0dc5": {
             "name": "Ethernet Connection (23) I219-LM",
@@ -71968,6 +72064,9 @@
                 "4001": "Ethernet Network Adapter XXV710-2"
             }
         },
+        "1590": {
+            "name": "Ethernet Connection E810-C"
+        },
         "1591": {
             "name": "Ethernet Controller E810-C for backplane",
             "8086": {
@@ -72001,6 +72100,15 @@
                 "401c": "Ethernet Network Adapter E810-XXV-4 for OCP 3.0"
             }
         },
+        "1594": {
+            "name": "Ethernet Controller E810-C/X557-AT 10GBASE-T"
+        },
+        "1595": {
+            "name": "Ethernet Controller E810-C 1GbE"
+        },
+        "1598": {
+            "name": "Ethernet Connection E810-XXV"
+        },
         "1599": {
             "name": "Ethernet Controller E810-XXV for backplane",
             "8086": {
@@ -72030,6 +72138,12 @@
             "8086": {
                 "4015": "Ethernet Network Adapter E810-XXV-2 for OCP 3.0"
             }
+        },
+        "159c": {
+            "name": "Ethernet Controller E810-XXV/X557-AT 10GBASE-T"
+        },
+        "159d": {
+            "name": "Ethernet Controller E810-XXV 1GbE"
         },
         "15a0": {
             "name": "Ethernet Connection (2) I218-LM"
@@ -72278,10 +72392,10 @@
             "name": "I210 Gigabit Ethernet Connection"
         },
         "15f9": {
-            "name": "Ethernet Connection (14) I219-LM"
+            "name": "500 Series Chipset Family GbE Controller (Corporate/vPro)"
         },
         "15fa": {
-            "name": "Ethernet Connection (14) I219-V"
+            "name": "500 Series Chipset Family GbE Controller (Consumer)"
         },
         "15fb": {
             "name": "Ethernet Connection (13) I219-LM"
@@ -76990,6 +77104,9 @@
         "2714": {
             "name": "Dynamic Load Balancer 2.5 (DLB)"
         },
+        "2715": {
+            "name": "Dynamic Load Balancer (DLB) Virtual Function"
+        },
         "2723": {
             "name": "Wi-Fi 6 AX200",
             "1a56": {
@@ -77873,7 +77990,7 @@
             "name": "82801HR/HO/HH (ICH8R/DO/DH) 6 port SATA Controller [AHCI mode]"
         },
         "2822": {
-            "name": "SATA Controller [RAID mode]",
+            "name": "SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Desktop RST)",
             "1028": {
                 "020d": "Inspiron 530"
             },
@@ -77906,7 +78023,7 @@
             }
         },
         "2826": {
-            "name": "SATA Controller [RAID Mode]",
+            "name": "SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Server/Desktop RST)",
             "1d49": {
                 "0105": "Intel RSTe SATA Software RAID"
             }
@@ -77957,7 +78074,7 @@
             }
         },
         "282a": {
-            "name": "82801 Mobile SATA Controller [RAID mode]",
+            "name": "SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Mobile RST)",
             "1028": {
                 "040b": "Latitude E6510"
             },
@@ -80818,17 +80935,38 @@
                 "c200": "C2K onboard SATA host bus adapter"
             }
         },
+        "3240": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI Misc"
+        },
+        "3241": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI link/Phy0"
+        },
+        "3242": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI Phy0"
+        },
         "3245": {
-            "name": "Xeon UPI Mesh Stop M2UPI Registers"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI"
         },
         "324a": {
-            "name": "Xeon IMC0 Mesh to Mem Registers"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors IMC"
         },
         "324c": {
-            "name": "Xeon Unicast Group1 CHA Registers"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors CHA Unicast Group 1"
         },
         "324d": {
-            "name": "Xeon Unicast Group0 CHA Registers"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors CHA Unicast Group 0"
+        },
+        "3250": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Event Control"
+        },
+        "3251": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Register Access Control Unit"
+        },
+        "3252": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Decode"
+        },
+        "3256": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Trace Hub"
         },
         "3258": {
             "name": "Power Control Unit (PCU) CR0"
@@ -81086,7 +81224,7 @@
             "name": "Ice Lake CHA Registers"
         },
         "344f": {
-            "name": "Ice Lake CHA Registers"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors CHA All 0"
         },
         "3450": {
             "name": "Ice Lake Ubox Registers"
@@ -81104,7 +81242,7 @@
             "name": "Ice Lake NorthPeak"
         },
         "3457": {
-            "name": "Ice Lake CHA Registers"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors CHA All 1"
         },
         "3458": {
             "name": "Ice Lake PCU Registers"
@@ -83230,59 +83368,206 @@
         "4391": {
             "name": "R580E LPC/eSPI Controller"
         },
+        "43a0": {
+            "name": "500 Series Chipset Family P2SB"
+        },
+        "43a1": {
+            "name": "500 Series Chipset Family PMC"
+        },
         "43a3": {
-            "name": "Tiger Lake-H SMBus Controller"
+            "name": "500 Series Chipset Family SMBus"
         },
         "43a4": {
-            "name": "Tiger Lake-H SPI Controller"
+            "name": "500 Series Chipset Family SPI (flash) Controller"
+        },
+        "43a6": {
+            "name": "500 Series Chipset Family Trace Hub"
+        },
+        "43a7": {
+            "name": "500 Series Chipset Family UART #2"
+        },
+        "43a8": {
+            "name": "500 Series Chipset Family UART #0"
+        },
+        "43a9": {
+            "name": "500 Series Chipset Family UART #1"
+        },
+        "43aa": {
+            "name": "500 Series Chipset Family GSPI #0"
+        },
+        "43ab": {
+            "name": "500 Series Chipset Family GSPI #1"
+        },
+        "43ad": {
+            "name": "500 Series Chipset Family I2C #4"
+        },
+        "43ae": {
+            "name": "500 Series Chipset Family I2C #5"
         },
         "43b0": {
-            "name": "Tiger Lake-H PCI Express Root Port #9"
+            "name": "500 Series Chipset Family PCIe Root Port #9"
+        },
+        "43b1": {
+            "name": "500 Series Chipset Family PCIe Root Port #10"
+        },
+        "43b2": {
+            "name": "500 Series Chipset Family PCIe Root Port #11"
+        },
+        "43b3": {
+            "name": "500 Series Chipset Family PCIe Root Port #12"
+        },
+        "43b4": {
+            "name": "500 Series Chipset Family PCIe Root Port #13"
+        },
+        "43b5": {
+            "name": "500 Series Chipset Family PCIe Root Port #14"
+        },
+        "43b6": {
+            "name": "500 Series Chipset Family PCIe Root Port #15"
+        },
+        "43b7": {
+            "name": "500 Series Chipset Family PCIe Root Port #16"
         },
         "43b8": {
-            "name": "Tiger Lake-H PCIe Root Port #1"
+            "name": "500 Series Chipset Family PCIe Root Port #1"
+        },
+        "43b9": {
+            "name": "500 Series Chipset Family PCIe Root Port #2"
         },
         "43ba": {
-            "name": "Tiger Lake-H PCIe Root Port #3"
+            "name": "500 Series Chipset Family PCIe Root Port #3"
         },
         "43bb": {
-            "name": "Tiger Lake-H PCIe Root Port #4"
+            "name": "500 Series Chipset Family PCIe Root Port #4"
         },
         "43bc": {
-            "name": "Tiger Lake-H PCI Express Root Port #5"
+            "name": "500 Series Chipset Family PCIe Root Port #5"
+        },
+        "43bd": {
+            "name": "500 Series Chipset Family PCIe Root Port #6"
         },
         "43be": {
-            "name": "11th Gen Core Processor PCIe Root Port #7"
+            "name": "500 Series Chipset Family PCIe Root Port #7"
+        },
+        "43bf": {
+            "name": "500 Series Chipset Family PCIe Root Port #8"
         },
         "43c0": {
-            "name": "Tiger Lake-H PCIe Root Port #17"
+            "name": "500 Series Chipset Family PCIe Root Port #17"
+        },
+        "43c1": {
+            "name": "500 Series Chipset Family PCIe Root Port #18"
+        },
+        "43c2": {
+            "name": "500 Series Chipset Family PCIe Root Port #19"
+        },
+        "43c3": {
+            "name": "500 Series Chipset Family PCIe Root Port #20"
+        },
+        "43c4": {
+            "name": "500 Series Chipset Family PCIe Root Port #21"
+        },
+        "43c5": {
+            "name": "500 Series Chipset Family PCIe Root Port #22"
+        },
+        "43c6": {
+            "name": "500 Series Chipset Family PCIe Root Port #23"
         },
         "43c7": {
-            "name": "Tiger Lake-H PCIe Root Port #24"
+            "name": "500 Series Chipset Family PCIe Root Port #24"
         },
         "43c8": {
-            "name": "Tiger Lake-H HD Audio Controller"
+            "name": "500 Series Chipset Family HD Audio"
+        },
+        "43c9": {
+            "name": "500 Series Chipset Family HD Audio"
+        },
+        "43ca": {
+            "name": "500 Series Chipset Family HD Audio"
+        },
+        "43cb": {
+            "name": "500 Series Chipset Family HD Audio"
+        },
+        "43cc": {
+            "name": "500 Series Chipset Family HD Audio"
+        },
+        "43cd": {
+            "name": "500 Series Chipset Family HD Audio"
+        },
+        "43ce": {
+            "name": "500 Series Chipset Family HD Audio"
+        },
+        "43cf": {
+            "name": "500 Series Chipset Family HD Audio"
+        },
+        "43d0": {
+            "name": "500 Series Chipset Family Touch Host Controller (THC) #0"
+        },
+        "43d1": {
+            "name": "500 Series Chipset Family Touch Host Controller (THC) #1"
+        },
+        "43d2": {
+            "name": "500 Series Chipset Family SATA Controller (AHCI) (Server/Desktop)"
         },
         "43d3": {
-            "name": "Tiger Lake SATA AHCI Controller"
+            "name": "500 Series Chipset Family SATA Controller (AHCI) (Mobile)"
+        },
+        "43d4": {
+            "name": "500 Series Chipset Family SATA Controller (RAID 0/1/5/10) no premium (Desktop)"
+        },
+        "43d5": {
+            "name": "500 Series Chipset Family SATA Controller (RAID 0/1/5/10) no premium (Mobile)"
+        },
+        "43d6": {
+            "name": "500 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium (Server/Desktop)"
+        },
+        "43d7": {
+            "name": "500 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium (Mobile)"
+        },
+        "43d8": {
+            "name": "500 Series Chipset Family I2C #6"
+        },
+        "43da": {
+            "name": "500 Series Chipset Family UART #3"
         },
         "43e0": {
-            "name": "Tiger Lake-H Management Engine Interface"
+            "name": "500 Series Chipset Family CSME HECI #1"
+        },
+        "43e1": {
+            "name": "500 Series Chipset Family CSME HECI #2"
+        },
+        "43e2": {
+            "name": "500 Series Chipset Family CSME IDE Redirection (IDE-R)"
         },
         "43e3": {
-            "name": "Tiger Lake AMT SOL Redirection"
+            "name": "500 Series Chipset Family CSME Keyboard and Text (KT) Redirection"
+        },
+        "43e4": {
+            "name": "500 Series Chipset Family CSME HECI #3"
+        },
+        "43e5": {
+            "name": "500 Series Chipset Family CSME HECI #4"
         },
         "43e8": {
-            "name": "Tiger Lake-H Serial IO I2C Controller #0"
+            "name": "500 Series Chipset Family I2C #0"
         },
         "43e9": {
-            "name": "Tiger Lake-H Serial IO I2C Controller #1"
+            "name": "500 Series Chipset Family I2C #1"
+        },
+        "43ea": {
+            "name": "500 Series Chipset Family I2C #2"
+        },
+        "43eb": {
+            "name": "500 Series Chipset Family I2C #3"
         },
         "43ed": {
-            "name": "Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller"
+            "name": "500 Series Chipset Family USB 3.2 Gen 2x2 (20 Gbs) xHCI Host Controller"
+        },
+        "43ee": {
+            "name": "500 Series Chipset Family USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)"
         },
         "43ef": {
-            "name": "Tiger Lake-H Shared SRAM"
+            "name": "500 Series Chipset Family Shared SRAM"
         },
         "43f0": {
             "name": "Tiger Lake PCH CNVi WiFi",
@@ -83290,8 +83575,14 @@
                 "02a4": "Wireless-AC 9462"
             }
         },
+        "43fb": {
+            "name": "500 Series Chipset Family GSPI #2"
+        },
         "43fc": {
-            "name": "Tiger Lake-H Integrated Sensor Hub"
+            "name": "500 Series Chipset Family Integrated Sensor Hub"
+        },
+        "43fd": {
+            "name": "500 Series Chipset Family GSPI #3"
         },
         "444e": {
             "name": "Turbo Memory Controller"
@@ -84233,10 +84524,10 @@
             "name": "Ethernet Connection (18) I219-LM"
         },
         "550c": {
-            "name": "Ethernet Connection (19) I219-LM"
+            "name": "800 Series Chipset Family GbE Controller (Corporate/vPro)"
         },
         "550d": {
-            "name": "Ethernet Connection (19) I219-V"
+            "name": "800 Series Chipset Family GbE Controller (Consumer)"
         },
         "550e": {
             "name": "Ethernet Connection (20) I219-LM"
@@ -84376,14 +84667,23 @@
         "5787": {
             "name": "JHL9480 Thunderbolt 5 80/120G USB Controller [Barlow Ridge Hub 80G 2023]"
         },
+        "5792": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors ILMI"
+        },
+        "5793": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors ACPI"
+        },
         "5794": {
-            "name": "Granite Rapids SPI Controller"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors SPI"
         },
         "5795": {
-            "name": "Granite Rapids Chipset LPC Controller"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors eSPI"
         },
         "5796": {
-            "name": "Granite Rapids SMBus Controller"
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors SMBus"
+        },
+        "5797": {
+            "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UART"
         },
         "579c": {
             "name": "Ethernet Connection E825-C for backplane"
@@ -84409,8 +84709,11 @@
         "57a5": {
             "name": "JHL9440 Thunderbolt 4 USB Controller [Barlow Ridge Hub 40G 2023]"
         },
+        "57ac": {
+            "name": "Ethernet Controller E610"
+        },
         "57ad": {
-            "name": "E610 Virtual Function"
+            "name": "Ethernet Controller E610 Virtual Function"
         },
         "57ae": {
             "name": "Ethernet Controller E610 Backplane"
@@ -84419,13 +84722,13 @@
             "name": "Ethernet Controller E610 SFP"
         },
         "57b0": {
-            "name": "Ethernet Controller E610 10GBASE T",
+            "name": "Ethernet Controller E610-XT/E610-XT2 10GBASE-T",
             "8086": {
                 "0004": "Ethernet Network Adapter E610-XT2 for OCP 3.0"
             }
         },
         "57b1": {
-            "name": "Ethernet Controller E610 2.5GBASE T",
+            "name": "Ethernet Controller E610-AT2 1000BASE-T",
             "8086": {
                 "0003": "Ethernet Network Adapter E610-IT4 for OCP 3.0"
             }
@@ -84758,6 +85061,18 @@
             "name": "5100 Chipset DMA Engine"
         },
         "674c": {
+            "name": "CRI"
+        },
+        "674d": {
+            "name": "CRI"
+        },
+        "674e": {
+            "name": "CRI"
+        },
+        "674f": {
+            "name": "CRI"
+        },
+        "6750": {
             "name": "CRI"
         },
         "6e23": {
@@ -86039,19 +86354,31 @@
             "name": "600 Series Chipset Family UART #3"
         },
         "7ae0": {
-            "name": "Alder Lake-S PCH USB 3.2 Gen 2x2 XHCI Controller"
+            "name": "600 Series Chipset Family USB 3.2 Gen 2x2 (20Gbs) XHCI Host Controller"
         },
         "7ae1": {
-            "name": "Alder Lake-S PCH USB 3.2 Gen 1x1 xDCI Controller"
+            "name": "600 Series Chipset Family USB 3.2 Gen 1x1 (5Gbs) Device Controller (xDCI)"
         },
         "7ae2": {
-            "name": "Alder Lake-S PCH SATA Controller [AHCI Mode]"
+            "name": "600 Series Chipset Family SATA Controller (AHCI)"
         },
         "7ae8": {
-            "name": "Alder Lake-S PCH HECI Controller #1"
+            "name": "600 Series Chipset Family CSME HECI #1"
+        },
+        "7ae9": {
+            "name": "600 Series Chipset Family CSME HECI #2"
+        },
+        "7aea": {
+            "name": "600 Series Chipset Family CSME IDE Redirection (IDE-R)"
         },
         "7aeb": {
-            "name": "Alder Lake-S Keyboard and Text (KT) Redirection"
+            "name": "600 Series Chipset Family CSME Keyboard and Text (KT) Redirection"
+        },
+        "7aec": {
+            "name": "600 Series Chipset Family CSME HECI #3"
+        },
+        "7aed": {
+            "name": "600 Series Chipset Family CSME HECI #4"
         },
         "7af0": {
             "name": "Alder Lake-S PCH CNVi WiFi",
@@ -86060,13 +86387,22 @@
             }
         },
         "7af8": {
-            "name": "Alder Lake-S Integrated Sensor Hub"
+            "name": "600 Series Chipset Family Integrated Sensor Hub"
+        },
+        "7af9": {
+            "name": "600 Series Chipset Family GSPI #3"
+        },
+        "7afb": {
+            "name": "600 Series Chipset Family GSPI #2"
         },
         "7afc": {
-            "name": "Alder Lake-S PCH Serial IO I2C Controller #4"
+            "name": "600 Series Chipset Family I2C Controller #4"
         },
         "7afd": {
-            "name": "Alder Lake-S PCH Serial IO I2C Controller #5"
+            "name": "600 Series Chipset Family I2C Controller #5"
+        },
+        "7afe": {
+            "name": "600 Series Chipset Family UART #2"
         },
         "7d01": {
             "name": "Meteor Lake-H 6p+8e cores Host Bridge/DRAM Controller"
@@ -88571,67 +88907,67 @@
             "name": "Sunrise Point-H SATA Controller [RAID mode]"
         },
         "a110": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #1"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #1"
         },
         "a111": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #2"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #2"
         },
         "a112": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #3"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #3"
         },
         "a113": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #4"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #4"
         },
         "a114": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #5",
+            "name": "100/C230 Series Chipset Family PCIe Root Port #5",
             "1043": {
                 "8694": "H110I-PLUS Motherboard"
             }
         },
         "a115": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #6"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #6"
         },
         "a116": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #7"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #7"
         },
         "a117": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #8"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #8"
         },
         "a118": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #9",
+            "name": "100/C230 Series Chipset Family PCIe Root Port #9",
             "1043": {
                 "8694": "H110I-PLUS Motherboard"
             }
         },
         "a119": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #10",
+            "name": "100/C230 Series Chipset Family PCIe Root Port #10",
             "1043": {
                 "8694": "H110I-PLUS Motherboard"
             }
         },
         "a11a": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #11"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #11"
         },
         "a11b": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #12"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #12"
         },
         "a11c": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #13"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #13"
         },
         "a11d": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #14"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #14"
         },
         "a11e": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #15"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #15"
         },
         "a11f": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #16"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #16"
         },
         "a120": {
-            "name": "100 Series/C230 Series Chipset Family P2SB"
+            "name": "100/C230 Series Chipset Family P2SB"
         },
         "a121": {
-            "name": "100 Series/C230 Series Chipset Family Power Management Controller",
+            "name": "100/C230 Series Chipset Family PMC",
             "1028": {
                 "06e4": "XPS 15 9550"
             },
@@ -88649,7 +88985,7 @@
             "name": "Sunrise Point-H cAVS"
         },
         "a123": {
-            "name": "100 Series/C230 Series Chipset Family SMBus",
+            "name": "100/C230 Series Chipset Family SMBus",
             "1028": {
                 "06e4": "XPS 15 9550"
             },
@@ -88664,28 +89000,28 @@
             }
         },
         "a124": {
-            "name": "100 Series/C230 Series Chipset Family SPI Controller"
+            "name": "100/C230 Series Chipset Family SPI Controller"
         },
         "a125": {
-            "name": "100 Series/C230 Series Chipset Family Gigabit Ethernet Controller"
+            "name": "100/C230 Series Chipset Family GbE Controller"
         },
         "a126": {
-            "name": "100 Series/C230 Series Chipset Family Trace Hub"
+            "name": "100/C230 Series Chipset Family Trace Hub"
         },
         "a127": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO UART #0"
+            "name": "100/C230 Series Chipset Family UART #0"
         },
         "a128": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO UART #1"
+            "name": "100/C230 Series Chipset Family UART #1"
         },
         "a129": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO GSPI #0"
+            "name": "100/C230 Series Chipset Family GSPI #0"
         },
         "a12a": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO GSPI #1"
+            "name": "100/C230 Series Chipset Family GSPI #1"
         },
         "a12f": {
-            "name": "100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller",
+            "name": "100/C230 Series Chipset Family USB 3.0 xHCI Controller",
             "1028": {
                 "06e4": "XPS 15 9550"
             },
@@ -88700,10 +89036,10 @@
             }
         },
         "a130": {
-            "name": "100 Series/C230 Series Chipset Family USB Device Controller (OTG)"
+            "name": "100/C230 Series Chipset Family USB Device Controller (OTG)"
         },
         "a131": {
-            "name": "100 Series/C230 Series Chipset Family Thermal Subsystem",
+            "name": "100/C230 Series Chipset Family Thermal Subsystem",
             "1028": {
                 "06e4": "XPS 15 9550"
             },
@@ -88718,10 +89054,10 @@
             "name": "Sunrise Point-H Northpeak ACPI Function"
         },
         "a135": {
-            "name": "100 Series/C230 Series Chipset Family Integrated Sensor Hub"
+            "name": "100/C230 Series Chipset Family ISH"
         },
         "a13a": {
-            "name": "100 Series/C230 Series Chipset Family MEI Controller #1",
+            "name": "100/C230 Series Chipset Family MEI #1",
             "1028": {
                 "06e4": "XPS 15 9550"
             },
@@ -88736,16 +89072,16 @@
             }
         },
         "a13b": {
-            "name": "100 Series/C230 Series Chipset Family MEI Controller #2"
+            "name": "100/C230 Series Chipset Family MEI #2"
         },
         "a13c": {
-            "name": "100 Series/C230 Series Chipset Family IDE Redirection"
+            "name": "100/C230 Series Chipset Family IDE Redirection"
         },
         "a13d": {
-            "name": "100 Series/C230 Series Chipset Family KT Redirection"
+            "name": "100/C230 Series Chipset Family Keyboard and Text (KT) Redirection"
         },
         "a13e": {
-            "name": "100 Series/C230 Series Chipset Family MEI Controller #3"
+            "name": "100/C230 Series Chipset Family MEI #3"
         },
         "a140": {
             "name": "Sunrise Point-H LPC Controller"
@@ -88856,7 +89192,7 @@
             "name": "Sunrise Point-H LPC Controller"
         },
         "a160": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO I2C Controller #0",
+            "name": "100/C230 Series Chipset Family I2C #0",
             "1028": {
                 "06e4": "XPS 15 9550"
             },
@@ -88865,34 +89201,34 @@
             }
         },
         "a161": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO I2C Controller #1",
+            "name": "100/C230 Series Chipset Family I2C #1",
             "1028": {
                 "06e4": "XPS 15 9550"
             }
         },
         "a162": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO I2C Controller #2"
+            "name": "100/C230 Series Chipset Family I2C #2"
         },
         "a163": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO I2C Controller #3"
+            "name": "100/C230 Series Chipset Family I2C #3"
         },
         "a166": {
-            "name": "100 Series/C230 Series Chipset Family Serial IO UART Controller #2"
+            "name": "100/C230 Series Chipset Family UART #2"
         },
         "a167": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #17"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #17"
         },
         "a168": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #18"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #18"
         },
         "a169": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #19"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #19"
         },
         "a16a": {
-            "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #20"
+            "name": "100/C230 Series Chipset Family PCIe Root Port #20"
         },
         "a170": {
-            "name": "100 Series/C230 Series Chipset Family HD Audio Controller",
+            "name": "100/C230 Series Chipset Family HD Audio",
             "1028": {
                 "06e4": "XPS 15 9550"
             },
@@ -89180,82 +89516,85 @@
             "name": "Lewisburg PCI Express Root Port"
         },
         "a282": {
-            "name": "200 Series PCH SATA controller [AHCI mode]",
+            "name": "200 Series/Z370 Chipset Family SATA Controller (AHCI)",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
         },
         "a286": {
-            "name": "200 Series PCH SATA controller [RAID mode]"
+            "name": "200 Series/Z370 Chipset Family SATA Controller (RAID) Premium"
+        },
+        "a28e": {
+            "name": "200 Series/Z370 Chipset Family SATA Controller (RST and Optane Technology)"
         },
         "a290": {
-            "name": "200 Series PCH PCI Express Root Port #1"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #1"
         },
         "a291": {
-            "name": "200 Series PCH PCI Express Root Port #2"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #2"
         },
         "a292": {
-            "name": "200 Series PCH PCI Express Root Port #3"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #3"
         },
         "a293": {
-            "name": "200 Series PCH PCI Express Root Port #4"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #4"
         },
         "a294": {
-            "name": "200 Series PCH PCI Express Root Port #5",
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #5",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
         },
         "a295": {
-            "name": "200 Series PCH PCI Express Root Port #6"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #6"
         },
         "a296": {
-            "name": "200 Series PCH PCI Express Root Port #7",
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #7",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
         },
         "a297": {
-            "name": "200 Series PCH PCI Express Root Port #8"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #8"
         },
         "a298": {
-            "name": "200 Series PCH PCI Express Root Port #9",
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #9",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
         },
         "a299": {
-            "name": "200 Series PCH PCI Express Root Port #10"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #10"
         },
         "a29a": {
-            "name": "200 Series PCH PCI Express Root Port #11"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #11"
         },
         "a29b": {
-            "name": "200 Series PCH PCI Express Root Port #12"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #12"
         },
         "a29c": {
-            "name": "200 Series PCH PCI Express Root Port #13"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #13"
         },
         "a29d": {
-            "name": "200 Series PCH PCI Express Root Port #14"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #14"
         },
         "a29e": {
-            "name": "200 Series PCH PCI Express Root Port #15"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #15"
         },
         "a29f": {
-            "name": "200 Series PCH PCI Express Root Port #16"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #16"
         },
         "a2a0": {
             "name": "200 Series/Z370 Chipset Family P2SB"
         },
         "a2a1": {
-            "name": "200 Series/Z370 Chipset Family Power Management Controller",
+            "name": "200 Series/Z370 Chipset Family PMC",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
         },
         "a2a3": {
-            "name": "200 Series/Z370 Chipset Family SMBus Controller",
+            "name": "200 Series/Z370 Chipset Family SMBus",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
@@ -89264,22 +89603,22 @@
             "name": "200 Series/Z370 Chipset Family SPI Controller"
         },
         "a2a5": {
-            "name": "200 Series/Z370 Chipset Family Gigabit Ethernet Controller"
+            "name": "200 Series/Z370 Chipset Family GbE Controller"
         },
         "a2a6": {
             "name": "200 Series/Z370 Chipset Family Trace Hub"
         },
         "a2a7": {
-            "name": "200 Series/Z370 Chipset Family Serial IO UART Controller #0"
+            "name": "200 Series/Z370 Chipset Family UART #0"
         },
         "a2a8": {
-            "name": "200 Series/Z370 Chipset Family Serial IO UART Controller #1"
+            "name": "200 Series/Z370 Chipset Family UART #1"
         },
         "a2a9": {
-            "name": "200 Series/Z370 Chipset Family Serial IO SPI Controller #0"
+            "name": "200 Series/Z370 Chipset Family GSPI #0"
         },
         "a2aa": {
-            "name": "200 Series/Z370 Chipset Family Serial IO SPI Controller #1"
+            "name": "200 Series/Z370 Chipset Family GSPI #1"
         },
         "a2af": {
             "name": "200 Series/Z370 Chipset Family USB 3.0 xHCI Controller",
@@ -89287,41 +89626,53 @@
                 "7a72": "H270 PC MATE"
             }
         },
+        "a2b0": {
+            "name": "200 Series/Z370 Chipset Family USB Device Controller (OTG)"
+        },
         "a2b1": {
-            "name": "200 Series PCH Thermal Subsystem",
+            "name": "200 Series/Z370 Chipset Family Thermal Subsystem",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
         },
+        "a2b5": {
+            "name": "200 Series/Z370 Chipset Family ISH"
+        },
         "a2ba": {
-            "name": "200 Series PCH CSME HECI #1",
+            "name": "200 Series/Z370 Chipset Family MEI #1",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
         },
         "a2bb": {
-            "name": "200 Series PCH CSME HECI #2"
+            "name": "200 Series/Z370 Chipset Family MEI #2"
+        },
+        "a2bc": {
+            "name": "200 Series/Z370 Chipset Family IDE Redirection"
         },
         "a2bd": {
-            "name": "200 Series Chipset Family KT Redirection"
+            "name": "200 Series/Z370 Chipset Family Keyboard and Text (KT) Redirection"
+        },
+        "a2be": {
+            "name": "200 Series/Z370 Chipset Family MEI #3"
         },
         "a2c4": {
-            "name": "200 Series PCH LPC Controller (H270)",
+            "name": "H270 Chipset LPC/eSPI Controller",
             "1462": {
                 "7a72": "H270 PC MATE"
             }
         },
         "a2c5": {
-            "name": "200 Series PCH LPC Controller (Z270)"
+            "name": "Z270 Chipset LPC/eSPI Controller"
         },
         "a2c6": {
-            "name": "200 Series PCH LPC Controller (Q270)"
+            "name": "Q270 Chipset LPC/eSPI Controller"
         },
         "a2c7": {
-            "name": "200 Series PCH LPC Controller (Q250)"
+            "name": "Q250 Chipset LPC/eSPI Controller"
         },
         "a2c8": {
-            "name": "200 Series PCH LPC Controller (B250)"
+            "name": "B250 Chipset LPC/eSPI Controller"
         },
         "a2c9": {
             "name": "Z370 Chipset LPC/eSPI Controller"
@@ -89333,46 +89684,46 @@
             "name": "C422 Chipset LPC/eSPI Controller"
         },
         "a2e0": {
-            "name": "200 Series PCH Serial IO I2C Controller #0"
+            "name": "200 Series/Z370 Chipset Family I2C #0"
         },
         "a2e1": {
-            "name": "200 Series PCH Serial IO I2C Controller #1"
+            "name": "200 Series/Z370 Chipset Family I2C #1"
         },
         "a2e2": {
-            "name": "200 Series PCH Serial IO I2C Controller #2"
+            "name": "200 Series/Z370 Chipset Family I2C #2"
         },
         "a2e3": {
-            "name": "200 Series PCH Serial IO I2C Controller #3"
+            "name": "200 Series/Z370 Chipset Family I2C #3"
         },
         "a2e6": {
-            "name": "200 Series PCH Serial IO UART Controller #2"
+            "name": "200 Series/Z370 Chipset Family UART #2"
         },
         "a2e7": {
-            "name": "200 Series PCH PCI Express Root Port #17"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #17"
         },
         "a2e8": {
-            "name": "200 Series PCH PCI Express Root Port #18"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #18"
         },
         "a2e9": {
-            "name": "200 Series PCH PCI Express Root Port #19"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #19"
         },
         "a2ea": {
-            "name": "200 Series PCH PCI Express Root Port #20"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #20"
         },
         "a2eb": {
-            "name": "200 Series PCH PCI Express Root Port #21"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #21"
         },
         "a2ec": {
-            "name": "200 Series PCH PCI Express Root Port #22"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #22"
         },
         "a2ed": {
-            "name": "200 Series PCH PCI Express Root Port #23"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #23"
         },
         "a2ee": {
-            "name": "200 Series PCH PCI Express Root Port #24"
+            "name": "200 Series/Z370 Chipset Family PCIe Root Port #24"
         },
         "a2f0": {
-            "name": "200 Series PCH HD Audio",
+            "name": "200 Series/Z370 Chipset Family HD Audio",
             "1462": {
                 "fa72": "H270 PC MATE"
             }
@@ -89416,95 +89767,113 @@
         "a313": {
             "name": "Cannon Lake LPC/eSPI Controller"
         },
+        "a320": {
+            "name": "300/C240 Series Chipset Family P2SB"
+        },
+        "a321": {
+            "name": "300/C240 Series Chipset Family PMC"
+        },
         "a323": {
-            "name": "Cannon Lake PCH SMBus Controller",
+            "name": "300/C240 Series Chipset Family SMBus",
             "1028": {
                 "0869": "Vostro 3470"
             }
         },
         "a324": {
-            "name": "Cannon Lake PCH SPI Controller",
+            "name": "300/C240 Series Chipset Family SPI (Flash) Controller",
             "1028": {
                 "0869": "Vostro 3470"
             }
         },
+        "a326": {
+            "name": "300/C240 Series Chipset Family Trace Hub"
+        },
         "a328": {
-            "name": "Cannon Lake PCH Serial IO UART Host Controller"
+            "name": "300/C240 Series Chipset Family UART #0"
+        },
+        "a329": {
+            "name": "300/C240 Series Chipset Family UART #1"
+        },
+        "a32a": {
+            "name": "300/C240 Series Chipset Family GSPI #0"
         },
         "a32b": {
-            "name": "Cannon Lake PCH SPI Host Controller"
+            "name": "300/C240 Series Chipset Family GSPI #1"
         },
         "a32c": {
-            "name": "Cannon Lake PCH PCI Express Root Port #21"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #21"
         },
         "a32d": {
-            "name": "Cannon Lake PCH PCI Express Root Port #22"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #22"
         },
         "a32e": {
-            "name": "Cannon Lake PCH PCI Express Root Port #23"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #23"
         },
         "a32f": {
-            "name": "Cannon Lake PCH PCI Express Root Port #24"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #24"
         },
         "a330": {
-            "name": "Cannon Lake PCH PCI Express Root Port #9"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #9"
         },
         "a331": {
-            "name": "Cannon Lake PCH PCI Express Root Port #10"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #10"
         },
         "a332": {
-            "name": "Cannon Lake PCH PCI Express Root Port #11"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #11"
         },
         "a333": {
-            "name": "Cannon Lake PCH PCI Express Root Port #12"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #12"
         },
         "a334": {
-            "name": "Cannon Lake PCH PCI Express Root Port #13"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #13"
         },
         "a335": {
-            "name": "Cannon Lake PCH PCI Express Root Port #14"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #14"
         },
         "a336": {
-            "name": "Cannon Lake PCH PCI Express Root Port #15"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #15"
         },
         "a337": {
-            "name": "Cannon Lake PCH PCI Express Root Port #16"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #16"
         },
         "a338": {
-            "name": "Cannon Lake PCH PCI Express Root Port #1"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #1"
         },
         "a339": {
-            "name": "Cannon Lake PCH PCI Express Root Port #2"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #2"
         },
         "a33a": {
-            "name": "Cannon Lake PCH PCI Express Root Port #3"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #3"
         },
         "a33b": {
-            "name": "Cannon Lake PCH PCI Express Root Port #4"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #4"
         },
         "a33c": {
-            "name": "Cannon Lake PCH PCI Express Root Port #5"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #5"
         },
         "a33d": {
-            "name": "Cannon Lake PCH PCI Express Root Port #6"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #6"
         },
         "a33e": {
-            "name": "Cannon Lake PCH PCI Express Root Port #7"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #7"
         },
         "a33f": {
-            "name": "Cannon Lake PCH PCI Express Root Port #8"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #8"
         },
         "a340": {
-            "name": "Cannon Lake PCH PCI Express Root Port #17"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #17"
         },
         "a341": {
-            "name": "Cannon Lake PCH PCI Express Root Port #18"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #18"
         },
         "a342": {
-            "name": "Cannon Lake PCH PCI Express Root Port #19"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #19"
         },
         "a343": {
-            "name": "Cannon Lake PCH PCI Express Root Port #20"
+            "name": "300/C240 Series Chipset Family PCIe Root Port #20"
+        },
+        "a347": {
+            "name": "300/C240 Series Chipset Family UART #2"
         },
         "a348": {
             "name": "Cannon Lake PCH cAVS",
@@ -89513,37 +89882,58 @@
             }
         },
         "a352": {
-            "name": "Cannon Lake PCH SATA AHCI Controller",
+            "name": "300/C240 Series Chipset Family SATA Controller (AHCI)",
             "1028": {
                 "0869": "Vostro 3470"
             }
         },
         "a353": {
-            "name": "Cannon Lake Mobile PCH SATA AHCI Controller"
+            "name": "300/C240 Series Chipset Family SATA Controller (AHCI)"
+        },
+        "a355": {
+            "name": "300/C240 Series Chipset Family SATA Controller (RAID 0/1/5/10)"
+        },
+        "a356": {
+            "name": "300/C240 Series Chipset Family SATA Controller (RAID 0/1/5/10)"
+        },
+        "a357": {
+            "name": "300/C240 Series Chipset Family SATA Controller (RAID 0/1/5/10)"
+        },
+        "a35e": {
+            "name": "300/C240 Series Chipset Family SATA Controller Optane Memory"
         },
         "a360": {
-            "name": "Cannon Lake PCH HECI Controller",
+            "name": "300/C240 Series Chipset Family HECI #1",
             "1028": {
                 "0869": "Vostro 3470"
             }
         },
+        "a361": {
+            "name": "300/C240 Series Chipset Family HECI #2"
+        },
+        "a362": {
+            "name": "300/C240 Series Chipset Family IDE Redirection (IDER-R)"
+        },
         "a363": {
-            "name": "Cannon Lake PCH Active Management Technology - SOL"
+            "name": "300/C240 Series Chipset Family Keyboard and Text (KT) Redirection"
         },
         "a364": {
-            "name": "Cannon Lake PCH HECI Controller #2"
+            "name": "300/C240 Series Chipset Family HECI #3"
+        },
+        "a365": {
+            "name": "300/C240 Series Chipset Family HECI #4"
         },
         "a368": {
-            "name": "Cannon Lake PCH Serial IO I2C Controller #0"
+            "name": "300/C240 Series Chipset Family I2C Controller #0"
         },
         "a369": {
-            "name": "Cannon Lake PCH Serial IO I2C Controller #1"
+            "name": "300/C240 Series Chipset Family I2C Controller #1"
         },
         "a36a": {
-            "name": "Cannon Lake PCH Serial IO I2C Controller #2"
+            "name": "300/C240 Series Chipset Family I2C Controller #2"
         },
         "a36b": {
-            "name": "Cannon Lake PCH Serial IO I2C Controller #3"
+            "name": "300/C240 Series Chipset Family I2C Controller #3"
         },
         "a36d": {
             "name": "Cannon Lake PCH USB 3.1 xHCI Host Controller",
@@ -89551,8 +89941,11 @@
                 "0869": "Vostro 3470"
             }
         },
+        "a36e": {
+            "name": "300/C240 Series Chipset Family USB Device Controller (Dual Role)"
+        },
         "a36f": {
-            "name": "Cannon Lake PCH Shared SRAM"
+            "name": "300/C240 Series Chipset Family Shared SRAM"
         },
         "a370": {
             "name": "Cannon Lake PCH CNVi WiFi",
@@ -89564,10 +89957,16 @@
             }
         },
         "a379": {
-            "name": "Cannon Lake PCH Thermal Controller",
+            "name": "300/C240 Series Chipset Family Thermal Subsystem",
             "1028": {
                 "0869": "Vostro 3470"
             }
+        },
+        "a37b": {
+            "name": "300/C240 Series Chipset Family SPI #2"
+        },
+        "a37c": {
+            "name": "300/C240 Series Chipset Family Integrated Sensor Hub"
         },
         "a382": {
             "name": "400 Series Chipset Family SATA AHCI Controller"
@@ -90576,6 +90975,9 @@
             "8510": {
                 "0201": "GB2062-PUB-DDR"
             }
+        },
+        "0301": {
+            "name": "GenBu03 Series GPU"
         }
     },
     "8686": {
