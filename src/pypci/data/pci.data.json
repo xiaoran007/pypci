@@ -140,7 +140,7 @@
             "name": "2K2000 / 7A2000 Chipset Display Controller"
         },
         "7a37": {
-            "name": "2K2000/3000 / 3B6000M HDMI Audio Controller"
+            "name": "2K2000/3000 / 3B6000M / 7A2000 Chipset HDMI Audio Controller"
         },
         "7a39": {
             "name": "2K2000 / 7A2000 Chipset PCIe x1 Root Port"
@@ -394,10 +394,28 @@
     },
     "0731": {
         "name": "Jingjia Microelectronics Co Ltd",
+        "0100": {
+            "name": "JMN100",
+            "0731": {
+                "0101": "JMN100 16G"
+            }
+        },
+        "1050": {
+            "name": "JM1050",
+            "0731": {
+                "1051": "JM1050 8G"
+            }
+        },
         "1100": {
             "name": "JM1100",
             "0731": {
-                "1107": "JM1100-EM"
+                "1109": "JY1032"
+            }
+        },
+        "1102": {
+            "name": "JM1100-Y",
+            "0731": {
+                "1122": "JY1032 LE 32G"
             }
         },
         "7200": {
@@ -473,7 +491,10 @@
             "name": "JM1100-MV"
         },
         "ff11": {
-            "name": "JM1100-YV"
+            "name": "JM1100-YV",
+            "0731": {
+                "1122": "JY1032 LE vGPU"
+            }
         }
     },
     "0771": {
@@ -1367,7 +1388,10 @@
             "name": "SAS3108 PCI-Express Fusion-MPT SAS-3"
         },
         "0096": {
-            "name": "SAS3004 PCI-Express Fusion-MPT SAS-3"
+            "name": "SAS3004 PCI-Express Fusion-MPT SAS-3",
+            "1000": {
+                "3110": "SAS9300-4i"
+            }
         },
         "0097": {
             "name": "SAS3008 PCI-Express Fusion-MPT SAS-3",
@@ -7068,6 +7092,9 @@
         },
         "7550": {
             "name": "Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]",
+            "1458": {
+                "2437": "Navi 48 XTX [Radeon RX 9070 XT Gaming OC ICE 16G]"
+            },
             "148c": {
                 "2435": "Radeon RX 9070 XT 16GB"
             },
@@ -14289,11 +14316,20 @@
         },
         "8400": {
             "name": "ACX 100 22Mbps Wireless Interface",
+            "111a": {
+                "1021": "SpeedStream 1021 (SS1021) Wireless Cardbus PC Card"
+            },
             "1186": {
                 "3b01": "DWL-520+ 22Mbps PCI Wireless Adapter"
             },
             "1395": {
                 "2201": "WL22-PC"
+            },
+            "167d": {
+                "b230": "Netopia TER/WPC11N1 Wireless LAN Card"
+            },
+            "16a5": {
+                "1801": "WE302-TF"
             },
             "16ab": {
                 "8501": "WL-8305 IEEE802.11b+ Wireless LAN PCI Adapter"
@@ -14319,6 +14355,9 @@
             "104c": {
                 "9096": "Trendnet TEW-412PC Wireless PCI Adapter (Version A)"
             },
+            "1154": {
+                "032c": "WLI-CB-G54L"
+            },
             "1186": {
                 "3b08": "AirPlus G DWL-G630 Wireless Cardbus Adapter (rev.B1)"
             },
@@ -14330,6 +14369,12 @@
             },
             "14ea": {
                 "ab07": "GW-NS54GM Wireless Cardbus Adapter"
+            },
+            "167d": {
+                "b260": "SWL-2600N"
+            },
+            "16ab": {
+                "9067": "A90-200WG-01 802.11g Wireless PC Card"
             },
             "16ec": {
                 "010e": "USR5410 802.11g Wireless Cardbus Adapter"
@@ -29176,6 +29221,9 @@
         "2df9": {
             "name": "GB207GLM [RTX PRO 500 Blackwell Embedded GPU]"
         },
+        "2e03": {
+            "name": "GB20B [JMJWOA-Generic-GPU]"
+        },
         "2e12": {
             "name": "GB20B [GB10]"
         },
@@ -29199,6 +29247,12 @@
         },
         "2f80": {
             "name": "GB205 High Definition Audio Controller"
+        },
+        "3040": {
+            "name": "GR100"
+        },
+        "30c0": {
+            "name": "GR102"
         },
         "3180": {
             "name": "GB110 [Reserved Dev ID A]"
@@ -30638,7 +30692,7 @@
             }
         },
         "0010": {
-            "name": "CA0132 Sound Core3D [Sound Blaster AE-7]",
+            "name": "CA0132 Sound Core3D [Sound Blaster AE-7/AE-9]",
             "1102": {
                 "0081": "Sound Blaster AE-7"
             }
@@ -35638,7 +35692,7 @@
         "1fa6": {
             "name": "Marvell W8300 802.11 Adapter",
             "1186": {
-                "3b08": "AirPlus G DWL-G630 Wireless Cardbus Adapter (rev.A1)"
+                "3b09": "AirPlus G DWL-G510 Wireless G PCI Card"
             }
         },
         "1fa7": {
@@ -35646,11 +35700,17 @@
         },
         "1faa": {
             "name": "88w8335 [Libertas] 802.11b/g Wireless",
+            "1186": {
+                "3b22": "EH102 Wireless G Desktop Adapter"
+            },
             "1385": {
                 "6b00": "WG311v3 802.11g Wireless PCI Adapter"
             },
             "1737": {
                 "0040": "WPC54G v5 802.11g Wireless-G Notebook Adapter"
+            },
+            "a727": {
+                "6802": "3CRGPC10075 OfficeConnect Wireless 54Mbps 11g PC Card"
             }
         },
         "2211": {
@@ -35667,6 +35727,9 @@
             "1385": {
                 "7e00": "WN311T RangeMax Next 300 Mbps Wireless PCI Adapter"
             },
+            "1737": {
+                "0065": "WPC4400N Wireless-N Business Notebook Adapter"
+            },
             "1799": {
                 "801b": "F5D8011 v2 802.11n N1 Wireless Notebook Card"
             }
@@ -35676,6 +35739,12 @@
         },
         "2a0a": {
             "name": "88W8363 [TopDog] 802.11n Wireless"
+        },
+        "2a0b": {
+            "name": "88W8363 [TopDog] 802.11n Wireless",
+            "1154": {
+                "035c": "WLI-CB-AMG300N"
+            }
         },
         "2a0c": {
             "name": "88W8363 [TopDog] 802.11n Wireless"
@@ -37264,6 +37333,42 @@
         "6364": {
             "name": "PM63064 Switchtec PSX 64xG6 Programmable PCIe Switch"
         },
+        "7044": {
+            "name": "PM70144 Switchtec PFXs 144xG7 Secure-capable Fanout PCIe Switch"
+        },
+        "7048": {
+            "name": "PM70048 Switchtec PFXs 48xG7 Secure-capable Fanout PCIe Switch"
+        },
+        "7060": {
+            "name": "PM70160 Switchtec PFXs 160xG7 Secure-capable Fanout PCIe Switch"
+        },
+        "7064": {
+            "name": "PM70064 Switchtec PFXs 64xG7 Secure-capable Fanout PCIe Switch"
+        },
+        "7144": {
+            "name": "PM71144 Switchtec PSXs 144xG7 Secure-capable Programmable PCIe Switch"
+        },
+        "7148": {
+            "name": "PM71048 Switchtec PSXs 48xG7 Secure-capable Programmable PCIe Switch"
+        },
+        "7160": {
+            "name": "PM71160 Switchtec PSXs 160xG7 Secure-capable Programmable PCIe Switch"
+        },
+        "7164": {
+            "name": "PM71064 Switchtec PSXs 64xG7 Secure-capable Programmable PCIe Switch"
+        },
+        "7244": {
+            "name": "PM72144 Switchtec PFX 144xG7 Fanout PCIe Switch"
+        },
+        "7248": {
+            "name": "PM72048 Switchtec PFX 48xG7 Fanout PCIe Switch"
+        },
+        "7260": {
+            "name": "PM72160 Switchtec PFX 160xG7 Fanout PCIe Switch"
+        },
+        "7264": {
+            "name": "PM72064 Switchtec PFX 64xG7 Fanout PCIe Switch"
+        },
         "7364": {
             "name": "PM7364 [FREEDM - 32 Frame Engine & Datalink Mgr]"
         },
@@ -37272,6 +37377,18 @@
         },
         "7384": {
             "name": "PM7384 [FREEDM - 84P672 Frm Engine & Datalink Mgr]"
+        },
+        "7444": {
+            "name": "PM74144 Switchtec PSX 144xG7 Programmable PCIe Switch"
+        },
+        "7448": {
+            "name": "PM74048 Switchtec PSX 48xG7 Programmable PCIe Switch"
+        },
+        "7460": {
+            "name": "PM74160 Switchtec PSX 160xG7 Programmable PCIe Switch"
+        },
+        "7464": {
+            "name": "PM74064 Switchtec PSX 64xG7 Programmable PCIe Switch"
         },
         "8000": {
             "name": "PM8000  [SPC - SAS Protocol Controller]"
@@ -38607,8 +38724,14 @@
         },
         "3873": {
             "name": "ISL3874 [Prism 2.5]/ISL3872 [Prism 3]",
+            "10b7": {
+                "0001": "3CRDW696 rev A Wireless LAN PCI Adapter [ISL3874]"
+            },
             "10cf": {
                 "1169": "MBH7WM01-8734 802.11b Wireless Mini PCI Card [ISL3874]"
+            },
+            "10fc": {
+                "d009": "WN-B11/PCIH"
             },
             "1186": {
                 "3700": "DWL-520 Wireless PCI Adapter (rev E1) [ISL3872]"
@@ -38617,10 +38740,13 @@
                 "4105": "MA311 802.11b wireless adapter [ISL3874]"
             },
             "1668": {
-                "0414": "HWP01170-01 802.11b PCI Wireless Adapter"
+                "1406": "802MIP 802.11b Mini PCI Adapter [ISL3874]"
             },
             "16a5": {
                 "1601": "AIR.mate PC-400 PCI Wireless LAN Adapter"
+            },
+            "16be": {
+                "2001": "CTX712"
             },
             "1737": {
                 "3874": "WMP11 v1 802.11b Wireless-B PCI Adapter [ISL3874]"
@@ -48255,6 +48381,9 @@
             "144f": {
                 "7051": "Sonnet Aria Extreme PCI"
             },
+            "16a5": {
+                "1604": "WE602-B"
+            },
             "1737": {
                 "4320": "WPC54G v1 / WPC54GS v1 802.11g Wireless-G Notebook Adapter"
             },
@@ -50977,6 +51106,9 @@
         "2101": {
             "name": "CX10 Family [ConnectX-10 NVLink-C2C]"
         },
+        "2300": {
+            "name": "ConnectX/BlueField Family Hardware Performance Monitors [HWPM]"
+        },
         "4117": {
             "name": "MT27712A0-FDCF-AE",
             "1bd4": {
@@ -51423,6 +51555,9 @@
         },
         "5050": {
             "name": "WD PC SN8050S / WD_BLACK SN8100 NVMe SSD"
+        },
+        "5062": {
+            "name": "WD PC SN5100S NVMe SSD (DRAM-less)"
         },
         "5063": {
             "name": "WD Blue SN5100 NVMe SSD (DRAM-less)"
@@ -52583,6 +52718,9 @@
             "name": "AR5418 Wireless Network Adapter [AR5008E 802.11(a)bgn] (PCI-Express)",
             "106b": {
                 "0087": "AirPort Extreme"
+            },
+            "1154": {
+                "0366": "WLP-EXC-AG300 802.11abgn ExpressCard"
             },
             "1186": {
                 "3a70": "DWA-556 Xtreme N PCI Express Desktop Adapter"
@@ -54048,6 +54186,9 @@
         },
         "af84": {
             "name": "CN99xx [ThunderX2] Integrated PCI Express RP Bridge"
+        },
+        "f010": {
+            "name": "XPliant CNX880xx Network Processor"
         }
     },
     "1787": {
@@ -54321,8 +54462,14 @@
         "name": "Qualcomm Technologies, Inc",
         "0001": {
             "name": "AGN100 802.11 a/b/g True MIMO Wireless Card",
+            "1154": {
+                "0337": "WLI-CB-G108"
+            },
             "1385": {
                 "5c00": "WGM511 Pre-N 802.11g Wireless CardBus Adapter"
+            },
+            "14ea": {
+                "6101": "CQW-NS108G"
             },
             "1737": {
                 "0045": "WMP54GX v1 802.11g Wireless-G PCI Adapter with SRX"
@@ -54330,11 +54477,14 @@
         },
         "0002": {
             "name": "AGN300 802.11 a/b/g True MIMO Wireless Card",
+            "1043": {
+                "106f": "WL-106gM 240 MIMO Wireless CardBus Adapter"
+            },
             "1385": {
                 "6d00": "WPNT511 RangeMax 240 Mbps Wireless CardBus Adapter"
             },
             "1737": {
-                "0054": "WPC54GX4 v1 802.11g Wireless-G Notebook Adapter with SRX400"
+                "0056": "WMP54GX4 Wireless-G PCI Adapter with SRX400"
             }
         },
         "0104": {
@@ -54873,6 +55023,9 @@
         },
         "2220": {
             "name": "IPN 2220 802.11g",
+            "1154": {
+                "0334": "WLI2-CB-G54L"
+            },
             "1468": {
                 "0305": "T60N871 802.11g Mini PCI Wireless Adapter"
             },
@@ -55077,6 +55230,9 @@
             "1186": {
                 "3c09": "DWL-G510 Rev C"
             },
+            "1259": {
+                "c123": "CG-WLCB54GPX"
+            },
             "13d1": {
                 "abe3": "miniPCI Pluscom 802.11 a/b/g"
             },
@@ -55084,7 +55240,7 @@
                 "e934": "GN-WP01GS"
             },
             "1462": {
-                "b833": "MP54G5 (MS-6833B)"
+                "b834": "PC60G (MS-6834B) Wireless 11g Turbo G PCI Card"
             },
             "1737": {
                 "0055": "WMP54G v4.1"
@@ -55097,6 +55253,9 @@
             },
             "1814": {
                 "2561": "EW-7108PCg/EW-7128g"
+            },
+            "182d": {
+                "90aa": "WL-170 Wireless Network Cardbus Card"
             }
         },
         "0302": {
@@ -55154,6 +55313,9 @@
             },
             "1814": {
                 "2790": "RT2790 Wireless 802.11n 1T/2R PCIe"
+            },
+            "1976": {
+                "2600": "TEW-642EC Wireless N ExpressCard"
             }
         },
         "3060": {
@@ -56788,6 +56950,9 @@
         "5031": {
             "name": "PS5031-E31T PCIe5 NVMe Controller"
         },
+        "5037": {
+            "name": "PS5037-E37T PCIe5 NVMe Controller (DRAM-less)"
+        },
         "5302": {
             "name": "PS5302-X2 PCIe5 NVMe Controller"
         }
@@ -56812,7 +56977,7 @@
         "0001": {
             "name": "TOBOLT1 51987 NVMe SSD",
             "1998": {
-                "2012": "TOBOLT1 51987 3840G 2.5\" U.2 NVMe SSD"
+                "6144": "TOBOLT1 51995 6144G 2.5\" U.2 NVMe SSD"
             }
         }
     },
@@ -59128,11 +59293,26 @@
         "1160": {
             "name": "PCIe 3TE2 Controller"
         },
+        "1202": {
+            "name": "PCIe 3TE8 Controller"
+        },
+        "120a": {
+            "name": "PCIe 3IE8 Controller"
+        },
+        "120b": {
+            "name": "PCIe 3TO8 Controller"
+        },
         "1321": {
             "name": "PCIe 4TG-P Controller"
         },
         "1322": {
             "name": "PCIe 4TE Controller"
+        },
+        "1602": {
+            "name": "PCIe 4TE3 Controller"
+        },
+        "160a": {
+            "name": "PCIe 4IE3 Controller"
         },
         "2262": {
             "name": "PCIe 3TG3-P Controller"
@@ -59141,13 +59321,28 @@
             "name": "PCIe 3TE7 Controller"
         },
         "5216": {
-            "name": "PCIe 3TE8 Controller"
+            "name": "PCIe 3TE9 controller"
+        },
+        "521a": {
+            "name": "PCIe 3IE9 Controller"
+        },
+        "5220": {
+            "name": "PCIe 4TE2 Controller"
+        },
+        "522a": {
+            "name": "PCIe 4IE2 Controller"
         },
         "5236": {
             "name": "PCIe 4TG2-P Controller"
         },
         "523a": {
             "name": "PCIe 4TS2-P Controller"
+        },
+        "523b": {
+            "name": "PCIe 4IG2-P Controller"
+        },
+        "8366": {
+            "name": "PCIe 5TS-P Controller"
         }
     },
     "1bcd": {
@@ -59604,6 +59799,9 @@
         },
         "a017": {
             "name": "FB2CGHH Capture 8x25Gb [Tivoli] a017"
+        },
+        "a01b": {
+            "name": "FB2CDG1 Capture 2x100Gb [Thunderfjord]"
         }
     },
     "1c32": {
@@ -60010,6 +60208,9 @@
         "636a": {
             "name": "XPG GAMMIX S55 NVMe SSD (DRAM-less)"
         },
+        "641a": {
+            "name": "LEGEND 970 PRO NVMe SSD"
+        },
         "642a": {
             "name": "XPG GAMMIX S50 CORE NVMe SSD (DRAM-less)"
         },
@@ -60126,6 +60327,12 @@
         },
         "6a14": {
             "name": "AM6A1 PCIe 4.0 NVMe SSD 1024GB (DRAM-less)"
+        },
+        "6b02": {
+            "name": "AM6B0 PCIe 4.0 NVMe SSD 256GB (DRAM-less)"
+        },
+        "6b03": {
+            "name": "RPETJ512MMW1MDQ PCIe 4.0 NVMe SSD 512GB (DRAM-less)"
         },
         "6b04": {
             "name": "AM6B0 PCIe 4.0 NVMe SSD"
@@ -60551,28 +60758,28 @@
             "name": "ZX-D PCI Express Root Port"
         },
         "0717": {
-            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port"
+            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port"
         },
         "0718": {
-            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port"
+            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port"
         },
         "0719": {
-            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port"
+            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port"
         },
         "071a": {
             "name": "KX-5000/KX-6000/KX-6000G/KH-40000 PCI Express Root Port"
         },
         "071b": {
-            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port"
+            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port"
         },
         "071c": {
-            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port"
+            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port"
         },
         "071d": {
-            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port"
+            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port"
         },
         "071e": {
-            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Express Root Port"
+            "name": "KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Express Root Port"
         },
         "071f": {
             "name": "ZX-200 Upstream Port of PCI Express Switch"
@@ -60619,11 +60826,104 @@
         "073b": {
             "name": "KX-7000 PCIE Express Root Port"
         },
+        "073c": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "073d": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "073e": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "073f": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0740": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0741": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0742": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0743": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0744": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0745": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0746": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0747": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0748": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0749": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "074a": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "074b": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "074c": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "074d": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "074e": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "074f": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0750": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0751": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0752": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0757": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0758": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "0759": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "075a": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "075b": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "075c": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "075d": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
+        "075e": {
+            "name": "KH-50000 PCI Express Root Port"
+        },
         "1000": {
             "name": "ZX-D Standard Host Bridge"
         },
         "1001": {
-            "name": "ZX-D/ZX-E/KH-40000/KX-7000 Miscellaneous Bus"
+            "name": "ZX-D/ZX-E/KH-40000/KX-7000/KH-50000 Miscellaneous Bus"
         },
         "1003": {
             "name": "ZX-E Standard Host Bridge"
@@ -60637,6 +60937,9 @@
         "1007": {
             "name": "KX-7000 Standard Host Bridge"
         },
+        "1008": {
+            "name": "KH-50000 Standard Host Bridge"
+        },
         "3001": {
             "name": "ZX-100 Standard Host Bridge"
         },
@@ -60644,31 +60947,31 @@
             "name": "ZX-100 Miscellaneous Bus"
         },
         "3038": {
-            "name": "ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Universal PCI to USB Host Controller"
+            "name": "ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Universal PCI to USB Host Controller"
         },
         "3104": {
-            "name": "ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Enhanced PCI to USB Host Controller"
+            "name": "ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Enhanced PCI to USB Host Controller"
         },
         "31b0": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Host Bridge"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Host Bridge"
         },
         "31b1": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Host Bridge"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Host Bridge"
         },
         "31b2": {
             "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 DRAM Controller"
         },
         "31b3": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Power Management Controller"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Power Management Controller"
         },
         "31b4": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 I/O APIC"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 I/O APIC"
         },
         "31b5": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Scratch Device"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Scratch Device"
         },
         "31b7": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 Standard Host Bridge"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 Standard Host Bridge"
         },
         "31b8": {
             "name": "ZX-100/ZX-D PCI to PCI Bridge"
@@ -60677,7 +60980,7 @@
             "name": "KX-7000 Host Bridge"
         },
         "3288": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 High Definition Audio Controller"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 High Definition Audio Controller"
         },
         "345b": {
             "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000 Miscellaneous Bus"
@@ -60716,13 +61019,13 @@
             "name": "KX-6000G C-1080 GPU"
         },
         "9002": {
-            "name": "ZX-100/ZX-200/KH-40000/KX-7000 EIDE Controller"
+            "name": "ZX-100/ZX-200/KH-40000/KX-7000/KH-50000 EIDE Controller"
         },
         "9003": {
             "name": "ZX-100/KX-6000/KX-6000G EIDE Controller"
         },
         "9043": {
-            "name": "KX-6000G/KH-40000/KX-7000 RAID Controller"
+            "name": "KX-6000G/KH-40000/KX-7000/KH-50000 RAID Controller"
         },
         "9045": {
             "name": "ZX-100/ZX-D/ZX-E RAID Accelerator 0"
@@ -60731,7 +61034,7 @@
             "name": "ZX-D/ZX-E RAID Accelerator 1"
         },
         "9083": {
-            "name": "ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000 StorX AHCI Controller"
+            "name": "ZX-100/ZX-200/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 StorX AHCI Controller"
         },
         "9084": {
             "name": "ZX-100 StorX AHCI Controller"
@@ -60781,11 +61084,14 @@
         "9206": {
             "name": "KX-7000 USB4 Contoller"
         },
+        "9207": {
+            "name": "KH-50000 USB eXtensible Host Controller"
+        },
         "9286": {
             "name": "ZX-D eMMC Host Controller"
         },
         "9300": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 eSPI Host Controller"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 eSPI Host Controller"
         },
         "9500": {
             "name": "KX-7000 I2S Controller"
@@ -60797,7 +61103,7 @@
             "name": "ZX-100 Universal SD Host Controller"
         },
         "f410": {
-            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000 PCI Com Port"
+            "name": "ZX-100/KX-5000/KX-6000/KX-6000G/KH-40000/KX-7000/KH-50000 PCI Com Port"
         }
     },
     "1d18": {
@@ -62215,6 +62521,9 @@
         "001b": {
             "name": "NVMe SSD Controller EG6 (DRAM-less)"
         },
+        "001e": {
+            "name": "NVMe SSD Controller LD2-L"
+        },
         "001f": {
             "name": "NVMe SSD Controller CD8",
             "1028": {
@@ -62258,10 +62567,34 @@
             "name": "Exceria Plus G4 NVMe SSD (DRAM-less)"
         },
         "0034": {
-            "name": "CM9-based E3.S NVMe SSD"
+            "name": "CM9-based E3.S NVMe SSD",
+            "1028": {
+                "2420": "KCM9XVJE12T8"
+            }
         },
         "0035": {
-            "name": "CM9-based U3 NVMe SSD"
+            "name": "CM9-based U3 NVMe SSD",
+            "1028": {
+                "240e": "KCM9XVUL12T8"
+            }
+        },
+        "0036": {
+            "name": "NVMe SSD Controller CD9P U.2",
+            "1028": {
+                "23e8": "KCD9XPUG12T8"
+            }
+        },
+        "0037": {
+            "name": "NVMe SSD Controller CD9P E3.S",
+            "1028": {
+                "23fa": "KCD9XPJE12T8"
+            }
+        },
+        "003a": {
+            "name": "NVMe SSD Controller BG8 (DRAM-less)"
+        },
+        "003b": {
+            "name": "Exceria Basic NVMe SSD (DRAM-less)"
         },
         "003d": {
             "name": "LC9 E3.L NVMe SSD",
@@ -62274,6 +62607,9 @@
         },
         "003f": {
             "name": "LC9 U.2 NVMe SSD"
+        },
+        "0042": {
+            "name": "NVMe SSD Controller LD4"
         }
     },
     "1e17": {
@@ -62733,6 +63069,9 @@
         },
         "6a02": {
             "name": "AM6A0 NVMe SSD (DRAM-less)"
+        },
+        "6c14": {
+            "name": "RPEYJ1T24 NVMe SSD (DRAM-less)"
         }
     },
     "1e83": {
@@ -63145,7 +63484,7 @@
         "1181": {
             "name": "PETA8118 NVMe E1S Series",
             "1ee4": {
-                "2627": "NVMe SSD E1.S 6.4TB (P8128Z3)"
+                "2728": "NVMe SSD E1.S 12.8TB (P8118Z4)"
             }
         },
         "1182": {
@@ -63354,6 +63693,9 @@
         "name": "Shenzhen Shichuangyi Electronics Co., Ltd",
         "1202": {
             "name": "MAP1202-Based NVMe SSD (DRAM-less)"
+        },
+        "1608": {
+            "name": "SCY C5000 NVMe SSD (DRAM-less)"
         },
         "2262": {
             "name": "SM2262EN-based OEM SSD"
@@ -63856,9 +64198,6 @@
         "1105": {
             "name": "CONFLUX-2200P NVMe Controller [Virtual Function]"
         },
-        "1203": {
-            "name": "K2-Pro Family [FLEXFLOW-2200T RoCEv2 Network Controller]"
-        },
         "2018": {
             "name": "DPU Card"
         },
@@ -63889,9 +64228,6 @@
                 "0008": "Ethernet 100G 2P FLEXFLOW-2200R"
             }
         },
-        "3303": {
-            "name": "K3 Family [CONFLUX-3100R MGMT Function]"
-        },
         "4001": {
             "name": "K2-Pro Family [CONFLUX-2200E]",
             "1f47": {
@@ -63907,8 +64243,17 @@
         "4004": {
             "name": "K2-Pro Family [CONFLUX-2200E DATA Offload Engine]"
         },
-        "4203": {
-            "name": "K2-Pro Family [CONFLUX-2200E RoCEv2 Network Controller]"
+        "4011": {
+            "name": "K3 Family [CONFLUX-3100E]",
+            "1f47": {
+                "0004": "CONFLUX-3100E 4*25GE Ethernet Adapter"
+            }
+        },
+        "4012": {
+            "name": "K3 Family [CONFLUX-3100E Virtual Function]"
+        },
+        "4013": {
+            "name": "K3 Family [CONFLUX-3100E MGMT Function]"
         },
         "5001": {
             "name": "CONFLUX-2200P Ethernet Controller",
@@ -64070,6 +64415,21 @@
             "name": "JetStream [DMX F1 Transparent NIC]"
         }
     },
+    "1f8c": {
+        "name": "Exascend,INC.",
+        "8008": {
+            "name": "SM8008 NVMe SSD [Px5 Series SSD]",
+            "1f8c": {
+                "0002": "Px5 Series General"
+            }
+        },
+        "8366": {
+            "name": "SM8366 NVMe SSD [PD5 Series SSD]",
+            "1f8c": {
+                "0002": "Px5 Series General"
+            }
+        }
+    },
     "1f90": {
         "name": "Quside Technologies",
         "7024": {
@@ -64083,6 +64443,9 @@
         "name": "Shenzhen Techwinsemi Technology Co., Ltd.",
         "1202": {
             "name": "TE3420 series / Patriot P320 M.2 NVMe SSD (DRAM-less)"
+        },
+        "1602": {
+            "name": "PCIe Gen4 x4 M.2 2280 (DRAM-less)"
         },
         "1608": {
             "name": "PCIe Gen4 x4 M.2 2280"
@@ -64268,7 +64631,7 @@
             "name": "D20 Pro N"
         },
         "0101": {
-            "name": "D2"
+            "name": "T1"
         }
     },
     "1fc0": {
@@ -64684,20 +65047,26 @@
     },
     "1ff4": {
         "name": "DEEPX Co., Ltd.",
-        "0000": {
-            "name": "DX_M1"
+        "0100": {
+            "name": "M1 [Series]"
         },
-        "0001": {
-            "name": "DX_M1A"
+        "0101": {
+            "name": "M1 [H1]"
         },
-        "1000": {
-            "name": "DX_H1"
+        "0102": {
+            "name": "M1 [H1 V-NPU]"
         },
-        "2000": {
-            "name": "DX_VNPU_M1"
+        "0110": {
+            "name": "M1M [Series]"
+        },
+        "0111": {
+            "name": "M1M [H1M]"
+        },
+        "0112": {
+            "name": "M1M [H1M V-NPU]"
         },
         "2001": {
-            "name": "DX_VNPU"
+            "name": "VPU [H1/H1M V-NPU]"
         }
     },
     "1ff8": {
@@ -65136,7 +65505,7 @@
         "name": "Mobilint, Inc."
     },
     "20a1": {
-        "name": "Etched AI, Inc.",
+        "name": "Etched, Inc.",
         "0001": {
             "name": "Sohu"
         }
@@ -65148,7 +65517,10 @@
         "name": "EEVengers Inc."
     },
     "20a8": {
-        "name": "Rayson HI-TECH(SZ) Co., Ltd."
+        "name": "Rayson HI-TECH(SZ) Co., Ltd.",
+        "1202": {
+            "name": "RS512GSSD510 PCIe 3 NVMe SSD (DRAM-less)"
+        }
     },
     "20a9": {
         "name": "LDA Technologies Ltd.",
@@ -65159,6 +65531,9 @@
             "name": "NEOTAPX FPGA Timing Synchronization Card"
         },
         "1200": {
+            "name": "MUX Ultimate FPGA Accelerator Card"
+        },
+        "1201": {
             "name": "MUX Ultimate FPGA Accelerator Card"
         }
     },
@@ -65487,6 +65862,9 @@
         },
         "502d": {
             "name": "OM8TAP4 PCIe 4 NVMe SSD (QLC) (DRAM-less)"
+        },
+        "502f": {
+            "name": "OM3SGP4 PCIe 4 NVMe SSD (TLC)"
         },
         "5030": {
             "name": "NV3 2230 NVMe SSD [SM2268XT2] (DRAM-less)"
@@ -68015,7 +68393,7 @@
             }
         },
         "02f0": {
-            "name": "Comet Lake PCH-LP CNVi WiFi",
+            "name": "400 Series Chipset Family On-Package CNVi WiFi",
             "8086": {
                 "4070": "Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]"
             }
@@ -68279,31 +68657,31 @@
             "name": "W480 Chipset LPC/eSPI Controller"
         },
         "06a0": {
-            "name": "400 Series Chipset Family Platform P2SB"
+            "name": "400 Series Chipset Family P2SB"
         },
         "06a1": {
-            "name": "400 Series Chipset Family Platform PMC"
+            "name": "400 Series Chipset Family PMC"
         },
         "06a3": {
-            "name": "400 Series Chipset Family Platform SMBus"
+            "name": "400 Series Chipset Family SMBus"
         },
         "06a4": {
-            "name": "400 Series Chipset Family Platform SPI (flash) Controller"
+            "name": "400 Series Chipset Family SPI (flash) Controller"
         },
         "06a6": {
-            "name": "400 Series Chipset Family Platform Trace Hub"
+            "name": "400 Series Chipset Family Trace Hub"
         },
         "06a8": {
-            "name": "400 Series Chipset Family Platform UART #0"
+            "name": "400 Series Chipset Family UART #0"
         },
         "06a9": {
-            "name": "400 Series Chipset Family Platform UART #1"
+            "name": "400 Series Chipset Family UART #1"
         },
         "06aa": {
-            "name": "400 Series Chipset Family Platform GSPI #0"
+            "name": "400 Series Chipset Family GSPI #0"
         },
         "06ab": {
-            "name": "400 Series Chipset Family Platform GSPI #1"
+            "name": "400 Series Chipset Family GSPI #1"
         },
         "06ac": {
             "name": "400 Series Chipset Family PCIe Root Port #21"
@@ -68438,7 +68816,7 @@
             "name": "400 Series Chipset Family Shared SRAM"
         },
         "06f0": {
-            "name": "Comet Lake PCH CNVi WiFi",
+            "name": "400 Series Chipset Family CNVi Wi-Fi",
             "1a56": {
                 "1652": "Dual Band Wi-Fi 6(802.11ax) Killer AX1650i 160MHz 2x2 [Cyclone Peak]"
             },
@@ -69224,10 +69602,10 @@
             "name": "Crystal Well Integrated Graphics Controller"
         },
         "0d4c": {
-            "name": "400 Series Chipset Family Platform GbE Controller (Corporate/vPro)"
+            "name": "400 Series Chipset Family GbE Controller (Corporate/vPro)"
         },
         "0d4d": {
-            "name": "400 Series Chipset Family Platform GbE Controller (Consumer)",
+            "name": "400 Series Chipset Family GbE Controller (Consumer)",
             "8086": {
                 "0d4d": "Ethernet Connection (11) I219-V"
             }
@@ -78005,7 +78383,7 @@
             }
         },
         "2823": {
-            "name": "sSATA Controller [RAID Mode]"
+            "name": "SSATA Controller (RAID 0/1/5/10)"
         },
         "2824": {
             "name": "82801HB (ICH8) 4 port SATA Controller [AHCI mode]",
@@ -78029,7 +78407,7 @@
             }
         },
         "2827": {
-            "name": "sSATA Controller [RAID Mode]"
+            "name": "SSATA Controller (RAID 0/1/5/10)"
         },
         "2828": {
             "name": "82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [IDE mode]",
@@ -78479,7 +78857,7 @@
             "name": "Ice Lake DDRIO Registers"
         },
         "28c0": {
-            "name": "Volume Management Device NVMe RAID Controller",
+            "name": "Volume Management Device (VMD)",
             "1d49": {
                 "011a": "Intel VROC (VMD NVMe RAID) for ThinkSystem V4 PL"
             }
@@ -81877,29 +82255,38 @@
         "373f": {
             "name": "Xeon C5500/C3500 IOxAPIC"
         },
+        "37b1": {
+            "name": "C620 Series Chipset Family Thermal Sensor"
+        },
         "37c0": {
-            "name": "C62x chipset series PCIe x16/x8 Upstream Port"
+            "name": "C620 Series Chipset Family PCIe Uplink (x16)"
+        },
+        "37c1": {
+            "name": "C620 Series Chipset Family PCIe Uplink (x8)"
         },
         "37c2": {
-            "name": "C62x chipset series PCIe Virtual Switch Port 0"
+            "name": "C620 Series Chipset Family Virtual Switch Port 0"
         },
         "37c3": {
-            "name": "C62x chipset series PCIe Virtual Switch Port 1"
+            "name": "C620 Series Chipset Family Virtual Switch Port 1"
         },
         "37c4": {
-            "name": "C62x chipset series PCIe Virtual Switch Port 2"
+            "name": "C620 Series Chipset Family Virtual Switch Port 2"
         },
         "37c5": {
-            "name": "C62x chipset series PCIe Virtual Switch Port 3"
+            "name": "C620 Series Chipset Family Virtual Switch Port 3"
+        },
+        "37c7": {
+            "name": "C620 Series Chipset Family Virtual Switch Port 5"
         },
         "37c8": {
-            "name": "C62x Chipset series QuickAssist Technology Physical Function 0~2",
+            "name": "C620 Series Chipset Family QAT",
             "8086": {
                 "0002": "QuickAssist Adapter 8970"
             }
         },
         "37c9": {
-            "name": "C62x Chipset QuickAssist Technology Virtual Function"
+            "name": "C620 Series Chipset Family QAT Virtual Function"
         },
         "37cc": {
             "name": "Ethernet Connection X722"
@@ -83570,10 +83957,28 @@
             "name": "500 Series Chipset Family Shared SRAM"
         },
         "43f0": {
-            "name": "Tiger Lake PCH CNVi WiFi",
+            "name": "500 Series Chipset Family CNVi Wi-Fi",
             "8086": {
                 "02a4": "Wireless-AC 9462"
             }
+        },
+        "43f1": {
+            "name": "500 Series Chipset Family CNVi Wi-Fi"
+        },
+        "43f2": {
+            "name": "500 Series Chipset Family CNVi Wi-Fi"
+        },
+        "43f3": {
+            "name": "500 Series Chipset Family CNVi Wi-Fi"
+        },
+        "43f5": {
+            "name": "500 Series Chipset Family CNVi Bluetooth"
+        },
+        "43f6": {
+            "name": "500 Series Chipset Family CNVi Bluetooth"
+        },
+        "43f7": {
+            "name": "500 Series Chipset Family CNVi Bluetooth"
         },
         "43fb": {
             "name": "500 Series Chipset Family GSPI #2"
@@ -84982,23 +85387,26 @@
         "5af0": {
             "name": "Celeron N3350/Pentium N4200/Atom E3900 Series Host Bridge"
         },
+        "6400": {
+            "name": "Core Ultra 200V Series Processors with 4 P-Cores 4 E-Cores Host Bridge"
+        },
         "641d": {
-            "name": "Lunar Lake-M Dynamic Tuning Technology"
+            "name": "Core Ultra 200V Series Processors Dynamic Tuning Technology (DTT)"
         },
         "6420": {
             "name": "Lunar Lake [Intel Graphics]"
         },
         "643e": {
-            "name": "Lunar Lake NPU"
+            "name": "Core Ultra 200V Series Processors NPU"
         },
         "645d": {
-            "name": "Lunar Lake IPU"
+            "name": "Core Ultra 200V Series Processors IPU"
         },
         "647d": {
-            "name": "Lunar Lake-M Crashlog and Telemetry"
+            "name": "Core Ultra 200V Series Processors Crash Log and Telemetry"
         },
         "64a0": {
-            "name": "Lunar Lake [Intel Arc Graphics 130V / 140V]"
+            "name": "Core Ultra 200V Series Processors Arc Graphics 130V/140V GPU"
         },
         "64b0": {
             "name": "Lunar Lake [Intel Graphics]"
@@ -85861,6 +86269,12 @@
                 "1000": "CC7/CR7/CP7/VC7/VP7/VR7 mainboard"
             }
         },
+        "7202": {
+            "name": "Core Ultra 200H Series Processors eSPI Controller"
+        },
+        "7203": {
+            "name": "Core Ultra 200V Series Processors eSPI Controller"
+        },
         "7360": {
             "name": "XMM7360 LTE Advanced Modem"
         },
@@ -85882,95 +86296,149 @@
         "7702": {
             "name": "Arrow Lake-H eSPI Controller"
         },
+        "7720": {
+            "name": "Core Ultra 200H/200V Series Processors P2SB (SOC)"
+        },
+        "7721": {
+            "name": "Core Ultra 200H/200V Series Processors PMC (SOC)"
+        },
         "7722": {
-            "name": "Arrow Lake SMBus Controller"
+            "name": "Core Ultra 200H/200V Series Processors SMBus"
         },
         "7723": {
-            "name": "Arrow Lake SPI Controller"
+            "name": "Core Ultra 200H/200V Series Processors SPI (flash) Controller"
+        },
+        "7724": {
+            "name": "Core Ultra 200H/200V Series Processors Trace Hub"
         },
         "7725": {
-            "name": "Arrow Lake-H [PCH Serial IO UART Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors UART #0"
         },
         "7726": {
-            "name": "Arrow Lake-H PCH Serial IO UART Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors UART #1"
         },
         "7727": {
-            "name": "Arrow Lake-H [LPC/eSPI Controller]"
+            "name": "Core Ultra 200H/200V Series Processors GSPI #0"
         },
         "7728": {
-            "name": "Arrow Lake cAVS"
+            "name": "Core Ultra 200H/200V Series Processors HD Audio"
         },
         "7730": {
             "name": "Arrow Lake-H [LPC/eSPI Controller]"
         },
         "7738": {
-            "name": "Arrow Lake-H/U PCIe Root Port #1"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #1"
         },
         "7739": {
-            "name": "Arrow Lake-H/U PCIe Root Port #2"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #2"
         },
         "773a": {
-            "name": "Arrow Lake-H/U PCIe Root Port #3"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #3"
         },
         "773b": {
-            "name": "Arrow Lake-H/U PCIe Root Port #4"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #4"
         },
         "773c": {
-            "name": "Arrow Lake-H/U PCIe Root Port #5"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #5"
         },
         "773d": {
-            "name": "Arrow Lake-H/U PCIe Root Port #6"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #6"
         },
         "773e": {
-            "name": "Arrow Lake-H/U PCIe Root Port #7"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #7"
         },
         "773f": {
-            "name": "Arrow Lake-H/U PCIe Root Port #8"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #8"
         },
         "7740": {
             "name": "Arrow Lake CNVi WiFi"
         },
         "7745": {
-            "name": "Arrow Lake Integrated Sensor Hub"
+            "name": "Core Ultra 200H/200V Series Processors Integrated Sensor Hub"
         },
         "7746": {
-            "name": "Arrow Lake-H [LPC/eSPI Controller]"
+            "name": "Core Ultra 200H/200V Series Processors GSPI #2"
+        },
+        "7748": {
+            "name": "Core Ultra 200H/200V Series Processors Touch Host Controller (THC) #0 ID1"
+        },
+        "7749": {
+            "name": "Core Ultra 200H/200V Series Processors Touch Host Controller (THC) #0 ID2"
+        },
+        "774a": {
+            "name": "Core Ultra 200H/200V Series Processors Touch Host Controller (THC) #1 ID1"
+        },
+        "774b": {
+            "name": "Core Ultra 200H/200V Series Processors Touch Host Controller (THC) #1 ID2"
         },
         "774c": {
-            "name": "Arrow Lake Gaussian & Neural Accelerator"
+            "name": "Core Ultra 200H/200V Series Processors Gaussian & Neural-Network Accelerator (GNA)"
         },
         "774d": {
-            "name": "Arrow Lake-H/U PCIe Root Port #9 (PXPC)"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #9 (PXPC)"
         },
         "7750": {
-            "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors I2C #4"
         },
         "7751": {
-            "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors I2C #5"
         },
         "7752": {
-            "name": "Arrow Lake-H [PCH Serial IO UART Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors UART #2"
+        },
+        "7758": {
+            "name": "Core Ultra 200H/200V Series Processors CSME HECI #1"
+        },
+        "7759": {
+            "name": "Core Ultra 200H/200V Series Processors CSME HECI #2"
+        },
+        "775a": {
+            "name": "Core Ultra 200H/200V Series Processors CSME HECI #3"
+        },
+        "7763": {
+            "name": "Core Ultra 200H/200V Series Processors SATA Controller (AHCI)"
+        },
+        "7767": {
+            "name": "Core Ultra 200H/200V Series Processors SATA Controller (RAID 0/1/5/10) premium"
         },
         "7770": {
-            "name": "Arrow Lake HECI Controller #1"
+            "name": "Core Ultra 200H/200V Series Processors CSME HECI #1"
+        },
+        "7771": {
+            "name": "Core Ultra 200H/200V Series Processors CSME HECI #2"
+        },
+        "7772": {
+            "name": "Core Ultra 200H/200V Series Processors CSME IDE Redirection (IDE-R)"
         },
         "7773": {
-            "name": "Arrow Lake Keyboard and Text (KT) Redirection"
+            "name": "Core Ultra 200H/200V Series Processors CSME Keyboard and Text (KT) Redirection"
+        },
+        "7774": {
+            "name": "Core Ultra 200H/200V Series Processors CSME HECI #3"
+        },
+        "7775": {
+            "name": "Core Ultra 200H/200V Series Processors CSME HECI #4"
         },
         "7778": {
-            "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors I2C #0"
         },
         "7779": {
-            "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors I2C #1"
         },
         "777a": {
-            "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors I2C #2"
         },
         "777b": {
-            "name": "Arrow Lake-H [Serial IO I2C Host Controller]"
+            "name": "Core Ultra 200H/200V Series Processors I2C #3"
+        },
+        "777c": {
+            "name": "Core Ultra 200H/200V Series Processors I3C"
         },
         "777d": {
-            "name": "Arrow Lake USB 3.2 xHCI Controller"
+            "name": "Core Ultra 200H/200V Series Processors Standalone xHCI Controller"
+        },
+        "777e": {
+            "name": "Core Ultra 200H/200V Series Processors Standalone USB Device Controller"
         },
         "777f": {
             "name": "Core Ultra 200H/200V Series Processors Shared SRAM"
@@ -86138,7 +86606,28 @@
             "name": "700 Series Chipset Family I2C Controller #3"
         },
         "7a50": {
-            "name": "700 Series Chipset Family HD Audio Controller"
+            "name": "700 Series Chipset Family HD Audio"
+        },
+        "7a51": {
+            "name": "700 Series Chipset Family HD Audio"
+        },
+        "7a52": {
+            "name": "700 Series Chipset Family HD Audio"
+        },
+        "7a53": {
+            "name": "700 Series Chipset Family HD Audio"
+        },
+        "7a54": {
+            "name": "700 Series Chipset Family HD Audio"
+        },
+        "7a55": {
+            "name": "700 Series Chipset Family HD Audio"
+        },
+        "7a56": {
+            "name": "700 Series Chipset Family HD Audio"
+        },
+        "7a57": {
+            "name": "700 Series Chipset Family HD Audio"
         },
         "7a5c": {
             "name": "700 Series Chipset Family UART #3"
@@ -86171,10 +86660,19 @@
             "name": "700 Series Chipset Family CSME HECI #4"
         },
         "7a70": {
-            "name": "700 Series Chipset CNVi WiFi",
+            "name": "700 Series Chipset Family CNVi Wi-Fi",
             "8086": {
                 "0090": "WiFi 6E AX211 160MHz"
             }
+        },
+        "7a71": {
+            "name": "700 Series Chipset Family CNVi Wi-Fi"
+        },
+        "7a72": {
+            "name": "700 Series Chipset Family CNVi Wi-Fi"
+        },
+        "7a73": {
+            "name": "700 Series Chipset Family CNVi Wi-Fi"
         },
         "7a78": {
             "name": "700 Series Chipset Family Integrated Sensor Hub"
@@ -86350,6 +86848,27 @@
         "7ad0": {
             "name": "600 Series Chipset Family HD Audio"
         },
+        "7ad1": {
+            "name": "600 Series Chipset Family HD Audio"
+        },
+        "7ad2": {
+            "name": "600 Series Chipset Family HD Audio"
+        },
+        "7ad3": {
+            "name": "600 Series Chipset Family HD Audio"
+        },
+        "7ad4": {
+            "name": "600 Series Chipset Family HD Audio"
+        },
+        "7ad5": {
+            "name": "600 Series Chipset Family HD Audio"
+        },
+        "7ad6": {
+            "name": "600 Series Chipset Family HD Audio"
+        },
+        "7ad7": {
+            "name": "600 Series Chipset Family HD Audio"
+        },
         "7adc": {
             "name": "600 Series Chipset Family UART #3"
         },
@@ -86381,10 +86900,19 @@
             "name": "600 Series Chipset Family CSME HECI #4"
         },
         "7af0": {
-            "name": "Alder Lake-S PCH CNVi WiFi",
+            "name": "600 Series Chipset Family CNVi Wi-Fi",
             "8086": {
                 "0094": "Wi-Fi 6 AX201 160MHz"
             }
+        },
+        "7af1": {
+            "name": "600 Series Chipset Family CNVi Wi-Fi"
+        },
+        "7af2": {
+            "name": "600 Series Chipset Family CNVi Wi-Fi"
+        },
+        "7af3": {
+            "name": "600 Series Chipset Family CNVi Wi-Fi"
         },
         "7af8": {
             "name": "600 Series Chipset Family Integrated Sensor Hub"
@@ -86408,25 +86936,49 @@
             "name": "Meteor Lake-H 6p+8e cores Host Bridge/DRAM Controller"
         },
         "7d03": {
-            "name": "Meteor Lake-P Dynamic Tuning Technology"
+            "name": "Core Ultra 200H/200V Series Processors Dynamic Tuning Technology (DTT)"
         },
         "7d06": {
-            "name": "Arrow Lake-H 6p+8e cores Host Bridge/DRAM Controller"
+            "name": "Core Ultra 200H Series Processors with 6 P-Cores 8 E-Cores Host Bridge"
         },
         "7d0b": {
-            "name": "Volume Management Device NVMe RAID Controller Intel Corporation"
+            "name": "Core Ultra 200H/200V Series Processors VMD"
         },
         "7d0d": {
-            "name": "Meteor Lake-P Platform Monitoring Technology"
+            "name": "Core Ultra 200H/200V Series Processors Platform Monitoring Technology (PMT)"
         },
         "7d19": {
-            "name": "Meteor Lake IPU"
+            "name": "Core Ultra 200H/200V Series Processors IPU"
+        },
+        "7d1a": {
+            "name": "Core Ultra 200S/200S-Plus Series Processors with 8 P-Cores 16 E-Cores Host Bridge"
+        },
+        "7d1b": {
+            "name": "Core Ultra 200S Series Processors with 8 P-Cores 12 E-Cores Host Bridge"
         },
         "7d1c": {
-            "name": "Arrow Lake-HX 8p+16e cores Host Bridge"
+            "name": "Core Ultra 200HX/HX-Plus Series Processors with 8 P-Cores 16 E-Cores Host Bridge"
         },
         "7d1d": {
-            "name": "Meteor Lake NPU"
+            "name": "Core Ultra 200H/200V Series Processors NPU"
+        },
+        "7d29": {
+            "name": "Core Ultra 200S-Plus Series Processors with 6 P-Cores 12 E-Cores Host Bridge"
+        },
+        "7d2a": {
+            "name": "Core Ultra 200S Series Processors with 6 P-Cores 8 E-Cores Host Bridge"
+        },
+        "7d2d": {
+            "name": "Core Ultra 200HX/HX-Plus Series Processors with 8 P-Cores 12 E-Cores Host Bridge"
+        },
+        "7d2f": {
+            "name": "Core Ultra 200HX Series Processors with 6 P-Cores 8 E-Cores Host Bridge"
+        },
+        "7d30": {
+            "name": "Core Ultra 200U Series Processors with 2 P-Cores 8 E-Cores Host Bridge"
+        },
+        "7d35": {
+            "name": "Core Ultra 200S Series Processors with 6 P-Cores 4 E-Cores Host Bridge"
         },
         "7d40": {
             "name": "Meteor Lake-M [Intel Graphics]"
@@ -86543,34 +87095,49 @@
             "name": "Meteor Lake-H/U Shared SRAM"
         },
         "7ec0": {
-            "name": "Meteor Lake-P Thunderbolt 4 USB Controller"
+            "name": "Core Ultra 200 Series Processors USB xHCI"
+        },
+        "7ec1": {
+            "name": "Core Ultra 200 Series Processors USB xDCI"
         },
         "7ec2": {
-            "name": "Meteor Lake-P Thunderbolt 4 NHI #0"
+            "name": "Core Ultra 200 Series Processors Thunderbolt DMA0"
         },
         "7ec3": {
-            "name": "Meteor Lake-P Thunderbolt 4 NHI #1"
+            "name": "Core Ultra 200 Series Processors Thunderbolt DMA1"
         },
         "7ec4": {
-            "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #0"
+            "name": "Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #16"
         },
         "7ec5": {
-            "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #1"
+            "name": "Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #17"
         },
         "7ec6": {
-            "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #2"
+            "name": "Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #18"
         },
         "7ec7": {
-            "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #3"
+            "name": "Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #19"
+        },
+        "7ec8": {
+            "name": "Core Ultra 200 Series Processors P2SB (IOE)"
+        },
+        "7ec9": {
+            "name": "Core Ultra 200H/200V Series Processors IEH (IOE)"
         },
         "7eca": {
-            "name": "Meteor Lake-H/U PCIe Root Port #10"
+            "name": "Core Ultra 200 Series Processors PCIe Root Port #10"
         },
         "7ecb": {
-            "name": "Arrow Lake-H/U PCIe Root Port #11 (PXPE)"
+            "name": "Core Ultra 200H/200V Series Processors PCIe Root Port #11 (PXPE)"
         },
         "7ecc": {
-            "name": "Meteor Lake-H PCIe Root Port #12"
+            "name": "Core Ultra 200 Series Processors PCIe Root Port #12"
+        },
+        "7ece": {
+            "name": "Core Ultra 200 Series Processors PMC (IOE)"
+        },
+        "7ecf": {
+            "name": "Core Ultra 200 Series Processors Shared SRAM (IOE)"
         },
         "7f03": {
             "name": "Q870 Chipset eSPI Controller"
@@ -86765,7 +87332,7 @@
             "name": "800 Series Chipset Family USB Device Controller (OTG) (xDCI)"
         },
         "7f70": {
-            "name": "Arrow Lake-S PCH CNVi WiFi",
+            "name": "800 Series Chipset Family CNVi Wi-Fi",
             "8086": {
                 "0094": "WiFi 6E AX211 160MHz"
             }
@@ -89246,64 +89813,64 @@
             "name": "HM175/QM175/CM238 HD Audio Controller"
         },
         "a182": {
-            "name": "C620 Series Chipset Family SATA Controller [AHCI mode]"
+            "name": "C620 Series Chipset Family SATA Controller (AHCI)"
         },
         "a186": {
-            "name": "C620 Series Chipset Family SATA Controller [RAID mode]"
+            "name": "C620 Series Chipset Family SATA Controller (RAID 0/1/5/10)"
         },
         "a190": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #1"
+            "name": "C620 Series Chipset Family PCIe Root Port #0"
         },
         "a191": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #2"
+            "name": "C620 Series Chipset Family PCIe Root Port #1"
         },
         "a192": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #3"
+            "name": "C620 Series Chipset Family PCIe Root Port #2"
         },
         "a193": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #4"
+            "name": "C620 Series Chipset Family PCIe Root Port #3"
         },
         "a194": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #5"
+            "name": "C620 Series Chipset Family PCIe Root Port #4"
         },
         "a195": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #6"
+            "name": "C620 Series Chipset Family PCIe Root Port #5"
         },
         "a196": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #7"
+            "name": "C620 Series Chipset Family PCIe Root Port #6"
         },
         "a197": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #8"
+            "name": "C620 Series Chipset Family PCIe Root Port #7"
         },
         "a198": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #9"
+            "name": "C620 Series Chipset Family PCIe Root Port #8"
         },
         "a199": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #10"
+            "name": "C620 Series Chipset Family PCIe Root Port #9"
         },
         "a19a": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #11"
+            "name": "C620 Series Chipset Family PCIe Root Port #10"
         },
         "a19b": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #12"
+            "name": "C620 Series Chipset Family PCIe Root Port #11"
         },
         "a19c": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #13"
+            "name": "C620 Series Chipset Family PCIe Root Port #12"
         },
         "a19d": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #14"
+            "name": "C620 Series Chipset Family PCIe Root Port #13"
         },
         "a19e": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #15"
+            "name": "C620 Series Chipset Family PCIe Root Port #14"
         },
         "a19f": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #16"
+            "name": "C620 Series Chipset Family PCIe Root Port #15"
         },
         "a1a0": {
             "name": "C620 Series Chipset Family P2SB"
         },
         "a1a1": {
-            "name": "C620 Series Chipset Family Power Management Controller",
+            "name": "C620 Series Chipset Family PMC",
             "15d9": {
                 "095d": "X11SPM-TF"
             }
@@ -89339,70 +89906,73 @@
             }
         },
         "a1ba": {
-            "name": "C620 Series Chipset Family MEI Controller #1",
+            "name": "C620 Series Chipset Family MEI HECI #1",
             "15d9": {
                 "095d": "X11SPM-TF"
             }
         },
         "a1bb": {
-            "name": "C620 Series Chipset Family MEI Controller #2",
+            "name": "C620 Series Chipset Family MEI HECI #2",
             "15d9": {
                 "095d": "X11SPM-TF"
             }
         },
         "a1bc": {
-            "name": "C620 Series Chipset Family IDE Redirection"
+            "name": "C620 Series Chipset Family MEI IDE Redirection"
         },
         "a1bd": {
-            "name": "C620 Series Chipset Family KT Redirection"
+            "name": "C620 Series Chipset Family MEI Keyboard and Text (KT) Redirection"
         },
         "a1be": {
-            "name": "C620 Series Chipset Family MEI Controller #3",
+            "name": "C620 Series Chipset Family MEI HECI #3",
             "15d9": {
                 "095d": "X11SPM-TF"
             }
         },
         "a1c1": {
-            "name": "C621 Series Chipset LPC/eSPI Controller"
+            "name": "C621 Chipset LPC/eSPI Controller"
         },
         "a1c2": {
-            "name": "C622 Series Chipset LPC/eSPI Controller",
+            "name": "C622 Chipset LPC/eSPI Controller",
             "15d9": {
                 "095d": "X11SPM-TF"
             }
         },
         "a1c3": {
-            "name": "C624 Series Chipset LPC/eSPI Controller"
+            "name": "C624 Chipset LPC/eSPI Controller"
         },
         "a1c4": {
-            "name": "C625 Series Chipset LPC/eSPI Controller"
+            "name": "C625 Chipset LPC/eSPI Controller"
         },
         "a1c5": {
-            "name": "C626 Series Chipset LPC/eSPI Controller"
+            "name": "C626 Chipset LPC/eSPI Controller"
         },
         "a1c6": {
-            "name": "C627 Series Chipset LPC/eSPI Controller"
+            "name": "C627 Chipset LPC/eSPI Controller"
         },
         "a1c7": {
-            "name": "C628 Series Chipset LPC/eSPI Controller"
+            "name": "C628 Chipset LPC/eSPI Controller"
+        },
+        "a1ca": {
+            "name": "C629 Chipset LPC/eSPI Controller"
         },
         "a1d2": {
-            "name": "C620 Series Chipset Family SSATA Controller [AHCI mode]"
+            "name": "C620 Series Chipset Family SSATA Controller (AHCI)"
         },
         "a1d6": {
-            "name": "C620 Series Chipset Family SSATA Controller [RAID mode]"
+            "name": "C620 Series Chipset Family SSATA Controller (RAID 0/1/5/10)"
         },
         "a1e7": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #17"
+            "name": "C620 Series Chipset Family PCIe Root Port #16"
         },
         "a1e8": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #18"
+            "name": "C620 Series Chipset Family PCIe Root Port #17"
         },
         "a1e9": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #19"
+            "name": "C620 Series Chipset Family PCIe Root Port #18"
         },
         "a1ea": {
-            "name": "C620 Series Chipset Family PCI Express Root Port #20"
+            "name": "C620 Series Chipset Family PCIe Root Port #19"
         },
         "a1ec": {
             "name": "C620 Series Chipset Family MROM 0"
@@ -89411,109 +89981,166 @@
             "name": "C620 Series Chipset Family MROM 1"
         },
         "a1f0": {
-            "name": "C62x HD Audio Controller"
+            "name": "C620 Series Chipset Family HD Audio"
         },
         "a1f8": {
-            "name": "Lewisburg IE: HECI #1"
+            "name": "C620 Series Chipset Family IE HECI #1"
         },
         "a1f9": {
-            "name": "Lewisburg IE: HECI #2"
+            "name": "C620 Series Chipset Family IE HECI #2"
         },
         "a1fa": {
-            "name": "Lewisburg IE: IDE-r"
+            "name": "C620 Series Chipset Family IE IDE Redirection"
         },
         "a1fb": {
-            "name": "Lewisburg IE: KT Controller"
+            "name": "C620 Series Chipset Family IE Keyboard and Text Redirection"
         },
         "a1fc": {
-            "name": "Lewisburg IE: HECI #3"
+            "name": "C620 Series Chipset Family IE HECI #3"
         },
         "a202": {
-            "name": "Lewisburg SATA Controller [AHCI mode]"
+            "name": "C620 Series Chipset Family (Super) SATA Controller (AHCI)"
         },
         "a206": {
-            "name": "Lewisburg SATA Controller [RAID mode]"
+            "name": "C620 Series Chipset Family (Super) SATA Controller (RAID 0/1/5/10)"
         },
         "a210": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #0"
         },
         "a211": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #1"
         },
         "a212": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #2"
         },
         "a213": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #3"
         },
         "a214": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #4"
         },
         "a215": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #5"
         },
         "a216": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #6"
         },
         "a217": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #7"
         },
         "a218": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #8"
         },
         "a219": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #9"
         },
         "a21a": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #10"
         },
         "a21b": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #11"
         },
         "a21c": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #12"
         },
         "a21d": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #13"
         },
         "a21e": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #14"
         },
         "a21f": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #15"
+        },
+        "a220": {
+            "name": "C620 Series Chipset Family (Super) P2SB"
         },
         "a221": {
-            "name": "Lewisburg Power Management Controller"
+            "name": "C620 Series Chipset Family (Super) PMC"
         },
         "a223": {
-            "name": "Lewisburg SMBus"
+            "name": "C620 Series Chipset Family (Super) SMBus"
         },
         "a224": {
-            "name": "Lewisburg SPI Controller"
+            "name": "C620 Series Chipset Family (Super) SPI Controller"
+        },
+        "a226": {
+            "name": "C620 Series Chipset Family (Super) Trace Hub"
+        },
+        "a22f": {
+            "name": "C620 Series Chipset Family (Super) USB 3.0 xHCI Controller"
+        },
+        "a231": {
+            "name": "C620 Series Chipset Family (Super) Thermal Subsystem"
+        },
+        "a23a": {
+            "name": "C620 Series Chipset Family (Super) MEI HECI #1"
+        },
+        "a23b": {
+            "name": "C620 Series Chipset Family (Super) MEI HECI #2"
+        },
+        "a23c": {
+            "name": "C620 Series Chipset Family (Super) MEI IDE Redirection"
+        },
+        "a23d": {
+            "name": "C620 Series Chipset Family (Super) MEI Keyboard and Text (KT) Redirection"
+        },
+        "a23e": {
+            "name": "C620 Series Chipset Family (Super) MEI HECI #3"
         },
         "a242": {
-            "name": "Lewisburg LPC or eSPI Controller"
+            "name": "C624 Chipset (Super) LPC/eSPI Controller"
         },
         "a243": {
-            "name": "Lewisburg LPC or eSPI Controller"
+            "name": "C627 Chipset (Super) LPC/eSPI Controller"
+        },
+        "a244": {
+            "name": "C621 Chipset (Super) LPC/eSPI Controller"
+        },
+        "a245": {
+            "name": "C627 Chipset (Super) LPC/eSPI Controller"
+        },
+        "a246": {
+            "name": "C628 Chipset (Super) LPC/eSPI Controller"
         },
         "a252": {
-            "name": "Lewisburg SSATA Controller [AHCI mode]"
+            "name": "C620 Series Chipset Family (Super) SSATA Controller (AHCI)"
         },
         "a256": {
-            "name": "Lewisburg SSATA Controller [RAID mode]"
+            "name": "C620 Series Chipset Family (Super) SSATA Controller (RAID 0/1/5/10)"
         },
         "a267": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #16"
         },
         "a268": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #17"
         },
         "a269": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #18"
         },
         "a26a": {
-            "name": "Lewisburg PCI Express Root Port"
+            "name": "C620 Series Chipset Family (Super) PCIe Root Port #19"
+        },
+        "a26c": {
+            "name": "C620 Series Chipset Family (Super) MROM 0"
+        },
+        "a270": {
+            "name": "C620 Series Chipset Family (Super) Audio"
+        },
+        "a278": {
+            "name": "C620 Series Chipset Family (Super) IE HECI #1"
+        },
+        "a279": {
+            "name": "C620 Series Chipset Family (Super) IE HECI #2"
+        },
+        "a27a": {
+            "name": "C620 Series Chipset Family (Super) IE IDE Redirection"
+        },
+        "a27b": {
+            "name": "C620 Series Chipset Family (Super) IE Keyboard and Text Redirection"
+        },
+        "a27c": {
+            "name": "C620 Series Chipset Family (Super) IE HECI #3"
         },
         "a282": {
             "name": "200 Series/Z370 Chipset Family SATA Controller (AHCI)",
@@ -89876,7 +90503,7 @@
             "name": "300/C240 Series Chipset Family UART #2"
         },
         "a348": {
-            "name": "Cannon Lake PCH cAVS",
+            "name": "300/C240 Series Chipset Family HD Audio",
             "1028": {
                 "0869": "Vostro 3470"
             }
@@ -89936,7 +90563,7 @@
             "name": "300/C240 Series Chipset Family I2C Controller #3"
         },
         "a36d": {
-            "name": "Cannon Lake PCH USB 3.1 xHCI Host Controller",
+            "name": "300/C240 Series Chipset Family USB 3.1 xHCI",
             "1028": {
                 "0869": "Vostro 3470"
             }
@@ -89948,13 +90575,22 @@
             "name": "300/C240 Series Chipset Family Shared SRAM"
         },
         "a370": {
-            "name": "Cannon Lake PCH CNVi WiFi",
+            "name": "300/C240 Series Chipset Family CNVi Wi-Fi",
             "1a56": {
                 "1552": "Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)"
             },
             "8086": {
                 "0034": "Wireless-AC 9560"
             }
+        },
+        "a371": {
+            "name": "300/C240 Series Chipset Family CNVi Wi-Fi"
+        },
+        "a372": {
+            "name": "300/C240 Series Chipset Family CNVi Wi-Fi"
+        },
+        "a373": {
+            "name": "300/C240 Series Chipset Family CNVi Wi-Fi"
         },
         "a379": {
             "name": "300/C240 Series Chipset Family Thermal Subsystem",
@@ -89969,34 +90605,118 @@
             "name": "300/C240 Series Chipset Family Integrated Sensor Hub"
         },
         "a382": {
-            "name": "400 Series Chipset Family SATA AHCI Controller"
+            "name": "B460/H410 Chipset SATA Controller (AHCI)"
+        },
+        "a384": {
+            "name": "B460/H410 Chipset SATA Controller (RAID 0/1/5/10) Not Premium"
+        },
+        "a386": {
+            "name": "B460/H410 Chipset SATA Controller (RAID 0/1/5/10) Premium"
+        },
+        "a38e": {
+            "name": "B460/H410 Chipset SATA Controller (RST Optane)"
+        },
+        "a390": {
+            "name": "B460/H410 Chipset PCIe Root Port #1"
+        },
+        "a391": {
+            "name": "B460/H410 Chipset PCIe Root Port #2"
+        },
+        "a392": {
+            "name": "B460/H410 Chipset PCIe Root Port #3"
+        },
+        "a393": {
+            "name": "B460/H410 Chipset PCIe Root Port #4"
         },
         "a394": {
-            "name": "Comet Lake PCI Express Root Port #05"
+            "name": "B460/H410 Chipset PCIe Root Port #5"
+        },
+        "a395": {
+            "name": "B460/H410 Chipset PCIe Root Port #6"
+        },
+        "a396": {
+            "name": "B460/H410 Chipset PCIe Root Port #7"
         },
         "a397": {
-            "name": "Comet Lake PCI Express Root Port #08"
+            "name": "B460/H410 Chipset PCIe Root Port #8"
         },
         "a398": {
-            "name": "Comet Lake PCI Express Root Port 9"
+            "name": "B460/H410 Chipset PCIe Root Port #9"
+        },
+        "a399": {
+            "name": "B460/H410 Chipset PCIe Root Port #10"
         },
         "a39a": {
-            "name": "Comet Lake PCI Express Root Port 11"
+            "name": "B460/H410 Chipset PCIe Root Port #11"
+        },
+        "a39b": {
+            "name": "B460/H410 Chipset PCIe Root Port #12"
+        },
+        "a39c": {
+            "name": "B460/H410 Chipset PCIe Root Port #13"
+        },
+        "a39d": {
+            "name": "B460/H410 Chipset PCIe Root Port #14"
+        },
+        "a39e": {
+            "name": "B460/H410 Chipset PCIe Root Port #15"
+        },
+        "a39f": {
+            "name": "B460/H410 Chipset PCIe Root Port #16"
+        },
+        "a3a0": {
+            "name": "B460/H410 Chipset P2SB"
         },
         "a3a1": {
-            "name": "Cannon Lake PCH Power Management Controller"
+            "name": "B460/H410 Chipset PMC"
         },
         "a3a3": {
-            "name": "Comet Lake PCH-V SMBus Host Controller"
+            "name": "B460/H410 Chipset SMBus"
+        },
+        "a3a4": {
+            "name": "B460/H410 Chipset SPI Controller"
+        },
+        "a3a6": {
+            "name": "B460/H410 Chipset Trace Hub"
+        },
+        "a3a7": {
+            "name": "B460/H410 Chipset UART #0"
+        },
+        "a3a8": {
+            "name": "B460/H410 Chipset UART #1"
+        },
+        "a3a9": {
+            "name": "B460/H410 Chipset SPI #0"
+        },
+        "a3aa": {
+            "name": "B460/H410 Chipset SPI #1"
         },
         "a3af": {
-            "name": "Comet Lake PCH-V USB Controller"
+            "name": "B460/H410 Chipset USB 3.2 Gen 1x1 (5 Gbs) xHCI Controller"
+        },
+        "a3b0": {
+            "name": "B460/H410 Chipset USB Device Controller"
         },
         "a3b1": {
-            "name": "Comet Lake PCH-V Thermal Subsystem"
+            "name": "B460/H410 Chipset Thermal Subsystem"
+        },
+        "a3b5": {
+            "name": "B460/H410 Chipset ISH"
         },
         "a3ba": {
-            "name": "Comet Lake PCH-V HECI Controller"
+            "name": "B460/H410 Chipset CSME HECI #1"
+        },
+        "a3bb": {
+            "name": "B460/H410 Chipset CSME HECI #2"
+        },
+        "a3bc": {
+            "name": "B460/H410 Chipset CSME IDE Redirection"
+        },
+        "a3bd": {
+            "name": "B460/H410 Chipset CSME Keyboard and Text (KT) Redirection"
+        },
+        "a3be": {
+            "name": "B460/H410 Chipset CSME HECI #3"
         },
         "a3c8": {
             "name": "B460 Chipset LPC/eSPI Controller"
@@ -90004,11 +90724,68 @@
         "a3da": {
             "name": "H410 Chipset LPC/eSPI Controller"
         },
+        "a3e0": {
+            "name": "B460/H410 Chipset I2C #0"
+        },
+        "a3e1": {
+            "name": "B460/H410 Chipset I2C #1"
+        },
+        "a3e2": {
+            "name": "B460/H410 Chipset I2C #2"
+        },
+        "a3e3": {
+            "name": "B460/H410 Chipset I2C #3"
+        },
+        "a3e6": {
+            "name": "B460/H410 Chipset UART #2"
+        },
+        "a3e7": {
+            "name": "B460/H410 Chipset PCIe Root Port #17"
+        },
+        "a3e8": {
+            "name": "B460/H410 Chipset PCIe Root Port #18"
+        },
+        "a3e9": {
+            "name": "B460/H410 Chipset PCIe Root Port #19"
+        },
+        "a3ea": {
+            "name": "B460/H410 Chipset PCIe Root Port #20"
+        },
         "a3eb": {
-            "name": "Comet Lake PCI Express Root Port #21"
+            "name": "B460/H410 Chipset PCIe Root Port #21"
+        },
+        "a3ec": {
+            "name": "B460/H410 Chipset PCIe Root Port #22"
+        },
+        "a3ed": {
+            "name": "B460/H410 Chipset PCIe Root Port #23"
+        },
+        "a3ee": {
+            "name": "B460/H410 Chipset PCIe Root Port #24"
         },
         "a3f0": {
-            "name": "Comet Lake PCH-V cAVS"
+            "name": "B460/H410 Chipset HD Audio"
+        },
+        "a3f1": {
+            "name": "B460/H410 Chipset HD Audio"
+        },
+        "a3f2": {
+            "name": "B460/H410 Chipset HD Audio"
+        },
+        "a3f3": {
+            "name": "B460/H410 Chipset HD Audio"
+        },
+        "a3f4": {
+            "name": "B460/H410 Chipset HD Audio"
+        },
+        "a3f5": {
+            "name": "B460/H410 Chipset HD Audio"
+        },
+        "a3f6": {
+            "name": "B460/H410 Chipset HD Audio"
+        },
+        "a3f7": {
+            "name": "B460/H410 Chipset HD Audio"
         },
         "a620": {
             "name": "6400/6402 Advanced Memory Buffer (AMB)"
@@ -90148,152 +90925,260 @@
         "a806": {
             "name": "Lunar Lake-M LPC/eSPI Controller"
         },
+        "a807": {
+            "name": "Core Ultra 200V Series Processors eSPI Controller"
+        },
+        "a820": {
+            "name": "Core Ultra 200V Series Processors P2SB (8 bit)"
+        },
+        "a821": {
+            "name": "Core Ultra 200V Series Processors PMC"
+        },
         "a822": {
             "name": "Lunar Lake-M SMbus Controller"
         },
         "a823": {
-            "name": "Lunar Lake-M SPI Controller"
+            "name": "Core Ultra 200V Series Processors SPI (flash) Controller"
         },
         "a824": {
-            "name": "Lunar Lake-M Trace Hub"
+            "name": "Core Ultra 200V Series Processors Trace Hub"
         },
         "a825": {
-            "name": "Lunar Lake-M Serial IO UART Controller #0"
+            "name": "Core Ultra 200V Series Processors UART #0"
         },
         "a826": {
-            "name": "Lunar Lake-M Serial IO UART Controller #1"
+            "name": "Core Ultra 200V Series Processors UART #1"
         },
         "a827": {
-            "name": "Lunar Lake-M Serial IO SPI Controller #0"
+            "name": "Core Ultra 200V Series Processors GSPI #0"
         },
         "a828": {
-            "name": "Lunar Lake-M HD Audio Controller"
+            "name": "Core Ultra 200V Series Processors HD Audio"
         },
         "a830": {
-            "name": "Lunar Lake-M Serial IO SPI Controller #1"
+            "name": "Core Ultra 200V Series Processors GSPI #1"
         },
         "a831": {
-            "name": "Lunar Lake-M Thunderbolt 4 USB Controller"
+            "name": "Core Ultra 200V Series Processors Type-C Subsystem xHCI"
         },
         "a833": {
-            "name": "Lunar Lake-M Thunderbolt 4 NHI #0"
+            "name": "Core Ultra 200V Series Processors Thunderbolt DMA0"
         },
         "a834": {
-            "name": "Lunar Lake-M Thunderbolt 4 NHI #1"
+            "name": "Core Ultra 200V Series Processors Thunderbolt DMA1"
         },
         "a838": {
-            "name": "Lunar Lake-M PCI Express Root Port #1"
+            "name": "Core Ultra 200V Series Processors PCIe Root Port #1"
         },
         "a839": {
-            "name": "Lunar Lake-M PCI Express Root Port #2"
+            "name": "Core Ultra 200V Series Processors PCIe Root Port #2"
         },
         "a83a": {
-            "name": "Lunar Lake-M PCI Express Root Port #3"
+            "name": "Core Ultra 200V Series Processors PCIe Root Port #3"
         },
         "a83b": {
-            "name": "Lunar Lake-M PCI Express Root Port #4"
+            "name": "Core Ultra 200V Series Processors PCIe Root Port #4"
         },
         "a83c": {
-            "name": "Lunar Lake-M PCI Express Root Port #5"
+            "name": "Core Ultra 200V Series Processors PCIe Root Port #5"
         },
         "a83d": {
-            "name": "Lunar Lake-M PCI Express Root Port #6"
+            "name": "Core Ultra 200V Series Processors PCIe Root Port #6"
         },
         "a840": {
             "name": "BE200 Series Wi-Fi 7"
         },
         "a845": {
-            "name": "Lunar Lake-M Integrated Sensor Hub"
+            "name": "Core Ultra 200V Series Processors Integrated Sensor Hub (ISH)"
+        },
+        "a846": {
+            "name": "Core Ultra 200V Series Processors GSPI #2"
         },
         "a847": {
             "name": "Lunar Lake-M UFS Controller"
         },
         "a848": {
-            "name": "Lunar Lake-M Touch Host Controller #0 ID1"
+            "name": "Core Ultra 200V Series Processors Touch Host Controller (THC) #0 ID1"
         },
         "a849": {
-            "name": "Lunar Lake-M Touch Host Controller #0 ID2"
+            "name": "Core Ultra 200V Series Processors Touch Host Controller (THC) #0 ID2"
         },
         "a84a": {
-            "name": "Lunar Lake-M Touch Host Controller #1 ID1"
+            "name": "Core Ultra 200V Series Processors Touch Host Controller (THC) #1 ID1"
         },
         "a84b": {
-            "name": "Lunar Lake-M Touch Host Controller #1 ID2"
+            "name": "Core Ultra 200V Series Processors Touch Host Controller (THC) #1 ID2"
+        },
+        "a84c": {
+            "name": "Core Ultra 200V Series Processors P2SB (16 bit)"
         },
         "a84e": {
-            "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #0"
+            "name": "Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #21"
         },
         "a84f": {
-            "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #1"
+            "name": "Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #22"
+        },
+        "a850": {
+            "name": "Core Ultra 200V Series Processors I2C #4"
+        },
+        "a851": {
+            "name": "Core Ultra 200V Series Processors I2C #5"
+        },
+        "a852": {
+            "name": "Core Ultra 200V Series Processors UART #2"
+        },
+        "a85d": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #1"
+        },
+        "a85e": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #2"
+        },
+        "a85f": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #3"
         },
         "a860": {
-            "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #2"
+            "name": "Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #23"
+        },
+        "a862": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #1"
+        },
+        "a863": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #2"
+        },
+        "a864": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #3"
         },
         "a870": {
-            "name": "Lunar Lake-M CSME HECI #1"
+            "name": "Core Ultra 200V Series Processors CSME HECI #1 (CSE)"
+        },
+        "a871": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #2 (CSE)"
+        },
+        "a872": {
+            "name": "Core Ultra 200V Series Processors CSME IDE Redirection (IDE-R)"
         },
         "a873": {
-            "name": "Lunar Lake-M Keyboard and Text (KT) Redirection"
+            "name": "Core Ultra 200V Series Processors CSME Keyboard and Text (KT) Redirection"
+        },
+        "a874": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #3 (CSE)"
+        },
+        "a875": {
+            "name": "Core Ultra 200V Series Processors CSME HECI #4 (CSE)"
+        },
+        "a877": {
+            "name": "Core Ultra 200V Series Processors I3C #2"
         },
         "a878": {
-            "name": "Lunar Lake-M Serial IO I2C Controller #0"
+            "name": "Core Ultra 200V Series Processors I2C #0"
         },
         "a879": {
-            "name": "Lunar Lake-M Serial IO I2C Controller #1"
+            "name": "Core Ultra 200V Series Processors I2C #1"
         },
         "a87a": {
-            "name": "Lunar Lake-M Serial IO I2C Controller #2"
+            "name": "Core Ultra 200V Series Processors I2C #2"
         },
         "a87b": {
-            "name": "Lunar Lake-M Serial IO I2C Controller #3"
+            "name": "Core Ultra 200V Series Processors I2C #3"
+        },
+        "a87c": {
+            "name": "Core Ultra 200V Series Processors I3C #1"
         },
         "a87d": {
-            "name": "Lunar Lake-M USB 3.2 Gen 2x1 xHCI Host Controller"
+            "name": "Core Ultra 200V Series Processors Standalone xHCI Controller"
         },
         "a87f": {
-            "name": "Lunar Lake-M Shared SRAM"
+            "name": "Core Ultra 200V Series Processors Shared SRAM"
         },
         "abc0": {
             "name": "Omni-Path Fabric Switch Silicon 100 Series"
         },
+        "ad03": {
+            "name": "Core Ultra 200 Series Processors Dynamic Tuning Technology (DTT)"
+        },
         "ad0b": {
-            "name": "Volume Management Device NVMe RAID Controller Intel Corporation"
+            "name": "Core Ultra 200 Series Processors VMD"
         },
         "ad0d": {
-            "name": "Arrow Lake-HX Crash Log & Telemetry"
+            "name": "Core Ultra 200 Series Processors Crash Log and Telemetry"
         },
         "ad1d": {
-            "name": "Arrow Lake NPU"
+            "name": "Core Ultra 200 Series Processors NPU"
         },
         "ae10": {
             "name": "Arrow Lake-HX Direct eSPI Controller"
         },
+        "ae20": {
+            "name": "Core Ultra 200 Series Processors P2SB (SOC-S)"
+        },
+        "ae21": {
+            "name": "Core Ultra 200 Series Processors PMC (SOC-S)"
+        },
+        "ae22": {
+            "name": "Core Ultra 200 Series Processors SMBus"
+        },
         "ae23": {
-            "name": "Arrow Lake-HX SPI (flash) Controller"
+            "name": "Core Ultra 200 Series Processors SPI (flash) Controller"
+        },
+        "ae24": {
+            "name": "Core Ultra 200 Series Processors Trace Hub"
         },
         "ae4c": {
-            "name": "Arrow Lake-HX Gauss Newton Algorithm (GNA)"
+            "name": "Core Ultra 200 Series Processors Gauss Newton Algorithm (GNA)"
         },
         "ae4d": {
-            "name": "Arrow Lake-HX PCIe Root Port #13"
+            "name": "Core Ultra 200 Series Processors PCIe Root Port #13"
+        },
+        "ae4e": {
+            "name": "Core Ultra 200 Series Processors PCIe Root Port #14"
+        },
+        "ae4f": {
+            "name": "Core Ultra 200 Series Processors PCIe Root Port #15"
+        },
+        "ae70": {
+            "name": "Core Ultra 200 Series Processors CSME HECI #1"
+        },
+        "ae71": {
+            "name": "Core Ultra 200 Series Processors CSME HECI #2"
+        },
+        "ae74": {
+            "name": "Core Ultra 200 Series Processors CSME HECI #3"
         },
         "ae7f": {
-            "name": "Arrow Lake-HX Shared SRAM (SOC-S)"
+            "name": "Core Ultra 200 Series Processors Shared SRAM (SOC-S)"
+        },
+        "b000": {
+            "name": "Core Ultra Processors (Series 3) PTL-404"
+        },
+        "b001": {
+            "name": "Core Ultra Processors (Series 3) PTL-H12Xe"
         },
         "b002": {
-            "name": "Panther Lake Host Bridge/DRAM Controller"
+            "name": "Core Ultra Processors (Series 3) PTL-H484"
+        },
+        "b003": {
+            "name": "Core Ultra Processors (Series 3) PTL-204"
+        },
+        "b004": {
+            "name": "Core Ultra Processors (Series 3) PTL-H444"
+        },
+        "b005": {
+            "name": "Core Ultra Processors (Series 3) PTL-H444"
         },
         "b01d": {
-            "name": "Panther Lake Innovation Platform Framework Processor Participant"
+            "name": "Core Ultra Processors (Series 3) DTT"
+        },
+        "b02d": {
+            "name": "Core Ultra Processors (Series 3) IAA"
         },
         "b03e": {
-            "name": "Panther Lake NPU"
+            "name": "Core Ultra Processors (Series 3) NPU"
         },
         "b05d": {
-            "name": "Panther Lake IPU"
+            "name": "Core Ultra Processors (Series 3) IPU"
         },
         "b07d": {
-            "name": "Panther Lake Platform Monitoring Technology (PMT)"
+            "name": "Core Ultra Processors (Series 3) Crashlog and Telemetry"
         },
         "b080": {
             "name": "Panther Lake [Arc B390]"
@@ -90586,95 +91471,194 @@
         "e223": {
             "name": "Battlemage G31 [Arc Pro B70]"
         },
+        "e300": {
+            "name": "Core Ultra Processors (Series 3) eSPI"
+        },
         "e302": {
-            "name": "Panther Lake LPC/eSPI Controller"
+            "name": "Core Ultra Processors (Series 3) eSPI"
+        },
+        "e31f": {
+            "name": "Core Ultra Processors (Series 3) eSPI"
+        },
+        "e320": {
+            "name": "Core Ultra Processors (Series 3) P2SB"
+        },
+        "e321": {
+            "name": "Core Ultra Processors (Series 3) PMC"
         },
         "e322": {
-            "name": "Panther Lake SMBus Controller"
+            "name": "Core Ultra Processors (Series 3) SMBus"
         },
         "e323": {
-            "name": "Panther Lake SPI(flash) Controller"
+            "name": "Core Ultra Processors (Series 3) SPI (flash) Controller"
+        },
+        "e324": {
+            "name": "Core Ultra Processors (Series 3) Trace Hub"
         },
         "e325": {
-            "name": "Panther Lake Serial IO UART Controller #0"
+            "name": "Core Ultra Processors (Series 3) UART #0"
         },
         "e326": {
-            "name": "Panther Lake Serial IO UART Controller #1"
+            "name": "Core Ultra Processors (Series 3) UART #1"
         },
         "e327": {
-            "name": "Panther Lake Serial IO SPI Host Controller #0"
+            "name": "Core Ultra Processors (Series 3) GSPI #0"
         },
         "e328": {
-            "name": "Panther Lake Smart Sound Technology BUS"
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e329": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e32a": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e32b": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e32c": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e32d": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e32e": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e32f": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
         },
         "e330": {
-            "name": "Panther Lake Serial IO SPI Host Controller #1"
+            "name": "Core Ultra Processors (Series 3) GSPI #1"
         },
         "e331": {
-            "name": "Panther Lake TCSS USB3 xHCI Controller"
+            "name": "Core Ultra Processors (Series 3) Type-C Subsystem xHCI"
+        },
+        "e332": {
+            "name": "Core Ultra Processors (Series 3) Type-C Subsystem xDCI"
         },
         "e333": {
-            "name": "Panther Lake Thunderbolt 4 NHI #0"
+            "name": "Core Ultra Processors (Series 3) Thunderbolt DMA0"
         },
         "e334": {
-            "name": "Panther Lake Thunderbolt 4 NHI #1"
+            "name": "Core Ultra Processors (Series 3) Thunderbolt DMA1"
+        },
+        "e337": {
+            "name": "Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #24"
         },
         "e338": {
-            "name": "Panther Lake PCI Express Root Port A1"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #1"
         },
         "e339": {
-            "name": "Panther Lake PCI Express Root Port A2"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #2"
         },
         "e33a": {
-            "name": "Panther Lake PCI Express Root Port A3"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #3"
         },
         "e33b": {
-            "name": "Panther Lake PCI Express Root Port A4"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #4"
         },
         "e33c": {
-            "name": "Panther Lake PCI Express Root Port B1"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #5"
         },
         "e33d": {
-            "name": "Panther Lake PCI Express Root Port B2"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #6"
         },
         "e33e": {
-            "name": "Panther Lake PCI Express Root Port B3"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #7"
         },
         "e33f": {
-            "name": "Panther Lake PCI Express Root Port B4"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #8"
         },
         "e340": {
-            "name": "Panther Lake PCH CNVi WiFi",
+            "name": "Core Ultra Processors (Series 3) CNVi Wi-Fi",
             "8086": {
                 "0094": "Wi-Fi 6E AX211 160MHz"
             }
         },
+        "e341": {
+            "name": "Core Ultra Processors (Series 3) CNVi Wi-Fi"
+        },
+        "e342": {
+            "name": "Core Ultra Processors (Series 3) CNVi Wi-Fi"
+        },
+        "e343": {
+            "name": "Core Ultra Processors (Series 3) CNVi Wi-Fi"
+        },
+        "e344": {
+            "name": "Core Ultra Processors (Series 3) IEH #0"
+        },
+        "e345": {
+            "name": "Core Ultra Processors (Series 3) ISH"
+        },
+        "e346": {
+            "name": "Core Ultra Processors (Series 3) GSPI #2"
+        },
+        "e348": {
+            "name": "Core Ultra Processors (Series 3) THC #0 ID1"
+        },
+        "e349": {
+            "name": "Core Ultra Processors (Series 3) THC #0 ID2"
+        },
+        "e34a": {
+            "name": "Core Ultra Processors (Series 3) THC #1 ID1"
+        },
+        "e34b": {
+            "name": "Core Ultra Processors (Series 3) THC #1 ID2"
+        },
+        "e34c": {
+            "name": "Core Ultra Processors (Series 3) P2SB"
+        },
+        "e34d": {
+            "name": "Core Ultra Processors (Series 3) IEH #1"
+        },
         "e34e": {
-            "name": "Panther Lake Thunderbolt 4 PCI Express Root Port #0"
+            "name": "Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #21"
+        },
+        "e34f": {
+            "name": "Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #22"
+        },
+        "e350": {
+            "name": "Core Ultra Processors (Series 3) I2C #4"
+        },
+        "e351": {
+            "name": "Core Ultra Processors (Series 3) I2C #5"
+        },
+        "e352": {
+            "name": "Core Ultra Processors (Series 3) UART #2"
+        },
+        "e35c": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #10"
         },
         "e35d": {
-            "name": "Panther Lake CSME HECI #1"
+            "name": "Core Ultra Processors (Series 3) CSME HECI #1"
+        },
+        "e35e": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #2"
+        },
+        "e35f": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #3"
         },
         "e360": {
-            "name": "Panther Lake Thunderbolt 4 PCI Express Root Port #2"
+            "name": "Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #23"
         },
         "e361": {
-            "name": "Panther Lake PCI Express Root Port C1"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #9"
         },
         "e362": {
-            "name": "Panther Lake Primary to Sideband (P2SB) Bridge IOE"
+            "name": "Core Ultra Processors (Series 3) CSME HECI #1"
         },
         "e363": {
-            "name": "Panther Lake PCI Express Root Port C3"
+            "name": "Core Ultra Processors (Series 3) CSME HECI #2"
         },
         "e364": {
-            "name": "Panther Lake PCI Express Root Port C4"
+            "name": "Core Ultra Processors (Series 3) CSME HECI #3"
         },
         "e365": {
-            "name": "Panther Lake PCI Express Root Port D1"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #11"
         },
         "e366": {
-            "name": "Panther Lake PCI Express Root Port D2"
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #12"
         },
         "e367": {
             "name": "Panther Lake PCI Express Root Port D3"
@@ -90695,55 +91679,280 @@
             "name": "Panther Lake PCI Express Root Port D8"
         },
         "e36f": {
-            "name": "Panther Lake I3C Host Controller #0"
+            "name": "Core Ultra Processors (Series 3) I3C #2"
         },
         "e370": {
-            "name": "Panther Lake MEI Controller"
+            "name": "Core Ultra Processors (Series 3) CSME HECI #1 (CSE)"
+        },
+        "e371": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #2 (CSE)"
+        },
+        "e372": {
+            "name": "Core Ultra Processors (Series 3) CSME IDE Redirection (IDE-R)"
+        },
+        "e373": {
+            "name": "Core Ultra Processors (Series 3) CSME Keyboard and Text (KT) Redirection"
+        },
+        "e374": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #3 (CSE)"
+        },
+        "e375": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #4 (CSE)"
         },
         "e376": {
-            "name": "Panther Lake Bluetooth PCI Enumerator"
+            "name": "Core Ultra Processors (Series 3) CNVi Bluetooth"
         },
         "e378": {
-            "name": "Panther Lake Serial IO I2C Controller #0"
+            "name": "Core Ultra Processors (Series 3) I2C #0"
         },
         "e379": {
-            "name": "Panther Lake Serial IO I2C Controller #1"
+            "name": "Core Ultra Processors (Series 3) I2C #1"
         },
         "e37a": {
-            "name": "Panther Lake Serial IO I2C Controller #2"
+            "name": "Core Ultra Processors (Series 3) I2C #2"
         },
         "e37b": {
-            "name": "Panther Lake Serial IO I2C Controller #3"
+            "name": "Core Ultra Processors (Series 3) I2C #3"
         },
         "e37c": {
-            "name": "Panther Lake I3C Host Controller #1"
+            "name": "Core Ultra Processors (Series 3) I3C #1"
         },
         "e37d": {
-            "name": "Panther Lake USB 3.2 xHCI Controller"
+            "name": "Core Ultra Processors (Series 3) Standalone xHCI Controller"
+        },
+        "e37e": {
+            "name": "Core Ultra Processors (Series 3) Standalone USB Device Controller"
         },
         "e37f": {
-            "name": "Panther Lake Shared SRAM"
+            "name": "Core Ultra Processors (Series 3) Shared SRAM"
+        },
+        "e400": {
+            "name": "Core Ultra Processors (Series 3) eSPI"
+        },
+        "e41f": {
+            "name": "Core Ultra Processors (Series 3) eSPI"
+        },
+        "e420": {
+            "name": "Core Ultra Processors (Series 3) P2SB"
+        },
+        "e421": {
+            "name": "Core Ultra Processors (Series 3) PMC"
+        },
+        "e422": {
+            "name": "Core Ultra Processors (Series 3) SMBus"
+        },
+        "e423": {
+            "name": "Core Ultra Processors (Series 3) SPI (flash) Controller"
+        },
+        "e424": {
+            "name": "Core Ultra Processors (Series 3) Trace Hub"
+        },
+        "e425": {
+            "name": "Core Ultra Processors (Series 3) UART #0"
+        },
+        "e426": {
+            "name": "Core Ultra Processors (Series 3) UART #1"
+        },
+        "e427": {
+            "name": "Core Ultra Processors (Series 3) GSPI #0"
+        },
+        "e428": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e429": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e42a": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e42b": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e42c": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e42d": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e42e": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e42f": {
+            "name": "Core Ultra Processors (Series 3) HD Audio"
+        },
+        "e430": {
+            "name": "Core Ultra Processors (Series 3) GSPI #1"
         },
         "e431": {
-            "name": "Panther Lake USB 3.2 xHCI Controller"
+            "name": "Core Ultra Processors (Series 3) Type-C Subsystem xHCI"
+        },
+        "e432": {
+            "name": "Core Ultra Processors (Series 3) Type-C Subsystem xDCI"
+        },
+        "e433": {
+            "name": "Core Ultra Processors (Series 3) Thunderbolt DMA0"
         },
         "e434": {
-            "name": "Panther Lake Thunderbolt 4 NHI #2"
+            "name": "Core Ultra Processors (Series 3) Thunderbolt DMA1"
+        },
+        "e437": {
+            "name": "Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #24"
+        },
+        "e438": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #1"
+        },
+        "e439": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #2"
+        },
+        "e43a": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #3"
+        },
+        "e43b": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #4"
+        },
+        "e43c": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #5"
+        },
+        "e43d": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #6"
+        },
+        "e43e": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #7"
+        },
+        "e43f": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #8"
         },
         "e440": {
-            "name": "Panther Lake PCH CNVi WiFi",
+            "name": "Core Ultra Processors (Series 3) CNVi Wi-Fi",
             "8086": {
                 "0114": "Wi-Fi 7 BE211 320MHz"
             }
         },
+        "e441": {
+            "name": "Core Ultra Processors (Series 3) CNVi Wi-Fi"
+        },
+        "e442": {
+            "name": "Core Ultra Processors (Series 3) CNVi Wi-Fi"
+        },
+        "e443": {
+            "name": "Core Ultra Processors (Series 3) CNVi Wi-Fi"
+        },
+        "e444": {
+            "name": "Core Ultra Processors (Series 3) IEH #0"
+        },
+        "e445": {
+            "name": "Core Ultra Processors (Series 3) ISH"
+        },
+        "e446": {
+            "name": "Core Ultra Processors (Series 3) GSPI #2"
+        },
+        "e448": {
+            "name": "Core Ultra Processors (Series 3) THC #0 ID1"
+        },
+        "e449": {
+            "name": "Core Ultra Processors (Series 3) THC #0 ID2"
+        },
+        "e44a": {
+            "name": "Core Ultra Processors (Series 3) THC #1 ID1"
+        },
+        "e44b": {
+            "name": "Core Ultra Processors (Series 3) THC #1 ID2"
+        },
+        "e44c": {
+            "name": "Core Ultra Processors (Series 3) P2SB"
+        },
+        "e44d": {
+            "name": "Core Ultra Processors (Series 3) IEH #1"
+        },
+        "e44e": {
+            "name": "Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #21"
+        },
+        "e44f": {
+            "name": "Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #22"
+        },
+        "e450": {
+            "name": "Core Ultra Processors (Series 3) I2C #4"
+        },
+        "e451": {
+            "name": "Core Ultra Processors (Series 3) I2C #5"
+        },
+        "e452": {
+            "name": "Core Ultra Processors (Series 3) UART #2"
+        },
+        "e45c": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #10"
+        },
+        "e45d": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #1"
+        },
+        "e45e": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #2"
+        },
+        "e45f": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #3"
+        },
+        "e460": {
+            "name": "Core Ultra Processors (Series 3) USB Type-C Subsystem PCIe Root Port #23"
+        },
+        "e461": {
+            "name": "Core Ultra Processors (Series 3) PCIe Root Port #9"
+        },
+        "e462": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #1"
+        },
+        "e463": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #2"
+        },
+        "e464": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #3"
+        },
+        "e46f": {
+            "name": "Core Ultra Processors (Series 3) I3C #2"
+        },
+        "e470": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #1 (CSE)"
+        },
+        "e471": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #2 (CSE)"
+        },
+        "e472": {
+            "name": "Core Ultra Processors (Series 3) CSME IDE Redirection (IDE-R)"
+        },
+        "e473": {
+            "name": "Core Ultra Processors (Series 3) CSME Keyboard and Text (KT) Redirection"
+        },
+        "e474": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #3 (CSE)"
+        },
+        "e475": {
+            "name": "Core Ultra Processors (Series 3) CSME HECI #4 (CSE)"
+        },
         "e476": {
-            "name": "Panther Lake Bluetooth PCI Enumerator"
+            "name": "Core Ultra Processors (Series 3) CNVi Bluetooth"
+        },
+        "e478": {
+            "name": "Core Ultra Processors (Series 3) I2C #0"
+        },
+        "e479": {
+            "name": "Core Ultra Processors (Series 3) I2C #1"
+        },
+        "e47a": {
+            "name": "Core Ultra Processors (Series 3) I2C #2"
         },
         "e47b": {
-            "name": "Serial IO I2C Host Controller - E47B"
+            "name": "Core Ultra Processors (Series 3) I2C #3"
+        },
+        "e47c": {
+            "name": "Core Ultra Processors (Series 3) I3C #1"
         },
         "e47d": {
-            "name": "Panther Lake USB 3.2 xHCI Controller"
+            "name": "Core Ultra Processors (Series 3) Standalone xHCI Controller"
+        },
+        "e47e": {
+            "name": "Core Ultra Processors (Series 3) Standalone USB Device Controller"
+        },
+        "e47f": {
+            "name": "Core Ultra Processors (Series 3) Shared SRAM"
         },
         "f1a5": {
             "name": "SSD 600P Series",
@@ -91054,6 +92263,15 @@
         "1083": {
             "name": "Ethernet Controller N400 Series Virtual Function"
         },
+        "8208": {
+            "name": "Ethernet Controller N210M for 1GbE 1-port RJ45"
+        },
+        "8209": {
+            "name": "Ethernet Controller N210 Series Virtual Function"
+        },
+        "820a": {
+            "name": "8848/820A Ethernet Controller N210L for 1GbE 1-port RJ45"
+        },
         "8308": {
             "name": "Ethernet Controller N500 Series for 1GbE (Quad-port, Copper RJ45)",
             "193d": {
@@ -91075,7 +92293,7 @@
         "8500": {
             "name": "Ethernet Controller N20 Series for 25GbE",
             "8848": {
-                "8800": "Ethernet Network Adapter N20 for RDMA 25GbE SFP28 2-port"
+                "c800": "Ethernet Network Adapter N20 for RDMA 25GbE SFP28 2-port OCP 3.0"
             }
         },
         "8501": {
@@ -91089,6 +92307,21 @@
             "8848": {
                 "8800": "Ethernet Network Adapter N20 for RDMA 40GbE QSFP+ 2-port"
             }
+        },
+        "8503": {
+            "name": "Ethernet Controller N20 Series Virtual Function"
+        },
+        "8507": {
+            "name": "Ethernet Controller B-Series for 25GbE"
+        },
+        "8508": {
+            "name": "Ethernet Controller B-Series for 100GbE"
+        },
+        "8509": {
+            "name": "Ethernet Controller B-Series for 40GbE"
+        },
+        "850a": {
+            "name": "Ethernet Controller B-Series Virtual Function"
         }
     },
     "8866": {
